@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 90" fill="currentColor" aria-hidden="true">
+  <!-- tail -->
+  <circle cx="6"  cy="44" r="3.5"/>
+  <circle cx="14" cy="30" r="4.5"/>
+  <circle cx="14" cy="58" r="4.5"/>
+  <circle cx="22" cy="20" r="5"/>
+  <circle cx="22" cy="68" r="5"/>
+  <circle cx="30" cy="36" r="3.5"/>
+  <circle cx="30" cy="52" r="3.5"/>
+  <!-- body left half -->
+  <circle cx="38" cy="44" r="4"/>
+  <circle cx="46" cy="32" r="4"/>
+  <circle cx="46" cy="56" r="4"/>
+  <circle cx="54" cy="44" r="4"/>
+  <circle cx="62" cy="32" r="4.5"/>
+  <circle cx="62" cy="56" r="4.5"/>
+  <circle cx="70" cy="44" r="5"/>
+  <circle cx="78" cy="34" r="4"/>
+  <circle cx="78" cy="54" r="4"/>
+  <!-- gap -->
+  <circle cx="92" cy="44" r="2"/>
+  <circle cx="100" cy="44" r="2.5"/>
+  <circle cx="108" cy="44" r="2"/>
+  <!-- second body -->
+  <circle cx="124" cy="44" r="4"/>
+  <circle cx="132" cy="32" r="4"/>
+  <circle cx="132" cy="56" r="4"/>
+  <circle cx="140" cy="44" r="4.5"/>
+  <circle cx="148" cy="32" r="4.5"/>
+  <circle cx="148" cy="56" r="4.5"/>
+  <circle cx="156" cy="44" r="5"/>
+  <circle cx="164" cy="34" r="4"/>
+  <circle cx="164" cy="54" r="4"/>
+  <circle cx="172" cy="44" r="4"/>
+  <!-- second tail -->
+  <circle cx="186" cy="44" r="3.5"/>
+  <circle cx="194" cy="30" r="4.5"/>
+  <circle cx="194" cy="58" r="4.5"/>
+  <circle cx="204" cy="20" r="5"/>
+  <circle cx="204" cy="68" r="5"/>
+  <circle cx="214" cy="36" r="3.5"/>
+  <circle cx="214" cy="52" r="3.5"/>
+  <circle cx="226" cy="44" r="3.5"/>
+</svg>

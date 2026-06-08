@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 110" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="square" font-family="'Fraunces','Canela Deck',serif" aria-label="SEARULEA">
+  <!-- S -->
+  <text x="0" y="78" fill="currentColor" stroke="none" font-size="84" letter-spacing="14" font-weight="300">S</text>
+  <!-- E -->
+  <text x="100" y="78" fill="currentColor" stroke="none" font-size="84" letter-spacing="14" font-weight="300">E</text>
+  <!-- Dot cluster A (custom mark) at letter position 3 -->
+  <g transform="translate(220,4)" fill="currentColor" stroke="none">
+    <circle cx="40" cy="6" r="4.2"/>
+    <circle cx="40" cy="22" r="3.4"/>
+    <circle cx="40" cy="36" r="2.4"/>
+    <circle cx="40" cy="48" r="1.5"/>
+    <circle cx="40" cy="58" r="0.9"/>
+    <circle cx="26" cy="26" r="3.6"/>
+    <circle cx="14" cy="48" r="4.4"/>
+    <circle cx="2" cy="74" r="6"/>
+    <circle cx="54" cy="26" r="3.6"/>
+    <circle cx="66" cy="48" r="4.4"/>
+    <circle cx="78" cy="74" r="6"/>
+  </g>
+  <!-- R -->
+  <text x="335" y="78" fill="currentColor" stroke="none" font-size="84" letter-spacing="14" font-weight="300">R</text>
+  <!-- U -->
+  <text x="440" y="78" fill="currentColor" stroke="none" font-size="84" letter-spacing="14" font-weight="300">U</text>
+  <!-- L -->
+  <text x="555" y="78" fill="currentColor" stroke="none" font-size="84" letter-spacing="14" font-weight="300">L</text>
+  <!-- E -->
+  <text x="640" y="78" fill="currentColor" stroke="none" font-size="84" letter-spacing="14" font-weight="300">E</text>
+  <!-- A drawn as triangle to match brand -->
+  <g transform="translate(750,18)" fill="none" stroke="currentColor" stroke-width="3">
+    <path d="M0 64 L34 0 L68 64" />
+  </g>
+</svg>
