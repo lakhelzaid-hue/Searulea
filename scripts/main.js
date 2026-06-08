@@ -17,13 +17,20 @@
     gsap.registerPlugin(ScrollTrigger);
     gsap.config({ nullTargetWarn: false });
 
+    /* ---------- SCROLL-AWARE NAV ---------- */
+    const nav = document.querySelector(".nav");
+    if (nav) {
+      const setScrolled = () => nav.classList.toggle("is-scrolled", window.scrollY > 24);
+      setScrolled();
+      window.addEventListener("scroll", setScrolled, { passive: true });
+    }
+
     /* ---------- HERO INTRO ---------- */
     const tl = gsap.timeline({ defaults: { ease: "expo.out" } });
-    // Hero title is animated via CSS keyframes (see .hero__title-line in main.css)
-    // so it can't be killed by GSAP timeline interference.
-    tl.from(".nav", { y: -20, opacity: 0, duration: 0.8, delay: 0.1 })
-      .from(".hero__eyebrow", { y: 16, opacity: 0, duration: 0.8 }, "-=0.4")
-      .from(".hero__deck", { y: 24, opacity: 0, duration: 0.9, delay: 0.4 }, "-=0.6")
+    // Hero title and nav are animated via CSS keyframes (see main.css)
+    // so they can't be killed by GSAP timeline interference.
+    tl.from(".hero__eyebrow", { y: 16, opacity: 0, duration: 0.8, delay: 0.3 })
+      .from(".hero__deck", { y: 24, opacity: 0, duration: 0.9, delay: 0.4 }, "-=0.4")
       .from(".hero__ctas > *", { y: 16, opacity: 0, duration: 0.7, stagger: 0.08 }, "-=0.6")
       .from(".hero__photo", { scale: 1.12, opacity: 0, duration: 1.8, ease: "power3.out" }, 0)
       .from(".hero__veil",  { opacity: 0, duration: 1.4, ease: "power2.out" }, 0.1);
