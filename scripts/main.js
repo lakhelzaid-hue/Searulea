@@ -17,6 +17,102 @@
     gsap.registerPlugin(ScrollTrigger);
     gsap.config({ nullTargetWarn: false });
 
+    /* ---------- LOADING INTRO ---------- */
+    const loader = document.getElementById("loader");
+    if (loader && document.documentElement.classList.contains("is-loading")) {
+      // The timeline will handle removal — clear the safety net
+      if (window.__loaderSafety) clearTimeout(window.__loaderSafety);
+      sessionStorage.setItem("searulea_intro_seen", "1");
+
+      const fishPaths  = loader.querySelectorAll(".loader__fish path");
+      const markPaths  = loader.querySelectorAll(".loader__mark path");
+      const loaderMark = loader.querySelector(".loader__mark");
+      const navMark    = document.querySelector(".nav__mark");
+
+      // Pre-compute the flight: center-of-loader-mark → center-of-nav-mark.
+      // Layout is final at this point (opacity hides the marks, doesn't affect rect).
+      const mRect = loaderMark.getBoundingClientRect();
+      const nRect = navMark.getBoundingClientRect();
+      const flight = {
+        dx: (nRect.left + nRect.width  / 2) - (mRect.left + mRect.width  / 2),
+        dy: (nRect.top  + nRect.height / 2) - (mRect.top  + mRect.height / 2),
+        scale: nRect.height / mRect.height
+      };
+
+      const ltl = gsap.timeline({
+        defaults: { ease: "expo.out" },
+        onComplete: () => {
+          loader.remove();
+          document.documentElement.classList.remove("is-loading");
+          document.body.classList.remove("is-loading");
+        }
+      });
+
+      ltl
+        /* 1 ── Fish swoops up from the bottom of the viewport */
+        .addLabel("fishIn", 0.15)
+        .fromTo(".loader__fish",
+          { y: () => window.innerHeight * 0.6, opacity: 0, scale: 0.94 },
+          { y: 0, opacity: 1, scale: 1, duration: 1.2 },
+          "fishIn"
+        )
+
+        /* 2 ── Hold briefly so the school registers */
+        .addLabel("dissolve", "+=0.3")
+
+        /* 3 ── Fish dots scatter outward from centre */
+        .to(fishPaths, {
+          scale: 0, opacity: 0,
+          duration: 0.55,
+          stagger: { each: 0.012, from: "center" },
+          ease: "power2.in"
+        }, "dissolve")
+
+        /* 4 ── A-mark emerges in the same space (overlapping the scatter) */
+        .set(".loader__mark", { opacity: 1 }, "dissolve+=0.45")
+        .fromTo(markPaths,
+          { scale: 0, opacity: 0 },
+          {
+            scale: 1, opacity: 1,
+            duration: 0.6,
+            stagger: { each: 0.035, from: "random" },
+            ease: "back.out(1.6)"
+          },
+          "dissolve+=0.45"
+        )
+
+        /* 5 ── A holds + a small breath */
+        .to(".loader__mark", {
+          scale: 1.05,
+          duration: 0.5,
+          yoyo: true, repeat: 1,
+          ease: "sine.inOut"
+        }, "+=0.15")
+
+        /* 6 ── A flies to the navbar position. Panels split open in parallel.
+                Nav's A fades in just before the loader's mark "arrives". */
+        .addLabel("flight")
+        .to(loaderMark, {
+          x: flight.dx,
+          y: flight.dy,
+          scale: flight.scale,
+          duration: 1.25,
+          ease: "expo.inOut"
+        }, "flight")
+        .to(".loader__panel--top", {
+          yPercent: -100, duration: 1.1, ease: "expo.inOut"
+        }, "flight+=0.05")
+        .to(".loader__panel--bottom", {
+          yPercent: 100, duration: 1.1, ease: "expo.inOut"
+        }, "flight+=0.05")
+        .to(navMark, {
+          opacity: 1, duration: 0.45
+        }, "flight+=0.85")
+
+        /* 7 ── Brief final hold so the handoff settles */
+        .to({}, { duration: 0.25 });
+    }
+
     /* ---------- SCROLL-AWARE NAV ---------- */
     const nav = document.querySelector(".nav");
     if (nav) {
