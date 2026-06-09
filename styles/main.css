@@ -102,9 +102,9 @@ html.no-intro .loader { display: none; }
   transform-origin: center;
 }
 /* Hide nav's A mark during the intro so the loader's traveling mark
-   seamlessly hands off to it when it arrives. */
+   seamlessly hands off to it when it arrives. GSAP animates opacity in
+   the timeline; no CSS transition here or it conflicts with GSAP. */
 html.is-loading .nav__mark { opacity: 0; }
-.nav__mark { transition: opacity 0.4s var(--ease-out); }
 @media (prefers-reduced-motion: reduce) {
   .loader { display: none; }
   body.is-loading { overflow: auto; }

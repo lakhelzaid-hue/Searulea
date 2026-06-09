@@ -49,18 +49,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&display=swap" />
 
-  <link rel="stylesheet" href="styles/main.css?v=18" />
+  <link rel="stylesheet" href="styles/main.css?v=19" />
   <link rel="icon" type="image/svg+xml" href="assets/svg/mark.svg" />
   <script>
-    // Lock body before paint if loader will play (skip on repeat visits + reduced motion)
+    // Lock body before paint so the loader covers the page from frame 1.
+    // Intro plays on every reload; only skipped if the user prefers reduced motion.
     (function () {
-      var seen = sessionStorage.getItem("searulea_intro_seen");
       var reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
-      if (seen || reduced) {
+      if (reduced) {
         document.documentElement.classList.add("no-intro");
       } else {
         document.documentElement.classList.add("is-loading");
-        // Safety: if GSAP/animation fails, kill the loader after 6s
+        // Safety: if GSAP fails to load, kill the loader after 8s
         window.__loaderSafety = setTimeout(function () {
           var l = document.getElementById("loader");
           if (l) l.remove();
@@ -482,6 +482,6 @@
 <!-- GSAP -->
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-<script src="scripts/main.js?v=18"></script>
+<script src="scripts/main.js?v=19"></script>
 </body>
 </html>

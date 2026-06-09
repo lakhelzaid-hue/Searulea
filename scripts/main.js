@@ -22,7 +22,6 @@
     if (loader && document.documentElement.classList.contains("is-loading")) {
       // The timeline will handle removal — clear the safety net
       if (window.__loaderSafety) clearTimeout(window.__loaderSafety);
-      sessionStorage.setItem("searulea_intro_seen", "1");
 
       const fishPaths  = loader.querySelectorAll(".loader__fish path");
       const markPaths  = loader.querySelectorAll(".loader__mark path");
@@ -90,7 +89,8 @@
         }, "+=0.15")
 
         /* 6 ── A flies to the navbar position. Panels split open in parallel.
-                Nav's A fades in just before the loader's mark "arrives". */
+                Nav's A fades IN as loader's traveling A fades OUT — invisible
+                crossfade on arrival so any sub-pixel mismatch disappears. */
         .addLabel("flight")
         .to(loaderMark, {
           x: flight.dx,
@@ -105,12 +105,16 @@
         .to(".loader__panel--bottom", {
           yPercent: 100, duration: 1.1, ease: "expo.inOut"
         }, "flight+=0.05")
+        /* Crossfade — nav A in, loader A out, perfectly aligned */
         .to(navMark, {
-          opacity: 1, duration: 0.45
-        }, "flight+=0.85")
+          opacity: 1, duration: 0.4, ease: "power2.out"
+        }, "flight+=0.95")
+        .to(loaderMark, {
+          opacity: 0, duration: 0.35, ease: "power2.out"
+        }, "flight+=1.0")
 
         /* 7 ── Brief final hold so the handoff settles */
-        .to({}, { duration: 0.25 });
+        .to({}, { duration: 0.2 });
     }
 
     /* ---------- SCROLL-AWARE NAV ---------- */
