@@ -17,19 +17,18 @@
     gsap.registerPlugin(ScrollTrigger);
     gsap.config({ nullTargetWarn: false });
 
-    /* ---------- LOADING INTRO ---------- */
+    /* ---------- LOADING INTRO — cloud → fish → A → fly to nav (≤ 4s) ---------- */
     const loader = document.getElementById("loader");
     if (loader && document.documentElement.classList.contains("is-loading")) {
-      // The timeline will handle removal — clear the safety net
       if (window.__loaderSafety) clearTimeout(window.__loaderSafety);
 
       const fishPaths  = loader.querySelectorAll(".loader__fish path");
       const markPaths  = loader.querySelectorAll(".loader__mark path");
+      const loaderFish = loader.querySelector(".loader__fish");
       const loaderMark = loader.querySelector(".loader__mark");
       const navMark    = document.querySelector(".nav__mark");
 
-      // Pre-compute the flight: center-of-loader-mark → center-of-nav-mark.
-      // Layout is final at this point (opacity hides the marks, doesn't affect rect).
+      // Pre-compute the flight delta from loader's A to nav's A.
       const mRect = loaderMark.getBoundingClientRect();
       const nRect = navMark.getBoundingClientRect();
       const flight = {
@@ -37,6 +36,20 @@
         dy: (nRect.top  + nRect.height / 2) - (mRect.top  + mRect.height / 2),
         scale: nRect.height / mRect.height
       };
+
+      // INITIAL STATE — the fish dots start scattered as a cloud and invisible.
+      // Each path keeps its native fish position (cx/cy) but gets a random x/y
+      // translate offset, a smaller scale, and zero opacity. Phase 2 will then
+      // tween x/y/scale back to 0/0/1 — that's the cloud → fish "morph".
+      gsap.set(loaderFish, { opacity: 1 });
+      gsap.set(fishPaths, {
+        x:       () => gsap.utils.random(-110, 110),
+        y:       () => gsap.utils.random(-70, 70),
+        scale:   () => gsap.utils.random(0.55, 1.1),
+        opacity: 0
+      });
+      gsap.set(loaderMark, { opacity: 0 });
+      gsap.set(markPaths,  { scale: 0, opacity: 0 });
 
       const ltl = gsap.timeline({
         defaults: { ease: "expo.out" },
@@ -48,73 +61,72 @@
       });
 
       ltl
-        /* 1 ── Fish swoops up from the bottom of the viewport */
-        .addLabel("fishIn", 0.15)
-        .fromTo(".loader__fish",
-          { y: () => window.innerHeight * 0.6, opacity: 0, scale: 0.94 },
-          { y: 0, opacity: 1, scale: 1, duration: 1.2 },
-          "fishIn"
-        )
-
-        /* 2 ── Hold briefly so the school registers */
-        .addLabel("dissolve", "+=0.3")
-
-        /* 3 ── Fish dots scatter outward from centre */
+        /* 1 ── Cloud appears (0 → ~0.45s) */
         .to(fishPaths, {
-          scale: 0, opacity: 0,
-          duration: 0.55,
-          stagger: { each: 0.012, from: "center" },
-          ease: "power2.in"
-        }, "dissolve")
+          opacity: 1,
+          duration: 0.4,
+          ease: "power2.out",
+          stagger: { each: 0.008, from: "random" }
+        })
 
-        /* 4 ── A-mark emerges in the same space (overlapping the scatter) */
-        .set(".loader__mark", { opacity: 1 }, "dissolve+=0.45")
+        /* 2 ── Cloud morphs into the fish (~0.30 → ~1.15s, overlaps cloud-in) */
+        .to(fishPaths, {
+          x: 0, y: 0, scale: 1,
+          duration: 0.85,
+          ease: "expo.inOut",
+          stagger: { each: 0.010, from: "random" }
+        }, "-=0.15")
+
+        /* 3 ── Fish settles for a beat */
+        .addLabel("toA", "+=0.15")
+
+        /* 4 ── Fish dissolves while the A emerges in its place (~1.4 → ~2.15s) */
+        .to(fishPaths, {
+          scale: 0,
+          opacity: 0,
+          duration: 0.55,
+          ease: "power2.in",
+          stagger: { each: 0.006, from: "center" }
+        }, "toA")
+        .set(".loader__mark", { opacity: 1 }, "toA+=0.25")
         .fromTo(markPaths,
           { scale: 0, opacity: 0 },
           {
             scale: 1, opacity: 1,
-            duration: 0.6,
-            stagger: { each: 0.035, from: "random" },
-            ease: "back.out(1.6)"
+            duration: 0.55,
+            ease: "back.out(1.55)",
+            stagger: { each: 0.025, from: "random" }
           },
-          "dissolve+=0.45"
+          "toA+=0.25"
         )
 
-        /* 5 ── A holds + a small breath */
-        .to(".loader__mark", {
-          scale: 1.05,
-          duration: 0.5,
-          yoyo: true, repeat: 1,
-          ease: "sine.inOut"
-        }, "+=0.15")
+        /* 5 ── A settles briefly */
+        .addLabel("flight", "+=0.15")
 
-        /* 6 ── A flies to the navbar position. Panels split open in parallel.
-                Nav's A fades IN as loader's traveling A fades OUT — invisible
-                crossfade on arrival so any sub-pixel mismatch disappears. */
-        .addLabel("flight")
+        /* 6 ── A flies to the navbar + panels split open + crossfade handoff
+                Total flight phase ~1.0s so the whole intro stays under 4s. */
         .to(loaderMark, {
           x: flight.dx,
           y: flight.dy,
           scale: flight.scale,
-          duration: 1.25,
+          duration: 1.0,
           ease: "expo.inOut"
         }, "flight")
         .to(".loader__panel--top", {
-          yPercent: -100, duration: 1.1, ease: "expo.inOut"
+          yPercent: -100, duration: 0.95, ease: "expo.inOut"
         }, "flight+=0.05")
         .to(".loader__panel--bottom", {
-          yPercent: 100, duration: 1.1, ease: "expo.inOut"
+          yPercent: 100, duration: 0.95, ease: "expo.inOut"
         }, "flight+=0.05")
-        /* Crossfade — nav A in, loader A out, perfectly aligned */
         .to(navMark, {
-          opacity: 1, duration: 0.4, ease: "power2.out"
-        }, "flight+=0.95")
+          opacity: 1, duration: 0.35, ease: "power2.out"
+        }, "flight+=0.65")
         .to(loaderMark, {
-          opacity: 0, duration: 0.35, ease: "power2.out"
-        }, "flight+=1.0")
+          opacity: 0, duration: 0.3, ease: "power2.out"
+        }, "flight+=0.70")
 
-        /* 7 ── Brief final hold so the handoff settles */
-        .to({}, { duration: 0.2 });
+        /* 7 ── Brief settle (intro lands at ~3.95s total) */
+        .to({}, { duration: 0.05 });
     }
 
     /* ---------- SCROLL-AWARE NAV ---------- */
