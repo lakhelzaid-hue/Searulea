@@ -78,6 +78,7 @@ html.no-intro .loader { display: none; }
   position: absolute;
   color: #EFE8D8;             /* fish dots inherit via fill="currentColor" */
   opacity: 0;
+  overflow: visible;          /* don't clip circles when they overshoot the viewBox */
   will-change: transform, opacity;
   transform-origin: center;
 }
@@ -94,6 +95,7 @@ html.no-intro .loader { display: none; }
   color: #EFE8D8;             /* fish + mark dots inherit via fill="currentColor" */
   fill: currentColor;
   opacity: 0;
+  overflow: visible;          /* don't clip circles when they overshoot the viewBox */
   will-change: transform, opacity;
   transform-origin: center;
 }
