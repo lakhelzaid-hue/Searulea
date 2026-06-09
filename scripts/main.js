@@ -60,73 +60,59 @@
         }
       });
 
+      // One continuous flow — every phase blends into the next, no still
+      // frames, no explicit pauses, and each element fades-in WHILE it moves
+      // (the cloud fades up *during* its travel to the fish, fish fades down
+      // *during* the A's grow-in, A flies *while* the curtain opens).
       ltl
-        /* 1 ── Cloud appears (0 → ~0.45s) */
+        /* 1 ── Cloud → Fish (0.0 → ~1.45s)
+                One continuous tween: each dot fades in while travelling from
+                its random cloud position to its fish position. */
         .to(fishPaths, {
-          opacity: 1,
-          duration: 0.4,
-          ease: "power2.out",
-          stagger: { each: 0.008, from: "random" }
-        })
+          x: 0, y: 0, scale: 1, opacity: 1,
+          duration: 1.15,
+          ease: "expo.out",
+          stagger: { each: 0.011, from: "random" }
+        }, 0)
 
-        /* 2 ── Cloud morphs into the fish (~0.30 → ~1.15s, overlaps cloud-in) */
+        /* 2 ── Fish → A (1.30 → ~2.20s, ~0.15s overlap with phase 1 tail) */
         .to(fishPaths, {
-          x: 0, y: 0, scale: 1,
-          duration: 0.85,
-          ease: "expo.inOut",
-          stagger: { each: 0.010, from: "random" }
-        }, "-=0.15")
-
-        /* 3 ── Fish settles for a beat */
-        .addLabel("toA", "+=0.15")
-
-        /* 4 ── Fish dissolves while the A emerges in its place (~1.4 → ~2.15s) */
-        .to(fishPaths, {
-          scale: 0,
-          opacity: 0,
+          scale: 0, opacity: 0,
           duration: 0.55,
-          ease: "power2.in",
-          stagger: { each: 0.006, from: "center" }
-        }, "toA")
-        .set(".loader__mark", { opacity: 1 }, "toA+=0.25")
+          ease: "power2.inOut",
+          stagger: { each: 0.006, from: "random" }
+        }, 1.30)
+        .set(".loader__mark", { opacity: 1 }, 1.40)
         .fromTo(markPaths,
           { scale: 0, opacity: 0 },
           {
             scale: 1, opacity: 1,
-            duration: 0.55,
-            ease: "back.out(1.55)",
-            stagger: { each: 0.025, from: "random" }
+            duration: 0.65,
+            ease: "expo.out",
+            stagger: { each: 0.015, from: "random" }
           },
-          "toA+=0.25"
+          1.40
         )
 
-        /* 5 ── A settles briefly */
-        .addLabel("flight", "+=0.15")
-
-        /* 6 ── A flies to the navbar + panels split open + crossfade handoff
-                Total flight phase ~1.0s so the whole intro stays under 4s. */
+        /* 3 ── A flies to nav + panels split + crossfade handoff
+                (2.15 → ~3.45s, ~0.10s overlap with phase 2 tail) */
         .to(loaderMark, {
-          x: flight.dx,
-          y: flight.dy,
-          scale: flight.scale,
-          duration: 1.0,
+          x: flight.dx, y: flight.dy, scale: flight.scale,
+          duration: 1.2,
           ease: "expo.inOut"
-        }, "flight")
+        }, 2.15)
         .to(".loader__panel--top", {
-          yPercent: -100, duration: 0.95, ease: "expo.inOut"
-        }, "flight+=0.05")
+          yPercent: -100, duration: 1.15, ease: "expo.inOut"
+        }, 2.20)
         .to(".loader__panel--bottom", {
-          yPercent: 100, duration: 0.95, ease: "expo.inOut"
-        }, "flight+=0.05")
+          yPercent: 100, duration: 1.15, ease: "expo.inOut"
+        }, 2.20)
         .to(navMark, {
-          opacity: 1, duration: 0.35, ease: "power2.out"
-        }, "flight+=0.65")
+          opacity: 1, duration: 0.4, ease: "power2.out"
+        }, 2.90)
         .to(loaderMark, {
-          opacity: 0, duration: 0.3, ease: "power2.out"
-        }, "flight+=0.70")
-
-        /* 7 ── Brief settle (intro lands at ~3.95s total) */
-        .to({}, { duration: 0.05 });
+          opacity: 0, duration: 0.35, ease: "power2.out"
+        }, 3.00);
     }
 
     /* ---------- SCROLL-AWARE NAV ---------- */
