@@ -292,11 +292,11 @@ section { position: relative; padding-block: clamp(72px, 9vw, 144px); }
 /* Decorative spiral motif kept, dimmed against the photo */
 .hero__bg {
   position: absolute; inset: 0;
-  background-image: url("../assets/img/spirale.png");
+  background-image: url("../assets/img/spirale-color.png");
   background-repeat: no-repeat;
   background-position: 108% 38%;
   background-size: 70vh auto;
-  opacity: 0.10;
+  opacity: 0.55;
   pointer-events: none;
   will-change: transform;
   z-index: -1;
@@ -305,7 +305,7 @@ section { position: relative; padding-block: clamp(72px, 9vw, 144px); }
 .hero__bg--mirror {
   background-position: -22% 112%;
   background-size: 44vh auto;
-  opacity: 0.07;
+  opacity: 0.30;
 }
 .hero__inner {
   position: relative; z-index: 2;
@@ -518,10 +518,11 @@ section { position: relative; padding-block: clamp(72px, 9vw, 144px); }
   width: 90vh; height: 90vh;
   top: 50%; left: -25vh;
   transform: translateY(-50%);
-  background-image: url("../assets/img/spirale.png");
+  background-image: url("../assets/img/spirale-color.png");
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.08;
+  opacity: 0.5;
+  mix-blend-mode: screen;
   pointer-events: none;
   will-change: transform;
 }
@@ -682,10 +683,11 @@ section { position: relative; padding-block: clamp(72px, 9vw, 144px); }
   position: absolute;
   inset: auto -8% -30% auto;
   width: 90vh; height: 90vh;
-  background-image: url("../assets/img/spirale.png");
+  background-image: url("../assets/img/spirale-color.png");
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.07;
+  opacity: 0.50;
+  mix-blend-mode: screen;
   pointer-events: none;
   will-change: transform;
 }
