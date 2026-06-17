@@ -289,29 +289,6 @@ section { position: relative; padding-block: clamp(72px, 9vw, 144px); }
       rgba(7, 65, 84, 0.20) 100%);
   pointer-events: none;
 }
-/* Decorative spiral motif — sized elements so they can spin in place on scroll.
-   No CSS transform here: GSAP owns transform (parallax yPercent + rotation). */
-.hero__bg {
-  position: absolute;
-  width: 72vh; height: 72vh;
-  top: 6vh; right: -7vh;
-  background-image: url("../assets/img/spirale-teal.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  opacity: 0.55;
-  pointer-events: none;
-  will-change: transform;
-  transform-origin: center center;
-  z-index: -1;
-  mix-blend-mode: screen;
-}
-.hero__bg--mirror {
-  width: 46vh; height: 46vh;
-  top: auto; right: auto;
-  bottom: -10vh; left: -10vh;
-  opacity: 0.30;
-}
 .hero__inner {
   position: relative; z-index: 2;
   flex: 1;

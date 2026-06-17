@@ -139,17 +139,6 @@
       ease: "none",
       scrollTrigger: { trigger: ".hero", start: "top top", end: "bottom top", scrub: true }
     });
-    // Hero spirals: parallax drift + spin on scroll (like the other sections)
-    gsap.to(".hero__bg", {
-      yPercent: 18, rotation: 65,
-      ease: "none",
-      scrollTrigger: { trigger: ".hero", start: "top top", end: "bottom top", scrub: 1 }
-    });
-    gsap.to(".hero__bg--mirror", {
-      yPercent: -12, rotation: -50,
-      ease: "none",
-      scrollTrigger: { trigger: ".hero", start: "top top", end: "bottom top", scrub: 1 }
-    });
 
     /* ---------- SECTION REVEAL ---------- */
     gsap.utils.toArray(".reveal").forEach(el => {
