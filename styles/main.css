@@ -292,7 +292,7 @@ section { position: relative; padding-block: clamp(72px, 9vw, 144px); }
 /* Decorative spiral motif kept, dimmed against the photo */
 .hero__bg {
   position: absolute; inset: 0;
-  background-image: url("../assets/img/spirale-color.png?v=2");
+  background-image: url("../assets/img/spirale-teal.png");
   background-repeat: no-repeat;
   background-position: 108% 38%;
   background-size: 70vh auto;
@@ -518,7 +518,7 @@ section { position: relative; padding-block: clamp(72px, 9vw, 144px); }
   width: 90vh; height: 90vh;
   top: 50%; left: -25vh;
   transform: translateY(-50%);
-  background-image: url("../assets/img/spirale-color.png?v=2");
+  background-image: url("../assets/img/spirale-teal.png");
   background-size: contain;
   background-repeat: no-repeat;
   opacity: 0.5;
@@ -683,7 +683,7 @@ section { position: relative; padding-block: clamp(72px, 9vw, 144px); }
   position: absolute;
   inset: auto -8% -30% auto;
   width: 90vh; height: 90vh;
-  background-image: url("../assets/img/spirale-color.png?v=2");
+  background-image: url("../assets/img/spirale-teal.png");
   background-size: contain;
   background-repeat: no-repeat;
   opacity: 0.50;
