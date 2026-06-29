@@ -433,6 +433,21 @@ section { position: relative; padding-block: clamp(72px, 9vw, 144px); }
   max-width: 18ch;
 }
 .section-head__title em { font-style: italic; color: var(--ink-80); font-weight: 300; }
+.section-head__lead {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(18px, 2vw, 30px);
+}
+.section-head__tag {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 300;
+  color: var(--ink-80);
+  font-size: clamp(18px, 1.9vw, 28px);
+  line-height: 1.12;
+  letter-spacing: -0.01em;
+  max-width: 20ch;
+}
 @media (max-width: 720px) {
   .section-head { grid-template-columns: 1fr; }
 }
