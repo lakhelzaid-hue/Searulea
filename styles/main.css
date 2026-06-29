@@ -518,7 +518,7 @@ section { position: relative; padding-block: clamp(72px, 9vw, 144px); }
   background-image: url("../assets/img/spirale-teal.png");
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.5;
+  opacity: 0.1;
   mix-blend-mode: screen;
   pointer-events: none;
   will-change: transform;
@@ -683,7 +683,7 @@ section { position: relative; padding-block: clamp(72px, 9vw, 144px); }
   background-image: url("../assets/img/spirale-teal.png");
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.50;
+  opacity: 0.1;
   mix-blend-mode: screen;
   pointer-events: none;
   will-change: transform;
