@@ -49,7 +49,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&display=swap" />
 
-  <link rel="stylesheet" href="styles/main.css?v=29" />
+  <link rel="stylesheet" href="styles/main.css?v=30" />
   <link rel="icon" type="image/svg+xml" href="assets/svg/mark.svg" />
   <script>
     // Lock body before paint so the loader covers the page from frame 1.
@@ -128,9 +128,14 @@
      NAVIGATION
      ============================================================ -->
 <header class="nav">
+  <div class="nav__lang" role="group" aria-label="Language">
+    <button type="button" class="nav__lang-btn is-active" data-lang="en">EN</button>
+    <span class="nav__lang-sep">/</span>
+    <button type="button" class="nav__lang-btn" data-lang="fr">FR</button>
+  </div>
   <nav class="nav__center" aria-label="Primary">
-    <a href="#chain"        class="nav__link">Our Process</a>
-    <a href="#sovereignty"  class="nav__link">Why Morocco</a>
+    <a href="#chain"        class="nav__link" data-i18n="nav.process">Our Process</a>
+    <a href="#sovereignty"  class="nav__link" data-i18n="nav.why">Why Morocco</a>
     <a href="/" class="nav__brand" aria-label="Searulea — home">
       <svg class="nav__mark" width="98" height="103" viewBox="0 0 98 103" xmlns="http://www.w3.org/2000/svg" fill="currentColor" aria-hidden="true">
         <path d="M85.05 102.68C91.8983 102.68 97.45 97.1283 97.45 90.28C97.45 83.4317 91.8983 77.88 85.05 77.88C78.2017 77.88 72.65 83.4317 72.65 90.28C72.65 97.1283 78.2017 102.68 85.05 102.68Z"/>
@@ -145,10 +150,10 @@
         <path d="M12.4 102.68C19.2484 102.68 24.8 97.1283 24.8 90.28C24.8 83.4317 19.2484 77.88 12.4 77.88C5.55169 77.88 0 83.4317 0 90.28C0 97.1283 5.55169 102.68 12.4 102.68Z"/>
       </svg>
     </a>
-    <a href="#proof"        class="nav__link">Engineered to Last</a>
-    <a href="#audiences"    class="nav__link">Our Commitment</a>
+    <a href="#proof"        class="nav__link" data-i18n="nav.engineered">Engineered to Last</a>
+    <a href="#audiences"    class="nav__link" data-i18n="nav.commitment">Our Commitment</a>
   </nav>
-  <a href="#contact" class="nav__cta"><span class="nav__cta-full">Speak to our trade desk </span><span class="nav__cta-short">Trade desk </span>→</a>
+  <a href="#contact" class="nav__cta"><span class="nav__cta-full" data-i18n="nav.cta_full">Speak to our trade desk </span><span class="nav__cta-short" data-i18n="nav.cta_short">Trade desk </span>→</a>
 </header>
 
 <main>
@@ -162,30 +167,30 @@
 
   <div class="shell hero__inner">
     <div class="hero__eyebrow eyebrow">
-      <span>Ras El Ma · Nador · Mediterranean Sea</span>
+      <span data-i18n="hero.eyebrow">Ras El Ma · Nador · Mediterranean Sea</span>
     </div>
 
     <div class="hero__lockup">
       <h1 class="hero__title serif" id="hero-title">
-        <span class="hero__title-line">Tomorrow's</span>
-        <span class="hero__title-line"><em>aquaculture.</em></span>
-        <span class="hero__title-line">Built today.</span>
+        <span class="hero__title-line" data-i18n="hero.line1">Tomorrow's</span>
+        <span class="hero__title-line" data-i18n="hero.line2"><em>aquaculture.</em></span>
+        <span class="hero__title-line" data-i18n="hero.line3">Built today.</span>
       </h1>
     </div>
 
     <div class="hero__bottom">
-      <p class="hero__deck">
+      <p class="hero__deck" data-i18n="hero.deck">
         <strong>SEARULEA</strong> is a vertically integrated Mediterranean aquaculture operator.
         Offshore farming at Ras El Ma. Fresh conditioning at port, and certified cold-chain
         export logistics — one chain, one operator, one traceable lot.
       </p>
       <div class="hero__ctas">
         <a href="#contact" class="btn btn--primary">
-          Speak to our trade desk
+          <span data-i18n="hero.cta1">Speak to our trade desk</span>
           <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </a>
         <a href="#audiences" class="btn btn--ghost">
-          Investor brief
+          <span data-i18n="hero.cta2">Investor brief</span>
           <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </a>
       </div>
@@ -198,7 +203,7 @@
      ============================================================ -->
 <div class="marquee" aria-hidden="true">
   <div class="marquee__track serif">
-    <span>
+    <span data-i18n="marquee">
       375 ha offshore concession
       <i class="marquee__dot"></i>
       2,790 t by 2031
@@ -212,7 +217,7 @@
       Ras Kebdana export port
       <i class="marquee__dot"></i>
     </span>
-    <span>
+    <span data-i18n="marquee">
       375 ha offshore concession
       <i class="marquee__dot"></i>
       2,790 t by 2031
@@ -237,11 +242,11 @@
     <header class="section-head">
       <div class="section-head__lead">
         <div class="section-head__index">
-          <span>01 — Our Process</span>
+          <span data-i18n="proc.index">01 — Our Process</span>
         </div>
-        <p class="section-head__tag serif">One operator. One traceable lot.</p>
+        <p class="section-head__tag serif" data-i18n="proc.tag">One operator. One traceable lot.</p>
       </div>
-      <h2 class="section-head__title" id="chain-title">
+      <h2 class="section-head__title" id="chain-title" data-i18n="proc.title">
         From our <em>sea</em><br>
         to your <em>port.</em>
       </h2>
@@ -250,26 +255,26 @@
     <div class="chain__grid">
       <article class="chain__step reveal">
         <div class="chain__step__num serif">01</div>
-        <p class="chain__step__body">Sea bream, sea bass, and meagre raised in offshore cages on a 375 ha government concession at Ras El Ma. Biosecurity protocols designed-in, not retrofitted.</p>
-        <h3 class="chain__step__title serif">Offshore farming</h3>
+        <p class="chain__step__body" data-i18n="proc.s1_body">Sea bream, sea bass, and meagre raised in offshore cages on a 375 ha government concession at Ras El Ma. Biosecurity protocols designed-in, not retrofitted.</p>
+        <h3 class="chain__step__title serif" data-i18n="proc.s1_title">Offshore farming</h3>
       </article>
 
       <article class="chain__step reveal">
         <div class="chain__step__num serif">02</div>
-        <p class="chain__step__body">Fresh grading and packing built to European standards. Solar-powered facility, ONSSA-certified handling, full IoT chain of custody from harvest to shipping pallet.</p>
-        <h3 class="chain__step__title serif">Fresh conditioning at port</h3>
+        <p class="chain__step__body" data-i18n="proc.s2_body">Fresh grading and packing built to European standards. Solar-powered facility, ONSSA-certified handling, full IoT chain of custody from harvest to shipping pallet.</p>
+        <h3 class="chain__step__title serif" data-i18n="proc.s2_title">Fresh conditioning at port</h3>
       </article>
 
       <article class="chain__step reveal">
         <div class="chain__step__num serif">03</div>
-        <p class="chain__step__body">An unbroken cold chain holds freshness from the water to the truck. Each lot tagged, documented, and traceable end-to-end — one interlocutor, one document set, one promise kept.</p>
-        <h3 class="chain__step__title serif">Cold chain &amp; traceability</h3>
+        <p class="chain__step__body" data-i18n="proc.s3_body">An unbroken cold chain holds freshness from the water to the truck. Each lot tagged, documented, and traceable end-to-end — one interlocutor, one document set, one promise kept.</p>
+        <h3 class="chain__step__title serif" data-i18n="proc.s3_title">Cold chain &amp; traceability</h3>
       </article>
 
       <article class="chain__step reveal">
         <div class="chain__step__num serif">04</div>
-        <p class="chain__step__body">Certified export logistics via the port of Ras Kebdana. Roadmap documented, volumes growing with you — long-term partnerships available from Phase 1.</p>
-        <h3 class="chain__step__title serif">Export, end-to-end</h3>
+        <p class="chain__step__body" data-i18n="proc.s4_body">Certified export logistics via the port of Ras Kebdana. Roadmap documented, volumes growing with you — long-term partnerships available from Phase 1.</p>
+        <h3 class="chain__step__title serif" data-i18n="proc.s4_title">Export, end-to-end</h3>
       </article>
     </div>
   </div>
@@ -283,32 +288,32 @@
   <div class="shell">
     <header class="section-head">
       <div class="section-head__index">
-        <span>02 — Why Morocco</span>
+        <span data-i18n="sov.index">02 — Why Morocco</span>
       </div>
-      <h2 class="section-head__title serif" id="sov-title">
+      <h2 class="section-head__title serif" id="sov-title" data-i18n="sov.title">
         Rooted in Morocco <em>by conviction.</em>
       </h2>
     </header>
 
     <div class="sovereignty__grid">
-      <blockquote class="sovereignty__pull reveal">
+      <blockquote class="sovereignty__pull reveal" data-i18n="sov.pull">
         SEARULEA does not only produce fish. It builds Morocco's capacity to no longer depend on others to do it.
       </blockquote>
 
       <div class="sovereignty__body">
-        <p class="reveal">
+        <p class="reveal" data-i18n="sov.p1">
           Morocco has two coastlines, 3,500 kilometres of shore, and direct access
           to the European market. Yet it still imports its fingerlings and buys
           its fish feed abroad — while foreign operators structure the industry
           its geography made obvious.
         </p>
-        <p class="reveal">
+        <p class="reveal" data-i18n="sov.p2">
           <strong>SEARULEA changes that, structurally.</strong> Offshore concession signed.
           Hatchery and feed unit on the roadmap. What is built at Nador today,
           Algeria, Tunisia, and Mauritania will look to tomorrow — proof an African
           operator can meet international export standards from day one.
         </p>
-        <p class="reveal">
+        <p class="reveal" data-i18n="sov.p3">
           <strong>From our shores, for the world.</strong>
         </p>
       </div>
@@ -323,9 +328,9 @@
   <div class="shell">
     <header class="section-head">
       <div class="section-head__index">
-        <span>03 — Engineered to Last</span>
+        <span data-i18n="proof.index">03 — Engineered to Last</span>
       </div>
-      <h2 class="section-head__title serif" id="proof-title">
+      <h2 class="section-head__title serif" id="proof-title" data-i18n="proof.title">
         Standards <em>in the CAPEX,</em><br>not in the brochure.
       </h2>
     </header>
@@ -333,30 +338,30 @@
     <div class="proof__grid">
       <article class="proof__card">
         <div class="proof__card__num serif"><span data-count="375">0</span>
-          <small>Hectares · offshore concession</small>
+          <small data-i18n="proof.c1_label">Hectares · offshore concession</small>
         </div>
-        <p class="proof__card__body">Government-signed concession at Ras El Ma. Long-term operational control over a Mediterranean farming zone designed for scale.</p>
+        <p class="proof__card__body" data-i18n="proof.c1_body">Government-signed concession at Ras El Ma. Long-term operational control over a Mediterranean farming zone designed for scale.</p>
       </article>
 
       <article class="proof__card">
         <div class="proof__card__num serif"><span data-count="2790">0</span><span> t</span>
-          <small>Annual volume by 2031</small>
+          <small data-i18n="proof.c2_label">Annual volume by 2031</small>
         </div>
-        <p class="proof__card__body">Documented phased ramp-up. Commercial partnerships structured before launch. Volumes that grow with your contract.</p>
+        <p class="proof__card__body" data-i18n="proof.c2_body">Documented phased ramp-up. Commercial partnerships structured before launch. Volumes that grow with your contract.</p>
       </article>
 
       <article class="proof__card">
         <div class="proof__card__num serif">≥<span data-count="40">0</span><span>%</span>
-          <small>Target — women in direct jobs</small>
+          <small data-i18n="proof.c3_label">Target — women in direct jobs</small>
         </div>
-        <p class="proof__card__body">A standing commitment: at least 40% women across Searulea's workforce and direct jobs. Hiring and training anchored locally in Nador.</p>
+        <p class="proof__card__body" data-i18n="proof.c3_body">A standing commitment: at least 40% women across Searulea's workforce and direct jobs. Hiring and training anchored locally in Nador.</p>
       </article>
 
       <article class="proof__card">
         <div class="proof__card__num serif">100<span>%</span>
-          <small>IoT lot traceability</small>
+          <small data-i18n="proof.c4_label">IoT lot traceability</small>
         </div>
-        <p class="proof__card__body">Every batch tracked from cage to truck. ONSSA certified, built to European norms, biosecurity and solar energy designed-in from day one.</p>
+        <p class="proof__card__body" data-i18n="proof.c4_body">Every batch tracked from cage to truck. ONSSA certified, built to European norms, biosecurity and solar energy designed-in from day one.</p>
       </article>
     </div>
   </div>
@@ -369,9 +374,9 @@
   <div class="shell">
     <header class="section-head">
       <div class="section-head__index">
-        <span>04 — Our Commitment</span>
+        <span data-i18n="doors.index">04 — Our Commitment</span>
       </div>
-      <h2 class="section-head__title serif" id="aud-title">
+      <h2 class="section-head__title serif" id="aud-title" data-i18n="doors.title">
         One chain.<br>
         <em>Three certainties.</em>
       </h2>
@@ -379,28 +384,28 @@
 
     <div class="doors__grid">
       <a class="door" href="#contact">
-        <span class="door__label">Distributors &amp; clients</span>
-        <h3 class="door__title serif">A single interlocutor, end to end.</h3>
-        <p class="door__body">Sea bream, sea bass, and meagre — raised in the Mediterranean and exported via Ras Kebdana. Full documentation set. IoT traceability per lot. Roadmap of growing volumes for long-term partners.</p>
-        <span class="door__link">Open trade brief
+        <span class="door__label" data-i18n="door1.label">Distributors &amp; clients</span>
+        <h3 class="door__title serif" data-i18n="door1.title">A single interlocutor, end to end.</h3>
+        <p class="door__body" data-i18n="door1.body">Sea bream, sea bass, and meagre — raised in the Mediterranean and exported via Ras Kebdana. Full documentation set. IoT traceability per lot. Roadmap of growing volumes for long-term partners.</p>
+        <span class="door__link"><span data-i18n="door1.link">Open trade brief</span>
           <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </span>
       </a>
 
       <a class="door" href="#contact">
-        <span class="door__label">Investors</span>
-        <h3 class="door__title serif">A defensible thesis.<br>A visible exit.</h3>
-        <p class="door__body">375 ha concession secured. Demand documented, market under-supplied. The value isn't in the cages alone — it's in the integrated chain, with hatchery and feed on the roadmap to anchor regional infrastructure.</p>
-        <span class="door__link">Request investor pack
+        <span class="door__label" data-i18n="door2.label">Investors</span>
+        <h3 class="door__title serif" data-i18n="door2.title">A defensible thesis.<br>A visible exit.</h3>
+        <p class="door__body" data-i18n="door2.body">375 ha concession secured. Demand documented, market under-supplied. The value isn't in the cages alone — it's in the integrated chain, with hatchery and feed on the roadmap to anchor regional infrastructure.</p>
+        <span class="door__link"><span data-i18n="door2.link">Request investor pack</span>
           <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </span>
       </a>
 
       <a class="door" href="#contact">
-        <span class="door__label">Press &amp; institutions</span>
-        <h3 class="door__title serif">The blueprint, on the record.</h3>
-        <p class="door__body">Built well from day one. Biosecurity, solar energy, a target of at least 40% women in direct jobs, IoT traceability — engineered in, not bolted on for an annual report. The model North Africa will look to next.</p>
-        <span class="door__link">Press materials
+        <span class="door__label" data-i18n="door3.label">Press &amp; institutions</span>
+        <h3 class="door__title serif" data-i18n="door3.title">The blueprint, on the record.</h3>
+        <p class="door__body" data-i18n="door3.body">Built well from day one. Biosecurity, solar energy, a target of at least 40% women in direct jobs, IoT traceability — engineered in, not bolted on for an annual report. The model North Africa will look to next.</p>
+        <span class="door__link"><span data-i18n="door3.link">Press materials</span>
           <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </span>
       </a>
@@ -415,18 +420,18 @@
   <div class="manifesto__bg" aria-hidden="true"></div>
   <div class="shell">
     <div class="manifesto__inner">
-      <div class="manifesto__eyebrow eyebrow"><span>Manifesto</span></div>
+      <div class="manifesto__eyebrow eyebrow"><span data-i18n="mani.eyebrow">Manifesto</span></div>
       <h2 id="manifesto-title" class="visually-hidden" style="position:absolute;left:-9999px">Manifesto</h2>
 
       <div class="manifesto__text serif">
-        <p>Morocco has <strong>3,500 kilometres</strong> of coastline and direct access to European markets. SEARULEA is building the infrastructure to unlock their full potential.</p>
-        <p>In Ras El Ma, on a <strong>375-hectare</strong> offshore concession, we are developing an integrated aquaculture value chain designed to operate as a single system: offshore farming, fresh conditioning at port, cold-chain export logistics and end-to-end traceability. <em>One stage supports the next.</em></p>
-        <p>Our approach is defined as much by infrastructure as by the standards embedded within it. Biosecurity from day one. Solar energy integrated into the project. Local employment and training anchored in the region. Decisions built into the CAPEX, not initiatives added later.</p>
-        <p>Over time, our hatchery and feed operations are designed to support the wider development of aquaculture across North Africa.</p>
-        <p>SEARULEA is building aquaculture infrastructure designed to meet international standards from day one, scale with the needs of the industry and contribute to the long-term development of North African aquaculture.</p>
+        <p data-i18n="mani.p1">Morocco has <strong>3,500 kilometres</strong> of coastline and direct access to European markets. SEARULEA is building the infrastructure to unlock their full potential.</p>
+        <p data-i18n="mani.p2">In Ras El Ma, on a <strong>375-hectare</strong> offshore concession, we are developing an integrated aquaculture value chain designed to operate as a single system: offshore farming, fresh conditioning at port, cold-chain export logistics and end-to-end traceability. <em>One stage supports the next.</em></p>
+        <p data-i18n="mani.p3">Our approach is defined as much by infrastructure as by the standards embedded within it. Biosecurity from day one. Solar energy integrated into the project. Local employment and training anchored in the region. Decisions built into the CAPEX, not initiatives added later.</p>
+        <p data-i18n="mani.p4">Over time, our hatchery and feed operations are designed to support the wider development of aquaculture across North Africa.</p>
+        <p data-i18n="mani.p5">SEARULEA is building aquaculture infrastructure designed to meet international standards from day one, scale with the needs of the industry and contribute to the long-term development of North African aquaculture.</p>
       </div>
 
-      <div class="manifesto__signoff">Rooted in Morocco. Built for the world.</div>
+      <div class="manifesto__signoff" data-i18n="mani.signoff">Rooted in Morocco. Built for the world.</div>
     </div>
   </div>
 </section>
@@ -439,20 +444,20 @@
     <div class="foot__top">
       <div class="foot__mark">
         <img src="assets/img/wordmark-ink.png" alt="SEARULEA" class="foot__wordmark" />
-        <p class="foot__tag">The aquaculture of tomorrow. Built today.</p>
+        <p class="foot__tag" data-i18n="foot.tag">The aquaculture of tomorrow. Built today.</p>
       </div>
 
       <div class="foot__col">
-        <h4>Operations</h4>
+        <h4 data-i18n="foot.ops_h">Operations</h4>
         <ul>
           <li>Ras El Ma, Nador</li>
-          <li>Kingdom of Morocco</li>
-          <li>ONSSA certified</li>
+          <li data-i18n="foot.ops_2">Kingdom of Morocco</li>
+          <li data-i18n="foot.ops_3">ONSSA certified</li>
         </ul>
       </div>
 
       <div class="foot__col">
-        <h4>Trade</h4>
+        <h4 data-i18n="foot.trade_h">Trade</h4>
         <ul>
           <li><a href="mailto:trade@searulea.com">trade@searulea.com</a></li>
           <li><a href="mailto:investors@searulea.com">investors@searulea.com</a></li>
@@ -461,18 +466,18 @@
       </div>
 
       <div class="foot__col">
-        <h4>Follow</h4>
+        <h4 data-i18n="foot.follow_h">Follow</h4>
         <ul>
           <li><a href="#">LinkedIn</a></li>
-          <li><a href="#">Press room</a></li>
-          <li><a href="#">Sustainability brief</a></li>
+          <li><a href="#" data-i18n="foot.follow_2">Press room</a></li>
+          <li><a href="#" data-i18n="foot.follow_3">Sustainability brief</a></li>
         </ul>
       </div>
     </div>
 
     <div class="foot__bottom">
-      <span>© SEARULEA · All rights reserved</span>
-      <span>Designed and built in Morocco · Standards for the world</span>
+      <span data-i18n="foot.copy1">© SEARULEA · All rights reserved</span>
+      <span data-i18n="foot.copy2">Designed and built in Morocco · Standards for the world</span>
     </div>
   </div>
 </footer>
@@ -482,6 +487,7 @@
 <!-- GSAP -->
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="scripts/i18n.js?v=1"></script>
 <script src="scripts/main.js?v=23"></script>
 </body>
 </html>
