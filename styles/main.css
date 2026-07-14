@@ -467,10 +467,10 @@ section { position: relative; padding-block: clamp(72px, 9vw, 144px); }
   font-style: italic;
   font-weight: 300;
   color: var(--ink-80);
-  font-size: clamp(18px, 1.9vw, 28px);
+  font-size: clamp(14px, 1.5vw, 22px);
   line-height: 1.12;
   letter-spacing: -0.01em;
-  max-width: 20ch;
+  white-space: nowrap;
 }
 @media (max-width: 720px) {
   .section-head { grid-template-columns: 1fr; }
