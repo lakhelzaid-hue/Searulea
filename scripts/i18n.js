@@ -94,8 +94,6 @@
     "foot.ops_3":    "Certifié ONSSA",
     "foot.trade_h":  "Commercial",
     "foot.follow_h": "Suivre",
-    "foot.follow_2": "Espace presse",
-    "foot.follow_3": "Note durabilité",
     "foot.copy1":    "© SEARULEA · Tous droits réservés",
     "foot.copy2":    "Conçu et construit au Maroc · Des standards pour le monde"
   };
