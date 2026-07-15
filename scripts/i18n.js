@@ -17,7 +17,7 @@
     "nav.cta_short":   "Desk commercial ",
 
     /* Hero */
-    "hero.eyebrow": "Ras El Ma · Nador · Mer Méditerranée",
+    "hero.eyebrow": "Ras El Ma · Région Orientale · Mer Méditerranée",
     "hero.line1":   "L’aquaculture",
     "hero.line2":   "<em>de demain.</em>",
     "hero.line3":   "Construite aujourd’hui.",
@@ -58,7 +58,7 @@
     "proof.c2_label": "Volume annuel en 2031",
     "proof.c2_body":  "Montée en puissance progressive et documentée. Partenariats commerciaux structurés avant le lancement. Une montée en volumes sur toute la durée du partenariat.",
     "proof.c3_label": "Objectif — femmes dans les emplois directs",
-    "proof.c3_body":  "Un engagement durable : au moins 40 % de femmes dans les effectifs et les emplois directs de Searulea. Recrutement et formation ancrés dans la région de l’Oriental.",
+    "proof.c3_body":  "Un engagement durable : au moins 40 % de femmes dans les effectifs et les emplois directs de Searulea. Recrutement et formation ancrés dans la Région Orientale.",
     "proof.c4_label": "Traçabilité IoT par lot",
     "proof.c4_body":  "Chaque lot tracé de la récolte au client. Certifié ONSSA, construit aux normes européennes, biosécurité et énergie solaire intégrées dès le premier jour.",
 
@@ -90,6 +90,7 @@
     /* Footer */
     "foot.tag":      "L’aquaculture de demain. Construite aujourd’hui.",
     "foot.ops_h":    "Opérations",
+    "foot.ops_1":    "Ras El Ma, Région Orientale",
     "foot.ops_2":    "Royaume du Maroc",
     "foot.ops_3":    "Certifié ONSSA",
     "foot.trade_h":  "Commercial",

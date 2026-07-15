@@ -1,0 +1,877 @@
+<meta charset="utf-8">
+<title>SEARULEA — Brand Guidelines</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@font-face{font-family:'Lora';src:url(data:font/ttf;base64,{{FONT_LORA}}) format('truetype');font-weight:400 700;font-display:swap;}
+@font-face{font-family:'DM Sans';src:url(data:font/ttf;base64,{{FONT_DMSANS}}) format('truetype');font-weight:100 900;font-display:swap;}
+:root{
+  --pearl:#FBF9F4;--shore:#EFE8D8;--foam:#D0E7ED;--lagoon:#0C7190;--tide:#0A6887;--deep:#074154;--abyss:#04293A;--amber:#D98E2B;
+  --bg:var(--pearl);--bg-alt:#F4EFE4;--ink:#0B3242;--ink2:#3E5966;--line:rgba(7,65,84,.16);--card:#FFFFFF;
+  --deep-ink:#E9F3F6;--deep-ink2:#A8C6D1;--deep-line:rgba(208,231,237,.18);
+  --hero-g1:#D9EAEF;--hero-g2:var(--pearl);--logo-ink:#09566C;
+  --serif:'Lora',Georgia,serif;--sans:'DM Sans',-apple-system,sans-serif;--ease:cubic-bezier(0.32,0.72,0,1);--shell:color-mix(in srgb,var(--ink) 4%,transparent);--soft:0 28px 56px -28px rgba(7,65,84,.16);
+}
+@media (prefers-color-scheme: dark){:root{--bg:#062733;--bg-alt:#07303E;--ink:#E9F3F6;--ink2:#9FBECA;--line:rgba(208,231,237,.15);--card:#0A3A4B;--hero-g1:#05303F;--hero-g2:#062733;--logo-ink:#D0E7ED;}}
+:root[data-theme="dark"]{--bg:#062733;--bg-alt:#07303E;--ink:#E9F3F6;--ink2:#9FBECA;--line:rgba(208,231,237,.15);--card:#0A3A4B;--hero-g1:#05303F;--hero-g2:#062733;--logo-ink:#D0E7ED;}
+:root[data-theme="light"]{--bg:var(--pearl);--bg-alt:#F4EFE4;--ink:#0B3242;--ink2:#3E5966;--line:rgba(7,65,84,.16);--card:#FFFFFF;--hero-g1:#D9EAEF;--hero-g2:var(--pearl);--logo-ink:#09566C;}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto;}*,*::before,*::after{animation:none!important;transition:none!important;}}
+body{font-family:var(--sans);background:var(--bg);color:var(--ink);line-height:1.6;font-size:17px;}
+body::after{content:"";position:fixed;inset:0;z-index:95;pointer-events:none;opacity:.032;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");}
+img{max-width:100%;display:block;}
+a{color:inherit;}
+:focus-visible{outline:2px solid var(--lagoon);outline-offset:3px;}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;width:max-content;font-size:10.5px;letter-spacing:.26em;text-transform:uppercase;font-weight:600;color:var(--lagoon);border:1px solid color-mix(in srgb,var(--lagoon) 30%,transparent);border-radius:999px;padding:7px 15px;}
+.eyebrow::before{content:"";width:5px;height:5px;border-radius:50%;background:currentColor;}
+.dark-sec .eyebrow{color:#8FC1D2;}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:500;text-wrap:balance;line-height:1.15;}
+.wrap{max-width:1180px;margin:0 auto;padding:0 clamp(22px,5vw,64px);}
+section{padding:clamp(92px,14vh,168px) 0;position:relative;}
+.sec-head{display:flex;flex-direction:column;gap:18px;max-width:720px;margin-bottom:clamp(34px,5vh,56px);}
+.sec-head h2{font-size:clamp(32px,4.4vw,54px);}
+.sec-head p{color:var(--ink2);max-width:62ch;}
+.chap-no{font-family:var(--serif);font-size:15px;color:var(--ink2);letter-spacing:.08em;}
+.dark-sec{background:linear-gradient(180deg,var(--deep) 0%,var(--abyss) 100%);color:var(--deep-ink);}
+.dark-sec .sec-head p,.dark-sec .sh p{color:var(--deep-ink2);}
+.dark-sec .chap-no{color:var(--deep-ink2);}
+/* subsection head */
+.sh{display:flex;flex-direction:column;gap:10px;max-width:680px;margin:clamp(48px,8vh,88px) 0 26px;}
+.sh:first-of-type{margin-top:0;}
+.sh .n{font-family:var(--serif);font-size:14px;color:var(--lagoon);letter-spacing:.1em;}
+.dark-sec .sh .n{color:#8FC1D2;}
+.sh h3{font-size:clamp(22px,2.6vw,32px);}
+.sh p{color:var(--ink2);font-size:16px;max-width:64ch;}
+/* nav */
+#rail{position:fixed;left:26px;top:50%;transform:translateY(-50%);z-index:60;display:flex;flex-direction:column;gap:14px;}
+#rail a{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink2);font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.65;transition:opacity .25s;min-height:24px;}
+#rail a .dot{width:7px;height:7px;border-radius:50%;background:currentColor;flex:none;transition:transform .25s;}
+#rail a .lbl{opacity:0;transform:translateX(-6px);transition:.25s;white-space:nowrap;}
+#rail a:hover .lbl,#rail a.on .lbl,#rail a:focus-visible .lbl{opacity:1;transform:none;}
+#rail a.on{opacity:1;color:var(--lagoon);}
+#rail a.on .dot{transform:scale(1.7);}
+body.on-dark #rail a{color:var(--deep-ink2);}
+body.on-dark #rail a.on{color:#9FD3E4;}
+@media(max-width:1100px){#rail{display:none;}}
+#topbar{position:fixed;top:18px;left:50%;transform:translateX(-50%);z-index:70;display:flex;align-items:center;gap:clamp(18px,4vw,34px);width:max-content;max-width:calc(100vw - 32px);padding:11px 12px 11px 22px;backdrop-filter:blur(18px);background:color-mix(in srgb,var(--bg) 66%,transparent);border:1px solid var(--line);border-radius:999px;box-shadow:var(--soft),inset 0 1px 0 rgba(255,255,255,.25);transition:transform .6s var(--ease),opacity .6s var(--ease);}
+#topbar.hide{transform:translateX(-50%) translateY(-160%);}
+#topbar .tag{border:1px solid var(--line);border-radius:999px;padding:7px 14px;}
+#topbar .mark svg{height:24px;width:auto;display:block;}
+#topbar .tag{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--ink2);}
+#topbar svg *,#hero .mark svg *{fill:var(--logo-ink)!important;}
+/* hero */
+#hero{min-height:100svh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;background:linear-gradient(180deg,var(--hero-g1) 0%,var(--hero-g2) 78%);overflow:hidden;position:relative;padding:120px 24px 90px;}
+#spiral{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;}
+#spiral{will-change:opacity;}
+#spiral img{position:absolute;width:150vmax;height:150vmax;max-width:none;opacity:.05;animation:spin 420s linear infinite;}
+#spiral .sp-d{display:none;}
+@media (prefers-color-scheme: dark){#spiral .sp-l{display:none;}#spiral .sp-d{display:block;opacity:.045;}}
+:root[data-theme="dark"] #spiral .sp-l{display:none!important;}
+:root[data-theme="dark"] #spiral .sp-d{display:block!important;opacity:.12;}
+:root[data-theme="light"] #spiral .sp-l{display:block!important;}
+:root[data-theme="light"] #spiral .sp-d{display:none!important;}
+@keyframes spin{to{transform:rotate(360deg);}}
+#hero .mark{width:72px;margin-bottom:36px;position:relative;}
+#hero h1{position:relative;display:flex;justify-content:center;width:100%;}
+#hero .h1mark{display:block;width:min(680px,78vw);}
+#hero .h1stack{width:min(460px,64vw);}
+#hero .h1mark svg{width:100%;height:auto;display:block;}
+#hero .h1mark svg *{fill:var(--logo-ink)!important;}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);}
+#hero .sub{margin-top:24px;font-size:clamp(15px,1.6vw,19px);color:var(--ink2);letter-spacing:.04em;position:relative;}
+#hero .kicker{margin-top:10px;font-size:12px;letter-spacing:.34em;text-transform:uppercase;color:var(--lagoon);position:relative;}
+#hero .cue{position:absolute;bottom:34px;left:50%;transform:translateX(-50%);font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--ink2);display:flex;flex-direction:column;align-items:center;gap:10px;}
+#hero .cue::after{content:"";width:1px;height:44px;background:linear-gradient(var(--ink2),transparent);}
+/* shared grids */
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px;}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px;}
+.grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;}
+figure.shot{position:relative;border-radius:20px;overflow:hidden;box-shadow:var(--soft);}
+figure.shot img{width:100%;height:100%;object-fit:cover;transition:transform .8s var(--ease);}
+figure.shot:hover img{transform:scale(1.025);}
+figure.shot figcaption{position:absolute;left:14px;bottom:12px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#fff;text-shadow:0 1px 8px rgba(4,41,58,.75);}
+figure.card{display:flex;flex-direction:column;gap:12px;}
+figure.card img{border:1px solid var(--line);border-radius:18px;padding:7px;background:var(--shell);box-shadow:var(--soft);}
+figure.card figcaption{font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink2);display:flex;align-items:center;justify-content:space-between;gap:10px;}
+.dark-sec figure.card figcaption{color:var(--deep-ink2);}
+/* download chip on assets */
+.dlb{display:inline-flex;align-items:center;gap:6px;min-height:32px;padding:6px 14px;border:1px solid var(--line);border-radius:999px;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);text-decoration:none;transition:all .45s var(--ease);flex:none;cursor:pointer;}
+.dlb:active{transform:scale(.96);}
+.dlb:hover,.dlb:focus-visible{color:#FBF9F4;background:var(--tide);border-color:var(--tide);}
+.dark-sec .dlb{border-color:var(--deep-line);color:var(--deep-ink2);}
+.dark-sec .dlb:hover,.dark-sec .dlb:focus-visible{color:var(--deep);background:var(--foam);border-color:var(--foam);}
+.dlb svg{width:12px;height:12px;flex:none;}
+/* content cards */
+.pillars{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);}
+.pillar{background:var(--bg);padding:36px 32px;display:flex;flex-direction:column;gap:12px;}
+.pillar h4{font-size:22px;}
+.pillar p{color:var(--ink2);font-size:15px;}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:clamp(24px,3vw,40px);}
+.fact .fn{font-family:var(--serif);font-size:clamp(36px,4.2vw,54px);color:var(--tide);font-variant-numeric:tabular-nums;}
+.fact .fd{color:var(--ink2);font-size:14px;margin-top:6px;max-width:24ch;}
+.quote{border-left:3px solid var(--tide);padding-left:26px;max-width:60ch;font-family:var(--serif);font-size:clamp(19px,2.3vw,27px);line-height:1.45;}
+.quote small{display:block;margin-top:14px;font-family:var(--sans);font-size:12.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink2);}
+.statement{font-family:var(--serif);font-size:clamp(24px,3.1vw,38px);line-height:1.35;max-width:26ch;}
+.statement em{font-style:normal;color:var(--tide);}
+/* voice sliders */
+.scales{display:flex;flex-direction:column;gap:22px;max-width:760px;}
+.scale{display:grid;grid-template-columns:110px 1fr 110px;gap:16px;align-items:center;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);}
+.scale .track{height:2px;background:var(--line);position:relative;border-radius:2px;}
+.scale .track i{position:absolute;top:50%;transform:translate(-50%,-50%);width:14px;height:14px;border-radius:50%;background:var(--tide);border:3px solid var(--bg);box-shadow:0 0 0 1px var(--line);}
+.scale b{font-weight:600;color:var(--ink);}
+@media(max-width:560px){.scale{grid-template-columns:80px 1fr 80px;font-size:11px;}}
+/* misuse tiles */
+.donts{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:20px;}
+.dont{border:1px solid var(--line);border-radius:20px;background:var(--card);overflow:hidden;box-shadow:var(--soft);}
+.dont .stage{aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;padding:26px;position:relative;background:#FBF9F4;}
+.dont .stage svg,.dont .stage img{width:72%;height:auto;max-height:64%;}
+.dont .no{display:flex;align-items:center;gap:8px;padding:12px 16px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#A4553F;border-top:1px solid var(--line);}
+.dont .no::before{content:"";width:14px;height:14px;flex:none;background:#A4553F;clip-path:polygon(20% 6%, 6% 20%, 36% 50%, 6% 80%, 20% 94%, 50% 64%, 80% 94%, 94% 80%, 64% 50%, 94% 20%, 80% 6%, 50% 36%);}
+/* swatches & tints */
+.swatches{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;}
+.swatch{border:1px solid var(--line);border-radius:20px;overflow:hidden;background:var(--card);cursor:pointer;transition:transform .5s var(--ease),box-shadow .5s var(--ease);box-shadow:var(--soft);text-align:left;font-family:var(--sans);display:block;width:100%;}
+.swatch:hover{transform:translateY(-3px);}
+.swatch .chip{height:120px;position:relative;}
+.swatch .chip span{position:absolute;right:12px;bottom:10px;font-size:10.5px;letter-spacing:.18em;}
+.swatch .meta{padding:16px 18px;font-size:12.5px;color:var(--ink2);display:flex;flex-direction:column;gap:6px;}
+.swatch .meta div{display:flex;justify-content:space-between;gap:14px;}
+.swatch .meta b{display:block;font-family:var(--serif);font-size:18px;font-weight:500;color:var(--ink);margin-bottom:4px;}
+.swatch .meta i{font-style:normal;font-variant-numeric:tabular-nums;color:var(--ink);}
+.copied{position:fixed;bottom:26px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--deep);color:#FBF9F4;font-size:13px;letter-spacing:.08em;padding:10px 22px;border-radius:40px;opacity:0;transition:.3s;z-index:90;pointer-events:none;}
+.copied.show{opacity:1;transform:translateX(-50%);}
+.tints{display:flex;flex-direction:column;gap:14px;}
+.tint-row{display:grid;grid-template-columns:120px 1fr;gap:16px;align-items:center;}
+.tint-row .tn{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink2);}
+.tint-row .ramp{display:flex;height:52px;border-radius:3px;overflow:hidden;border:1px solid var(--line);}
+.tint-row .ramp div{flex:1;display:flex;align-items:flex-end;padding:6px 8px;font-size:10px;letter-spacing:.1em;}
+.prop-bar{display:flex;height:64px;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--soft);}
+.prop-bar div{display:flex;align-items:flex-end;padding:8px 10px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;}
+/* logo tiles */
+.logo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;}
+.logo-tile{border:1px solid var(--line);border-radius:22px;box-shadow:var(--soft);aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;padding:38px;position:relative;}
+.logo-tile svg,.logo-tile img{width:68%;height:auto;}
+.logo-tile span svg{width:100%;height:auto;}
+.logo-tile .cap{position:absolute;bottom:12px;left:16px;font-size:11px;letter-spacing:.22em;text-transform:uppercase;opacity:.8;}
+.logo-tile .dlb{position:absolute;top:12px;right:12px;background:color-mix(in srgb,var(--pearl) 80%,transparent);}
+.lt-pearl{background:#FBF9F4;color:#074154;}
+.lt-deep{background:linear-gradient(160deg,#0A6887,#074154);color:#FBF9F4;}
+.lt-foam{background:#D0E7ED;color:#074154;}
+.lt-shore{background:#EFE8D8;color:#074154;}
+.lt-black{background:#101820;color:#FBF9F4;}
+/* clearspace diagram */
+.clearspace{border:1.5px dashed color-mix(in srgb,var(--lagoon) 55%,transparent);border-radius:20px;display:inline-flex;padding:clamp(30px,5vw,64px);position:relative;background:var(--card);border-radius:3px;}
+.clearspace svg{width:min(360px,60vw);height:auto;}
+.clearspace .cs-lbl{position:absolute;font-size:10.5px;letter-spacing:.16em;color:var(--lagoon);text-transform:uppercase;}
+/* typography */
+.type-spec{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;}
+.spec{border:1px solid var(--line);border-radius:24px;padding:38px 36px;background:var(--card);box-shadow:var(--soft);}
+.spec .aa{font-size:clamp(64px,8vw,108px);line-height:1;}
+.spec.lora .aa,.spec.lora .glyphs{font-family:var(--serif);}
+.spec h4{margin-top:16px;font-size:20px;}
+.spec .role{font-size:11.5px;letter-spacing:.26em;text-transform:uppercase;color:var(--lagoon);margin-top:6px;}
+.spec p{margin-top:12px;font-size:14px;color:var(--ink2);}
+.spec .glyphs{margin-top:16px;font-size:14.5px;letter-spacing:.1em;color:var(--ink2);word-break:break-all;line-height:2;}
+.hier{border-top:1px solid var(--line);}
+.hier .row{display:grid;grid-template-columns:150px 1fr;gap:22px;align-items:baseline;padding:20px 0;border-bottom:1px solid var(--line);}
+.hier .tag{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink2);}
+@media(max-width:640px){.hier .row{grid-template-columns:1fr;gap:6px;}}
+/* photography */
+.photo-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;}
+.ph-a{grid-column:span 7;aspect-ratio:16/10;}
+.ph-b{grid-column:span 5;aspect-ratio:4/3.57;}
+.ph-c,.ph-d,.ph-e{grid-column:span 4;aspect-ratio:1/1.05;}
+.ph-f{grid-column:span 12;aspect-ratio:21/8;}
+@media(max-width:760px){.photo-grid figure{grid-column:span 12!important;aspect-ratio:16/10!important;}}
+.principles{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:26px;}
+.principles h4{font-family:var(--sans);font-size:12.5px;letter-spacing:.26em;text-transform:uppercase;color:#8FC1D2;margin-bottom:8px;font-weight:600;}
+.principles p{font-size:14.5px;color:var(--deep-ink2);}
+/* apps */
+.apps{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;}
+.ap-w{grid-column:span 12;aspect-ratio:21/9;}
+.ap-h{grid-column:span 6;aspect-ratio:4/3;}
+.ap-t{grid-column:span 4;aspect-ratio:1/1.1;}
+@media(max-width:760px){.apps figure{grid-column:span 12!important;aspect-ratio:16/10!important;}}
+/* social */
+.pfp-row{display:flex;gap:clamp(22px,4vw,52px);flex-wrap:wrap;}
+.pfp-row figure{display:flex;flex-direction:column;gap:12px;align-items:center;}
+.pfp-row img{width:clamp(104px,12vw,160px);height:auto;border-radius:50%;border:1px solid var(--deep-line);}
+.pfp-row figcaption{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--deep-ink2);}
+.covers{display:flex;flex-direction:column;gap:24px;}
+.covers-2{display:grid;grid-template-columns:1.3fr 1fr;gap:24px;}
+@media(max-width:760px){.covers-2{grid-template-columns:1fr;}}
+.ig-stage{display:grid;grid-template-columns:1.5fr 1fr;gap:24px;align-items:start;}
+@media(max-width:760px){.ig-stage{grid-template-columns:1fr;}}
+/* flats & templates */
+.flats-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:24px;align-items:start;}
+.f-col{display:flex;flex-direction:column;gap:24px;}
+@media(max-width:760px){.flats-grid{grid-template-columns:1fr;}}
+.tpl-grid{display:grid;grid-template-columns:1fr 1.6fr;gap:24px;grid-auto-rows:min-content;}
+.tpl-grid .t-tall{grid-row:span 3;}
+@media(max-width:760px){.tpl-grid{grid-template-columns:1fr;}.tpl-grid .t-tall{grid-row:auto;}}
+/* downloads */
+.zip-btn{display:inline-flex;align-items:center;gap:26px;background:var(--deep);color:#FBF9F4;text-decoration:none;padding:22px 22px 22px 40px;border-radius:999px;transition:transform .5s var(--ease),box-shadow .5s var(--ease);box-shadow:0 24px 54px -20px rgba(7,65,84,.55),inset 0 1px 0 rgba(255,255,255,.14);min-height:44px;}
+.zip-btn .zb-i{width:46px;height:46px;border-radius:50%;background:rgba(251,249,244,.12);border:1px solid rgba(251,249,244,.2);display:flex;align-items:center;justify-content:center;flex:none;transition:transform .5s var(--ease);}
+.zip-btn:hover .zb-i{transform:translateY(2px);}
+.zip-btn:active{transform:scale(.98);}
+.zip-btn:hover,.zip-btn:focus-visible{transform:translateY(-3px);box-shadow:0 26px 54px -18px rgba(7,65,84,.6);}
+.zip-btn .zb-t{font-family:var(--serif);font-size:21px;}
+.zip-btn .zb-s{font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;color:#A8C6D1;}
+.dl-groups{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px;}
+.dl-group{border:1px solid var(--line);border-radius:24px;padding:28px;background:var(--card);box-shadow:var(--soft);}
+.dl-group h4{font-size:18px;margin-bottom:14px;}
+.dl-group a{display:flex;align-items:center;gap:12px;padding:11px 0;text-decoration:none;color:var(--ink2);font-size:14px;border-top:1px solid var(--line);transition:color .2s;min-height:44px;}
+.dl-group a:hover,.dl-group a:focus-visible{color:var(--lagoon);}
+.dl-group .chip{width:32px;height:22px;border-radius:3px;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;flex:none;}
+.dl-group .chip i{width:15px;height:7px;border-radius:2px;display:block;}
+.dl-group a::after{content:"PNG ↓";margin-left:auto;font-size:10.5px;letter-spacing:.16em;color:var(--ink2);opacity:.7;}
+/* footer */
+footer{background:var(--abyss);color:var(--deep-ink);padding:clamp(70px,11vh,120px) 0 56px;}
+footer .big{font-family:var(--serif);font-size:clamp(28px,4.4vw,52px);max-width:18ch;line-height:1.2;}
+.f-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:34px;margin-top:clamp(44px,6vh,64px);padding-top:38px;border-top:1px solid var(--deep-line);}
+.f-grid h5{font-size:11.5px;letter-spacing:.26em;text-transform:uppercase;color:#8FC1D2;margin-bottom:12px;font-family:var(--sans);font-weight:600;}
+.f-grid p,.f-grid li{font-size:14.5px;color:var(--deep-ink2);line-height:2;}
+.f-grid ul{list-style:none;}
+footer .base{margin-top:60px;display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;align-items:center;border-top:1px solid var(--deep-line);padding-top:26px;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--deep-ink2);}
+footer .base svg{height:20px;width:auto;}
+/* iconography */
+.icn{padding-bottom:40px;gap:18px;}
+.icn .icn-fish{width:min(200px,70%);display:block;}
+.icn .icn-fish svg{width:100%;height:auto;overflow:visible;display:block;}
+.icn .icn-mark{width:84px;display:block;}
+.icn .icn-mark svg{width:100%;height:auto;overflow:visible;display:block;}
+/* scrim demo */
+.scrim-demo{position:relative;border-radius:20px;overflow:hidden;aspect-ratio:16/10;box-shadow:var(--soft);}
+.scrim-demo img{width:100%;height:100%;object-fit:cover;}
+.scrim-demo .sc{position:absolute;inset:0;}
+.scrim-demo .s40{background:linear-gradient(180deg,rgba(7,65,84,.12),rgba(7,65,84,.55));}
+.scrim-demo .s90{background:rgba(7,65,84,.9);}
+.scrim-demo .sc-t{position:absolute;left:26px;bottom:22px;color:#FBF9F4;display:flex;flex-direction:column;gap:6px;}
+.scrim-demo .sc-t em{font-style:normal;font-size:clamp(20px,2.4vw,30px);font-family:var(--serif);}
+.scrim-demo .sc-t small{font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:#A8C6D1;}
+.lora{font-family:var(--serif);}
+/* anatomy */
+.anat{border:1px solid var(--line);border-radius:24px;background:#FBF9F4;box-shadow:var(--soft);padding:clamp(40px,6vw,80px);max-width:880px;}
+.anat-in{position:relative;}
+.anat-in img{width:100%;height:auto;display:block;}
+.am{position:absolute;font-size:11px;letter-spacing:.16em;color:var(--lagoon);text-transform:uppercase;font-variant-numeric:tabular-nums;white-space:nowrap;}
+.am-x{left:-2.5%;top:50%;transform:translate(-100%,-50%);border-right:1.5px dashed var(--lagoon);padding-right:9px;height:100%;display:flex;align-items:center;top:0;}
+.am-cap{right:0;top:-10px;transform:translateY(-100%);border-bottom:1.5px dashed var(--lagoon);padding-bottom:6px;width:74%;text-align:right;}
+.am-gap{left:15.5%;bottom:-12px;transform:translateY(100%);border-top:1.5px dashed var(--lagoon);padding-top:6px;width:6.5%;text-align:center;}
+/* lockup system */
+.locksys{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px;}
+.lock{border:1px solid var(--line);border-radius:22px;background:var(--card);box-shadow:var(--soft);overflow:hidden;display:flex;flex-direction:column;}
+.lock .st{aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;padding:34px;background:#FBF9F4;border-bottom:1px solid var(--line);border-radius:calc(22px - 6px) calc(22px - 6px) 0 0;margin:6px 6px 0;}
+.lock .st svg,.lock .st img{width:70%;height:auto;}
+.lock .st.narrow img,.lock .st.narrow span{width:38%;}
+.lock .bd{padding:20px 22px 24px;display:flex;flex-direction:column;gap:8px;}
+.lock .bd h4{font-size:19px;}
+.lock .bd .use{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--lagoon);font-weight:600;}
+.lock .bd p{font-size:13.5px;color:var(--ink2);line-height:1.6;}
+/* size ladder */
+.sizes{display:flex;flex-wrap:wrap;align-items:flex-end;gap:clamp(28px,5vw,64px);border:1px solid var(--line);border-radius:24px;box-shadow:var(--soft);background:#D0E7ED;padding:clamp(28px,4vw,48px);}
+.sizes .sz small{color:#074154!important;}
+.sizes .sz{display:flex;flex-direction:column;gap:14px;align-items:flex-start;}
+.sizes .sz small{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink2);font-variant-numeric:tabular-nums;}
+/* wayfinding demo */
+.wayf{background:#074154;border-radius:24px;box-shadow:var(--soft);max-width:560px;padding:clamp(30px,4vw,48px);display:flex;flex-direction:column;gap:0;}
+.wayf .wrow{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:18px 2px;border-bottom:1px solid rgba(208,231,237,.18);color:#FBF9F4;font-size:15px;letter-spacing:.22em;text-transform:uppercase;}
+.wayf .wrow:last-child{border-bottom:none;}
+.chv{width:12px;height:12px;border-top:2.5px solid #D0E7ED;border-right:2.5px solid #D0E7ED;flex:none;display:inline-block;}
+.chv-r{transform:rotate(45deg);}
+.chv-l{transform:rotate(-135deg);}
+.chv-u{transform:rotate(-45deg);}
+/* colour-usage demo */
+.cu{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:24px;}
+.cu .cu-tile{border-radius:20px;padding:26px;min-height:150px;display:flex;flex-direction:column;justify-content:space-between;border:1px solid var(--line);}
+.cu .cu-tile b{font-family:var(--serif);font-size:19px;font-weight:500;}
+.cu .cu-tile span{font-size:11px;letter-spacing:.18em;text-transform:uppercase;opacity:.75;}
+/* reveal */
+.rv{opacity:0;transform:translateY(30px);filter:blur(9px);transition:opacity .9s var(--ease),transform .9s var(--ease),filter .9s var(--ease);}
+.rv.in{opacity:1;transform:none;filter:blur(0);}
+@media (prefers-reduced-motion: reduce){.rv{opacity:1;transform:none;filter:none;}}
+</style>
+
+<div id="topbar">
+  <div class="mark">{{SVG_LOGO_TEAL}}</div>
+  <div class="tag">Brand Guidelines — 2026</div>
+</div>
+
+<nav id="rail" aria-label="Parts">
+  <a href="#hero" class="on"><span class="dot"></span><span class="lbl">Top</span></a>
+  <a href="#foreword"><span class="dot"></span><span class="lbl">Foreword</span></a>
+  <a href="#foundation"><span class="dot"></span><span class="lbl">Strategic Foundation</span></a>
+  <a href="#voice"><span class="dot"></span><span class="lbl">Tone of Voice</span></a>
+  <a href="#identity"><span class="dot"></span><span class="lbl">Visual Identity</span></a>
+  <a href="#applications"><span class="dot"></span><span class="lbl">Applications</span></a>
+  <a href="#downloads"><span class="dot"></span><span class="lbl">Downloads</span></a>
+</nav>
+
+<header id="hero">
+  <div id="spiral" aria-hidden="true"><img class="sp-l" data-i="spirale_deep" alt="" width="940" height="940"><img class="sp-d" data-i="spirale_foam" alt="" width="940" height="940"></div>
+  <h1><span class="vh">SEARULEA</span><span class="h1mark h1stack" aria-hidden="true">{{SVG_LOGO_STACKED}}</span></h1>
+  <div class="kicker">Brand Guidelines</div>
+  <p class="sub">From our sea to your port.</p>
+  <div class="cue">Descend</div>
+</header>
+
+<section id="foreword">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="chap-no">Foreword</span>
+      <h2>A working tool, not a rulebook.</h2>
+      <p>SEARULEA is building the infrastructure of Moroccan aquaculture — an integrated value chain at Ras El Ma, Oriental Region, designed to operate as a single system. This document defines how the brand looks, speaks and behaves. It is a working tool for everyone who designs, writes or communicates on behalf of SEARULEA — to ensure consistency, precision and impact in every communication.</p>
+    </div>
+  </div>
+</section>
+
+<section id="foundation" style="background:var(--bg-alt);">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="chap-no">Strategic Foundation</span>
+      <span class="eyebrow">Sections 1.1 — 1.8</span>
+      <h2>Built to structure an industry.</h2>
+    </div>
+
+    <div class="sh rv"><span class="n">1.1</span><h3>Our Mission</h3></div>
+    <p class="statement rv">SEARULEA builds Morocco's capacity to produce, transform and scale aquaculture on its own terms — <em>an integrated value chain designed to meet international standards from day one.</em></p>
+
+    <div class="sh rv"><span class="n">1.2</span><h3>Our Vision</h3></div>
+    <p class="statement rv" style="font-size:clamp(20px,2.4vw,30px);">To make Ras El Ma the reference point of Mediterranean aquaculture — a model that the wider North African industry will look to replicate: integrated, traceable, biosafe and sovereign.</p>
+
+    <div class="sh rv"><span class="n">1.3</span><h3>Core Values</h3><p>Four commitments, engineered into the CAPEX — never added later.</p></div>
+    <div class="pillars rv">
+      <div class="pillar"><span class="eyebrow">I</span><h4>Rigour</h4><p>Precision without excess. Discipline, operational control and technical standards under every decision.</p></div>
+      <div class="pillar"><span class="eyebrow">II</span><h4>Integration</h4><p>Offshore farming, fresh processing, refrigerated export and traceability — one stage supports the next.</p></div>
+      <div class="pillar"><span class="eyebrow">III</span><h4>Sovereignty</h4><p>The capacity to produce, transform and create value locally, on Morocco's own terms.</p></div>
+      <div class="pillar"><span class="eyebrow">IV</span><h4>Sustainability</h4><p>Biosafety, solar energy and social commitments built into the structure — never an afterthought.</p></div>
+    </div>
+
+    <div class="sh rv"><span class="n">1.4</span><h3>Our Story</h3></div>
+    <p class="rv" style="color:var(--ink2);max-width:68ch;">Morocco has 3,500 kilometres of coastline and direct access to European markets. Yet juveniles are imported, feed is sourced abroad, and foreign operators structure an industry Morocco is naturally positioned to lead. SEARULEA was founded by Abdellah Mansouri to change that. Structurally. In Ras El Ma, on a 375-hectare offshore government concession, an integrated aquaculture value chain now operates as a single system.</p>
+
+    <div class="sh rv"><span class="n">1.5</span><h3>Purpose</h3></div>
+    <p class="rv" style="color:var(--ink2);max-width:68ch;">SEARULEA exists to build the infrastructure of Moroccan aquaculture — not only to produce fish. Over time, hatchery and feed operations are designed to support the wider development of aquaculture across North Africa. What is built in the Oriental Region today will be observed across the region tomorrow.</p>
+
+    <div class="sh rv"><span class="n">1.6</span><h3>Brand Overview</h3></div>
+    <div class="facts rv">
+      <div class="fact"><div class="fn">375</div><div class="fd">hectares of offshore government concession</div></div>
+      <div class="fact"><div class="fn">2,790</div><div class="fd">tonnes of annual capacity by 2031, in documented phases</div></div>
+      <div class="fact"><div class="fn">40%</div><div class="fd">women across the workforce, built into the project</div></div>
+      <div class="fact"><div class="fn">3</div><div class="fd">species — sea bream, seabass and meagre</div></div>
+    </div>
+
+    <div class="sh rv"><span class="n">1.7</span><h3>Target Audience</h3></div>
+    <div class="grid3 rv">
+      <div class="pillar" style="border:1px solid var(--line);"><span class="eyebrow">Clients &amp; Distributors</span><p>Importers, wholesalers and food-service distributors seeking certified sea bream, seabass and meagre — complete documentation, one point of contact.</p></div>
+      <div class="pillar" style="border:1px solid var(--line);"><span class="eyebrow">Press &amp; Institutions</span><p>Business and trade media, public agencies and institutions following Morocco's blue economy and food sovereignty.</p></div>
+      <div class="pillar" style="border:1px solid var(--line);"><span class="eyebrow">Investors &amp; Partners</span><p>Funds and strategic partners backing aquaculture infrastructure: secured concession, documented phases, established partnerships.</p></div>
+    </div>
+
+    <div class="sh rv"><span class="n">1.8</span><h3>Customer Persona</h3><p>Two archetypes anchor every message.</p></div>
+    <div class="grid2 rv">
+      <figure class="card"><img data-i="pers1" alt="Pieter Van Doorn — European seafood procurement director, studio portrait" style="aspect-ratio:4/5;object-fit:cover;object-position:top;" loading="lazy">
+        <figcaption>Pieter Van Doorn, 56 — Head of Procurement, Rotterdam. Selects suppliers on reliability and documentation, never price alone.</figcaption></figure>
+      <figure class="card"><img data-i="pers2" alt="Salma Benjelloun — infrastructure investment director, studio portrait" style="aspect-ratio:4/5;object-fit:cover;object-position:top;" loading="lazy">
+        <figcaption>Salma Benjelloun, 44 — Investment Director, Casablanca/London. Invests where fundamentals, documentation and governance align.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="voice">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="chap-no">Tone of Voice</span>
+      <span class="eyebrow">Part 02 — the voice at a glance</span>
+      <h2>A voice that demonstrates, not declares.</h2>
+      <p>Where SEARULEA sits on each register scale. The complete writing reference — style rules, do &amp; don't, key messages, vocabulary and the manifesto — lives on its own page below.</p>
+    </div>
+    <div class="scales rv" role="img" aria-label="Voice register scales: mature, serious, technical, confident, international, precise">
+      <div class="scale"><span>Youthful</span><span class="track"><i style="left:78%;"></i></span><b>Mature</b></div>
+      <div class="scale"><span>Playful</span><span class="track"><i style="left:84%;"></i></span><b>Serious</b></div>
+      <div class="scale"><span>Emotive</span><span class="track"><i style="left:74%;"></i></span><b>Technical</b></div>
+      <div class="scale"><span>Modest</span><span class="track"><i style="left:70%;"></i></span><b>Confident</b></div>
+      <div class="scale"><span>Local</span><span class="track"><i style="left:62%;"></i></span><b>International</b></div>
+      <div class="scale"><span>Loose</span><span class="track"><i style="left:88%;"></i></span><b>Precise</b></div>
+    </div>
+    <div class="rv" style="margin-top:clamp(40px,6vh,64px);"><a href="https://claude.ai/code/artifact/4c981098-80ba-4412-8600-8c3229457d1e" target="_blank" rel="noopener" style="text-decoration:none;display:flex;align-items:center;justify-content:space-between;gap:24px;border:1px solid var(--line);border-radius:24px;padding:clamp(28px,5vw,48px);box-shadow:var(--soft);background:var(--deep);">
+      <span style="display:flex;flex-direction:column;gap:10px;"><span class="eyebrow" style="color:#8FC1D2;border-color:rgba(143,193,210,.4);">Open the companion document</span><b style="font-family:var(--serif);font-size:clamp(22px,2.8vw,32px);font-weight:500;color:#FBF9F4;">Brand Storytelling — the full reference</b><span style="color:#A8C6D1;font-size:15px;max-width:56ch;">Register, five style rules, do &amp; don't, key messages for clients, press and investors, the vocabulary, signature expressions and the manifesto.</span></span>
+      <span aria-hidden="true" style="width:52px;height:52px;border-radius:50%;background:rgba(251,249,244,.1);border:1px solid rgba(251,249,244,.25);display:flex;align-items:center;justify-content:center;flex:none;color:#FBF9F4;font-size:20px;">→</span>
+    </a></div>
+  </div>
+</section>
+
+
+
+<section id="identity" style="padding-bottom:0;">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="chap-no">Visual Identity</span>
+      <span class="eyebrow">Part 1 — Logo · Sections 1.1 — 1.8</span>
+      <h2>A mark drawn in droplets.</h2>
+    </div>
+    <div class="sh rv"><span class="n">1.1</span><h3>Our Logo</h3><p>The primary lockup: the droplet-triangle symbol beside the wide-tracked serif wordmark.</p></div>
+    <figure class="logo-tile lt-pearl rv" style="aspect-ratio:21/9;max-width:880px;">{{SVG_LOGO_TEAL_BIG}}<figcaption class="cap">Primary lockup — teal on Pearl</figcaption></figure>
+    <div class="sh rv"><span class="n">1.2</span><h3>Logo Composition</h3><p>Two fixed parts: symbol and wordmark. The spacing between them equals the symbol's width; they are never recombined, re-spaced or swapped.</p></div>
+    <div class="grid2 rv" style="gap:clamp(32px,4vw,56px);">
+      <figure class="logo-tile lt-shore" style="aspect-ratio:16/9;"><span style="width:26%;">{{SVG_LOGOMARK_TEAL_BIG}}</span><figcaption class="cap">The symbol</figcaption></figure>
+      <figure class="logo-tile lt-shore" style="aspect-ratio:16/9;"><img data-i="DLPNG_wordmark_teal" alt="SEARULEA wordmark" loading="lazy"><figcaption class="cap">The wordmark</figcaption></figure>
+    </div>
+    <div class="sh rv"><span class="n">1.3</span><h3>Logo Explanation</h3><p>Droplets rising in ordered formation — water organised with intention. The triangle reads as the final A of the name, as growth, and as the concession seen from above. Nothing in the mark is decorative.</p></div>
+    <div class="sh rv"><span class="n">1.4</span><h3>Logo Versions</h3><p>Four colourways. Teal on light grounds; White or Sky on Deep Sea and photography; Black only for one-colour print.</p></div>
+    <div class="logo-grid rv">
+      <figure class="logo-tile lt-pearl"><a class="dlb" data-dl="DLPNG_logo-horizontal_teal">PNG ↓</a>{{SVG_LOGO_TEAL_BIG}}<figcaption class="cap">Teal</figcaption></figure>
+      <figure class="logo-tile lt-deep"><a class="dlb" data-dl="DLPNG_logo-horizontal_white">PNG ↓</a>{{SVG_LOGO_WHITE_BIG}}<figcaption class="cap">White</figcaption></figure>
+      <figure class="logo-tile lt-deep"><a class="dlb" data-dl="DLPNG_logo-horizontal_sky">PNG ↓</a><img data-i="DLPNG_logo-horizontal_sky" alt="SEARULEA logo in sky blue" loading="lazy"><figcaption class="cap">Sky</figcaption></figure>
+      <figure class="logo-tile lt-pearl"><a class="dlb" data-dl="DLPNG_logo-horizontal_black">PNG ↓</a><img data-i="DLPNG_logo-horizontal_black" alt="SEARULEA logo in black" loading="lazy"><figcaption class="cap">Black — 1-colour print</figcaption></figure>
+    </div>
+    <div class="sh rv"><span class="n">1.5</span><h3>Logo Anatomy</h3><p>The symbol height defines the unit <b>X</b>. Wordmark cap-height = 0.62&nbsp;X · gap symbol→wordmark = 1&nbsp;X · letter tracking = +280.</p></div>
+    <div class="anat rv"><div class="anat-in">
+      <span class="am am-x">X</span><span class="am am-cap">0.62 X</span><span class="am am-gap">1 X</span>
+      <img data-i="DLPNG_logo-horizontal_teal" alt="Logo anatomy — unit X on the symbol, 0.62X wordmark cap height, 1X gap" loading="lazy">
+    </div></div>
+    <div class="sh rv"><span class="n">1.6</span><h3>Logo Clearspace &amp; Minimum Size</h3><p>Clearspace on all sides equals X — the height of the droplet symbol. Minimum width: 32&nbsp;px on screen, 24&nbsp;mm in print; below that, use the symbol alone.</p></div>
+    <div class="clearspace rv"><span class="cs-lbl" style="top:8px;left:50%;transform:translateX(-50%);">X</span><span class="cs-lbl" style="bottom:8px;left:50%;transform:translateX(-50%);">X</span><span class="cs-lbl" style="left:8px;top:50%;transform:translateY(-50%);">X</span><span class="cs-lbl" style="right:8px;top:50%;transform:translateY(-50%);">X</span>{{SVG_LOGO_TEAL_BIG}}</div>
+    <div class="sh rv"><span class="n">1.7</span><h3>Logo Usage — the lockup system</h3><p>Four sanctioned forms, one decision rule: the space chooses the lockup, never taste. Note the detail that makes the system: the wordmark's final A is the bare triangle apex — the monogram already lives inside the logotype. Never draw a second crossbar A, and never place the monogram beside the wordmark in any arrangement other than the two lockups below.</p></div>
+    <div class="locksys rv">
+      <div class="lock"><div class="st">{{SVG_LOGO_TEAL_BIG}}</div><div class="bd"><span class="use">Default — use first</span><h4>Horizontal lockup</h4><p>Monogram + logotype side by side. Headers, letterheads, signage, footers — any space wider than 3:1 and at least 32&nbsp;px / 24&nbsp;mm wide.</p></div></div>
+      <div class="lock"><div class="st narrow"><img data-i="DLPNG_logo-stacked_teal" alt="Stacked lockup — monogram above logotype" loading="lazy"></div><div class="bd"><span class="use">Centred compositions</span><h4>Stacked lockup</h4><p>Monogram above logotype — the business-card composition. Covers, packaging fronts, roll-ups, square and portrait spaces.</p></div></div>
+      <div class="lock"><div class="st"><img data-i="DLPNG_wordmark_teal" alt="Logotype alone with apex A" loading="lazy"></div><div class="bd"><span class="use">When the mark is already present</span><h4>Logotype alone</h4><p>The wordmark with its apex-A. Card backs, page footers, spines — wherever the monogram already appears nearby, or strips too shallow for the lockup.</p></div></div>
+      <div class="lock"><div class="st narrow"><span style="width:34%;">{{SVG_LOGOMARK_TEAL_BIG}}</span></div><div class="bd"><span class="use">Below 32 px / 24 mm</span><h4>Monogram alone</h4><p>Avatars, favicons, stamps, embroidery, app icons. The smallest ambassador of the brand — clearspace of one droplet row.</p></div></div>
+    </div>
+    <div class="sh rv" style="margin-top:34px;"><span class="n">1.7.1</span><h3 style="font-size:clamp(19px,2.2vw,24px);">Sizes at true scale</h3></div>
+    <div class="sizes rv">
+      <div class="sz"><img data-i="DLPNG_logo-horizontal_teal" alt="Logo at 220 pixels" style="width:220px;" loading="lazy"><small>220 px — hero</small></div>
+      <div class="sz"><img data-i="DLPNG_logo-horizontal_teal" alt="Logo at 120 pixels" style="width:120px;" loading="lazy"><small>120 px — header</small></div>
+      <div class="sz"><img data-i="DLPNG_logo-horizontal_teal" alt="Logo at 64 pixels" style="width:64px;" loading="lazy"><small>64 px — compact</small></div>
+      <div class="sz"><img data-i="DLPNG_logomark_teal" alt="Monogram at 16 pixels" style="width:16px;" loading="lazy"><small>16 px — monogram floor</small></div>
+    </div>
+    <div class="sh rv" style="margin-top:34px;"><span class="n">1.7.2</span><h3 style="font-size:clamp(19px,2.2vw,24px);">Contrast — approved grounds</h3><p>Teal on light grounds holds 8.9:1 against Pearl and 7.4:1 against Sea Foam; White on Deep Sea holds 9.8:1. Photography always takes a Deep Sea scrim of at least 40% before the logo lands on it.</p></div>
+    <div class="logo-grid rv">
+      <figure class="logo-tile lt-foam">{{SVG_LOGO_TEAL_BIG}}<figcaption class="cap">Foam · 7.4:1</figcaption></figure>
+      <figure class="logo-tile lt-shore">{{SVG_LOGO_TEAL_BIG}}<figcaption class="cap">Shore · 8.1:1</figcaption></figure>
+      <figure class="logo-tile lt-deep">{{SVG_LOGO_WHITE_BIG}}<figcaption class="cap">Deep Sea · 9.8:1</figcaption></figure>
+      <figure class="logo-tile lt-black">{{SVG_LOGO_WHITE_BIG}}<figcaption class="cap">Ink · packaging only</figcaption></figure>
+    </div>
+    <div class="sh rv"><span class="n">1.8</span><h3>Logo Misuse</h3><p>If it needs one of these to work, the layout is wrong — change the layout, never the logo.</p></div>
+    <div class="donts rv">
+      <div class="dont"><div class="stage"><div style="transform:scaleX(1.5);width:72%;">{{SVG_LOGO_TEAL_BIG}}</div></div><div class="no">Don't stretch or condense</div></div>
+      <div class="dont"><div class="stage"><div style="transform:rotate(-14deg);width:72%;">{{SVG_LOGO_TEAL_BIG}}</div></div><div class="no">Don't rotate</div></div>
+      <div class="dont"><div class="stage"><div style="filter:hue-rotate(120deg) saturate(3);width:72%;">{{SVG_LOGO_TEAL_BIG}}</div></div><div class="no">Don't recolour off-palette</div></div>
+      <div class="dont"><div class="stage"><div style="filter:drop-shadow(6px 6px 4px rgba(0,0,0,.55));width:72%;">{{SVG_LOGO_TEAL_BIG}}</div></div><div class="no">Don't add effects</div></div>
+      <div class="dont"><div class="stage" style="background:#0A6887;"><div style="opacity:.45;width:72%;">{{SVG_LOGO_TEAL_BIG}}</div></div><div class="no">Don't use low contrast</div></div>
+      <div class="dont"><div class="stage"><div style="letter-spacing:0;width:72%;display:flex;gap:2px;align-items:center;"><span style="width:22%;">{{SVG_LOGOMARK_TEAL_BIG}}</span><b style="font-family:var(--serif);color:#09566C;font-size:20px;">SEARULEA</b></div></div><div class="no">Don't rebuild the lockup</div></div>
+    </div>
+
+    <div class="sec-head rv" style="margin-top:clamp(70px,10vh,120px);">
+      <span class="eyebrow">Part 2 — Monogram · Sections 2.1 — 2.5</span>
+      <h2 style="font-size:clamp(26px,3.4vw,42px);">The droplet triangle, alone.</h2>
+    </div>
+    <div class="sh rv"><span class="n">2.1</span><h3>Monogram</h3><p>Where space is tight — avatars, favicons, stamps, embroidery — the monogram stands in for the full lockup.</p></div>
+    <div class="logo-grid rv">
+      <figure class="logo-tile lt-deep" style="aspect-ratio:1/1;"><a class="dlb" data-dl="DLPNG_logomark_white">PNG ↓</a><span style="width:34%;">{{SVG_LOGOMARK_WHITE_BIG}}</span><figcaption class="cap">On Deep Sea</figcaption></figure>
+      <figure class="logo-tile lt-pearl" style="aspect-ratio:1/1;"><a class="dlb" data-dl="DLPNG_logomark_teal">PNG ↓</a><span style="width:34%;">{{SVG_LOGOMARK_TEAL_BIG}}</span><figcaption class="cap">On Pearl</figcaption></figure>
+      <figure class="logo-tile lt-foam" style="aspect-ratio:1/1;"><span style="width:34%;">{{SVG_LOGOMARK_TEAL_BIG}}</span><figcaption class="cap">On Sea Foam</figcaption></figure>
+    </div>
+    <div class="sh rv"><span class="n">2.2</span><h3>Monogram Anatomy</h3><p>Droplets in stepped rows closing to a single apex. Dot sizes step down by a fixed ratio; spacing is optical, never redrawn.</p></div>
+    <div class="grid2 rv" style="max-width:820px;">
+      <figure class="logo-tile lt-pearl" style="aspect-ratio:1/1;"><span style="width:44%;">{{SVG_LOGOMARK_TEAL_BIG}}</span><figcaption class="cap">The fixed cluster — never redrawn</figcaption></figure>
+      <div class="pillar" style="border:1px solid var(--line);justify-content:center;"><span class="eyebrow">Construction</span><p>Rows step 4 · 3 · 2 to the apex.<br>Dot ratio ≈ 0.78 per step.<br>Optical centre sits one dot above geometric centre — align to the optical centre.</p></div>
+    </div>
+    <div class="sh rv"><span class="n">2.3</span><h3>Monogram Clearspace</h3><p>Clearspace equals the height of one droplet row on all sides. Minimum size: 16&nbsp;px / 8&nbsp;mm.</p></div>
+    <div class="clearspace rv" style="padding:clamp(26px,4vw,52px);"><span class="cs-lbl" style="top:6px;left:50%;transform:translateX(-50%);">1 row</span><span class="cs-lbl" style="bottom:6px;left:50%;transform:translateX(-50%);">1 row</span><span class="cs-lbl" style="left:6px;top:50%;transform:translateY(-50%);">1 row</span><span class="cs-lbl" style="right:6px;top:50%;transform:translateY(-50%);">1 row</span><span style="width:110px;display:block;">{{SVG_LOGOMARK_TEAL_BIG}}</span></div>
+    <div class="sh rv"><span class="n">2.4</span><h3>Monogram Usage</h3><p>Profile pictures, favicons, wax seals, embroidery, app icons, watermark corners. Always alone — never beside the full lockup on the same surface.</p></div>
+    <div class="sh rv"><span class="n">2.5</span><h3>Monogram Misuse</h3></div>
+    <div class="donts rv" style="grid-template-columns:repeat(auto-fit,minmax(180px,1fr));">
+      <div class="dont"><div class="stage"><div style="transform:rotate(180deg);width:34%;">{{SVG_LOGOMARK_TEAL_BIG}}</div></div><div class="no">Don't flip or rotate</div></div>
+      <div class="dont"><div class="stage"><div style="width:34%;filter:hue-rotate(300deg) saturate(2.4);">{{SVG_LOGOMARK_TEAL_BIG}}</div></div><div class="no">Don't recolour</div></div>
+      <div class="dont"><div class="stage"><div style="width:34%;display:flex;"><span style="width:100%;">{{SVG_LOGOMARK_TEAL_BIG}}</span><span style="width:100%;margin-left:-30%;">{{SVG_LOGOMARK_TEAL_BIG}}</span></div></div><div class="no">Don't pattern or overlap</div></div>
+    </div>
+
+    <div class="sec-head rv" style="margin-top:clamp(70px,10vh,120px);">
+      <span class="eyebrow">Part 3 — Typography · Sections 3.1 — 3.5</span>
+      <h2 style="font-size:clamp(26px,3.4vw,42px);">A serif that carries conviction.</h2>
+    </div>
+    <div class="sh rv"><span class="n">3.1</span><h3>Primary Typefaces</h3></div>
+    <div class="type-spec rv">
+      <div class="spec lora"><div class="aa">Aa</div><h4 style="font-family:var(--serif);">Lora</h4><div class="role">Display · Headlines · Numbers</div><p>Medium 500 for headlines, Regular 400 for quotes. Tracked +280 for the wordmark treatment only.</p><div class="glyphs">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789</div></div>
+      <div class="spec dm"><div class="aa" style="font-family:var(--sans);">Aa</div><h4 style="font-family:var(--sans);font-weight:600;">DM Sans</h4><div class="role">Body · Labels · Data</div><p>Regular 400 for running text, Medium 500 for emphasis, caps +220 tracking for eyebrows.</p><div class="glyphs" style="letter-spacing:.06em;font-family:var(--sans);">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789</div></div>
+    </div>
+    <div class="sh rv"><span class="n">3.2</span><h3>Replacement Typefaces</h3><p>When Lora and DM Sans are unavailable — shared documents, email clients, office templates — substitute <b>Georgia</b> for display and <b>Arial / Helvetica</b> for body. Never substitute decorative or condensed faces.</p></div>
+    <div class="hier rv"><div class="row"><span class="tag">Display fallback</span><span style="font-family:Georgia,serif;font-size:clamp(22px,2.6vw,30px);">Georgia — From our sea to your port.</span></div>
+    <div class="row"><span class="tag">Body fallback</span><span style="font-family:Arial,Helvetica,sans-serif;color:var(--ink2);max-width:60ch;">Arial — All products are certified by ONSSA and produced in accordance with European standards.</span></div></div>
+    <div class="sh rv"><span class="n">3.3</span><h3>Typography Hierarchy</h3></div>
+    <div class="hier rv">
+      <div class="row"><span class="tag">Display / Lora 500</span><span style="font-family:var(--serif);font-size:clamp(30px,4vw,44px);font-weight:500;">From our sea to your port.</span></div>
+      <div class="row"><span class="tag">Headline / Lora 500</span><span style="font-family:var(--serif);font-size:clamp(21px,2.5vw,28px);font-weight:500;">Certified offshore production in the Mediterranean</span></div>
+      <div class="row"><span class="tag">Body / DM Sans 400</span><span style="max-width:62ch;color:var(--ink2);">Sea bream, seabass and meagre raised at Ras El Ma and exported through Ras Kebdana with batch-level documentation.</span></div>
+      <div class="row"><span class="tag">Label / DM Sans 600</span><span class="eyebrow">Integration · Sovereignty · Sustainability</span></div>
+    </div>
+    <div class="sh rv"><span class="n">3.4</span><h3>Application</h3><p>Type in the wild: one Lora statement per surface, DM Sans doing the work below it.</p></div>
+    <figure class="card rv" style="max-width:760px;"><img data-i="flat_letterhead" alt="Letterhead applying the typography system" loading="lazy"><figcaption>Letterhead — the system applied<a class="dlb" data-dl="flat_letterhead">JPG ↓</a></figcaption></figure>
+    <div class="sh rv"><span class="n">3.5</span><h3>Typography Misuse</h3></div>
+    <div class="donts rv" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr));">
+      <div class="dont"><div class="stage" style="padding:18px;"><span style="font-family:var(--serif);font-size:17px;letter-spacing:.3em;text-transform:uppercase;color:#09566C;text-align:center;">NEVER SET LONG LORA TEXT IN TRACKED CAPS</span></div><div class="no">No tracked-caps paragraphs</div></div>
+      <div class="dont"><div class="stage" style="padding:18px;"><span style="font-family:Impact,fantasy;font-size:24px;color:#09566C;">Other typefaces</span></div><div class="no">No third typefaces</div></div>
+      <div class="dont"><div class="stage" style="padding:18px;"><span style="font-family:var(--sans);font-size:15px;letter-spacing:-.06em;color:#09566C;max-width:20ch;">Body text with crushed tracking becomes unreadable fast.</span></div><div class="no">No negative tracking on body</div></div>
+    </div>
+
+    <div class="sec-head rv" style="margin-top:clamp(70px,10vh,120px);">
+      <span class="eyebrow">Part 4 — Colors · Sections 4.1 — 4.6</span>
+      <h2 style="font-size:clamp(26px,3.4vw,42px);">Drawn from depth.</h2>
+    </div>
+    <div class="sh rv"><span class="n">4.1</span><h3>Proportion</h3></div>
+    <div class="prop-bar rv">
+      <div style="flex:38;background:#074154;color:#D0E7ED;">Deep Sea 38</div>
+      <div style="flex:24;background:#FBF9F4;color:#074154;">Pearl 24</div>
+      <div style="flex:16;background:#D0E7ED;color:#074154;">Foam 16</div>
+      <div style="flex:12;background:#EFE8D8;color:#074154;">Shore 12</div>
+      <div style="flex:6;background:#0A6887;color:#D0E7ED;">Tide 6</div>
+      <div style="flex:4;background:#0C7190;color:#D0E7ED;">4</div>
+    </div>
+    <div class="sh rv"><span class="n">4.2</span><h3>Primary Colors</h3><p>Click a swatch to copy its hex.</p></div>
+    <div class="swatches rv">
+      <button class="swatch" data-hex="#074154" aria-label="Copy Deep Sea hex"><div class="chip" style="background:#074154;"><span style="color:#D0E7ED;">PANTONE 3035 C</span></div><div class="meta"><b>Deep Sea</b><div><span>HEX</span><i>#074154</i></div><div><span>RGB</span><i>7 · 65 · 84</i></div><div><span>CMYK</span><i>92 · 23 · 0 · 67</i></div></div></button>
+      <button class="swatch" data-hex="#0A6887" aria-label="Copy Tide hex"><div class="chip" style="background:#0A6887;"><span style="color:#D0E7ED;">PANTONE 7706 C</span></div><div class="meta"><b>Tide</b><div><span>HEX</span><i>#0A6887</i></div><div><span>RGB</span><i>10 · 104 · 135</i></div><div><span>CMYK</span><i>93 · 23 · 0 · 47</i></div></div></button>
+      <button class="swatch" data-hex="#0C7190" aria-label="Copy Lagoon hex"><div class="chip" style="background:#0C7190;"><span style="color:#D0E7ED;">PANTONE 7708 C</span></div><div class="meta"><b>Lagoon</b><div><span>HEX</span><i>#0C7190</i></div><div><span>RGB</span><i>12 · 113 · 144</i></div><div><span>CMYK</span><i>92 · 22 · 0 · 44</i></div></div></button>
+    </div>
+    <div class="sh rv"><span class="n">4.3</span><h3>Secondary Colors and Tints</h3><p>Light grounds plus working tints of the primaries. Tints are for charts, fills and hover states — never for the logo.</p></div>
+    <div class="swatches rv" style="margin-bottom:28px;">
+      <button class="swatch" data-hex="#D0E7ED" aria-label="Copy Sea Foam hex"><div class="chip" style="background:#D0E7ED;"><span style="color:#074154;">PANTONE 656 C</span></div><div class="meta"><b>Sea Foam</b><div><span>HEX</span><i>#D0E7ED</i></div><div><span>RGB</span><i>208 · 231 · 237</i></div><div><span>CMYK</span><i>12 · 3 · 0 · 7</i></div></div></button>
+      <button class="swatch" data-hex="#EFE8D8" aria-label="Copy Shore hex"><div class="chip" style="background:#EFE8D8;"><span style="color:#074154;">PANTONE 7527 C</span></div><div class="meta"><b>Shore</b><div><span>HEX</span><i>#EFE8D8</i></div><div><span>RGB</span><i>239 · 232 · 216</i></div><div><span>CMYK</span><i>0 · 3 · 10 · 6</i></div></div></button>
+      <button class="swatch" data-hex="#FBF9F4" aria-label="Copy Pearl hex"><div class="chip" style="background:#FBF9F4;border-bottom:1px solid var(--line);"><span style="color:#074154;">PANTONE 9184 C</span></div><div class="meta"><b>Pearl</b><div><span>HEX</span><i>#FBF9F4</i></div><div><span>RGB</span><i>251 · 249 · 244</i></div><div><span>CMYK</span><i>0 · 1 · 3 · 2</i></div></div></button>
+    </div>
+    <div class="tints rv">
+      <div class="tint-row"><span class="tn">Deep Sea</span><div class="ramp"><div style="background:#074154;color:#D0E7ED;">100</div><div style="background:#396779;color:#fff;">80</div><div style="background:#6A8D9B;color:#fff;">60</div><div style="background:#9CB3BD;color:#074154;">40</div><div style="background:#CDD9DE;color:#074154;">20</div></div></div>
+      <div class="tint-row"><span class="tn">Tide</span><div class="ramp"><div style="background:#0A6887;color:#D0E7ED;">100</div><div style="background:#3B869F;color:#fff;">80</div><div style="background:#6CA4B7;color:#fff;">60</div><div style="background:#9DC3CF;color:#074154;">40</div><div style="background:#CEE1E7;color:#074154;">20</div></div></div>
+    </div>
+    <div class="sh rv"><span class="n">4.4</span><h3>Color Usage</h3><p>Deep Sea leads every composition. Pearl and Shore carry documents. Sea Foam lifts. The spiral's amber is the identity's only warm note — it arrives with the spiral and never appears as a flat brand colour.</p></div>
+    <div class="cu rv">
+      <div class="cu-tile" style="background:#074154;color:#FBF9F4;"><b>Statements</b><span style="color:#D0E7ED;">Pearl on Deep Sea</span></div>
+      <div class="cu-tile" style="background:#FBF9F4;color:#074154;"><b>Documents</b><span>Deep Sea on Pearl</span></div>
+      <div class="cu-tile" style="background:#EFE8D8;color:#074154;"><b>Editorial</b><span>Deep Sea on Shore</span></div>
+      <div class="cu-tile" style="background:#D0E7ED;color:#074154;"><b>Highlights</b><span>Deep Sea on Foam</span></div>
+    </div>
+    <div class="sh rv"><span class="n">4.5</span><h3>Color Misuse</h3></div>
+    <div class="donts rv" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));">
+      <div class="dont"><div class="stage" style="background:#D98E2B;"><div style="width:72%;">{{SVG_LOGO_WHITE_BIG}}</div></div><div class="no">No amber as a ground</div></div>
+      <div class="dont"><div class="stage" style="background:#0C7190;"><div style="width:72%;opacity:.9;filter:brightness(.8);">{{SVG_LOGO_TEAL_BIG}}</div></div><div class="no">No teal-on-teal pairs</div></div>
+      <div class="dont"><div class="stage" style="background:linear-gradient(90deg,#E45B8F,#7B4BD8);"><div style="width:72%;">{{SVG_LOGO_WHITE_BIG}}</div></div><div class="no">No off-palette gradients</div></div>
+    </div>
+    <div class="sh rv"><span class="n">4.6</span><h3>Color Values Explanation</h3></div>
+    <div class="grid3 rv">
+      <div class="pillar" style="border:1px solid var(--line);"><span class="eyebrow">HEX / RGB</span><p>Screen values — web, decks, social, product UI. Always use the exact values; never eyedrop from photos.</p></div>
+      <div class="pillar" style="border:1px solid var(--line);"><span class="eyebrow">CMYK</span><p>Four-colour offset and digital print. Values are calibrated for coated stock; request a proof for uncoated.</p></div>
+      <div class="pillar" style="border:1px solid var(--line);"><span class="eyebrow">PANTONE</span><p>Spot-colour print, packaging, signage and fabric dyeing — the reference when colour must not drift.</p></div>
+    </div>
+  </div>
+
+  <div class="dark-sec" style="margin-top:clamp(70px,10vh,120px);padding:clamp(64px,10vh,120px) 0;">
+    <div class="wrap">
+      <div class="sec-head rv"><span class="eyebrow">Part 5 — Photography · Sections 5.1 — 5.3</span><h2 style="font-size:clamp(26px,3.4vw,42px);">Documentary, not decorative.</h2></div>
+      <div class="sh rv"><span class="n">5.1</span><h3>Photography Overview</h3></div>
+      <div class="photo-grid rv">
+        <figure class="shot ph-a"><img data-i="env1" alt="Offshore cages at the Ras El Ma concession" loading="lazy"><figcaption>Offshore operations</figcaption></figure>
+        <figure class="shot ph-b"><img data-i="env3" alt="SEARULEA technician at the facility" loading="lazy"><figcaption>People &amp; craft</figcaption></figure>
+        <figure class="shot ph-c"><img data-i="env2" alt="Fresh sea bream on ice" loading="lazy"><figcaption>Fresh at port</figcaption></figure>
+        <figure class="shot ph-d"><img data-i="env4" alt="Batch traceability screens" loading="lazy"><figcaption>Traceability</figcaption></figure>
+        <figure class="shot ph-e"><img data-i="env6" alt="Cold chain team loading transport" loading="lazy"><figcaption>Cold chain</figcaption></figure>
+        <figure class="shot ph-f"><img data-i="env5" alt="Aerial coastline with cages" loading="lazy"><figcaption>The coast — Ras El Ma</figcaption></figure>
+      </div>
+      <div class="sh rv"><span class="n">5.2</span><h3>Principles</h3></div>
+      <div class="principles rv">
+        <div><h4>Sea-toned</h4><p>Teal water, warm stone, neutral workwear. No saturated filters.</p></div>
+        <div><h4>Precise frames</h4><p>Horizons level, geometry respected — photographed like engineering.</p></div>
+        <div><h4>Working people</h4><p>Real roles mid-task. Never posed, never stock.</p></div>
+        <div><h4>Evidence first</h4><p>Every image proves something: scale, freshness, control.</p></div>
+      </div>
+      <div class="sh rv"><span class="n">5.3</span><h3>Image Usage</h3><p>Full-bleed with a Deep Sea scrim (40–90%) when type sits on top; uncropped and clean when standing alone. Never mirror, never heavy-filter, never place the logo on busy areas.</p></div>
+      <div class="grid2 rv">
+        <figure class="scrim-demo"><img data-i="env1" alt="Photo with 40 percent Deep Sea scrim and headline" loading="lazy"><span class="sc s40"></span><span class="sc-t"><em class="lora">Built to last.</em><small>Scrim 40% — hero use</small></span></figure>
+        <figure class="scrim-demo"><img data-i="env6" alt="Photo with 90 percent Deep Sea scrim and headline" loading="lazy"><span class="sc s90"></span><span class="sc-t"><em class="lora">One chain, one operator.</em><small>Scrim 90% — text panels</small></span></figure>
+      </div>
+    </div>
+  </div>
+
+  <div class="dark-sec" style="background:var(--abyss);padding:clamp(64px,10vh,120px) 0;">
+    <div class="wrap">
+      <div class="sec-head rv"><span class="eyebrow">Part 6 — Brand Elements · Sections 6.1 — 6.3</span><h2 style="font-size:clamp(26px,3.4vw,42px);">Water, organised.</h2></div>
+      <div class="sh rv"><span class="n">6.1</span><h3>Iconography</h3><p>Icons are built from the droplet vocabulary — dotted forms, single palette colour, one per composition.</p></div>
+      <div class="grid2 rv" style="max-width:820px;">
+        <div class="pillar icn" style="background:rgba(255,255,255,.03);border:1px solid var(--deep-line);align-items:flex-start;"><span class="icn-fish">{{SVG_FISH_SKY}}</span><p style="color:var(--deep-ink2);">The fish — packaging, wayfinding and moments of warmth.</p><a class="dlb" data-dl="DLFISH_sky">PNG ↓</a></div>
+        <div class="pillar icn" style="background:rgba(255,255,255,.03);border:1px solid var(--deep-line);align-items:flex-start;"><span class="icn-mark">{{SVG_LOGOMARK_WHITE_BIG}}</span><p style="color:var(--deep-ink2);">The droplet triangle — stamps, bullets, section markers.</p><a class="dlb" data-dl="DLPNG_logomark_white">PNG ↓</a></div>
+      </div>
+      <div class="sh rv"><span class="n">6.2</span><h3>Style Element — The Spiral</h3><p>A phyllotaxis vortex — the identity's only warm note in its gradient form, plus solid Deep Sea and Sea Foam colourways. Crop it generously at panel edges; never place it inside the logo lockup.</p></div>
+      <div class="grid3 rv" style="max-width:960px;">
+        <figure class="card"><img data-i="SPIRALE_IMG" alt="Spiral — teal to amber gradient" style="background:#FBF9F4;border-radius:3px;padding:8%;" loading="lazy"><figcaption>Gradient — hero moments<a class="dlb" data-dl="SPIRALE_IMG">PNG ↓</a></figcaption></figure>
+        <figure class="card"><img data-i="spirale_deep" alt="Spiral — Deep Sea solid" style="background:#FBF9F4;border-radius:3px;padding:8%;" loading="lazy"><figcaption>Deep Sea — on light grounds<a class="dlb" data-dl="spirale_deep">PNG ↓</a></figcaption></figure>
+        <figure class="card"><img data-i="spirale_foam" alt="Spiral — Sea Foam solid" style="background:#074154;border-radius:3px;padding:8%;" loading="lazy"><figcaption>Sea Foam — on Deep Sea<a class="dlb" data-dl="spirale_foam">PNG ↓</a></figcaption></figure>
+      </div>
+      <div class="sh rv"><span class="n">6.3</span><h3>Patterns and Textures</h3><p>Two textures only: the spiral cropped as a corner pattern, and the card stock's depth gradient. Applied at 10–25% opacity behind content, or full-strength on dedicated panels.</p></div>
+      <figure class="card rv" style="max-width:640px;"><img data-i="card1" alt="Depth gradient texture on the business card" style="aspect-ratio:3/2;object-fit:cover;" loading="lazy"><figcaption>The depth gradient — print texture</figcaption></figure>
+    </div>
+  </div>
+
+  <div class="wrap" style="padding-top:clamp(64px,10vh,120px);padding-bottom:clamp(64px,10vh,120px);">
+    <div class="sec-head rv"><span class="eyebrow">Part 7 — Grid Systems and Layouts · Sections 7.1 — 7.4</span><h2 style="font-size:clamp(26px,3.4vw,42px);">The grid behind everything.</h2></div>
+    <div class="sh rv"><span class="n">7.1</span><h3>Margins &amp; Columns</h3><p>Print: 20&nbsp;mm margins, 6 columns. Screen: a 12-column safe area with 96&nbsp;px insets on social.</p></div>
+    <div class="tpl-grid rv">
+      <figure class="card t-tall"><img data-i="tpl_letterhead" alt="Letterhead grid anatomy" loading="lazy"><figcaption>7.1 Letterhead — 6-col · 20 mm<a class="dlb" data-dl="tpl_letterhead">JPG ↓</a></figcaption></figure>
+      <figure class="card"><img data-i="tpl_deck_title" alt="Deck title template with grid" loading="lazy"><figcaption>7.3 Deck title — 12-col<a class="dlb" data-dl="tpl_deck_title">JPG ↓</a></figcaption></figure>
+      <figure class="card"><img data-i="tpl_deck_content" alt="Deck content template with grid" loading="lazy"><figcaption>7.3 Deck content — 6 + 6<a class="dlb" data-dl="tpl_deck_content">JPG ↓</a></figcaption></figure>
+      <figure class="card"><img data-i="tpl_post" alt="Social post template with safe area" loading="lazy"><figcaption>7.3 Social post — 96 px safe<a class="dlb" data-dl="tpl_post">JPG ↓</a></figcaption></figure>
+    </div>
+    <div class="sh rv"><span class="n">7.2</span><h3>Types of Grid Systems</h3><p>Two grids only: the 6-column manuscript grid for print, the 12-column modular grid for screens and decks. Nothing bespoke.</p></div>
+    <div class="sh rv"><span class="n">7.4</span><h3>Layout Print</h3><p>Print flats follow the manuscript grid with the footer rule anchored to the bottom margin.</p></div>
+    <div class="flats-grid rv">
+      <figure class="card"><img data-i="flat_letterhead" alt="A4 letterhead flat" loading="lazy"><figcaption>A4 letterhead<a class="dlb" data-dl="flat_letterhead">JPG ↓</a></figcaption></figure>
+      <div class="f-col">
+        <figure class="card"><img data-i="flat_envelope" alt="DL envelope flat" loading="lazy"><figcaption>DL envelope<a class="dlb" data-dl="flat_envelope">JPG ↓</a></figcaption></figure>
+        <figure class="card"><img data-i="flat_slip" alt="Compliment slip flat" loading="lazy"><figcaption>Compliment slip<a class="dlb" data-dl="flat_slip">JPG ↓</a></figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="applications" style="background:var(--bg-alt);padding-bottom:0;">
+  <div class="wrap">
+    <div class="sec-head rv"><span class="chap-no">Applications</span><span class="eyebrow">Part 1 — Print Materials · 1.1 — 1.7</span><h2>One system, every surface.</h2></div>
+
+    <div class="sh rv"><span class="n">1.1</span><h3>Stationery</h3></div>
+    <div class="grid2 rv">
+      <figure class="card"><img data-i="mk_cards" alt="Business cards stacked on travertine" style="aspect-ratio:4/3;object-fit:cover;" loading="lazy"><figcaption>Business cards — 85 × 55 mm, uncoated 350 gsm<a class="dlb" data-dl="mk_cards" download="SEARULEA_cards_mockup.jpg">JPG ↓</a></figcaption></figure>
+      <figure class="card"><img data-i="mk_flatlay" alt="Letterhead, envelope and card flat lay" style="aspect-ratio:4/3;object-fit:cover;" loading="lazy"><figcaption>The suite — letterhead · envelope · card<a class="dlb" data-dl="mk_flatlay" download="SEARULEA_stationery_mockup.jpg">JPG ↓</a></figcaption></figure>
+    </div>
+    <div class="grid2 rv" style="margin-top:24px;">
+      <figure class="card"><img data-i="card1" alt="Business card front artwork" loading="lazy"><figcaption>Card front — artwork<a class="dlb" data-dl="card1" download="SEARULEA_card_front.jpg">JPG ↓</a></figcaption></figure>
+      <figure class="card"><img data-i="card3" alt="Business card back artwork with spiral and contacts" loading="lazy"><figcaption>Card back — artwork<a class="dlb" data-dl="card3" download="SEARULEA_card_back.jpg">JPG ↓</a></figcaption></figure>
+    </div>
+
+    <div class="sh rv"><span class="n">1.2</span><h3>Posters</h3><p>One statement, one logo, one tagline. The series varies by ground, never by message.</p></div>
+    <div class="grid3 rv">
+      <figure class="card"><img data-i="poster1" alt="Type-led tagline poster on Deep Sea" loading="lazy"><figcaption>Type-led<a class="dlb" data-dl="poster1" download="SEARULEA_poster_1.jpg">JPG ↓</a></figcaption></figure>
+      <figure class="card"><img data-i="poster2" alt="Photography poster with stacked logo" loading="lazy"><figcaption>Photographic<a class="dlb" data-dl="poster2" download="SEARULEA_poster_2.jpg">JPG ↓</a></figcaption></figure>
+      <figure class="card"><img data-i="poster3" alt="Shore poster with fish motif" loading="lazy"><figcaption>Motif<a class="dlb" data-dl="poster3" download="SEARULEA_poster_3.jpg">JPG ↓</a></figcaption></figure>
+    </div>
+
+    <div class="sh rv"><span class="n">1.3</span><h3>Banners</h3></div>
+    <div class="grid2 rv" style="grid-template-columns:1.8fr 1fr;align-items:start;">
+      <figure class="card"><img data-i="banner_h" alt="Horizontal web banner" loading="lazy"><figcaption>Horizontal<a class="dlb" data-dl="banner_h" download="SEARULEA_banner_h.jpg">JPG ↓</a></figcaption></figure>
+      <figure class="card"><img data-i="banner_v" alt="Vertical banner" loading="lazy"><figcaption>Vertical<a class="dlb" data-dl="banner_v" download="SEARULEA_banner_v.jpg">JPG ↓</a></figcaption></figure>
+    </div>
+
+    <div class="sh rv"><span class="n">1.4</span><h3>Brochure</h3></div>
+    <div class="grid4 rv">
+      <figure class="card"><img data-i="broch1" alt="Brochure cover" loading="lazy"><figcaption>Cover</figcaption></figure>
+      <figure class="card"><img data-i="broch2" alt="Brochure intro page" loading="lazy"><figcaption>Who we are</figcaption></figure>
+      <figure class="card"><img data-i="broch3" alt="Brochure data page" loading="lazy"><figcaption>The numbers</figcaption></figure>
+      <figure class="card"><img data-i="broch4" alt="Brochure back page" loading="lazy"><figcaption>Contact</figcaption></figure>
+    </div>
+
+    <div class="sh rv"><span class="n">1.5</span><h3>Proposal</h3><p>Client proposals use the report-cover system — Deep Sea ground, Lora title, wordmark footer — with the manuscript grid inside.</p></div>
+    <figure class="card rv" style="max-width:320px;"><img data-i="rep1" alt="Proposal cover on Deep Sea" loading="lazy"><figcaption>Proposal cover<a class="dlb" data-dl="rep1" download="SEARULEA_proposal_cover.jpg">JPG ↓</a></figcaption></figure>
+
+    <div class="sh rv"><span class="n">1.6</span><h3>Workwear</h3></div>
+        <div class="grid2 rv">
+      <figure class="card"><img data-i="mk_tshirt" alt="Deep-teal tee with white chest logo" style="aspect-ratio:4/3;object-fit:cover;" loading="lazy"><figcaption>Crew tee — Deep Sea<a class="dlb" data-dl="mk_tshirt" download="SEARULEA_workwear.jpg">JPG ↓</a></figcaption></figure>
+      <figure class="card"><img data-i="mk2_polocap" alt="Team workwear polos" style="aspect-ratio:4/3;object-fit:cover;" loading="lazy"><figcaption>Site polos<a class="dlb" data-dl="mk2_polocap" download="SEARULEA_polos.jpg">JPG ↓</a></figcaption></figure>
+    </div>
+
+    <div class="sh rv"><span class="n">1.7</span><h3>Promotional Materials</h3></div>
+    <div class="grid2 rv">
+      <figure class="card"><img data-i="mk_tote" alt="Canvas tote with stacked teal logo" style="aspect-ratio:4/3;object-fit:cover;" loading="lazy"><figcaption>Tote — natural canvas<a class="dlb" data-dl="mk_tote" download="SEARULEA_tote.jpg">JPG ↓</a></figcaption></figure>
+      <figure class="card"><img data-i="hg_bottle" alt="Deep-teal insulated bottle with white logo" style="aspect-ratio:4/3;object-fit:cover;" loading="lazy"><figcaption>Bottle — Deep Sea steel<a class="dlb" data-dl="hg_bottle" download="SEARULEA_bottle.jpg">JPG ↓</a></figcaption></figure>
+    </div>
+  </div>
+
+  <div class="dark-sec" style="margin-top:clamp(64px,10vh,110px);padding:clamp(64px,10vh,120px) 0;">
+    <div class="wrap">
+      <div class="sec-head rv"><span class="eyebrow">Part 2 — Digital Media · 2.1 — 2.6</span><h2 style="font-size:clamp(26px,3.4vw,42px);">One voice, every screen.</h2></div>
+      <div class="sh rv"><span class="n">2.1</span><h3>Website Design</h3></div>
+      <figure class="card rv"><img data-i="mk_laptop" alt="searulea.com on a MacBook" loading="lazy"><figcaption>searulea.com — hero<a class="dlb" data-dl="mk_laptop" download="SEARULEA_website_mockup.jpg">JPG ↓</a></figcaption></figure>
+      <div class="sh rv"><span class="n">2.2</span><h3>Mobile Design</h3></div>
+      <div class="grid3 rv" style="max-width:820px;">
+        <figure class="card"><img data-i="phone_hero" alt="Mobile website hero" loading="lazy"><figcaption>Mobile hero</figcaption></figure>
+        <figure class="card"><img data-i="emailsig" alt="Email on phone" loading="lazy"><figcaption>Mail view</figcaption></figure>
+        <figure class="card"><img data-i="news1" alt="Newsletter mobile column" loading="lazy"><figcaption>Newsletter mobile</figcaption></figure>
+      </div>
+      <div class="sh rv"><span class="n">2.3</span><h3>Email Signatures</h3><p>Teal rule, monogram left, three lines of DM Sans, tagline in tracked caps. No banners, no quotes, no second logo. Download the ready-to-use signature image below.</p></div>
+      <figure class="card rv" style="max-width:720px;"><img data-i="emailsig_card" alt="Ready-to-use email signature image" loading="lazy" style="background:#fff;"><figcaption>Signature — ready to paste<a class="dlb" data-dl="emailsig_card" download="SEARULEA_email_signature.jpg">JPG ↓</a></figcaption></figure>
+      <div class="sh rv"><span class="n">2.4</span><h3>Newsletter</h3></div>
+      <figure class="card rv"><img data-i="news2" alt="Newsletter desktop layout" loading="lazy"><figcaption>The Searulea Brief — desktop<a class="dlb" data-dl="news2" download="SEARULEA_newsletter.jpg">JPG ↓</a></figcaption></figure>
+      <div class="sh rv"><span class="n">2.5</span><h3>Social Media</h3></div>
+      <div class="pfp-row rv" style="margin-bottom:30px;">
+        <figure><img data-i="pfp1" alt="Avatar — white mark on Deep Sea" loading="lazy"><figcaption>Primary<a class="dlb" data-dl="pfp1" download="SEARULEA_avatar_deepsea.jpg" style="margin-left:8px;">↓</a></figcaption></figure>
+        <figure><img data-i="pfp2" alt="Avatar — mark on gradient" loading="lazy"><figcaption>Campaigns<a class="dlb" data-dl="pfp2" download="SEARULEA_avatar_gradient.jpg" style="margin-left:8px;">↓</a></figcaption></figure>
+        <figure><img data-i="pfp3" alt="Avatar — teal mark on Pearl with spiral" loading="lazy"><figcaption>Documents<a class="dlb" data-dl="pfp3" download="SEARULEA_avatar_light.jpg" style="margin-left:8px;">↓</a></figcaption></figure>
+      </div>
+      <div class="covers rv">
+        <figure class="card"><img data-i="cover_li" alt="LinkedIn cover — dark" loading="lazy"><figcaption>LinkedIn cover · dark<a class="dlb" data-dl="cover_li" download="SEARULEA_cover_linkedin_dark.jpg">JPG ↓</a></figcaption></figure>
+        <figure class="card"><img data-i="cover_li_light" alt="LinkedIn cover — light with Deep Sea spiral" loading="lazy"><figcaption>LinkedIn cover · light — Deep Sea spiral<a class="dlb" data-dl="cover_li_light" download="SEARULEA_cover_linkedin_light.jpg">JPG ↓</a></figcaption></figure>
+        <div class="covers-2">
+          <figure class="card"><img data-i="cover_fb" alt="Facebook cover" loading="lazy"><figcaption>Facebook — 820 × 312<a class="dlb" data-dl="cover_fb" download="SEARULEA_cover_facebook.jpg">JPG ↓</a></figcaption></figure>
+          <figure class="card"><img data-i="cover_x" alt="X header — dark gradient spiral" loading="lazy"><figcaption>X · dark — gradient spiral<a class="dlb" data-dl="cover_x" download="SEARULEA_cover_x_dark.jpg">JPG ↓</a></figcaption></figure>
+          <figure class="card"><img data-i="cover_x_light" alt="X header — Sea Foam with gradient spiral" loading="lazy"><figcaption>X · light — Foam + gradient spiral<a class="dlb" data-dl="cover_x_light" download="SEARULEA_cover_x_light.jpg">JPG ↓</a></figcaption></figure>
+        </div>
+      </div>
+      <div class="ig-stage rv" style="margin-top:30px;">
+        <figure class="card"><img data-i="ig_grid" alt="Instagram nine-tile grid" loading="lazy"><figcaption>The nine-tile rhythm — type / photo / proof<a class="dlb" data-dl="ig_grid" download="SEARULEA_ig_grid.jpg">JPG ↓</a></figcaption></figure>
+        <figure class="card"><img data-i="mk_phone" alt="Instagram profile on phone in hand" loading="lazy"><figcaption>In the feed</figcaption></figure>
+      </div>
+      <div class="sh rv"><span class="n">2.6</span><h3>Digital Banners</h3><p>The horizontal and vertical banners in 1.3 serve display formats; keep the CTA pill Sea Foam on Deep Sea, one per banner.</p></div>
+    </div>
+  </div>
+
+  <div class="wrap" style="padding-top:clamp(64px,10vh,110px);">
+    <div class="sec-head rv"><span class="eyebrow">Part 3 — Packaging · 3.1 — 3.3</span><h2 style="font-size:clamp(26px,3.4vw,42px);">Nothing between the fish and the documentation.</h2></div>
+    <div class="sh rv"><span class="n">3.1</span><h3>Export Crates</h3></div>
+    <figure class="card rv"><img data-i="mk2_crate" alt="Export crate with fresh fish and batch label" style="aspect-ratio:16/9;object-fit:cover;" loading="lazy"><figcaption>Export crate — batch label + lockup<a class="dlb" data-dl="mk2_crate" download="SEARULEA_crate.jpg">JPG ↓</a></figcaption></figure>
+    <div class="grid2 rv" style="margin-top:24px;">
+      <div><div class="sh" style="margin:0 0 16px;"><span class="n">3.2</span><h3>Branded Wrapping</h3></div>
+      <figure class="card"><img data-i="hg_wrap" alt="Branded food-safe wrapping paper around fresh fish" style="aspect-ratio:4/3;object-fit:cover;" loading="lazy"><figcaption>Food-safe wrap — logo repeat<a class="dlb" data-dl="hg_wrap" download="SEARULEA_wrapping.jpg">JPG ↓</a></figcaption></figure></div>
+      <div><div class="sh" style="margin:0 0 16px;"><span class="n">3.3</span><h3>Stickers</h3></div>
+      <figure class="card"><img data-i="hg_stickers" alt="Seal stickers and batch labels" style="aspect-ratio:4/3;object-fit:cover;" loading="lazy"><figcaption>Seals &amp; batch labels<a class="dlb" data-dl="hg_stickers" download="SEARULEA_stickers.jpg">JPG ↓</a></figcaption></figure></div>
+    </div>
+
+    <div class="sec-head rv" style="margin-top:clamp(64px,10vh,110px);"><span class="eyebrow">Part 4 — Signage &amp; Interior · 4.1 — 4.3</span><h2 style="font-size:clamp(26px,3.4vw,42px);">Wayfinding to the water line.</h2></div>
+    <div class="grid2 rv">
+      <div><div class="sh" style="margin:0 0 16px;"><span class="n">4.1</span><h3>Projecting Signs</h3></div>
+      <figure class="card"><img data-i="mk2_totem" alt="Port signage totem" style="aspect-ratio:4/3;object-fit:cover;" loading="lazy"><figcaption>Port totem<a class="dlb" data-dl="mk2_totem" download="SEARULEA_totem.jpg">JPG ↓</a></figcaption></figure></div>
+      <div><div class="sh" style="margin:0 0 16px;"><span class="n">4.2</span><h3>A-Board</h3></div>
+      <figure class="card"><img data-i="hg_aboard" alt="A-board at the harbour" style="aspect-ratio:4/3;object-fit:cover;" loading="lazy"><figcaption>Harbour A-board<a class="dlb" data-dl="hg_aboard" download="SEARULEA_aboard.jpg">JPG ↓</a></figcaption></figure></div>
+    </div>
+    <div class="sh rv"><span class="n">4.3</span><h3>Wayfinding</h3><p>The system from the brand book: Deep Sea panels, DM Sans labels at +220 tracking, Lora numerals for levels, chevron markers. Three formats cover every need — directional tiles, zone panels and the building directory.</p></div>
+    <div class="grid2 rv" style="grid-template-columns:1.55fr 1fr;align-items:start;">
+      <figure class="card"><img data-i="way1" alt="Directional wayfinding tiles — Processing Hall, Cold Storage, Quality Lab, Reception" loading="lazy"><figcaption>Directional tiles — corridors &amp; doors<a class="dlb" data-dl="way1">JPG ↓</a></figcaption></figure>
+      <figure class="card"><img data-i="hg_aboard" alt="A-board wayfinding at the harbour" style="aspect-ratio:4/3.4;object-fit:cover;" loading="lazy"><figcaption>In situ — harbour A-board</figcaption></figure>
+    </div>
+    <div class="grid2 rv" style="margin-top:24px;max-width:900px;">
+      <figure class="card"><img data-i="way2" alt="Zone panel — level 2 Processing with destinations" loading="lazy"><figcaption>Zone panel — one level, one colour<a class="dlb" data-dl="way2">JPG ↓</a></figcaption></figure>
+      <figure class="card"><img data-i="way3" alt="Building directory totem with all levels" loading="lazy"><figcaption>Directory — lobby totem<a class="dlb" data-dl="way3">JPG ↓</a></figcaption></figure>
+    </div>
+
+    <div class="sec-head rv" style="margin-top:clamp(64px,10vh,110px);"><span class="eyebrow">Part 5 — Environmental Design · 5.1 — 5.5</span><h2 style="font-size:clamp(26px,3.4vw,42px);">The brand at building scale.</h2></div>
+    <div class="grid2 rv">
+      <div><div class="sh" style="margin:0 0 16px;"><span class="n">5.1</span><h3>Agency Front</h3></div>
+      <figure class="card"><img data-i="mk2_office" alt="Office glass front with logo" style="aspect-ratio:4/3;object-fit:cover;" loading="lazy"><figcaption>Reception glass<a class="dlb" data-dl="mk2_office" download="SEARULEA_office.jpg">JPG ↓</a></figcaption></figure></div>
+      <div><div class="sh" style="margin:0 0 16px;"><span class="n">5.3</span><h3>Flag</h3></div>
+      <figure class="card"><img data-i="mk_flag" alt="White site flag with teal logo" style="aspect-ratio:4/3;object-fit:cover;" loading="lazy"><figcaption>Site flag<a class="dlb" data-dl="mk_flag" download="SEARULEA_flag.jpg">JPG ↓</a></figcaption></figure></div>
+    </div>
+    <div class="sh rv"><span class="n">5.2</span><h3>Environmental Graphics</h3><p>Interior walls carry the spiral at architectural scale — frosted vinyl on glass, painted supergraphics in circulation spaces. Always cropped, never centred like a logo.</p></div>
+    <div class="grid2 rv" style="margin-top:10px;">
+      <div><div class="sh" style="margin:0 0 16px;"><span class="n">5.4</span><h3>Site Signage</h3></div>
+      <figure class="card"><img data-i="hg_fence" alt="Concession fence sign by the sea" style="aspect-ratio:4/3;object-fit:cover;" loading="lazy"><figcaption>Concession boundary<a class="dlb" data-dl="hg_fence" download="SEARULEA_site_sign.jpg">JPG ↓</a></figcaption></figure></div>
+      <div><div class="sh" style="margin:0 0 16px;"><span class="n">5.5</span><h3>Hoardings</h3></div>
+      <figure class="card"><img data-i="mk_billboard" alt="Coastal billboard" style="aspect-ratio:4/3;object-fit:cover;" loading="lazy"><figcaption>Coastal hoarding<a class="dlb" data-dl="mk_billboard" download="SEARULEA_hoarding.jpg">JPG ↓</a></figcaption></figure></div>
+    </div>
+
+    <div class="sec-head rv" style="margin-top:clamp(64px,10vh,110px);"><span class="eyebrow">Part 6 — Presentation and Reports · 6.1 — 6.3</span><h2 style="font-size:clamp(26px,3.4vw,42px);">Documents that hold the line.</h2></div>
+    <div class="sh rv"><span class="n">6.1</span><h3>Presentation Decks</h3><p>Title and content layouts from Part 7 grids; one Lora statement per slide.</p></div>
+    <div class="grid2 rv">
+      <figure class="card"><img data-i="tpl_deck_title" alt="Deck title slide" loading="lazy"><figcaption>Title slide</figcaption></figure>
+      <figure class="card"><img data-i="tpl_deck_content" alt="Deck content slide" loading="lazy"><figcaption>Content slide</figcaption></figure>
+    </div>
+    <div class="sh rv"><span class="n">6.2</span><h3>Annual Reports</h3><p>Covers rotate the palette; the grid and wordmark never move.</p></div>
+    <div class="grid3 rv" style="max-width:900px;">
+      <figure class="card"><img data-i="rep1" alt="Annual report cover, Deep Sea" loading="lazy"><figcaption>Deep Sea</figcaption></figure>
+      <figure class="card"><img data-i="rep2" alt="Sustainability report cover, Shore" loading="lazy"><figcaption>Shore</figcaption></figure>
+      <figure class="card"><img data-i="rep3" alt="Roadmap cover, Sea Foam" loading="lazy"><figcaption>Sea Foam</figcaption></figure>
+    </div>
+    <div class="sh rv"><span class="n">6.3</span><h3>Pitch Decks</h3><p>Investor decks open on the Deep Sea title layout and close on the tagline slide. Facts carry the argument; one number per slide, set in Lora.</p></div>
+    <div class="grid2 rv" style="max-width:860px;">
+      <figure class="card"><img data-i="poster1" alt="Closing tagline slide on Deep Sea" loading="lazy"><figcaption>Closing slide — the tagline</figcaption></figure>
+      <figure class="card"><img data-i="rep3" alt="Roadmap document cover" loading="lazy"><figcaption>Annex — roadmap</figcaption></figure>
+    </div>
+  </div>
+
+  <div class="dark-sec" style="background:var(--abyss);margin-top:clamp(64px,10vh,110px);padding:clamp(64px,10vh,120px) 0;">
+    <div class="wrap">
+      <div class="sec-head rv"><span class="eyebrow">Parts 7 — 9 · Events · App · Vehicles</span><h2 style="font-size:clamp(26px,3.4vw,42px);">On the road, on the stand, in the pocket.</h2></div>
+      <div class="apps rv">
+        <figure class="shot ap-h"><img data-i="mk3_rollup" alt="Trade show roll-up with spiral" loading="lazy"><figcaption>7.1 Stand design</figcaption></figure>
+        <figure class="shot ap-h"><img data-i="mk2_appphone" alt="Traceability app on phone" loading="lazy"><figcaption>8.1 Application design</figcaption></figure>
+        <figure class="shot ap-w"><img data-i="mk_container" alt="Deep-teal container with white logo at port" loading="lazy"><figcaption>9.1 Vehicle &amp; container graphics</figcaption></figure>
+        <figure class="shot ap-w" style="aspect-ratio:21/8;"><img data-i="mk2_truck" alt="Refrigerated export truck livery" loading="lazy"><figcaption>9.1 Export fleet</figcaption></figure>
+      </div>
+      <div class="sh rv"><span class="n">7.2</span><h3>Conference Presentation</h3><p>Speaker decks use the title layout on the venue screen; the roll-up stands stage-left, the tagline closes the last slide.</p></div>
+      <figure class="card rv" style="max-width:760px;"><img data-i="tpl_deck_title" alt="Title layout on the venue screen" loading="lazy"><figcaption>Venue screen — title layout</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="downloads">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="chap-no">Asset Library</span>
+      <span class="eyebrow">Downloads</span>
+      <h2>Take the assets with you.</h2>
+      <p>Every logo lockup in every colourway, high-definition PNG on transparent background — plus the complete pack with vector SVGs and the spiral motif.</p>
+    </div>
+    <p class="rv dl-hint" style="font-size:13.5px;color:var(--ink2);max-width:56ch;margin-bottom:22px;">Every button on this page opens the shared SEARULEA asset drive in a new tab — download any file at full resolution from there.</p>
+    <a class="zip-btn rv" href="{{DL_ZIP}}" download="SEARULEA_Brand_Assets.zip">
+      <span class="zb-t">Open the asset drive</span>
+      <span class="zb-s">Google Drive — logos · motifs · social kit · mockups · photography (216 MB)</span>
+    </a>
+    <div class="dl-groups" style="margin-top:clamp(36px,5vh,56px);">
+      <div class="dl-group rv"><h4>Horizontal lockup</h4>
+        <a data-dl="DLPNG_logo-horizontal_teal" download="SEARULEA_logo-horizontal_teal.png" href="#"><span class="chip" style="background:#FBF9F4;"><i style="background:#09566C;"></i></span>Teal</a>
+        <a data-dl="DLPNG_logo-horizontal_white" download="SEARULEA_logo-horizontal_white.png" href="#"><span class="chip" style="background:#074154;"><i style="background:#FBF9F4;"></i></span>White</a>
+        <a data-dl="DLPNG_logo-horizontal_sky" download="SEARULEA_logo-horizontal_sky.png" href="#"><span class="chip" style="background:#074154;"><i style="background:#D0E7ED;"></i></span>Sky</a>
+        <a data-dl="DLPNG_logo-horizontal_black" download="SEARULEA_logo-horizontal_black.png" href="#"><span class="chip" style="background:#FBF9F4;"><i style="background:#101820;"></i></span>Black</a>
+      </div>
+      <div class="dl-group rv"><h4>Stacked lockup</h4>
+        <a data-dl="DLPNG_logo-stacked_teal" download="SEARULEA_logo-stacked_teal.png" href="#"><span class="chip" style="background:#FBF9F4;"><i style="background:#09566C;"></i></span>Teal</a>
+        <a data-dl="DLPNG_logo-stacked_white" download="SEARULEA_logo-stacked_white.png" href="#"><span class="chip" style="background:#074154;"><i style="background:#FBF9F4;"></i></span>White</a>
+        <a data-dl="DLPNG_logo-stacked_sky" download="SEARULEA_logo-stacked_sky.png" href="#"><span class="chip" style="background:#074154;"><i style="background:#D0E7ED;"></i></span>Sky</a>
+        <a data-dl="DLPNG_logo-stacked_black" download="SEARULEA_logo-stacked_black.png" href="#"><span class="chip" style="background:#FBF9F4;"><i style="background:#101820;"></i></span>Black</a>
+      </div>
+      <div class="dl-group rv"><h4>Wordmark</h4>
+        <a data-dl="DLPNG_wordmark_teal" download="SEARULEA_wordmark_teal.png" href="#"><span class="chip" style="background:#FBF9F4;"><i style="background:#09566C;"></i></span>Teal</a>
+        <a data-dl="DLPNG_wordmark_white" download="SEARULEA_wordmark_white.png" href="#"><span class="chip" style="background:#074154;"><i style="background:#FBF9F4;"></i></span>White</a>
+        <a data-dl="DLPNG_wordmark_sky" download="SEARULEA_wordmark_sky.png" href="#"><span class="chip" style="background:#074154;"><i style="background:#D0E7ED;"></i></span>Sky</a>
+        <a data-dl="DLPNG_wordmark_black" download="SEARULEA_wordmark_black.png" href="#"><span class="chip" style="background:#FBF9F4;"><i style="background:#101820;"></i></span>Black</a>
+      </div>
+      <div class="dl-group rv"><h4>Logomark</h4>
+        <a data-dl="DLPNG_logomark_teal" download="SEARULEA_logomark_teal.png" href="#"><span class="chip" style="background:#FBF9F4;"><i style="background:#09566C;"></i></span>Teal</a>
+        <a data-dl="DLPNG_logomark_white" download="SEARULEA_logomark_white.png" href="#"><span class="chip" style="background:#074154;"><i style="background:#FBF9F4;"></i></span>White</a>
+        <a data-dl="DLPNG_logomark_sky" download="SEARULEA_logomark_sky.png" href="#"><span class="chip" style="background:#074154;"><i style="background:#D0E7ED;"></i></span>Sky</a>
+        <a data-dl="DLPNG_logomark_black" download="SEARULEA_logomark_black.png" href="#"><span class="chip" style="background:#FBF9F4;"><i style="background:#101820;"></i></span>Black</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p class="big rv">From our sea<br>to your port.</p>
+    <div class="f-grid">
+      <div class="rv"><h5>Asset package</h5><ul><li>Logos — SVG / PNG, 4 colourways</li><li>Spiral &amp; fish motifs</li><li>Lora + DM Sans (variable)</li><li>Photography library</li><li>Templates — Part 7</li></ul></div>
+      <div class="rv"><h5>Usage</h5><p>All assets follow this guideline. For approvals, co-branding or anything not covered here, contact the brand team before production.</p></div>
+      <div class="rv"><h5>Contact</h5><p>SEARULEA — Ras El Ma, Oriental Region<br>Morocco · Mediterranean Sea<br>www.searulea.com</p></div>
+    </div>
+    <div class="base"><span>{{SVG_LOGO_WHITE}}</span><span>From our sea to your port · 2026</span></div>
+  </div>
+</footer>
+
+<div class="copied" id="copied" role="status" aria-live="polite">Copied</div>
+
+{{IMG_REGISTRY}}
+<script>
+document.querySelectorAll('[data-i]').forEach(e=>{const u=IMG[e.dataset.i];if(u)e.src=u;});
+const DRIVE='https://drive.google.com/drive/folders/1KzsFqKcKVzV4xP00f_Eb5HFzziV31U6k?usp=sharing';
+document.querySelectorAll('[data-dl],a[download]').forEach(a=>{a.removeAttribute('download');a.href=DRIVE;a.target='_blank';a.rel='noopener';});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}}),{threshold:.1});
+document.querySelectorAll('.rv').forEach(el=>{const sibs=[...el.parentElement.children].filter(c=>c.classList&&c.classList.contains('rv'));el.style.transitionDelay=(Math.min(sibs.indexOf(el),5)*90)+'ms';io.observe(el);});
+const secs=[...document.querySelectorAll('section, header#hero')];
+const links=[...document.querySelectorAll('#rail a')];
+const so=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){const id=e.target.id;links.forEach(l=>l.classList.toggle('on',l.getAttribute('href')==='#'+id));document.body.classList.toggle('on-dark',e.target.classList.contains('dark-sec'));}});},{rootMargin:'-45% 0px -45% 0px'});
+secs.forEach(s=>so.observe(s));
+document.querySelectorAll('.swatch').forEach(s=>{s.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(s.dataset.hex);}catch(e){}const t=document.getElementById('copied');t.textContent=s.dataset.hex+' copied';t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1400);});});
+let lastY=0,tick=false;
+const spiralEl=document.getElementById('spiral');
+const rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+function onScroll(){const y=scrollY;document.getElementById('topbar').classList.toggle('hide',y>400&&y>lastY);lastY=y;
+if(spiralEl&&!rm){const h=document.getElementById('hero').offsetHeight||900;spiralEl.style.opacity=Math.max(0,1-y/(h*.65));}
+tick=false;}
+addEventListener('scroll',()=>{if(!tick){tick=true;requestAnimationFrame(onScroll);}},{passive:true});
+</script>

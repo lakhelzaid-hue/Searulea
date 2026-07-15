@@ -1,0 +1,402 @@
+<meta charset="utf-8">
+<title>SEARULEA — Brand Storytelling</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@font-face{font-family:'Lora';src:url(data:font/ttf;base64,{{FONT_LORA}}) format('truetype');font-weight:400 700;font-display:swap;}
+@font-face{font-family:'DM Sans';src:url(data:font/ttf;base64,{{FONT_DMSANS}}) format('truetype');font-weight:100 900;font-display:swap;}
+:root{
+  --pearl:#FBF9F4;--shore:#EFE8D8;--foam:#D0E7ED;--lagoon:#0C7190;--tide:#0A6887;--deep:#074154;--abyss:#04293A;--amber:#D98E2B;
+  --bg:var(--pearl);--bg-alt:#F4EFE4;--ink:#0B3242;--ink2:#3E5966;--line:rgba(7,65,84,.16);--card:#FFFFFF;
+  --deep-ink:#E9F3F6;--deep-ink2:#A8C6D1;--deep-line:rgba(208,231,237,.18);
+  --hero-g1:#D9EAEF;--hero-g2:var(--pearl);--logo-ink:#09566C;
+  --serif:'Lora',Georgia,serif;--sans:'DM Sans',-apple-system,sans-serif;--ease:cubic-bezier(0.32,0.72,0,1);--shell:color-mix(in srgb,var(--ink) 4%,transparent);--soft:0 28px 56px -28px rgba(7,65,84,.16);
+}
+@media (prefers-color-scheme: dark){:root{--bg:#062733;--bg-alt:#07303E;--ink:#E9F3F6;--ink2:#9FBECA;--line:rgba(208,231,237,.15);--card:#0A3A4B;--hero-g1:#05303F;--hero-g2:#062733;--logo-ink:#D0E7ED;}}
+:root[data-theme="dark"]{--bg:#062733;--bg-alt:#07303E;--ink:#E9F3F6;--ink2:#9FBECA;--line:rgba(208,231,237,.15);--card:#0A3A4B;--hero-g1:#05303F;--hero-g2:#062733;--logo-ink:#D0E7ED;}
+:root[data-theme="light"]{--bg:var(--pearl);--bg-alt:#F4EFE4;--ink:#0B3242;--ink2:#3E5966;--line:rgba(7,65,84,.16);--card:#FFFFFF;--hero-g1:#D9EAEF;--hero-g2:var(--pearl);--logo-ink:#09566C;}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto;}*,*::before,*::after{animation:none!important;transition:none!important;}}
+body{font-family:var(--sans);background:var(--bg);color:var(--ink);line-height:1.6;font-size:17px;}
+body::after{content:"";position:fixed;inset:0;z-index:95;pointer-events:none;opacity:.032;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");}
+img{max-width:100%;display:block;}
+a{color:inherit;}
+:focus-visible{outline:2px solid var(--lagoon);outline-offset:3px;}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;width:max-content;font-size:10.5px;letter-spacing:.26em;text-transform:uppercase;font-weight:600;color:var(--lagoon);border:1px solid color-mix(in srgb,var(--lagoon) 30%,transparent);border-radius:999px;padding:7px 15px;}
+.eyebrow::before{content:"";width:5px;height:5px;border-radius:50%;background:currentColor;}
+.dark-sec .eyebrow{color:#8FC1D2;}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:500;text-wrap:balance;line-height:1.15;}
+.wrap{max-width:1180px;margin:0 auto;padding:0 clamp(22px,5vw,64px);}
+section{padding:clamp(92px,14vh,168px) 0;position:relative;}
+.sec-head{display:flex;flex-direction:column;gap:18px;max-width:720px;margin-bottom:clamp(34px,5vh,56px);}
+.sec-head h2{font-size:clamp(32px,4.4vw,54px);}
+.sec-head p{color:var(--ink2);max-width:62ch;}
+.chap-no{font-family:var(--serif);font-size:15px;color:var(--ink2);letter-spacing:.08em;}
+.dark-sec{background:linear-gradient(180deg,var(--deep) 0%,var(--abyss) 100%);color:var(--deep-ink);}
+.dark-sec .sec-head p,.dark-sec .sh p{color:var(--deep-ink2);}
+.dark-sec .chap-no{color:var(--deep-ink2);}
+/* subsection head */
+.sh{display:flex;flex-direction:column;gap:10px;max-width:680px;margin:clamp(48px,8vh,88px) 0 26px;}
+.sh:first-of-type{margin-top:0;}
+.sh .n{font-family:var(--serif);font-size:14px;color:var(--lagoon);letter-spacing:.1em;}
+.dark-sec .sh .n{color:#8FC1D2;}
+.sh h3{font-size:clamp(22px,2.6vw,32px);}
+.sh p{color:var(--ink2);font-size:16px;max-width:64ch;}
+/* nav */
+#rail{position:fixed;left:26px;top:50%;transform:translateY(-50%);z-index:60;display:flex;flex-direction:column;gap:14px;}
+#rail a{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink2);font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.65;transition:opacity .25s;min-height:24px;}
+#rail a .dot{width:7px;height:7px;border-radius:50%;background:currentColor;flex:none;transition:transform .25s;}
+#rail a .lbl{opacity:0;transform:translateX(-6px);transition:.25s;white-space:nowrap;}
+#rail a:hover .lbl,#rail a.on .lbl,#rail a:focus-visible .lbl{opacity:1;transform:none;}
+#rail a.on{opacity:1;color:var(--lagoon);}
+#rail a.on .dot{transform:scale(1.7);}
+body.on-dark #rail a{color:var(--deep-ink2);}
+body.on-dark #rail a.on{color:#9FD3E4;}
+@media(max-width:1100px){#rail{display:none;}}
+#topbar{position:fixed;top:18px;left:50%;transform:translateX(-50%);z-index:70;display:flex;align-items:center;gap:clamp(18px,4vw,34px);width:max-content;max-width:calc(100vw - 32px);padding:11px 12px 11px 22px;backdrop-filter:blur(18px);background:color-mix(in srgb,var(--bg) 66%,transparent);border:1px solid var(--line);border-radius:999px;box-shadow:var(--soft),inset 0 1px 0 rgba(255,255,255,.25);transition:transform .6s var(--ease),opacity .6s var(--ease);}
+#topbar.hide{transform:translateX(-50%) translateY(-160%);}
+#topbar .tag{border:1px solid var(--line);border-radius:999px;padding:7px 14px;}
+#topbar .mark svg{height:24px;width:auto;display:block;}
+#topbar .tag{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--ink2);}
+#topbar svg *,#hero .mark svg *{fill:var(--logo-ink)!important;}
+/* hero */
+#hero{min-height:100svh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;background:linear-gradient(180deg,var(--hero-g1) 0%,var(--hero-g2) 78%);overflow:hidden;position:relative;padding:120px 24px 90px;}
+#spiral{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;}
+#spiral img{position:absolute;width:min(105vmin,940px);height:min(105vmin,940px);opacity:.16;animation:spin 300s linear infinite;}
+#spiral .sp-d{display:none;}
+@media (prefers-color-scheme: dark){#spiral .sp-l{display:none;}#spiral .sp-d{display:block;opacity:.12;}}
+:root[data-theme="dark"] #spiral .sp-l{display:none!important;}
+:root[data-theme="dark"] #spiral .sp-d{display:block!important;opacity:.12;}
+:root[data-theme="light"] #spiral .sp-l{display:block!important;}
+:root[data-theme="light"] #spiral .sp-d{display:none!important;}
+@keyframes spin{to{transform:rotate(360deg);}}
+#hero .mark{width:72px;margin-bottom:36px;position:relative;}
+#hero h1{position:relative;display:flex;justify-content:center;width:100%;}
+#hero .h1mark{display:block;width:min(680px,78vw);}
+#hero .h1stack{width:min(460px,64vw);}
+#hero .h1mark svg{width:100%;height:auto;display:block;}
+#hero .h1mark svg *{fill:var(--logo-ink)!important;}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);}
+#hero .sub{margin-top:24px;font-size:clamp(15px,1.6vw,19px);color:var(--ink2);letter-spacing:.04em;position:relative;}
+#hero .kicker{margin-top:10px;font-size:12px;letter-spacing:.34em;text-transform:uppercase;color:var(--lagoon);position:relative;}
+#hero .cue{position:absolute;bottom:34px;left:50%;transform:translateX(-50%);font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--ink2);display:flex;flex-direction:column;align-items:center;gap:10px;}
+#hero .cue::after{content:"";width:1px;height:44px;background:linear-gradient(var(--ink2),transparent);}
+/* shared grids */
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px;}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px;}
+.grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;}
+figure.shot{position:relative;border-radius:20px;overflow:hidden;box-shadow:var(--soft);}
+figure.shot img{width:100%;height:100%;object-fit:cover;transition:transform .8s var(--ease);}
+figure.shot:hover img{transform:scale(1.025);}
+figure.shot figcaption{position:absolute;left:14px;bottom:12px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#fff;text-shadow:0 1px 8px rgba(4,41,58,.75);}
+figure.card{display:flex;flex-direction:column;gap:12px;}
+figure.card img{border:1px solid var(--line);border-radius:18px;padding:7px;background:var(--shell);box-shadow:var(--soft);}
+figure.card figcaption{font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink2);display:flex;align-items:center;justify-content:space-between;gap:10px;}
+.dark-sec figure.card figcaption{color:var(--deep-ink2);}
+/* download chip on assets */
+.dlb{display:inline-flex;align-items:center;gap:6px;min-height:32px;padding:6px 14px;border:1px solid var(--line);border-radius:999px;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);text-decoration:none;transition:all .45s var(--ease);flex:none;cursor:pointer;}
+.dlb:active{transform:scale(.96);}
+.dlb:hover,.dlb:focus-visible{color:#FBF9F4;background:var(--tide);border-color:var(--tide);}
+.dark-sec .dlb{border-color:var(--deep-line);color:var(--deep-ink2);}
+.dark-sec .dlb:hover,.dark-sec .dlb:focus-visible{color:var(--deep);background:var(--foam);border-color:var(--foam);}
+.dlb svg{width:12px;height:12px;flex:none;}
+/* content cards */
+.pillars{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);}
+.pillar{background:var(--bg);padding:36px 32px;display:flex;flex-direction:column;gap:12px;}
+.pillar h4{font-size:22px;}
+.pillar p{color:var(--ink2);font-size:15px;}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:clamp(24px,3vw,40px);}
+.fact .fn{font-family:var(--serif);font-size:clamp(36px,4.2vw,54px);color:var(--tide);font-variant-numeric:tabular-nums;}
+.fact .fd{color:var(--ink2);font-size:14px;margin-top:6px;max-width:24ch;}
+.quote{border-left:3px solid var(--tide);padding-left:26px;max-width:60ch;font-family:var(--serif);font-size:clamp(19px,2.3vw,27px);line-height:1.45;}
+.quote small{display:block;margin-top:14px;font-family:var(--sans);font-size:12.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink2);}
+.statement{font-family:var(--serif);font-size:clamp(24px,3.1vw,38px);line-height:1.35;max-width:26ch;}
+.statement em{font-style:normal;color:var(--tide);}
+/* voice sliders */
+.scales{display:flex;flex-direction:column;gap:22px;max-width:760px;}
+.scale{display:grid;grid-template-columns:110px 1fr 110px;gap:16px;align-items:center;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);}
+.scale .track{height:2px;background:var(--line);position:relative;border-radius:2px;}
+.scale .track i{position:absolute;top:50%;transform:translate(-50%,-50%);width:14px;height:14px;border-radius:50%;background:var(--tide);border:3px solid var(--bg);box-shadow:0 0 0 1px var(--line);}
+.scale b{font-weight:600;color:var(--ink);}
+@media(max-width:560px){.scale{grid-template-columns:80px 1fr 80px;font-size:11px;}}
+/* misuse tiles */
+.donts{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:20px;}
+.dont{border:1px solid var(--line);border-radius:20px;background:var(--card);overflow:hidden;box-shadow:var(--soft);}
+.dont .stage{aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;padding:26px;position:relative;background:#FBF9F4;}
+.dont .stage svg,.dont .stage img{width:72%;height:auto;max-height:64%;}
+.dont .no{display:flex;align-items:center;gap:8px;padding:12px 16px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#A4553F;border-top:1px solid var(--line);}
+.dont .no::before{content:"";width:14px;height:14px;flex:none;background:#A4553F;clip-path:polygon(20% 6%, 6% 20%, 36% 50%, 6% 80%, 20% 94%, 50% 64%, 80% 94%, 94% 80%, 64% 50%, 94% 20%, 80% 6%, 50% 36%);}
+/* swatches & tints */
+.swatches{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;}
+.swatch{border:1px solid var(--line);border-radius:20px;overflow:hidden;background:var(--card);cursor:pointer;transition:transform .5s var(--ease),box-shadow .5s var(--ease);box-shadow:var(--soft);text-align:left;font-family:var(--sans);display:block;width:100%;}
+.swatch:hover{transform:translateY(-3px);}
+.swatch .chip{height:120px;position:relative;}
+.swatch .chip span{position:absolute;right:12px;bottom:10px;font-size:10.5px;letter-spacing:.18em;}
+.swatch .meta{padding:16px 18px;font-size:12.5px;color:var(--ink2);display:flex;flex-direction:column;gap:6px;}
+.swatch .meta div{display:flex;justify-content:space-between;gap:14px;}
+.swatch .meta b{display:block;font-family:var(--serif);font-size:18px;font-weight:500;color:var(--ink);margin-bottom:4px;}
+.swatch .meta i{font-style:normal;font-variant-numeric:tabular-nums;color:var(--ink);}
+.copied{position:fixed;bottom:26px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--deep);color:#FBF9F4;font-size:13px;letter-spacing:.08em;padding:10px 22px;border-radius:40px;opacity:0;transition:.3s;z-index:90;pointer-events:none;}
+.copied.show{opacity:1;transform:translateX(-50%);}
+.tints{display:flex;flex-direction:column;gap:14px;}
+.tint-row{display:grid;grid-template-columns:120px 1fr;gap:16px;align-items:center;}
+.tint-row .tn{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink2);}
+.tint-row .ramp{display:flex;height:52px;border-radius:3px;overflow:hidden;border:1px solid var(--line);}
+.tint-row .ramp div{flex:1;display:flex;align-items:flex-end;padding:6px 8px;font-size:10px;letter-spacing:.1em;}
+.prop-bar{display:flex;height:64px;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--soft);}
+.prop-bar div{display:flex;align-items:flex-end;padding:8px 10px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;}
+/* logo tiles */
+.logo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;}
+.logo-tile{border:1px solid var(--line);border-radius:22px;box-shadow:var(--soft);aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;padding:38px;position:relative;}
+.logo-tile svg,.logo-tile img{width:68%;height:auto;}
+.logo-tile span svg{width:100%;height:auto;}
+.logo-tile .cap{position:absolute;bottom:12px;left:16px;font-size:11px;letter-spacing:.22em;text-transform:uppercase;opacity:.8;}
+.logo-tile .dlb{position:absolute;top:12px;right:12px;background:color-mix(in srgb,var(--pearl) 80%,transparent);}
+.lt-pearl{background:#FBF9F4;color:#074154;}
+.lt-deep{background:linear-gradient(160deg,#0A6887,#074154);color:#FBF9F4;}
+.lt-foam{background:#D0E7ED;color:#074154;}
+.lt-shore{background:#EFE8D8;color:#074154;}
+.lt-black{background:#101820;color:#FBF9F4;}
+/* clearspace diagram */
+.clearspace{border:1.5px dashed color-mix(in srgb,var(--lagoon) 55%,transparent);border-radius:20px;display:inline-flex;padding:clamp(30px,5vw,64px);position:relative;background:var(--card);border-radius:3px;}
+.clearspace svg{width:min(360px,60vw);height:auto;}
+.clearspace .cs-lbl{position:absolute;font-size:10.5px;letter-spacing:.16em;color:var(--lagoon);text-transform:uppercase;}
+/* typography */
+.type-spec{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;}
+.spec{border:1px solid var(--line);border-radius:24px;padding:38px 36px;background:var(--card);box-shadow:var(--soft);}
+.spec .aa{font-size:clamp(64px,8vw,108px);line-height:1;}
+.spec.lora .aa,.spec.lora .glyphs{font-family:var(--serif);}
+.spec h4{margin-top:16px;font-size:20px;}
+.spec .role{font-size:11.5px;letter-spacing:.26em;text-transform:uppercase;color:var(--lagoon);margin-top:6px;}
+.spec p{margin-top:12px;font-size:14px;color:var(--ink2);}
+.spec .glyphs{margin-top:16px;font-size:14.5px;letter-spacing:.1em;color:var(--ink2);word-break:break-all;line-height:2;}
+.hier{border-top:1px solid var(--line);}
+.hier .row{display:grid;grid-template-columns:150px 1fr;gap:22px;align-items:baseline;padding:20px 0;border-bottom:1px solid var(--line);}
+.hier .tag{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink2);}
+@media(max-width:640px){.hier .row{grid-template-columns:1fr;gap:6px;}}
+/* photography */
+.photo-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;}
+.ph-a{grid-column:span 7;aspect-ratio:16/10;}
+.ph-b{grid-column:span 5;aspect-ratio:4/3.57;}
+.ph-c,.ph-d,.ph-e{grid-column:span 4;aspect-ratio:1/1.05;}
+.ph-f{grid-column:span 12;aspect-ratio:21/8;}
+@media(max-width:760px){.photo-grid figure{grid-column:span 12!important;aspect-ratio:16/10!important;}}
+.principles{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:26px;}
+.principles h4{font-family:var(--sans);font-size:12.5px;letter-spacing:.26em;text-transform:uppercase;color:#8FC1D2;margin-bottom:8px;font-weight:600;}
+.principles p{font-size:14.5px;color:var(--deep-ink2);}
+/* apps */
+.apps{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;}
+.ap-w{grid-column:span 12;aspect-ratio:21/9;}
+.ap-h{grid-column:span 6;aspect-ratio:4/3;}
+.ap-t{grid-column:span 4;aspect-ratio:1/1.1;}
+@media(max-width:760px){.apps figure{grid-column:span 12!important;aspect-ratio:16/10!important;}}
+/* social */
+.pfp-row{display:flex;gap:clamp(22px,4vw,52px);flex-wrap:wrap;}
+.pfp-row figure{display:flex;flex-direction:column;gap:12px;align-items:center;}
+.pfp-row img{width:clamp(104px,12vw,160px);height:auto;border-radius:50%;border:1px solid var(--deep-line);}
+.pfp-row figcaption{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--deep-ink2);}
+.covers{display:flex;flex-direction:column;gap:24px;}
+.covers-2{display:grid;grid-template-columns:1.3fr 1fr;gap:24px;}
+@media(max-width:760px){.covers-2{grid-template-columns:1fr;}}
+.ig-stage{display:grid;grid-template-columns:1.5fr 1fr;gap:24px;align-items:start;}
+@media(max-width:760px){.ig-stage{grid-template-columns:1fr;}}
+/* flats & templates */
+.flats-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:24px;align-items:start;}
+.f-col{display:flex;flex-direction:column;gap:24px;}
+@media(max-width:760px){.flats-grid{grid-template-columns:1fr;}}
+.tpl-grid{display:grid;grid-template-columns:1fr 1.6fr;gap:24px;grid-auto-rows:min-content;}
+.tpl-grid .t-tall{grid-row:span 3;}
+@media(max-width:760px){.tpl-grid{grid-template-columns:1fr;}.tpl-grid .t-tall{grid-row:auto;}}
+/* downloads */
+.zip-btn{display:inline-flex;align-items:center;gap:26px;background:var(--deep);color:#FBF9F4;text-decoration:none;padding:22px 22px 22px 40px;border-radius:999px;transition:transform .5s var(--ease),box-shadow .5s var(--ease);box-shadow:0 24px 54px -20px rgba(7,65,84,.55),inset 0 1px 0 rgba(255,255,255,.14);min-height:44px;}
+.zip-btn .zb-i{width:46px;height:46px;border-radius:50%;background:rgba(251,249,244,.12);border:1px solid rgba(251,249,244,.2);display:flex;align-items:center;justify-content:center;flex:none;transition:transform .5s var(--ease);}
+.zip-btn:hover .zb-i{transform:translateY(2px);}
+.zip-btn:active{transform:scale(.98);}
+.zip-btn:hover,.zip-btn:focus-visible{transform:translateY(-3px);box-shadow:0 26px 54px -18px rgba(7,65,84,.6);}
+.zip-btn .zb-t{font-family:var(--serif);font-size:21px;}
+.zip-btn .zb-s{font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;color:#A8C6D1;}
+.dl-groups{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px;}
+.dl-group{border:1px solid var(--line);border-radius:24px;padding:28px;background:var(--card);box-shadow:var(--soft);}
+.dl-group h4{font-size:18px;margin-bottom:14px;}
+.dl-group a{display:flex;align-items:center;gap:12px;padding:11px 0;text-decoration:none;color:var(--ink2);font-size:14px;border-top:1px solid var(--line);transition:color .2s;min-height:44px;}
+.dl-group a:hover,.dl-group a:focus-visible{color:var(--lagoon);}
+.dl-group .chip{width:32px;height:22px;border-radius:3px;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;flex:none;}
+.dl-group .chip i{width:15px;height:7px;border-radius:2px;display:block;}
+.dl-group a::after{content:"PNG ↓";margin-left:auto;font-size:10.5px;letter-spacing:.16em;color:var(--ink2);opacity:.7;}
+/* footer */
+footer{background:var(--abyss);color:var(--deep-ink);padding:clamp(70px,11vh,120px) 0 56px;}
+footer .big{font-family:var(--serif);font-size:clamp(28px,4.4vw,52px);max-width:18ch;line-height:1.2;}
+.f-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:34px;margin-top:clamp(44px,6vh,64px);padding-top:38px;border-top:1px solid var(--deep-line);}
+.f-grid h5{font-size:11.5px;letter-spacing:.26em;text-transform:uppercase;color:#8FC1D2;margin-bottom:12px;font-family:var(--sans);font-weight:600;}
+.f-grid p,.f-grid li{font-size:14.5px;color:var(--deep-ink2);line-height:2;}
+.f-grid ul{list-style:none;}
+footer .base{margin-top:60px;display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;align-items:center;border-top:1px solid var(--deep-line);padding-top:26px;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--deep-ink2);}
+footer .base svg{height:20px;width:auto;}
+/* iconography */
+.icn{padding-bottom:40px;gap:18px;}
+.icn .icn-fish{width:min(200px,70%);display:block;}
+.icn .icn-fish svg{width:100%;height:auto;overflow:visible;display:block;}
+.icn .icn-mark{width:84px;display:block;}
+.icn .icn-mark svg{width:100%;height:auto;overflow:visible;display:block;}
+/* scrim demo */
+.scrim-demo{position:relative;border-radius:20px;overflow:hidden;aspect-ratio:16/10;box-shadow:var(--soft);}
+.scrim-demo img{width:100%;height:100%;object-fit:cover;}
+.scrim-demo .sc{position:absolute;inset:0;}
+.scrim-demo .s40{background:linear-gradient(180deg,rgba(7,65,84,.12),rgba(7,65,84,.55));}
+.scrim-demo .s90{background:rgba(7,65,84,.9);}
+.scrim-demo .sc-t{position:absolute;left:26px;bottom:22px;color:#FBF9F4;display:flex;flex-direction:column;gap:6px;}
+.scrim-demo .sc-t em{font-style:normal;font-size:clamp(20px,2.4vw,30px);font-family:var(--serif);}
+.scrim-demo .sc-t small{font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:#A8C6D1;}
+.lora{font-family:var(--serif);}
+/* anatomy */
+.anat{border:1px solid var(--line);border-radius:24px;background:#FBF9F4;box-shadow:var(--soft);padding:clamp(40px,6vw,80px);max-width:880px;}
+.anat-in{position:relative;}
+.anat-in img{width:100%;height:auto;display:block;}
+.am{position:absolute;font-size:11px;letter-spacing:.16em;color:var(--lagoon);text-transform:uppercase;font-variant-numeric:tabular-nums;white-space:nowrap;}
+.am-x{left:-2.5%;top:50%;transform:translate(-100%,-50%);border-right:1.5px dashed var(--lagoon);padding-right:9px;height:100%;display:flex;align-items:center;top:0;}
+.am-cap{right:0;top:-10px;transform:translateY(-100%);border-bottom:1.5px dashed var(--lagoon);padding-bottom:6px;width:74%;text-align:right;}
+.am-gap{left:15.5%;bottom:-12px;transform:translateY(100%);border-top:1.5px dashed var(--lagoon);padding-top:6px;width:6.5%;text-align:center;}
+/* lockup system */
+.locksys{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px;}
+.lock{border:1px solid var(--line);border-radius:22px;background:var(--card);box-shadow:var(--soft);overflow:hidden;display:flex;flex-direction:column;}
+.lock .st{aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;padding:34px;background:#FBF9F4;border-bottom:1px solid var(--line);border-radius:calc(22px - 6px) calc(22px - 6px) 0 0;margin:6px 6px 0;}
+.lock .st svg,.lock .st img{width:70%;height:auto;}
+.lock .st.narrow img,.lock .st.narrow span{width:38%;}
+.lock .bd{padding:20px 22px 24px;display:flex;flex-direction:column;gap:8px;}
+.lock .bd h4{font-size:19px;}
+.lock .bd .use{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--lagoon);font-weight:600;}
+.lock .bd p{font-size:13.5px;color:var(--ink2);line-height:1.6;}
+/* size ladder */
+.sizes{display:flex;flex-wrap:wrap;align-items:flex-end;gap:clamp(28px,5vw,64px);border:1px solid var(--line);border-radius:24px;box-shadow:var(--soft);background:#D0E7ED;padding:clamp(28px,4vw,48px);}
+.sizes .sz small{color:#074154!important;}
+.sizes .sz{display:flex;flex-direction:column;gap:14px;align-items:flex-start;}
+.sizes .sz small{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink2);font-variant-numeric:tabular-nums;}
+/* wayfinding demo */
+.wayf{background:#074154;border-radius:24px;box-shadow:var(--soft);max-width:560px;padding:clamp(30px,4vw,48px);display:flex;flex-direction:column;gap:0;}
+.wayf .wrow{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:18px 2px;border-bottom:1px solid rgba(208,231,237,.18);color:#FBF9F4;font-size:15px;letter-spacing:.22em;text-transform:uppercase;}
+.wayf .wrow:last-child{border-bottom:none;}
+.chv{width:12px;height:12px;border-top:2.5px solid #D0E7ED;border-right:2.5px solid #D0E7ED;flex:none;display:inline-block;}
+.chv-r{transform:rotate(45deg);}
+.chv-l{transform:rotate(-135deg);}
+.chv-u{transform:rotate(-45deg);}
+/* colour-usage demo */
+.cu{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:24px;}
+.cu .cu-tile{border-radius:20px;padding:26px;min-height:150px;display:flex;flex-direction:column;justify-content:space-between;border:1px solid var(--line);}
+.cu .cu-tile b{font-family:var(--serif);font-size:19px;font-weight:500;}
+.cu .cu-tile span{font-size:11px;letter-spacing:.18em;text-transform:uppercase;opacity:.75;}
+/* reveal */
+.rv{opacity:0;transform:translateY(30px);filter:blur(9px);transition:opacity .9s var(--ease),transform .9s var(--ease),filter .9s var(--ease);}
+.rv.in{opacity:1;transform:none;filter:blur(0);}
+@media (prefers-reduced-motion: reduce){.rv{opacity:1;transform:none;filter:none;}}
+</style>
+<div id="topbar">
+  <div class="mark">{{SVG_LOGO_TEAL}}</div>
+  <div class="tag">Brand Storytelling</div>
+</div>
+<header id="hero" style="min-height:72svh;">
+  <h1><span class="vh">SEARULEA</span><span class="h1mark h1stack" aria-hidden="true">{{SVG_LOGO_STACKED}}</span></h1>
+  <div class="kicker">Brand Storytelling</div>
+  <p class="sub">How the brand speaks — the complete reference.</p>
+  <div class="cue">Descend</div>
+</header>
+<section id="storytelling">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="chap-no">Brand Storytelling</span>
+      <span class="eyebrow">The full reference — how SEARULEA speaks</span>
+      <h2>Lead with vision. Prove with facts.</h2>
+      <p>This chapter carries the complete storytelling document. It defines how the brand communicates, with which words, and to whom — a working tool for everyone who writes on behalf of SEARULEA, to ensure consistency, precision and impact in every communication.</p>
+    </div>
+    <div class="sh rv"><span class="n">S.1</span><h3>The Register</h3></div>
+    <p class="statement rv" style="max-width:34ch;">SEARULEA speaks like someone who knows their subject inside out — <em>and has no need to prove it.</em></p>
+    <p class="rv" style="color:var(--ink2);max-width:66ch;margin-top:18px;">A voice that leads with vision, proves with facts. International in its references, Moroccan without apology, technical without being cold. Like its founder, SEARULEA communicates from a place of conviction: it states its ambitions clearly, relies on facts and allows results to speak for themselves.</p>
+    <div class="rv" style="margin-top:26px;"><span class="eyebrow">Integration · Sovereignty · Sustainability</span></div>
+    <div class="sh rv"><span class="n">S.2</span><h3>The Style — five rules</h3></div>
+    <div class="grid3 rv">
+      <div class="pillar" style="border:1px solid var(--line);"><span class="eyebrow">01</span><h4>Lead with the point</h4><p>Then build the argument. A short sentence comes first — it lands the idea. A longer sentence follows with context and depth.</p></div>
+      <div class="pillar" style="border:1px solid var(--line);"><span class="eyebrow">02</span><h4>Facts persuade</h4><p>Numbers, results, locations and proper nouns carry credibility. Never surround them with qualifiers or superlatives.</p></div>
+      <div class="pillar" style="border:1px solid var(--line);"><span class="eyebrow">03</span><h4>Present tense</h4><p>When something is true, state it. Prefer conviction over conditional language.</p></div>
+      <div class="pillar" style="border:1px solid var(--line);"><span class="eyebrow">04</span><h4>Conviction over emotion</h4><p>Humanity comes from the strength of convictions — never from emotional claims or generic statements.</p></div>
+      <div class="pillar" style="border:1px solid var(--line);"><span class="eyebrow">05</span><h4>Be precise</h4><p>Every sentence contributes information, perspective or evidence. If a word does not add value, remove it.</p></div>
+    </div>
+    <div class="sh rv"><span class="n">S.3</span><h3>Do — name facts, demonstrate expertise</h3></div>
+    <div class="grid2 rv">
+      <div class="pillar" style="border-left:3px solid var(--tide);"><p><b style="color:var(--ink);">Lead with the vision. Anchor it with proof.</b> Start with where SEARULEA is going; follow with the facts, figures and commitments that make the ambition tangible.</p></div>
+      <div class="pillar" style="border-left:3px solid var(--tide);"><p><b style="color:var(--ink);">Name the facts.</b> Numbers, locations, certifications, partners, milestones. <i>375 hectares. Ras El Ma. 2,790 tonnes by 2031.</i></p></div>
+      <div class="pillar" style="border-left:3px solid var(--tide);"><p><b style="color:var(--ink);">Own Moroccan pride without justifying it.</b> "Rooted in Morocco by conviction." The vision creates momentum; the proof creates trust.</p></div>
+      <div class="pillar" style="border-left:3px solid var(--tide);"><p><b style="color:var(--ink);">Treat social commitments as operational commitments.</b> Speak about inclusion and training with the same precision as infrastructure. <i>"40% women across the workforce."</i></p></div>
+      <div class="pillar" style="border-left:3px solid var(--tide);"><p><b style="color:var(--ink);">Compress complexity.</b> <i>From our sea to your port.</i> Six words — one integrated value chain.</p></div>
+      <div class="pillar" style="border-left:3px solid var(--tide);"><p><b style="color:var(--ink);">Think systems, not production.</b> SEARULEA is not a fish farm — it is the infrastructure of Moroccan aquaculture. Our hatchery supplies the next generation of North African aquaculture.</p></div>
+    </div>
+    <div class="sh rv"><span class="n">S.4</span><h3>Don't — never use these patterns</h3></div>
+    <div class="grid2 rv">
+      <div class="pillar" style="border-left:3px solid #A4553F;"><p><b style="color:var(--ink);">No generic product language.</b> Every environmental commitment is backed by measurable actions, targets or infrastructure.</p></div>
+      <div class="pillar" style="border-left:3px solid #A4553F;"><p><b style="color:var(--ink);">No unsupported leadership claims.</b> "First in Morocco" only matters when connected to a larger ambition, a new model or a regional impact. And never stack adjectives.</p></div>
+      <div class="pillar" style="border-left:3px solid #A4553F;"><p><b style="color:var(--ink);">No borrowed voices.</b> SEARULEA does not sound like Nordic or American brands. Moroccan by conviction, international by ambition.</p></div>
+      <div class="pillar" style="border-left:3px solid #A4553F;"><p><b style="color:var(--ink);">Never apologise.</b> Not for ambition, not for being Moroccan. Never soften the scale of the vision — state it clearly, then prove it.</p></div>
+    </div>
+    <div class="sh rv"><span class="n">S.5</span><h3>Key messages — Clients &amp; Distributors</h3></div>
+    <div class="grid3 rv">
+      <div class="pillar" style="border:1px solid var(--line);"><span class="eyebrow">IoT traceability</span><p>Every batch is traceable through an integrated IoT system. Certification follows the fish at every stage, from our sea to your port. One point of contact, complete documentation.</p></div>
+      <div class="pillar" style="border:1px solid var(--line);"><span class="eyebrow">ONSSA certified</span><p>All products are certified by ONSSA and produced to European standards. Sea bream, seabass and meagre raised in the Mediterranean, exported through Ras Kebdana.</p></div>
+      <div class="pillar" style="border:1px solid var(--line);"><span class="eyebrow">Integrated value chain</span><p>From offshore farming to fresh processing and export logistics, every stage is managed within a single operational model — documented roadmap, scalable volumes, partnerships from Phase 1.</p></div>
+    </div>
+    <blockquote class="quote rv" style="margin-top:30px;">"Searulea is built to last. Certified offshore production, batch-by-batch traceability, biosafety and solar energy integrated into the CAPEX from day one. Volumes that grow alongside our partners."<small>To clients — and never on price: the objective is not to be the cheapest supplier, but the most trusted one.</small></blockquote>
+    <div class="sh rv"><span class="n">S.6</span><h3>Key messages — Press</h3></div>
+    <div class="grid3 rv">
+      <div class="pillar" style="border:1px solid var(--line);"><span class="eyebrow">Built to last</span><p>Most industries are built first and corrected later. Biosafety, solar energy, IoT traceability and 40% women across the workforce are part of the CAPEX — not additions made to satisfy ESG requirements.</p></div>
+      <div class="pillar" style="border:1px solid var(--line);"><span class="eyebrow">Moroccan sovereignty</span><p>Morocco fishes; Morocco exports canned sardines. Yet juveniles are imported and feed is sourced abroad, in an industry 3,500 km of coastline position Morocco to lead. Searulea changes that. Structurally.</p></div>
+      <div class="pillar" style="border:1px solid var(--line);"><span class="eyebrow">A regional blueprint</span><p>What is built in the Oriental Region today will be observed across North Africa tomorrow — an African operator meeting international export standards while building critical infrastructure locally.</p></div>
+    </div>
+    <blockquote class="quote rv" style="margin-top:30px;">"Searulea does not only produce fish. It builds Morocco's capacity to produce, transform and scale aquaculture on its own terms."</blockquote>
+    <div class="sh rv"><span class="n">S.7</span><h3>Key messages — Investors</h3></div>
+    <div class="grid3 rv">
+      <div class="pillar" style="border:1px solid var(--line);"><span class="eyebrow">An underserved market</span><p>European demand grows while supply remains structurally constrained. Searulea enters with a 375-hectare concession secured and commercial partnerships established ahead of production.</p></div>
+      <div class="pillar" style="border:1px solid var(--line);"><span class="eyebrow">A scalable model</span><p>The value lies in the integration of the entire chain — production, processing, export. Growth is structured through documented phases to 2,790 tonnes by 2031.</p></div>
+      <div class="pillar" style="border:1px solid var(--line);"><span class="eyebrow">Critical infrastructure</span><p>Beyond the production asset: hatchery and feed capabilities that support the development of the wider North African aquaculture sector.</p></div>
+    </div>
+    <div class="sh rv"><span class="n">S.8</span><h3>Vocabulary — words to use</h3></div>
+    <div class="grid4 rv">
+      <div class="pillar" style="border-top:2px solid var(--tide);"><h4>Rigour</h4><p>Precision without excess — the discipline and technical standards under every decision.</p></div>
+      <div class="pillar" style="border-top:2px solid var(--tide);"><h4>Biosafety</h4><p>Not a marketing claim — an operational reality integrated into the CAPEX from day one.</p></div>
+      <div class="pillar" style="border-top:2px solid var(--tide);"><h4>Infrastructure</h4><p>Positions SEARULEA as a systemic actor shaping an industry, not a standalone producer.</p></div>
+      <div class="pillar" style="border-top:2px solid var(--tide);"><h4>Vertical integration</h4><p>Every stage of the value chain — production, biosafety, cold chain, export logistics.</p></div>
+      <div class="pillar" style="border-top:2px solid var(--tide);"><h4>Traceability</h4><p>Every batch, every stage — a measurable commitment supported by systems and documentation.</p></div>
+      <div class="pillar" style="border-top:2px solid var(--tide);"><h4>Standards</h4><p>A benchmark, not an aspiration — European, export and operational standards define how SEARULEA operates.</p></div>
+      <div class="pillar" style="border-top:2px solid var(--tide);"><h4>Scalability</h4><p>Growth designed from the outset, through documented phases and infrastructure built for expansion.</p></div>
+      <div class="pillar" style="border-top:2px solid var(--tide);"><h4>Sovereignty</h4><p>The ability to produce, transform and create value locally — a strategic objective.</p></div>
+    </div>
+    <div class="sh rv"><span class="n">S.9</span><h3>Signature expressions &amp; phrases to avoid</h3></div>
+    <div class="grid3 rv">
+      <div class="pillar" style="border:1px solid var(--line);"><span class="eyebrow">The tagline</span><p><b style="color:var(--ink);font-family:var(--serif);font-size:19px;">From our sea to your port.</b><br>The promise of integration in a single line — and the only line that appears on assets.</p></div>
+      <div class="pillar" style="border:1px solid var(--line);"><span class="eyebrow">Editorial only</span><p><b style="color:var(--ink);">Rooted in Morocco. Built for the world.</b> Moroccan roots as foundation, never as justification. <b style="color:var(--ink);">The aquaculture of tomorrow. Built today.</b> The model others will replicate.</p></div>
+      <div class="pillar" style="border:1px solid #A4553F;"><span class="eyebrow" style="color:#A4553F;border-color:#A4553F;">Avoid</span><p>"Passion for the sea" — passion does not certify operations. "Sustainable development" as a standalone claim. "We believe in…" — belief is not evidence. Prefer: we build, we operate, we document, we certify, we scale.</p></div>
+    </div>
+    <div class="sh rv"><span class="n">S.10</span><h3>The Manifesto</h3></div>
+    <div class="rv" style="background:var(--deep);border-radius:24px;box-shadow:var(--soft);padding:clamp(40px,6vw,84px);color:#E9F3F6;">
+      <p style="font-family:var(--serif);font-size:clamp(19px,2.2vw,26px);line-height:1.65;max-width:62ch;">Morocco has 3,500 kilometres of coastline and direct access to European markets. SEARULEA is building the infrastructure to unlock their full potential.<br><br>
+      In Ras El Ma, on a 375-hectare offshore concession, we are developing an integrated aquaculture value chain designed to operate as a single system: offshore farming, fresh processing at port, refrigerated export logistics and end-to-end traceability.<br><br>
+      <em style="font-style:normal;color:#D0E7ED;">One stage supports the next.</em><br><br>
+      Our approach is defined as much by infrastructure as by the standards embedded within it. Biosafety from day one. Solar energy integrated into the project. Local employment and training anchored in the region. Decisions built into the CAPEX, not initiatives added later.<br><br>
+      Over time, our hatchery and feed operations are designed to support the wider development of aquaculture across North Africa — infrastructure designed to meet international standards from day one, scale with the needs of the industry, and contribute to the long-term development of North African aquaculture.</p>
+      <div style="margin-top:36px;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;"><span style="font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:#8FC1D2;">SEARULEA — Brand Storytelling</span><span style="font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:#8FC1D2;">From our sea to your port</span></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p class="big rv">From our sea<br>to your port.</p>
+    <div class="f-grid">
+      <div class="rv"><h5>Companion</h5><p><a href="https://claude.ai/code/artifact/389f0f35-c6c1-4029-91f5-8e0f39029ca3" target="_blank" rel="noopener" style="color:var(--deep-ink);">SEARULEA Brand Guidelines →</a><br>Identity, applications and downloads live there.</p></div>
+      <div class="rv"><h5>Usage</h5><p>This document governs every text written on behalf of SEARULEA — releases, decks, site copy, social.</p></div>
+      <div class="rv"><h5>Contact</h5><p>SEARULEA — Ras El Ma, Oriental Region<br>Morocco · Mediterranean Sea<br>www.searulea.com</p></div>
+    </div>
+    <div class="base"><span>{{SVG_LOGO_WHITE}}</span><span>From our sea to your port · 2026</span></div>
+  </div>
+</footer>
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}}),{threshold:.1});
+document.querySelectorAll('.rv').forEach(el=>{const sibs=[...el.parentElement.children].filter(c=>c.classList&&c.classList.contains('rv'));el.style.transitionDelay=(Math.min(sibs.indexOf(el),5)*90)+'ms';io.observe(el);});
+let lastY=0;addEventListener('scroll',()=>{const y=scrollY;document.getElementById('topbar').classList.toggle('hide',y>400&&y>lastY);lastY=y;},{passive:true});
+</script>

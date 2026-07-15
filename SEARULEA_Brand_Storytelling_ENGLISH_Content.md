@@ -61,7 +61,7 @@ INTEGRATION · SOVEREIGNTY · SUSTAINABILITY
 
 - **Built to Last** — Most industries are built first and corrected later. Searulea takes a different approach. Biosafety, solar energy, IoT traceability and a target of 40% women across the workforce are integrated into the project from day one. They are part of the CAPEX, not additions made later to satisfy ESG requirements.
 - **Moroccan Sovereignty** — A country is sovereign over a resource when it can produce it, transform it and create value from it. Morocco fishes. Morocco exports canned sardines. Yet fish juveniles are imported, feed is sourced abroad, and foreign operators continue to structure an industry that Morocco's 3,500 kilometres of coastline naturally position it to lead. Searulea changes that. Structurally.
-- **A Regional Blueprint** — What is being built in Nador today will be observed across North Africa tomorrow. Searulea demonstrates that an African operator can meet international export standards while building critical infrastructure locally. The ambition extends beyond a single farm. It is a model for the region.
+- **A Regional Blueprint** — What is being built in the Oriental Region today will be observed across North Africa tomorrow. Searulea demonstrates that an African operator can meet international export standards while building critical infrastructure locally. The ambition extends beyond a single farm. It is a model for the region.
 
 > "Searulea does not only produce fish. It builds Morocco's capacity to produce, transform and scale aquaculture on its own terms."
 

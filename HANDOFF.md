@@ -11,7 +11,7 @@
 ## 1. What this is
 
 A premium, editorial **one-page homepage** for **SEARULEA**, a vertically
-integrated Mediterranean aquaculture operator based at **Ras El Ma, Nador,
+integrated Mediterranean aquaculture operator based at **Ras El Ma, Oriental Region,
 Morocco**. The page targets three audiences at once — distributors/clients,
 investors, and press/institutions — and is written to read as B2B/credibility-first.
 
@@ -187,7 +187,7 @@ All in `scripts/main.js`, guarded by `prefers-reduced-motion`.
 
 - `<title>`, meta description, keywords, theme-color (`#074154`)
 - Open Graph + Twitter card tags
-- JSON-LD `Organization` schema (name, location MA/Nador/Ras El Ma, areaServed, knowsAbout)
+- JSON-LD `Organization` schema (name, location MA/Oriental Region/Ras El Ma, areaServed, knowsAbout)
 - ⚠️ **No `og:image` set** — social shares show no preview image. Add a 1200×630 JPG at `assets/img/og.jpg` + `<meta property="og:image">`.
 - Favicon: `assets/svg/mark.svg`.
 
