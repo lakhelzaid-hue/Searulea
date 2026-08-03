@@ -1,0 +1,341 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/gapwbu",
+    "id": "gapwbu",
+    "slide": 11,
+    "layoutId": "79c726a0-f310-4da4-841d-44de1f347e0d",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "5a49771e-0b6e-475c-bea1-59ec40ea8a6a",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1440,
+      "height": 810
+    }
+  },
+  "theme": {
+    "colorSchemeName": "SEARULEA 2026",
+    "colors": {
+      "accent1": "#074154",
+      "accent2": "#0A6887",
+      "accent3": "#0C7190",
+      "accent4": "#D0E7ED",
+      "accent5": "#EFE8D8",
+      "accent6": "#D98E2B",
+      "bg1": "#FBF9F4",
+      "bg2": "#D0E7ED",
+      "tx1": "#0B3242",
+      "tx2": "#3E5966",
+      "dk1": "#04293A",
+      "dk2": "#074154",
+      "lt1": "#FFFFFF",
+      "lt2": "#FBF9F4",
+      "hlink": "#0A6887",
+      "folHlink": "#0C7190"
+    },
+    "typefaces": [
+      "DM Sans",
+      "Lora"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "79c726a0-f310-4da4-841d-44de1f347e0d",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "5a49771e-0b6e-475c-bea1-59ec40ea8a6a",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "5a49771e-0b6e-475c-bea1-59ec40ea8a6a",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/zqtovapg",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1440,
+        810
+      ],
+      "alt": "SEARULEA offshore operations",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "f4ecf097-52ff-4451-8fb4-69407bd2f6d6",
+        "contentType": "image/jpeg",
+        "byteLength": 899315
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1kjm583a",
+      "id": "2",
+      "name": "divider-photo-panel",
+      "bbox": [
+        0,
+        0,
+        690,
+        810
+      ],
+      "geometry": "rect",
+      "fillColor": "#074154",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/1cv6xk7m",
+      "id": "3",
+      "bbox": [
+        78,
+        68,
+        58,
+        58
+      ],
+      "alt": "SEARULEA monogram",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "2440cffd-1c77-4942-ad9e-62feadf87e25",
+        "contentType": "image/png",
+        "byteLength": 64082
+      }
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/reh4zyl8",
+      "id": "4",
+      "name": "divider-photo-number",
+      "bbox": [
+        78,
+        280,
+        400,
+        24
+      ],
+      "geometry": "rect",
+      "text": "[SECTION 02]",
+      "textPreview": "[SECTION 02]",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "DM Sans",
+        "color": "#D0E7ED",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[SECTION 02]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[SECTION 02]",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[SECTION 02]",
+              "fontSize": 15,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qd8nqtkn",
+      "id": "5",
+      "name": "divider-photo-title",
+      "bbox": [
+        78,
+        330,
+        520,
+        170
+      ],
+      "geometry": "rect",
+      "text": "[ADD SECTION TITLE]",
+      "textPreview": "[ADD SECTION TITLE]",
+      "resolvedFontSize": 68,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 68,
+        "typeface": "Lora",
+        "color": "#FBF9F4",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[ADD SECTION"
+          },
+          {
+            "index": 2,
+            "text": "TITLE]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[ADD SECTION TITLE]",
+          "lineSpacingPercent": 94000,
+          "resolvedTextStyle": {
+            "fontSize": 68,
+            "typeface": "Lora",
+            "color": "#FBF9F4",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.94
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[ADD SECTION TITLE]",
+              "fontSize": 68,
+              "typeface": "Lora",
+              "color": "#FBF9F4",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.94
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dgjm183y",
+      "id": "6",
+      "name": "divider-photo-body",
+      "bbox": [
+        78,
+        548,
+        500,
+        90
+      ],
+      "geometry": "rect",
+      "text": "[Add one line that sets up the next chapter.]",
+      "textPreview": "[Add one line that sets up the next chapter.]",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "DM Sans",
+        "color": "#D0E7ED",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[Add one line that sets up the next chapter.]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[Add one line that sets up the next chapter.]",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[Add one line that sets up the next chapter.]",
+              "fontSize": 23,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

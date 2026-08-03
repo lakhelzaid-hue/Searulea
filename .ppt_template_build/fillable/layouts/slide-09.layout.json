@@ -1,0 +1,1415 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/vmt58h",
+    "id": "vmt58h",
+    "slide": 9,
+    "layoutId": "d7b1c9d9-86c8-4965-a78e-bac7eac4d76e",
+    "layoutName": "00 — Blank / Pearl",
+    "masterLayoutId": "5d415201-bb60-4263-9550-0439a218218a",
+    "masterLayoutName": "SEARULEA Fillable / Pearl",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1440,
+      "height": 810
+    }
+  },
+  "theme": {
+    "colorSchemeName": "SEARULEA 2026",
+    "colors": {
+      "accent1": "#074154",
+      "accent2": "#0A6887",
+      "accent3": "#0C7190",
+      "accent4": "#D0E7ED",
+      "accent5": "#EFE8D8",
+      "accent6": "#D98E2B",
+      "bg1": "#FBF9F4",
+      "bg2": "#D0E7ED",
+      "tx1": "#0B3242",
+      "tx2": "#3E5966",
+      "dk1": "#04293A",
+      "dk2": "#074154",
+      "lt1": "#FFFFFF",
+      "lt2": "#FBF9F4",
+      "hlink": "#0A6887",
+      "folHlink": "#0C7190"
+    },
+    "typefaces": [
+      "DM Sans",
+      "Lora"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "d7b1c9d9-86c8-4965-a78e-bac7eac4d76e",
+      "name": "00 — Blank / Pearl",
+      "parentLayoutId": "5d415201-bb60-4263-9550-0439a218218a",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "5d415201-bb60-4263-9550-0439a218218a",
+      "name": "SEARULEA Fillable / Pearl",
+      "type": "master",
+      "backgroundColor": "#FBF9F4",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master/5d415201-bb60-4263-9550-0439a218218a/1",
+          "id": "1",
+          "bbox": [
+            1317,
+            45,
+            44,
+            44
+          ],
+          "alt": "SEARULEA monogram",
+          "contentType": "image/png",
+          "imageFit": "contain",
+          "asset": {
+            "assetId": "c8509a9e-fb17-4441-b5e2-1f5789e50d80",
+            "contentType": "image/png",
+            "byteLength": 79857
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0v2l03al",
+      "id": "1",
+      "name": "content-subtitle-0",
+      "bbox": [
+        78,
+        62,
+        700,
+        24
+      ],
+      "geometry": "rect",
+      "text": "PRESENTATION OVERVIEW",
+      "textPreview": "PRESENTATION OVERVIEW",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "DM Sans",
+        "color": "#0A6887",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PRESENTATION OVERVIEW"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PRESENTATION OVERVIEW",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 15,
+            "typeface": "DM Sans",
+            "color": "#0A6887",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PRESENTATION OVERVIEW",
+              "anchor": 1,
+              "fontSize": 15,
+              "typeface": "DM Sans",
+              "color": "#0A6887",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fatkrytg",
+      "id": "2",
+      "name": "content-title-0",
+      "bbox": [
+        78,
+        94,
+        1110,
+        62
+      ],
+      "geometry": "rect",
+      "text": "[ADD A JOURNEY-STYLE AGENDA TITLE]",
+      "textPreview": "[ADD A JOURNEY-STYLE AGENDA TITLE]",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 48,
+        "typeface": "Lora",
+        "color": "#074154",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[ADD A JOURNEY-STYLE AGENDA TITLE]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[ADD A JOURNEY-STYLE AGENDA TITLE]",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 48,
+            "typeface": "Lora",
+            "color": "#074154",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[ADD A JOURNEY-STYLE AGENDA TITLE]",
+              "anchor": 1,
+              "fontSize": 48,
+              "typeface": "Lora",
+              "color": "#074154",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e9k3ydsv",
+      "id": "3",
+      "name": "agenda-journey-line",
+      "bbox": [
+        170,
+        418,
+        1100,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#3D7180",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8b2p8ba",
+      "id": "4",
+      "name": "agenda-journey-node-0",
+      "bbox": [
+        172,
+        400,
+        36,
+        36
+      ],
+      "geometry": "rect",
+      "fillColor": "#0A6887",
+      "lineColor": "#0A6887",
+      "lineWidth": 3
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s72lw3ap",
+      "id": "5",
+      "name": "agenda-journey-num-0",
+      "bbox": [
+        134,
+        276,
+        112,
+        44
+      ],
+      "geometry": "rect",
+      "text": "01",
+      "textPreview": "01",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Lora",
+        "color": "#0A6887",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Lora",
+            "color": "#0A6887",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "fontSize": 34,
+              "typeface": "Lora",
+              "color": "#0A6887",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r6tknyt4",
+      "id": "6",
+      "name": "agenda-journey-title-0",
+      "bbox": [
+        100,
+        482,
+        180,
+        34
+      ],
+      "geometry": "rect",
+      "text": "[STEP]",
+      "textPreview": "[STEP]",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Lora",
+        "color": "#074154",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[STEP]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[STEP]",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Lora",
+            "color": "#074154",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[STEP]",
+              "fontSize": 23,
+              "typeface": "Lora",
+              "color": "#074154",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q5k3utsj",
+      "id": "7",
+      "name": "agenda-journey-body-0",
+      "bbox": [
+        85,
+        536,
+        210,
+        74
+      ],
+      "geometry": "rect",
+      "text": "[Short description]",
+      "textPreview": "[Short description]",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "DM Sans",
+        "color": "#3E5966",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[Short description]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[Short description]",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "DM Sans",
+            "color": "#3E5966",
+            "alignment": "center",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[Short description]",
+              "fontSize": 16,
+              "typeface": "DM Sans",
+              "color": "#3E5966",
+              "alignment": "center",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4fm1sre",
+      "id": "8",
+      "name": "agenda-journey-node-1",
+      "bbox": [
+        432,
+        400,
+        36,
+        36
+      ],
+      "geometry": "rect",
+      "fillColor": "#FBF9F4",
+      "lineColor": "#0A6887",
+      "lineWidth": 3
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c3ml8nat",
+      "id": "9",
+      "name": "agenda-journey-num-1",
+      "bbox": [
+        394,
+        276,
+        112,
+        44
+      ],
+      "geometry": "rect",
+      "text": "02",
+      "textPreview": "02",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Lora",
+        "color": "#0A6887",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Lora",
+            "color": "#0A6887",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "fontSize": 34,
+              "typeface": "Lora",
+              "color": "#0A6887",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ytkjyxw3",
+      "id": "10",
+      "name": "agenda-journey-title-1",
+      "bbox": [
+        360,
+        482,
+        180,
+        34
+      ],
+      "geometry": "rect",
+      "text": "[STEP]",
+      "textPreview": "[STEP]",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Lora",
+        "color": "#074154",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[STEP]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[STEP]",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Lora",
+            "color": "#074154",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[STEP]",
+              "fontSize": 23,
+              "typeface": "Lora",
+              "color": "#074154",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zutk72do",
+      "id": "11",
+      "name": "agenda-journey-body-1",
+      "bbox": [
+        345,
+        536,
+        210,
+        74
+      ],
+      "geometry": "rect",
+      "text": "[Short description]",
+      "textPreview": "[Short description]",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "DM Sans",
+        "color": "#3E5966",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[Short description]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[Short description]",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "DM Sans",
+            "color": "#3E5966",
+            "alignment": "center",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[Short description]",
+              "fontSize": 16,
+              "typeface": "DM Sans",
+              "color": "#3E5966",
+              "alignment": "center",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kv2107e9",
+      "id": "12",
+      "name": "agenda-journey-node-2",
+      "bbox": [
+        692,
+        400,
+        36,
+        36
+      ],
+      "geometry": "rect",
+      "fillColor": "#FBF9F4",
+      "lineColor": "#0A6887",
+      "lineWidth": 3
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lwb29svu",
+      "id": "13",
+      "name": "agenda-journey-num-2",
+      "bbox": [
+        654,
+        276,
+        112,
+        44
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Lora",
+        "color": "#0A6887",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Lora",
+            "color": "#0A6887",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 34,
+              "typeface": "Lora",
+              "color": "#0A6887",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/apkjudw7",
+      "id": "14",
+      "name": "agenda-journey-title-2",
+      "bbox": [
+        620,
+        482,
+        180,
+        34
+      ],
+      "geometry": "rect",
+      "text": "[STEP]",
+      "textPreview": "[STEP]",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Lora",
+        "color": "#074154",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[STEP]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[STEP]",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Lora",
+            "color": "#074154",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[STEP]",
+              "fontSize": 23,
+              "typeface": "Lora",
+              "color": "#074154",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bqtk3ids",
+      "id": "15",
+      "name": "agenda-journey-body-2",
+      "bbox": [
+        605,
+        536,
+        210,
+        74
+      ],
+      "geometry": "rect",
+      "text": "[Short description]",
+      "textPreview": "[Short description]",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "DM Sans",
+        "color": "#3E5966",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[Short description]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[Short description]",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "DM Sans",
+            "color": "#3E5966",
+            "alignment": "center",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[Short description]",
+              "fontSize": 16,
+              "typeface": "DM Sans",
+              "color": "#3E5966",
+              "alignment": "center",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cr21wned",
+      "id": "16",
+      "name": "agenda-journey-node-3",
+      "bbox": [
+        952,
+        400,
+        36,
+        36
+      ],
+      "geometry": "rect",
+      "fillColor": "#FBF9F4",
+      "lineColor": "#0A6887",
+      "lineWidth": 3
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xsb25svy",
+      "id": "17",
+      "name": "agenda-journey-num-3",
+      "bbox": [
+        914,
+        276,
+        112,
+        44
+      ],
+      "geometry": "rect",
+      "text": "04",
+      "textPreview": "04",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Lora",
+        "color": "#0A6887",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "04"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "04",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Lora",
+            "color": "#0A6887",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "04",
+              "fontSize": 34,
+              "typeface": "Lora",
+              "color": "#0A6887",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ul436hwb",
+      "id": "18",
+      "name": "agenda-journey-title-3",
+      "bbox": [
+        880,
+        482,
+        180,
+        34
+      ],
+      "geometry": "rect",
+      "text": "[STEP]",
+      "textPreview": "[STEP]",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Lora",
+        "color": "#074154",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[STEP]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[STEP]",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Lora",
+            "color": "#074154",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[STEP]",
+              "fontSize": 23,
+              "typeface": "Lora",
+              "color": "#074154",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vmdkzmdw",
+      "id": "19",
+      "name": "agenda-journey-body-3",
+      "bbox": [
+        865,
+        536,
+        210,
+        74
+      ],
+      "geometry": "rect",
+      "text": "[Short description]",
+      "textPreview": "[Short description]",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "DM Sans",
+        "color": "#3E5966",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[Short description]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[Short description]",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "DM Sans",
+            "color": "#3E5966",
+            "alignment": "center",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[Short description]",
+              "fontSize": 16,
+              "typeface": "DM Sans",
+              "color": "#3E5966",
+              "alignment": "center",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r6pgred8",
+      "id": "20",
+      "name": "agenda-journey-node-4",
+      "bbox": [
+        1212,
+        400,
+        36,
+        36
+      ],
+      "geometry": "rect",
+      "fillColor": "#FBF9F4",
+      "lineColor": "#0A6887",
+      "lineWidth": 3
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/65wzy9c3",
+      "id": "21",
+      "name": "agenda-journey-num-4",
+      "bbox": [
+        1174,
+        276,
+        112,
+        44
+      ],
+      "geometry": "rect",
+      "text": "05",
+      "textPreview": "05",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Lora",
+        "color": "#0A6887",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "05"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "05",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Lora",
+            "color": "#0A6887",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "05",
+              "fontSize": 34,
+              "typeface": "Lora",
+              "color": "#0A6887",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d87ytobe",
+      "id": "22",
+      "name": "agenda-journey-title-4",
+      "bbox": [
+        1140,
+        482,
+        180,
+        34
+      ],
+      "geometry": "rect",
+      "text": "[STEP]",
+      "textPreview": "[STEP]",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Lora",
+        "color": "#074154",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[STEP]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[STEP]",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Lora",
+            "color": "#074154",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[STEP]",
+              "fontSize": 23,
+              "typeface": "Lora",
+              "color": "#074154",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s7yh0jut",
+      "id": "23",
+      "name": "agenda-journey-body-4",
+      "bbox": [
+        1125,
+        536,
+        210,
+        74
+      ],
+      "geometry": "rect",
+      "text": "[Short description]",
+      "textPreview": "[Short description]",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "DM Sans",
+        "color": "#3E5966",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[Short description]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[Short description]",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "DM Sans",
+            "color": "#3E5966",
+            "alignment": "center",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[Short description]",
+              "fontSize": 16,
+              "typeface": "DM Sans",
+              "color": "#3E5966",
+              "alignment": "center",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

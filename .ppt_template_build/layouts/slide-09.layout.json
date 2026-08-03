@@ -1,0 +1,628 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/djtko2",
+    "id": "djtko2",
+    "slide": 9,
+    "layoutId": "bad3d13a-968e-4c36-a837-888b70a35aab",
+    "layoutName": "09 — Image Left / Text Right",
+    "masterLayoutId": "7fb98ac8-3694-49d8-a369-7e9a757831de",
+    "masterLayoutName": "SEARULEA / Pearl",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1440,
+      "height": 810
+    }
+  },
+  "theme": {
+    "colorSchemeName": "SEARULEA 2026",
+    "colors": {
+      "accent1": "#074154",
+      "accent2": "#0A6887",
+      "accent3": "#0C7190",
+      "accent4": "#D0E7ED",
+      "accent5": "#EFE8D8",
+      "accent6": "#D98E2B",
+      "bg1": "#FBF9F4",
+      "bg2": "#D0E7ED",
+      "tx1": "#0B3242",
+      "tx2": "#3E5966",
+      "dk1": "#04293A",
+      "dk2": "#074154",
+      "lt1": "#FFFFFF",
+      "lt2": "#FBF9F4",
+      "hlink": "#0A6887",
+      "folHlink": "#0C7190"
+    },
+    "typefaces": [
+      "DM Sans",
+      "Lora"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "bad3d13a-968e-4c36-a837-888b70a35aab",
+      "name": "09 — Image Left / Text Right",
+      "parentLayoutId": "7fb98ac8-3694-49d8-a369-7e9a757831de",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout/bad3d13a-968e-4c36-a837-888b70a35aab/1",
+          "id": "1",
+          "name": "placeholder_3",
+          "bbox": [
+            760,
+            246,
+            565,
+            380
+          ],
+          "geometry": "rect",
+          "text": "Supporting copy",
+          "textPreview": "Supporting copy",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 23,
+            "typeface": "DM Sans",
+            "color": "#0B3242",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1.18,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Supporting copy",
+              "lineSpacingPercent": 118000,
+              "resolvedTextStyle": {
+                "fontSize": 23,
+                "typeface": "DM Sans",
+                "color": "#0B3242",
+                "alignment": "left",
+                "lineSpacing": 1.18
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Supporting copy",
+                  "fontSize": 23,
+                  "typeface": "DM Sans",
+                  "color": "#0B3242",
+                  "alignment": "left",
+                  "lineSpacing": 1.18
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "7fb98ac8-3694-49d8-a369-7e9a757831de",
+      "name": "SEARULEA / Pearl",
+      "type": "master",
+      "backgroundColor": "#FBF9F4",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master/7fb98ac8-3694-49d8-a369-7e9a757831de/1",
+          "id": "1",
+          "bbox": [
+            1317,
+            45,
+            44,
+            44
+          ],
+          "alt": "SEARULEA monogram",
+          "contentType": "image/png",
+          "imageFit": "contain",
+          "asset": {
+            "assetId": "15bc6cba-f5cd-4574-be70-61d5764f70f0",
+            "contentType": "image/png",
+            "byteLength": 79857
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sralsba1",
+      "id": "1",
+      "name": "content-subtitle-0",
+      "bbox": [
+        78,
+        62,
+        700,
+        24
+      ],
+      "geometry": "rect",
+      "text": "OPERATIONS / OFFSHORE",
+      "textPreview": "OPERATIONS / OFFSHORE",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "DM Sans",
+        "color": "#0A6887",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "OPERATIONS / OFFSHORE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "OPERATIONS / OFFSHORE",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 15,
+            "typeface": "DM Sans",
+            "color": "#0A6887",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "OPERATIONS / OFFSHORE",
+              "anchor": 1,
+              "fontSize": 15,
+              "typeface": "DM Sans",
+              "color": "#0A6887",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rq14z6tg",
+      "id": "2",
+      "name": "content-title-0",
+      "bbox": [
+        78,
+        94,
+        1110,
+        62
+      ],
+      "geometry": "rect",
+      "text": "Evidence starts where the work happens.",
+      "textPreview": "Evidence starts where the work happens.",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 48,
+        "typeface": "Lora",
+        "color": "#074154",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Evidence starts where the work happens."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Evidence starts where the work happens.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 48,
+            "typeface": "Lora",
+            "color": "#074154",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Evidence starts where the work happens.",
+              "anchor": 1,
+              "fontSize": 48,
+              "typeface": "Lora",
+              "color": "#074154",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/bqxgzy14",
+      "id": "3",
+      "bbox": [
+        78,
+        216,
+        620,
+        452
+      ],
+      "alt": "SEARULEA offshore operations",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "e6309f0d-e0bd-45a3-bd17-6d40eadb5fcd",
+        "contentType": "image/jpeg",
+        "byteLength": 899315
+      }
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5oj2xwba",
+      "id": "4",
+      "name": "image-left-accent",
+      "bbox": [
+        760,
+        222,
+        118,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#0A6887",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4naloba5",
+      "id": "5",
+      "name": "content-body-0",
+      "bbox": [
+        760,
+        246,
+        565,
+        380
+      ],
+      "geometry": "rect",
+      "text": "Production at Ras El Ma\n375-hectare government concession\nSea bream, seabass and meagre\nContinuous monitoring and documented lots\nBuilt to scale in defined phases",
+      "textPreview": "Production at Ras El Ma | 375-hectare government concession | Sea bream, seabass and meagre | Continuous monitoring and documented lots |...",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 22,
+        "typeface": "DM Sans",
+        "color": "#0B3242",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Production at Ras El Ma"
+          },
+          {
+            "index": 2,
+            "text": "• 375-hectare government concession"
+          },
+          {
+            "index": 3,
+            "text": "• Sea bream, seabass and meagre"
+          },
+          {
+            "index": 4,
+            "text": "• Continuous monitoring and documented lots"
+          },
+          {
+            "index": 5,
+            "text": "• Built to scale in defined phases"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Production at Ras El Ma",
+          "lineSpacingPercent": 116000,
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 22,
+            "typeface": "DM Sans",
+            "color": "#0B3242",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1.16,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Production at Ras El Ma",
+              "fontSize": 22,
+              "color": "#0B3242",
+              "bold": true,
+              "lineSpacing": 1.16
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "375-hectare government concession",
+          "bulletCharacter": "•",
+          "marginLeft": 22,
+          "indent": -12,
+          "lineSpacingPercent": 116000,
+          "spaceAfter": 10,
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 22,
+            "typeface": "DM Sans",
+            "color": "#0B3242",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1.16,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "375-hectare government concession",
+              "anchor": 1,
+              "fontSize": 22,
+              "typeface": "DM Sans",
+              "color": "#0B3242",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "lineSpacing": 1.16,
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "Sea bream, seabass and meagre",
+          "bulletCharacter": "•",
+          "marginLeft": 22,
+          "indent": -12,
+          "lineSpacingPercent": 116000,
+          "spaceAfter": 10,
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 22,
+            "typeface": "DM Sans",
+            "color": "#0B3242",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1.16,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Sea bream, seabass and meagre",
+              "anchor": 1,
+              "fontSize": 22,
+              "typeface": "DM Sans",
+              "color": "#0B3242",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "lineSpacing": 1.16,
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "Continuous monitoring and documented lots",
+          "bulletCharacter": "•",
+          "marginLeft": 22,
+          "indent": -12,
+          "lineSpacingPercent": 116000,
+          "spaceAfter": 10,
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 22,
+            "typeface": "DM Sans",
+            "color": "#0B3242",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1.16,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Continuous monitoring and documented lots",
+              "anchor": 1,
+              "fontSize": 22,
+              "typeface": "DM Sans",
+              "color": "#0B3242",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "lineSpacing": 1.16,
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "Built to scale in defined phases",
+          "bulletCharacter": "•",
+          "marginLeft": 22,
+          "indent": -12,
+          "lineSpacingPercent": 116000,
+          "spaceAfter": 10,
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 22,
+            "typeface": "DM Sans",
+            "color": "#0B3242",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1.16,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Built to scale in defined phases",
+              "anchor": 1,
+              "fontSize": 22,
+              "typeface": "DM Sans",
+              "color": "#0B3242",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "lineSpacing": 1.16,
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,533 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/06lavq",
+    "id": "06lavq",
+    "slide": 1,
+    "layoutId": "e958ef4e-1ff3-4760-a60a-ba8a1e3b6757",
+    "layoutName": "01 — Cover / Photo",
+    "masterLayoutId": "bc53b778-d7de-4b97-93f1-24079e40a890",
+    "masterLayoutName": "SEARULEA / Cover",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1440,
+      "height": 810
+    }
+  },
+  "theme": {
+    "colorSchemeName": "SEARULEA 2026",
+    "colors": {
+      "accent1": "#074154",
+      "accent2": "#0A6887",
+      "accent3": "#0C7190",
+      "accent4": "#D0E7ED",
+      "accent5": "#EFE8D8",
+      "accent6": "#D98E2B",
+      "bg1": "#FBF9F4",
+      "bg2": "#D0E7ED",
+      "tx1": "#0B3242",
+      "tx2": "#3E5966",
+      "dk1": "#04293A",
+      "dk2": "#074154",
+      "lt1": "#FFFFFF",
+      "lt2": "#FBF9F4",
+      "hlink": "#0A6887",
+      "folHlink": "#0C7190"
+    },
+    "typefaces": [
+      "DM Sans",
+      "Lora"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "e958ef4e-1ff3-4760-a60a-ba8a1e3b6757",
+      "name": "01 — Cover / Photo",
+      "parentLayoutId": "bc53b778-d7de-4b97-93f1-24079e40a890",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout/e958ef4e-1ff3-4760-a60a-ba8a1e3b6757/1",
+          "id": "1",
+          "name": "placeholder_4",
+          "bbox": [
+            84,
+            718,
+            540,
+            24
+          ],
+          "geometry": "rect",
+          "text": "Month Year · Presenter · Confidential",
+          "textPreview": "Month Year · Presenter · Confidential",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 14,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Month Year · Presenter · Confidential",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 14,
+                "typeface": "DM Sans",
+                "color": "#D0E7ED",
+                "alignment": "left",
+                "lineSpacing": 1
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Month Year · Presenter · Confidential",
+                  "fontSize": 14,
+                  "typeface": "DM Sans",
+                  "color": "#D0E7ED",
+                  "alignment": "left",
+                  "lineSpacing": 1
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "bc53b778-d7de-4b97-93f1-24079e40a890",
+      "name": "SEARULEA / Cover",
+      "type": "master",
+      "backgroundColor": "#074154",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/bmxsb21c",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1440,
+        810
+      ],
+      "alt": "Offshore aquaculture cages at sunrise",
+      "contentType": "image/png",
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "aeaf906e-f61f-4df1-86dc-2e47892ab343",
+        "contentType": "image/png",
+        "byteLength": 2285281
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lkzqpwje",
+      "id": "2",
+      "name": "cover-deep-panel",
+      "bbox": [
+        0,
+        0,
+        760,
+        810
+      ],
+      "geometry": "rect",
+      "fillColor": "#074154",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/x8fadcji",
+      "id": "3",
+      "bbox": [
+        82,
+        56,
+        312,
+        62
+      ],
+      "alt": "SEARULEA horizontal logo",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "1a290322-b0cf-4503-9925-9793d1c396dd",
+        "contentType": "image/png",
+        "byteLength": 56404
+      }
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bexojmlc",
+      "id": "4",
+      "name": "content-body-0",
+      "bbox": [
+        82,
+        246,
+        560,
+        24
+      ],
+      "geometry": "rect",
+      "text": "CLIENT PRESENTATION / 2026",
+      "textPreview": "CLIENT PRESENTATION / 2026",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "DM Sans",
+        "color": "#D0E7ED",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CLIENT PRESENTATION / 2026"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CLIENT PRESENTATION / 2026",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 15,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CLIENT PRESENTATION / 2026",
+              "anchor": 1,
+              "fontSize": 15,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ado7ahkr",
+      "id": "5",
+      "name": "content-title-0",
+      "bbox": [
+        82,
+        292,
+        650,
+        276
+      ],
+      "geometry": "rect",
+      "text": "Tomorrow’s aquaculture. Built today.",
+      "textPreview": "Tomorrow’s aquaculture. Built today.",
+      "resolvedFontSize": 78,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 78,
+        "typeface": "Lora",
+        "color": "#FBF9F4",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Tomorrow’s"
+          },
+          {
+            "index": 2,
+            "text": "aquaculture."
+          },
+          {
+            "index": 3,
+            "text": "Built today."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Tomorrow’s aquaculture. Built today.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 78,
+            "typeface": "Lora",
+            "color": "#FBF9F4",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Tomorrow’s aquaculture. Built today.",
+              "anchor": 1,
+              "fontSize": 78,
+              "typeface": "Lora",
+              "color": "#FBF9F4",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xgf6lwji",
+      "id": "6",
+      "name": "content-subtitle-0",
+      "bbox": [
+        84,
+        604,
+        590,
+        72
+      ],
+      "geometry": "rect",
+      "text": "A reusable presentation system for SEARULEA’s clients, partners and institutions.",
+      "textPreview": "A reusable presentation system for SEARULEA’s clients, partners and institutions.",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "DM Sans",
+        "color": "#D0E7ED",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A reusable presentation system for SEARULEA’s clients,"
+          },
+          {
+            "index": 2,
+            "text": "partners and institutions."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A reusable presentation system for SEARULEA’s clients, partners and institutions.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 23,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A reusable presentation system for SEARULEA’s clients, partners and institutions.",
+              "anchor": 1,
+              "fontSize": 23,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wf6pcr2x",
+      "id": "7",
+      "name": "content-body-1",
+      "bbox": [
+        84,
+        718,
+        540,
+        24
+      ],
+      "geometry": "rect",
+      "text": "August 2026 · SEARULEA · Confidential",
+      "textPreview": "August 2026 · SEARULEA · Confidential",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "DM Sans",
+        "color": "#D0E7ED",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "August 2026 · SEARULEA · Confidential"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "August 2026 · SEARULEA · Confidential",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 14,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "August 2026 · SEARULEA · Confidential",
+              "anchor": 1,
+              "fontSize": 14,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

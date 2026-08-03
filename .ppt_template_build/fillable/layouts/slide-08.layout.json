@@ -1,0 +1,951 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/np6duq",
+    "id": "np6duq",
+    "slide": 8,
+    "layoutId": "d7b1c9d9-86c8-4965-a78e-bac7eac4d76e",
+    "layoutName": "00 — Blank / Pearl",
+    "masterLayoutId": "5d415201-bb60-4263-9550-0439a218218a",
+    "masterLayoutName": "SEARULEA Fillable / Pearl",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1440,
+      "height": 810
+    }
+  },
+  "theme": {
+    "colorSchemeName": "SEARULEA 2026",
+    "colors": {
+      "accent1": "#074154",
+      "accent2": "#0A6887",
+      "accent3": "#0C7190",
+      "accent4": "#D0E7ED",
+      "accent5": "#EFE8D8",
+      "accent6": "#D98E2B",
+      "bg1": "#FBF9F4",
+      "bg2": "#D0E7ED",
+      "tx1": "#0B3242",
+      "tx2": "#3E5966",
+      "dk1": "#04293A",
+      "dk2": "#074154",
+      "lt1": "#FFFFFF",
+      "lt2": "#FBF9F4",
+      "hlink": "#0A6887",
+      "folHlink": "#0C7190"
+    },
+    "typefaces": [
+      "DM Sans",
+      "Lora"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "d7b1c9d9-86c8-4965-a78e-bac7eac4d76e",
+      "name": "00 — Blank / Pearl",
+      "parentLayoutId": "5d415201-bb60-4263-9550-0439a218218a",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "5d415201-bb60-4263-9550-0439a218218a",
+      "name": "SEARULEA Fillable / Pearl",
+      "type": "master",
+      "backgroundColor": "#FBF9F4",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master/5d415201-bb60-4263-9550-0439a218218a/1",
+          "id": "1",
+          "bbox": [
+            1317,
+            45,
+            44,
+            44
+          ],
+          "alt": "SEARULEA monogram",
+          "contentType": "image/png",
+          "imageFit": "contain",
+          "asset": {
+            "assetId": "c8509a9e-fb17-4441-b5e2-1f5789e50d80",
+            "contentType": "image/png",
+            "byteLength": 79857
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wjyx8rqx",
+      "id": "1",
+      "name": "content-subtitle-0",
+      "bbox": [
+        78,
+        62,
+        700,
+        24
+      ],
+      "geometry": "rect",
+      "text": "PRESENTATION OVERVIEW",
+      "textPreview": "PRESENTATION OVERVIEW",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "DM Sans",
+        "color": "#0A6887",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PRESENTATION OVERVIEW"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PRESENTATION OVERVIEW",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 15,
+            "typeface": "DM Sans",
+            "color": "#0A6887",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PRESENTATION OVERVIEW",
+              "anchor": 1,
+              "fontSize": 15,
+              "typeface": "DM Sans",
+              "color": "#0A6887",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vypwzm9s",
+      "id": "2",
+      "name": "content-title-0",
+      "bbox": [
+        78,
+        94,
+        1110,
+        62
+      ],
+      "geometry": "rect",
+      "text": "[ADD A THREE-CHAPTER AGENDA TITLE]",
+      "textPreview": "[ADD A THREE-CHAPTER AGENDA TITLE]",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 48,
+        "typeface": "Lora",
+        "color": "#074154",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[ADD A THREE-CHAPTER AGENDA TITLE]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[ADD A THREE-CHAPTER AGENDA TITLE]",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 48,
+            "typeface": "Lora",
+            "color": "#074154",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[ADD A THREE-CHAPTER AGENDA TITLE]",
+              "anchor": 1,
+              "fontSize": 48,
+              "typeface": "Lora",
+              "color": "#074154",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uxgf6h87",
+      "id": "3",
+      "name": "agenda3-rule-0",
+      "bbox": [
+        78,
+        244,
+        350,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#3D7180",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5ore5wru",
+      "id": "4",
+      "name": "agenda3-num-0",
+      "bbox": [
+        78,
+        278,
+        96,
+        56
+      ],
+      "geometry": "rect",
+      "text": "01",
+      "textPreview": "01",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 48,
+        "typeface": "Lora",
+        "color": "#0A6887",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 48,
+            "typeface": "Lora",
+            "color": "#0A6887",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "fontSize": 48,
+              "typeface": "Lora",
+              "color": "#0A6887",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4nixcrq9",
+      "id": "5",
+      "name": "agenda3-title-0",
+      "bbox": [
+        78,
+        372,
+        350,
+        78
+      ],
+      "geometry": "rect",
+      "text": "[CHAPTER TITLE]",
+      "textPreview": "[CHAPTER TITLE]",
+      "resolvedFontSize": 31,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 31,
+        "typeface": "Lora",
+        "color": "#074154",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[CHAPTER TITLE]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[CHAPTER TITLE]",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "Lora",
+            "color": "#074154",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[CHAPTER TITLE]",
+              "fontSize": 31,
+              "typeface": "Lora",
+              "color": "#074154",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jmpw3m9o",
+      "id": "6",
+      "name": "agenda3-body-0",
+      "bbox": [
+        78,
+        480,
+        340,
+        110
+      ],
+      "geometry": "rect",
+      "text": "[Add one or two lines describing this chapter.]",
+      "textPreview": "[Add one or two lines describing this chapter.]",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "DM Sans",
+        "color": "#3E5966",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[Add one or two lines describing this"
+          },
+          {
+            "index": 2,
+            "text": "chapter.]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[Add one or two lines describing this chapter.]",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "DM Sans",
+            "color": "#3E5966",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[Add one or two lines describing this chapter.]",
+              "fontSize": 20,
+              "typeface": "DM Sans",
+              "color": "#3E5966",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ilgfah83",
+      "id": "7",
+      "name": "agenda3-rule-1",
+      "bbox": [
+        516,
+        244,
+        350,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#0A6887",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lsnetcra",
+      "id": "8",
+      "name": "agenda3-num-1",
+      "bbox": [
+        516,
+        278,
+        96,
+        56
+      ],
+      "geometry": "rect",
+      "text": "02",
+      "textPreview": "02",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 48,
+        "typeface": "Lora",
+        "color": "#0A6887",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 48,
+            "typeface": "Lora",
+            "color": "#0A6887",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "fontSize": 48,
+              "typeface": "Lora",
+              "color": "#0A6887",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kred07q5",
+      "id": "9",
+      "name": "agenda3-title-1",
+      "bbox": [
+        516,
+        372,
+        350,
+        78
+      ],
+      "geometry": "rect",
+      "text": "[CHAPTER TITLE]",
+      "textPreview": "[CHAPTER TITLE]",
+      "resolvedFontSize": 31,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 31,
+        "typeface": "Lora",
+        "color": "#074154",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[CHAPTER TITLE]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[CHAPTER TITLE]",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "Lora",
+            "color": "#074154",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[CHAPTER TITLE]",
+              "fontSize": 31,
+              "typeface": "Lora",
+              "color": "#074154",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6d8z2t0z",
+      "id": "10",
+      "name": "agenda3-body-1",
+      "bbox": [
+        516,
+        480,
+        340,
+        110
+      ],
+      "geometry": "rect",
+      "text": "[Add one or two lines describing this chapter.]",
+      "textPreview": "[Add one or two lines describing this chapter.]",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "DM Sans",
+        "color": "#3E5966",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[Add one or two lines describing this"
+          },
+          {
+            "index": 2,
+            "text": "chapter.]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[Add one or two lines describing this chapter.]",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "DM Sans",
+            "color": "#3E5966",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[Add one or two lines describing this chapter.]",
+              "fontSize": 20,
+              "typeface": "DM Sans",
+              "color": "#3E5966",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ehgvyhk",
+      "id": "11",
+      "name": "agenda3-rule-2",
+      "bbox": [
+        954,
+        244,
+        350,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#3D7180",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sfqh43i5",
+      "id": "12",
+      "name": "agenda3-num-2",
+      "bbox": [
+        954,
+        278,
+        96,
+        56
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 48,
+        "typeface": "Lora",
+        "color": "#0A6887",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 48,
+            "typeface": "Lora",
+            "color": "#0A6887",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 48,
+              "typeface": "Lora",
+              "color": "#0A6887",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tgzyx8zq",
+      "id": "13",
+      "name": "agenda3-title-2",
+      "bbox": [
+        954,
+        372,
+        350,
+        78
+      ],
+      "geometry": "rect",
+      "text": "[CHAPTER TITLE]",
+      "textPreview": "[CHAPTER TITLE]",
+      "resolvedFontSize": 31,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 31,
+        "typeface": "Lora",
+        "color": "#074154",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[CHAPTER TITLE]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[CHAPTER TITLE]",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "Lora",
+            "color": "#074154",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[CHAPTER TITLE]",
+              "fontSize": 31,
+              "typeface": "Lora",
+              "color": "#074154",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uh8z6d0b",
+      "id": "14",
+      "name": "agenda3-body-2",
+      "bbox": [
+        954,
+        480,
+        340,
+        110
+      ],
+      "geometry": "rect",
+      "text": "[Add one or two lines describing this chapter.]",
+      "textPreview": "[Add one or two lines describing this chapter.]",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "DM Sans",
+        "color": "#3E5966",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[Add one or two lines describing this"
+          },
+          {
+            "index": 2,
+            "text": "chapter.]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[Add one or two lines describing this chapter.]",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "DM Sans",
+            "color": "#3E5966",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[Add one or two lines describing this chapter.]",
+              "fontSize": 20,
+              "typeface": "DM Sans",
+              "color": "#3E5966",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

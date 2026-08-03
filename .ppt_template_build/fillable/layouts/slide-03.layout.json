@@ -1,0 +1,513 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/fefv55",
+    "id": "fefv55",
+    "slide": 3,
+    "layoutId": "73679ebe-0be9-43c0-825d-269fcb736e72",
+    "layoutName": "00 — Blank / Cover",
+    "masterLayoutId": "e786531f-e45c-4e53-a408-c1593ce2fbc2",
+    "masterLayoutName": "SEARULEA Fillable / Cover",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1440,
+      "height": 810
+    }
+  },
+  "theme": {
+    "colorSchemeName": "SEARULEA 2026",
+    "colors": {
+      "accent1": "#074154",
+      "accent2": "#0A6887",
+      "accent3": "#0C7190",
+      "accent4": "#D0E7ED",
+      "accent5": "#EFE8D8",
+      "accent6": "#D98E2B",
+      "bg1": "#FBF9F4",
+      "bg2": "#D0E7ED",
+      "tx1": "#0B3242",
+      "tx2": "#3E5966",
+      "dk1": "#04293A",
+      "dk2": "#074154",
+      "lt1": "#FFFFFF",
+      "lt2": "#FBF9F4",
+      "hlink": "#0A6887",
+      "folHlink": "#0C7190"
+    },
+    "typefaces": [
+      "DM Sans",
+      "Lora"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "73679ebe-0be9-43c0-825d-269fcb736e72",
+      "name": "00 — Blank / Cover",
+      "parentLayoutId": "e786531f-e45c-4e53-a408-c1593ce2fbc2",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "e786531f-e45c-4e53-a408-c1593ce2fbc2",
+      "name": "SEARULEA Fillable / Cover",
+      "type": "master",
+      "backgroundColor": "#074154",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ydsz294z",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1440,
+        810
+      ],
+      "alt": "SEARULEA offshore cages",
+      "contentType": "image/png",
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "64f08eaa-932f-4d16-8e39-3e53ec0d12df",
+        "contentType": "image/png",
+        "byteLength": 2285281
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gru1onet",
+      "id": "2",
+      "name": "cover-panel",
+      "bbox": [
+        0,
+        0,
+        760,
+        810
+      ],
+      "geometry": "rect",
+      "fillColor": "#074154",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/kfah4j2p",
+      "id": "3",
+      "bbox": [
+        82,
+        56,
+        312,
+        62
+      ],
+      "alt": "SEARULEA logo",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "51c414fa-49e3-40c1-9392-4e9536258f92",
+        "contentType": "image/png",
+        "byteLength": 56404
+      }
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/itcjqdwz",
+      "id": "4",
+      "name": "content-body-0",
+      "bbox": [
+        82,
+        246,
+        560,
+        24
+      ],
+      "geometry": "rect",
+      "text": "[PRESENTATION TYPE / CLIENT]",
+      "textPreview": "[PRESENTATION TYPE / CLIENT]",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "DM Sans",
+        "color": "#D0E7ED",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[PRESENTATION TYPE / CLIENT]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[PRESENTATION TYPE / CLIENT]",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 15,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[PRESENTATION TYPE / CLIENT]",
+              "anchor": 1,
+              "fontSize": 15,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ul0jixk",
+      "id": "5",
+      "name": "content-title-0",
+      "bbox": [
+        82,
+        292,
+        650,
+        276
+      ],
+      "geometry": "rect",
+      "text": "[ADD PRESENTATION\nTITLE]",
+      "textPreview": "[ADD PRESENTATION | TITLE]",
+      "resolvedFontSize": 78,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 78,
+        "typeface": "Lora",
+        "color": "#FBF9F4",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[ADD"
+          },
+          {
+            "index": 2,
+            "text": "PRESENTATION"
+          },
+          {
+            "index": 3,
+            "text": "TITLE]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[ADD PRESENTATION",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 78,
+            "typeface": "Lora",
+            "color": "#FBF9F4",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[ADD PRESENTATION",
+              "anchor": 1,
+              "fontSize": 78,
+              "typeface": "Lora",
+              "color": "#FBF9F4",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "TITLE]",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 78,
+            "typeface": "Lora",
+            "color": "#FBF9F4",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "TITLE]",
+              "anchor": 1,
+              "fontSize": 78,
+              "typeface": "Lora",
+              "color": "#FBF9F4",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4vu1sne5",
+      "id": "6",
+      "name": "content-subtitle-0",
+      "bbox": [
+        84,
+        604,
+        590,
+        72
+      ],
+      "geometry": "rect",
+      "text": "[Add one concise sentence describing the purpose or outcome.]",
+      "textPreview": "[Add one concise sentence describing the purpose or outcome.]",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "DM Sans",
+        "color": "#D0E7ED",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[Add one concise sentence describing the purpose or"
+          },
+          {
+            "index": 2,
+            "text": "outcome.]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[Add one concise sentence describing the purpose or outcome.]",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 23,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[Add one concise sentence describing the purpose or outcome.]",
+              "anchor": 1,
+              "fontSize": 23,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5wnilsfq",
+      "id": "7",
+      "name": "content-body-1",
+      "bbox": [
+        84,
+        718,
+        540,
+        24
+      ],
+      "geometry": "rect",
+      "text": "[Month Year] · [Presenter] · [Confidentiality]",
+      "textPreview": "[Month Year] · [Presenter] · [Confidentiality]",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "DM Sans",
+        "color": "#D0E7ED",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[Month Year] · [Presenter] · [Confidentiality]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[Month Year] · [Presenter] · [Confidentiality]",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 14,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[Month Year] · [Presenter] · [Confidentiality]",
+              "anchor": 1,
+              "fontSize": 14,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

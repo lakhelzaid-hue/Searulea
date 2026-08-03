@@ -1,0 +1,475 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/aayngp",
+    "id": "aayngp",
+    "slide": 6,
+    "layoutId": "97ce1aef-0a3e-49b7-9a54-db5846d17a4e",
+    "layoutName": "06 — Statement / Deep Sea",
+    "masterLayoutId": "9bbe1c84-3cfe-48e7-90cf-4c086a99b75e",
+    "masterLayoutName": "SEARULEA / Deep Sea",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1440,
+      "height": 810
+    }
+  },
+  "theme": {
+    "colorSchemeName": "SEARULEA 2026",
+    "colors": {
+      "accent1": "#074154",
+      "accent2": "#0A6887",
+      "accent3": "#0C7190",
+      "accent4": "#D0E7ED",
+      "accent5": "#EFE8D8",
+      "accent6": "#D98E2B",
+      "bg1": "#FBF9F4",
+      "bg2": "#D0E7ED",
+      "tx1": "#0B3242",
+      "tx2": "#3E5966",
+      "dk1": "#04293A",
+      "dk2": "#074154",
+      "lt1": "#FFFFFF",
+      "lt2": "#FBF9F4",
+      "hlink": "#0A6887",
+      "folHlink": "#0C7190"
+    },
+    "typefaces": [
+      "DM Sans",
+      "Lora"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "97ce1aef-0a3e-49b7-9a54-db5846d17a4e",
+      "name": "06 — Statement / Deep Sea",
+      "parentLayoutId": "9bbe1c84-3cfe-48e7-90cf-4c086a99b75e",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout/97ce1aef-0a3e-49b7-9a54-db5846d17a4e/1",
+          "id": "1",
+          "name": "placeholder_3",
+          "bbox": [
+            78,
+            592,
+            850,
+            86
+          ],
+          "geometry": "rect",
+          "text": "Use one supporting sentence to turn the statement into a clear business implication.",
+          "textPreview": "Use one supporting sentence to turn the statement into a clear business implication.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 24,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1.18,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Use one supporting sentence to turn the statement into a clear business implication.",
+              "lineSpacingPercent": 118000,
+              "resolvedTextStyle": {
+                "fontSize": 24,
+                "typeface": "DM Sans",
+                "color": "#D0E7ED",
+                "alignment": "left",
+                "lineSpacing": 1.18
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Use one supporting sentence to turn the statement into a clear business implication.",
+                  "fontSize": 24,
+                  "typeface": "DM Sans",
+                  "color": "#D0E7ED",
+                  "alignment": "left",
+                  "lineSpacing": 1.18
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "9bbe1c84-3cfe-48e7-90cf-4c086a99b75e",
+      "name": "SEARULEA / Deep Sea",
+      "type": "master",
+      "backgroundColor": "#074154",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master/9bbe1c84-3cfe-48e7-90cf-4c086a99b75e/1",
+          "id": "1",
+          "name": "SEARULEA / Deep Sea-footer-label",
+          "bbox": [
+            78,
+            765,
+            360,
+            18
+          ],
+          "geometry": "rect",
+          "text": "SEARULEA — Client presentation",
+          "textPreview": "SEARULEA — Client presentation",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 13,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "SEARULEA — Client presentation",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 13,
+                "typeface": "DM Sans",
+                "color": "#D0E7ED",
+                "bold": true,
+                "alignment": "left",
+                "lineSpacing": 1
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "SEARULEA — Client presentation",
+                  "fontSize": 13,
+                  "typeface": "DM Sans",
+                  "color": "#D0E7ED",
+                  "bold": true,
+                  "alignment": "left",
+                  "lineSpacing": 1
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/d4zm94vm",
+      "id": "1",
+      "bbox": [
+        1317,
+        45,
+        44,
+        44
+      ],
+      "alt": "SEARULEA monogram",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "95b4df3e-8d8a-4536-b094-e7687cc98669",
+        "contentType": "image/png",
+        "byteLength": 64082
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nmt8nyh4",
+      "id": "2",
+      "name": "content-subtitle-0",
+      "bbox": [
+        78,
+        76,
+        600,
+        24
+      ],
+      "geometry": "rect",
+      "text": "VISION / POSITIONING",
+      "textPreview": "VISION / POSITIONING",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "DM Sans",
+        "color": "#D0E7ED",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "VISION / POSITIONING"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "VISION / POSITIONING",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 15,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "VISION / POSITIONING",
+              "anchor": 1,
+              "fontSize": 15,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mlkrutgj",
+      "id": "3",
+      "name": "content-title-0",
+      "bbox": [
+        78,
+        184,
+        1050,
+        300
+      ],
+      "geometry": "rect",
+      "text": "Ras El Ma can become the reference point for Mediterranean aquaculture.",
+      "textPreview": "Ras El Ma can become the reference point for Mediterranean aquaculture.",
+      "resolvedFontSize": 74,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 74,
+        "typeface": "Lora",
+        "color": "#FBF9F4",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Ras El Ma can become the"
+          },
+          {
+            "index": 2,
+            "text": "reference point for"
+          },
+          {
+            "index": 3,
+            "text": "Mediterranean aquaculture."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Ras El Ma can become the reference point for Mediterranean aquaculture.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 74,
+            "typeface": "Lora",
+            "color": "#FBF9F4",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ras El Ma can become the reference point for Mediterranean aquaculture.",
+              "anchor": 1,
+              "fontSize": 74,
+              "typeface": "Lora",
+              "color": "#FBF9F4",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xsvqt8z6",
+      "id": "4",
+      "name": "content-body-0",
+      "bbox": [
+        78,
+        592,
+        850,
+        86
+      ],
+      "geometry": "rect",
+      "text": "An integrated, traceable and biosafe model turns natural advantage into durable production capacity.",
+      "textPreview": "An integrated, traceable and biosafe model turns natural advantage into durable production capacity.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "DM Sans",
+        "color": "#D0E7ED",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "An integrated, traceable and biosafe model turns natural advantage into"
+          },
+          {
+            "index": 2,
+            "text": "durable production capacity."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "An integrated, traceable and biosafe model turns natural advantage into durable production capacity.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 24,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "An integrated, traceable and biosafe model turns natural advantage into durable production capacity.",
+              "anchor": 1,
+              "fontSize": 24,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

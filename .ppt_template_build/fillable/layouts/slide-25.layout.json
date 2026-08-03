@@ -1,0 +1,930 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/kz5n2f",
+    "id": "kz5n2f",
+    "slide": 25,
+    "layoutId": "b38bd894-f200-462e-a35e-c54be77f89cd",
+    "layoutName": "00 — Blank / Sea Foam",
+    "masterLayoutId": "420c4cb9-a357-413f-8783-52f0623f5182",
+    "masterLayoutName": "SEARULEA Fillable / Sea Foam",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1440,
+      "height": 810
+    }
+  },
+  "theme": {
+    "colorSchemeName": "SEARULEA 2026",
+    "colors": {
+      "accent1": "#074154",
+      "accent2": "#0A6887",
+      "accent3": "#0C7190",
+      "accent4": "#D0E7ED",
+      "accent5": "#EFE8D8",
+      "accent6": "#D98E2B",
+      "bg1": "#FBF9F4",
+      "bg2": "#D0E7ED",
+      "tx1": "#0B3242",
+      "tx2": "#3E5966",
+      "dk1": "#04293A",
+      "dk2": "#074154",
+      "lt1": "#FFFFFF",
+      "lt2": "#FBF9F4",
+      "hlink": "#0A6887",
+      "folHlink": "#0C7190"
+    },
+    "typefaces": [
+      "DM Sans",
+      "Lora"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "b38bd894-f200-462e-a35e-c54be77f89cd",
+      "name": "00 — Blank / Sea Foam",
+      "parentLayoutId": "420c4cb9-a357-413f-8783-52f0623f5182",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "420c4cb9-a357-413f-8783-52f0623f5182",
+      "name": "SEARULEA Fillable / Sea Foam",
+      "type": "master",
+      "backgroundColor": "#D0E7ED",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master/420c4cb9-a357-413f-8783-52f0623f5182/1",
+          "id": "1",
+          "bbox": [
+            1317,
+            45,
+            44,
+            44
+          ],
+          "alt": "SEARULEA monogram",
+          "contentType": "image/png",
+          "imageFit": "contain",
+          "asset": {
+            "assetId": "153651ea-b7e2-437d-aba7-6c157a2062e1",
+            "contentType": "image/png",
+            "byteLength": 79857
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kradof2x",
+      "id": "1",
+      "name": "content-subtitle-0",
+      "bbox": [
+        78,
+        62,
+        700,
+        24
+      ],
+      "geometry": "rect",
+      "text": "KEY FIGURES / SNAPSHOT",
+      "textPreview": "KEY FIGURES / SNAPSHOT",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "DM Sans",
+        "color": "#0A6887",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "KEY FIGURES / SNAPSHOT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "KEY FIGURES / SNAPSHOT",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 15,
+            "typeface": "DM Sans",
+            "color": "#0A6887",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "KEY FIGURES / SNAPSHOT",
+              "anchor": 1,
+              "fontSize": 15,
+              "typeface": "DM Sans",
+              "color": "#0A6887",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jq1wfa1c",
+      "id": "2",
+      "name": "content-title-0",
+      "bbox": [
+        78,
+        94,
+        1110,
+        62
+      ],
+      "geometry": "rect",
+      "text": "[ADD A CLEAR, DECISION-LED TITLE]",
+      "textPreview": "[ADD A CLEAR, DECISION-LED TITLE]",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 48,
+        "typeface": "Lora",
+        "color": "#074154",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[ADD A CLEAR, DECISION-LED TITLE]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[ADD A CLEAR, DECISION-LED TITLE]",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 48,
+            "typeface": "Lora",
+            "color": "#074154",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[ADD A CLEAR, DECISION-LED TITLE]",
+              "anchor": 1,
+              "fontSize": 48,
+              "typeface": "Lora",
+              "color": "#074154",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y5svm5kr",
+      "id": "3",
+      "name": "metric3-rule-0",
+      "bbox": [
+        78,
+        244,
+        350,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#3D7180",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tw3el4je",
+      "id": "4",
+      "name": "metric-value-78-[00]",
+      "bbox": [
+        78,
+        300,
+        350,
+        88
+      ],
+      "geometry": "rect",
+      "text": "[00]",
+      "textPreview": "[00]",
+      "resolvedFontSize": 66,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 66,
+        "typeface": "Lora",
+        "color": "#074154",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[00]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[00]",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "fontSize": 66,
+            "typeface": "Lora",
+            "color": "#074154",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[00]",
+              "fontSize": 66,
+              "typeface": "Lora",
+              "color": "#074154",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svudsz2t",
+      "id": "5",
+      "name": "metric-label-78-[Add the metric label and unit.]",
+      "bbox": [
+        96,
+        414,
+        314,
+        76
+      ],
+      "geometry": "rect",
+      "text": "[Add the metric label and unit.]",
+      "textPreview": "[Add the metric label and unit.]",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "DM Sans",
+        "color": "#3E5966",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[Add the metric label and unit.]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[Add the metric label and unit.]",
+          "lineSpacingPercent": 112000,
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "DM Sans",
+            "color": "#3E5966",
+            "alignment": "center",
+            "lineSpacing": 1.12
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[Add the metric label and unit.]",
+              "fontSize": 19,
+              "typeface": "DM Sans",
+              "color": "#3E5966",
+              "alignment": "center",
+              "lineSpacing": 1.12
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7u1wju18",
+      "id": "6",
+      "name": "metric3-note-0",
+      "bbox": [
+        96,
+        526,
+        314,
+        46
+      ],
+      "geometry": "rect",
+      "text": "[Optional one-line context]",
+      "textPreview": "[Optional one-line context]",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "DM Sans",
+        "color": "#3E5966",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[Optional one-line context]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[Optional one-line context]",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "DM Sans",
+            "color": "#3E5966",
+            "alignment": "center",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[Optional one-line context]",
+              "fontSize": 15,
+              "typeface": "DM Sans",
+              "color": "#3E5966",
+              "alignment": "center",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6tsvqpkn",
+      "id": "7",
+      "name": "metric3-rule-1",
+      "bbox": [
+        516,
+        244,
+        350,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#0A6887",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/90zu90ja",
+      "id": "8",
+      "name": "metric-value-516-[00]",
+      "bbox": [
+        516,
+        300,
+        350,
+        88
+      ],
+      "geometry": "rect",
+      "text": "[00]",
+      "textPreview": "[00]",
+      "resolvedFontSize": 66,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 66,
+        "typeface": "Lora",
+        "color": "#0A6887",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[00]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[00]",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "fontSize": 66,
+            "typeface": "Lora",
+            "color": "#0A6887",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[00]",
+              "fontSize": 66,
+              "typeface": "Lora",
+              "color": "#0A6887",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ozqdgv2p",
+      "id": "9",
+      "name": "metric-label-516-[Add the metric label and unit.]",
+      "bbox": [
+        534,
+        414,
+        314,
+        76
+      ],
+      "geometry": "rect",
+      "text": "[Add the metric label and unit.]",
+      "textPreview": "[Add the metric label and unit.]",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "DM Sans",
+        "color": "#3E5966",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[Add the metric label and unit.]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[Add the metric label and unit.]",
+          "lineSpacingPercent": 112000,
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "DM Sans",
+            "color": "#3E5966",
+            "alignment": "center",
+            "lineSpacing": 1.12
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[Add the metric label and unit.]",
+              "fontSize": 19,
+              "typeface": "DM Sans",
+              "color": "#3E5966",
+              "alignment": "center",
+              "lineSpacing": 1.12
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uto3qp8v",
+      "id": "10",
+      "name": "metric3-note-1",
+      "bbox": [
+        534,
+        526,
+        314,
+        46
+      ],
+      "geometry": "rect",
+      "text": "[Optional one-line context]",
+      "textPreview": "[Optional one-line context]",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "DM Sans",
+        "color": "#3E5966",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[Optional one-line context]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[Optional one-line context]",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "DM Sans",
+            "color": "#3E5966",
+            "alignment": "center",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[Optional one-line context]",
+              "fontSize": 15,
+              "typeface": "DM Sans",
+              "color": "#3E5966",
+              "alignment": "center",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vuxkju9g",
+      "id": "11",
+      "name": "metric3-rule-2",
+      "bbox": [
+        954,
+        244,
+        350,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#3D7180",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gvqlszq1",
+      "id": "12",
+      "name": "metric-value-954-[00]",
+      "bbox": [
+        954,
+        300,
+        350,
+        88
+      ],
+      "geometry": "rect",
+      "text": "[00]",
+      "textPreview": "[00]",
+      "resolvedFontSize": 66,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 66,
+        "typeface": "Lora",
+        "color": "#074154",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[00]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[00]",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "fontSize": 66,
+            "typeface": "Lora",
+            "color": "#074154",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[00]",
+              "fontSize": 66,
+              "typeface": "Lora",
+              "color": "#074154",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hgz2l4rm",
+      "id": "13",
+      "name": "metric-label-954-[Add the metric label and unit.]",
+      "bbox": [
+        972,
+        414,
+        314,
+        76
+      ],
+      "geometry": "rect",
+      "text": "[Add the metric label and unit.]",
+      "textPreview": "[Add the metric label and unit.]",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "DM Sans",
+        "color": "#3E5966",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[Add the metric label and unit.]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[Add the metric label and unit.]",
+          "lineSpacingPercent": 112000,
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "DM Sans",
+            "color": "#3E5966",
+            "alignment": "center",
+            "lineSpacing": 1.12
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[Add the metric label and unit.]",
+              "fontSize": 19,
+              "typeface": "DM Sans",
+              "color": "#3E5966",
+              "alignment": "center",
+              "lineSpacing": 1.12
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ih83u98r",
+      "id": "14",
+      "name": "metric3-note-2",
+      "bbox": [
+        972,
+        526,
+        314,
+        46
+      ],
+      "geometry": "rect",
+      "text": "[Optional one-line context]",
+      "textPreview": "[Optional one-line context]",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "DM Sans",
+        "color": "#3E5966",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[Optional one-line context]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[Optional one-line context]",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "DM Sans",
+            "color": "#3E5966",
+            "alignment": "center",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[Optional one-line context]",
+              "fontSize": 15,
+              "typeface": "DM Sans",
+              "color": "#3E5966",
+              "alignment": "center",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

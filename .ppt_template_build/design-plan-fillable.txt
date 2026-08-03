@@ -1,0 +1,33 @@
+SEARULEA READY-TO-FILL TEMPLATE — DESIGN PLAN
+
+Communication job
+By the end, a SEARULEA client or team member should be able to assemble a polished on-brand presentation quickly by duplicating the closest page variant and replacing clearly marked text, image and data fields.
+
+Format
+- 16:9, 1440 × 810 canvas.
+- Lora for presentation-defining titles and key numbers.
+- DM Sans for labels, body copy, captions and data.
+- Brand palette: Deep Sea, Tide, Lagoon, Sea Foam, Shore, Pearl and controlled Amber.
+
+Library structure
+- Authoring guide and page index.
+- Four covers.
+- Three agendas.
+- Four section dividers.
+- Five narrative structures.
+- Six image-led structures.
+- Four metric structures.
+- Five process and timeline structures.
+- Six editable chart structures.
+- Four comparison structures.
+- Three editable table structures.
+- Four profile and team structures.
+- Four proof, gallery and location structures.
+- Three closing structures.
+
+Authoring convention
+- Bracketed copy marks fields to replace.
+- Image frames carry a small REPLACE IMAGE label.
+- Native charts and tables keep neutral example data and are editable through PowerPoint's Edit Data controls.
+- Speaker notes explain the intended use and cite user-provided brand assets.
+

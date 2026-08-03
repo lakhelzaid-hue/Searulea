@@ -1,0 +1,279 @@
+{"kind":"deck","id":"pr/9n5bve","name":"Deck"}
+{"kind":"layout","layoutId":"6c36f8b3-9b31-4e33-95fc-4686d4904278","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"0666f1da-dd30-43ec-9225-450d617e40a3","name":"Title Slide","type":"title"}
+{"kind":"layout","layoutId":"bc53b778-d7de-4b97-93f1-24079e40a890","name":"SEARULEA / Cover","type":"master"}
+{"kind":"layout","layoutId":"9bbe1c84-3cfe-48e7-90cf-4c086a99b75e","name":"SEARULEA / Deep Sea","type":"master"}
+{"kind":"layout","layoutId":"7fb98ac8-3694-49d8-a369-7e9a757831de","name":"SEARULEA / Pearl","type":"master"}
+{"kind":"layout","layoutId":"9d86f6ba-54e4-41ce-bdf1-0918c1f10144","name":"SEARULEA / Sea Foam","type":"master"}
+{"kind":"layout","layoutId":"2e5371ec-1914-4fff-b47a-41dc00d18ca5","name":"SEARULEA / Shore","type":"master"}
+{"kind":"layout","layoutId":"e958ef4e-1ff3-4760-a60a-ba8a1e3b6757","name":"01 — Cover / Photo","placeholders":[{"name":"body","type":"body","textPreview":"PRESENTATION / CLIENT"},{"name":"title","type":"title","textPreview":"Presentation title"},{"name":"subtitle","type":"subtitle","textPreview":"A concise, outcome-focused subtitle"},{"name":"body","type":"body","textPreview":"Month Year · Presenter · Confidential"}]}
+{"kind":"layout","layoutId":"24bc9513-6de3-4a13-829d-238788bb1d9e","name":"02 — Cover / Deep Sea","placeholders":[{"name":"body","type":"body","textPreview":"PRESENTATION / CLIENT"},{"name":"title","type":"title","textPreview":"Presentation title"},{"name":"subtitle","type":"subtitle","textPreview":"A concise, outcome-focused subtitle"},{"name":"body","type":"body","textPreview":"Month Year · Presenter · Confidential"}]}
+{"kind":"layout","layoutId":"7fb84b32-2ebb-48ab-8c49-44169c49b599","name":"03 — Template Guide","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"}]}
+{"kind":"layout","layoutId":"f484be84-21a0-4bf0-9fce-3e43a052b030","name":"04 — Agenda","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"}]}
+{"kind":"layout","layoutId":"75704499-576b-449f-b044-2e5e86f420fe","name":"05 — Section Divider / Deep Sea","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION 01"},{"name":"title","type":"title","textPreview":"Section title"},{"name":"body","type":"body","textPreview":"A short line that sets up the next chapter."}]}
+{"kind":"layout","layoutId":"97ce1aef-0a3e-49b7-9a54-db5846d17a4e","name":"06 — Statement / Deep Sea","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"VISION / POSITIONING"},{"name":"title","type":"title","textPreview":"One defining statement, written to be remembered."},{"name":"body","type":"body","textPreview":"Use one supporting sentence to turn the statement into a clear business implication."}]}
+{"kind":"layout","layoutId":"2c117dd9-5f75-417a-b61a-f6e6c47d5fdf","name":"07 — Narrative / Single Column","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"},{"name":"body","type":"body","textPreview":"Narrative body"}]}
+{"kind":"layout","layoutId":"25092103-1c3d-4cc5-8d07-f17dd9b1238d","name":"08 — Narrative / Two Column","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"},{"name":"body","type":"body","textPreview":"Left column"},{"name":"body","type":"body","textPreview":"Right column"}]}
+{"kind":"layout","layoutId":"bad3d13a-968e-4c36-a837-888b70a35aab","name":"09 — Image Left / Text Right","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"},{"name":"body","type":"body","textPreview":"Supporting copy"}]}
+{"kind":"layout","layoutId":"1c6ae973-09f5-4f22-a5fc-f8c35c3015e9","name":"10 — Text Left / Image Right","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"},{"name":"body","type":"body","textPreview":"Supporting copy"}]}
+{"kind":"layout","layoutId":"d796a91c-7886-4b19-8867-637e22de3d71","name":"11 — Photo / Quote","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"PROOF / TESTIMONY"},{"name":"title","type":"title","textPreview":"A quote or proof point that carries the slide."},{"name":"body","type":"body","textPreview":"Name · Role · Organisation"}]}
+{"kind":"layout","layoutId":"18b6fa98-8c70-4b0a-9bc7-c8e6fc64c722","name":"12 — Key Figures / Sea Foam","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"}]}
+{"kind":"layout","layoutId":"16e36511-230b-4ce3-9e1d-84474cc04097","name":"13 — Process / Four Steps","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"}]}
+{"kind":"layout","layoutId":"76c684df-9d11-427a-a879-b9de9486f933","name":"14 — Timeline / Milestones","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"}]}
+{"kind":"layout","layoutId":"30c972b2-4922-4774-a20e-520c3c9a9933","name":"15 — Chart / Full Width","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"}]}
+{"kind":"layout","layoutId":"bc65202d-4496-4c80-a143-a70b4d479cae","name":"16 — Chart / Commentary","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"},{"name":"body","type":"body","textPreview":"Chart commentary"}]}
+{"kind":"layout","layoutId":"30b7d5c4-b7c9-47d5-a21f-6fe10076954a","name":"17 — Chart / Doughnut","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"},{"name":"body","type":"body","textPreview":"Headline and implication"}]}
+{"kind":"layout","layoutId":"e84d5d22-993b-4827-9b3f-930968641307","name":"18 — Comparison / Two Options","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"}]}
+{"kind":"layout","layoutId":"87f585b4-2bb4-4afc-9d0c-6a7021dcbe3b","name":"19 — Data Table","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"}]}
+{"kind":"layout","layoutId":"832de32e-98a6-4ffe-bbc8-676678f43f28","name":"20 — Location / Site","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"},{"name":"body","type":"body","textPreview":"Location narrative"}]}
+{"kind":"layout","layoutId":"246a732e-ba82-404d-9a21-65c123ed25aa","name":"21 — Profile / Leadership","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"},{"name":"body","type":"body","textPreview":"Profile narrative"}]}
+{"kind":"layout","layoutId":"a7ab99e9-aa62-4516-b17f-1c10c1ebc0b6","name":"22 — Gallery / Three Images","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"}]}
+{"kind":"layout","layoutId":"447641b5-03fc-4586-9fd8-def9550ca5aa","name":"23 — Closing / Deep Sea","placeholders":[{"name":"title","type":"title","textPreview":"Closing statement"},{"name":"body","type":"body","textPreview":"hello@searulea.com | www.searulea.com"}]}
+{"kind":"slide","id":"sl/06lavq","slide":1,"title":"CLIENT PRESENTATION / 2026","textShapes":4}
+{"kind":"shape","id":"sh/lkzqpwje","slide":1,"name":"cover-deep-panel","bbox":[0,0,760,810]}
+{"kind":"textbox","id":"sh/bexojmlc","slide":1,"name":"content-body-0","text":"CLIENT PRESENTATION / 2026","textPreview":"CLIENT PRESENTATION / 2026","textChars":26,"textLines":1,"bbox":[82,246,560,24]}
+{"kind":"textbox","id":"sh/ado7ahkr","slide":1,"name":"content-title-0","text":"Tomorrow’s aquaculture. Built today.","textPreview":"Tomorrow’s aquaculture. Built today.","textChars":36,"textLines":1,"bbox":[82,292,650,276]}
+{"kind":"textbox","id":"sh/xgf6lwji","slide":1,"name":"content-subtitle-0","text":"A reusable presentation system for SEARULEA’s clients, partners and institutions.","textPreview":"A reusable presentation system for SEARULEA’s clients, partners and institutions.","textChars":81,"textLines":1,"bbox":[84,604,590,72]}
+{"kind":"textbox","id":"sh/wf6pcr2x","slide":1,"name":"content-body-1","text":"August 2026 · SEARULEA · Confidential","textPreview":"August 2026 · SEARULEA · Confidential","textChars":37,"textLines":1,"bbox":[84,718,540,24]}
+{"kind":"image","id":"im/bmxsb21c","slide":1,"name":"","alt":"Offshore aquaculture cages at sunrise","bbox":[0,0,1440,810]}
+{"kind":"image","id":"im/x8fadcji","slide":1,"name":"","alt":"SEARULEA horizontal logo","bbox":[82,56,312,62]}
+{"kind":"notes","id":"nt/06lavq","slide":1,"text":"Duplicate this slide for photo-led covers. Replace the full-slide image and keep the title to two lines maximum.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided hero-cages.jpg"}
+{"kind":"slide","id":"sl/f2qvsq","slide":2,"title":"INVESTOR / TRADE / INSTITUTIONAL","textShapes":4}
+{"kind":"textbox","id":"sh/5on2dcr6","slide":2,"name":"content-body-0","text":"INVESTOR / TRADE / INSTITUTIONAL","textPreview":"INVESTOR / TRADE / INSTITUTIONAL","textChars":32,"textLines":1,"bbox":[82,238,560,24]}
+{"kind":"textbox","id":"sh/6pw36hsr","slide":2,"name":"content-title-0","text":"From our sea to your port.","textPreview":"From our sea to your port.","textChars":26,"textLines":1,"bbox":[82,286,820,190]}
+{"kind":"textbox","id":"sh/rqpkfm9c","slide":2,"name":"content-subtitle-0","text":"Use the dark cover when the presentation needs a more formal, institutional opening.","textPreview":"Use the dark cover when the presentation needs a more formal, institutional opening.","textChars":84,"textLines":1,"bbox":[84,510,700,78]}
+{"kind":"textbox","id":"sh/sryl87qh","slide":2,"name":"content-body-1","text":"Month Year · Presenter · Confidential","textPreview":"Month Year · Presenter · Confidential","textChars":37,"textLines":1,"bbox":[84,718,540,24]}
+{"kind":"image","id":"im/qxofit4j","slide":2,"name":"","alt":"SEARULEA horizontal logo","bbox":[82,56,312,62]}
+{"kind":"image","id":"im/d0zyt8na","slide":2,"name":"","alt":"SEARULEA gradient spiral","bbox":[1040,0,400,400]}
+{"kind":"notes","id":"nt/f2qvsq","slide":2,"text":"Duplicate this slide for formal covers. The gradient spiral is the only approved use of amber in the identity.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided SEARULEA gradient spiral asset"}
+{"kind":"slide","id":"sl/aetius","slide":3,"title":"TEMPLATE GUIDE / DELETE BEFORE PRESENTING","textShapes":12}
+{"kind":"textbox","id":"sh/tkbi9kve","slide":3,"name":"content-subtitle-0","text":"TEMPLATE GUIDE / DELETE BEFORE PRESENTING","textPreview":"TEMPLATE GUIDE / DELETE BEFORE PRESENTING","textChars":41,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/6xkzepc3","slide":3,"name":"content-title-0","text":"A flexible system, one visual language.","textPreview":"A flexible system, one visual language.","textChars":39,"textLines":1,"bbox":[78,94,1020,62]}
+{"kind":"shape","id":"sh/7yt07udo","slide":3,"name":"guide-rule-0","bbox":[78,244,350,3]}
+{"kind":"textbox","id":"sh/gnm1kzu5","slide":3,"name":"guide-num-0","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[78,270,100,54]}
+{"kind":"textbox","id":"sh/hovid4vq","slide":3,"name":"guide-head-0","text":"Start with the closest layout","textPreview":"Start with the closest layout","textChars":29,"textLines":1,"bbox":[78,350,350,78]}
+{"kind":"textbox","id":"sh/ulkjipcz","slide":3,"name":"guide-body-0","text":"Duplicate an example slide or choose its named layout from the New Slide menu.","textPreview":"Duplicate an example slide or choose its named layout from the New Slide menu.","textChars":78,"textLines":1,"bbox":[78,458,350,136]}
+{"kind":"shape","id":"sh/fmd0budk","slide":3,"name":"guide-rule-1","bbox":[516,244,350,3]}
+{"kind":"textbox","id":"sh/4rm1oju1","slide":3,"name":"guide-num-1","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[516,270,100,54]}
+{"kind":"textbox","id":"sh/psvih4vm","slide":3,"name":"guide-head-1","text":"Replace content, not the system","textPreview":"Replace content, not the system","textChars":31,"textLines":1,"bbox":[516,350,350,78]}
+{"kind":"textbox","id":"sh/tsfax436","slide":3,"name":"guide-body-1","text":"Keep the official logo, grid, type hierarchy and palette. Replace images, text and data in place.","textPreview":"Keep the official logo, grid, type hierarchy and palette. Replace images, text and data in place.","textChars":97,"textLines":1,"bbox":[516,458,350,136]}
+{"kind":"shape","id":"sh/sr6toj2l","slide":3,"name":"guide-rule-2","bbox":[954,244,350,3]}
+{"kind":"textbox","id":"sh/7qxsvel0","slide":3,"name":"guide-num-2","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[954,270,100,54]}
+{"kind":"textbox","id":"sh/6pobm9kf","slide":3,"name":"guide-head-2","text":"Keep every slide decisive","textPreview":"Keep every slide decisive","textChars":25,"textLines":1,"bbox":[954,350,350,78]}
+{"kind":"textbox","id":"sh/hgza1o32","slide":3,"name":"guide-body-2","text":"One Lora statement per slide. DM Sans carries the explanation, labels and numbers.","textPreview":"One Lora statement per slide. DM Sans carries the explanation, labels and numbers.","textChars":82,"textLines":1,"bbox":[954,458,350,136]}
+{"kind":"textbox","id":"sh/gfqtsj2h","slide":3,"name":"guide-fallback","text":"Office-safe fallbacks: Lora → Georgia · DM Sans → Arial / Helvetica","textPreview":"Office-safe fallbacks: Lora → Georgia · DM Sans → Arial / Helvetica","textChars":67,"textLines":1,"bbox":[78,674,840,24]}
+{"kind":"notes","id":"nt/aetius","slide":3,"text":"This is the only authoring guide slide. Delete it before sending or presenting the client deck.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/f6he4s","slide":4,"title":"PRESENTATION OVERVIEW","textShapes":14}
+{"kind":"textbox","id":"sh/srmhwjmh","slide":4,"name":"content-subtitle-0","text":"PRESENTATION OVERVIEW","textPreview":"PRESENTATION OVERVIEW","textChars":21,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/rqd0ne5w","slide":4,"name":"content-title-0","text":"Today’s conversation","textPreview":"Today’s conversation","textChars":20,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/qp4zu94b","slide":4,"name":"agenda-rule-0","bbox":[78,206,1284,2]}
+{"kind":"textbox","id":"sh/54vil4nq","slide":4,"name":"agenda-no-0","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[78,224,90,44]}
+{"kind":"textbox","id":"sh/43mhszm5","slide":4,"name":"agenda-name-0","text":"Context","textPreview":"Context","textChars":7,"textLines":1,"bbox":[230,224,330,44]}
+{"kind":"textbox","id":"sh/32d0ju5k","slide":4,"name":"agenda-desc-0","text":"Why the opportunity matters now","textPreview":"Why the opportunity matters now","textChars":31,"textLines":1,"bbox":[610,228,690,40]}
+{"kind":"shape","id":"sh/i1kzq94f","slide":4,"name":"agenda-rule-1","bbox":[78,318,1284,1]}
+{"kind":"textbox","id":"sh/p0fix8na","slide":4,"name":"agenda-no-1","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[78,336,90,44]}
+{"kind":"textbox","id":"sh/oz6143mp","slide":4,"name":"agenda-name-1","text":"Approach","textPreview":"Approach","textChars":8,"textLines":1,"bbox":[230,336,330,44]}
+{"kind":"textbox","id":"sh/exs7m9wz","slide":4,"name":"agenda-desc-1","text":"How the integrated model works","textPreview":"How the integrated model works","textChars":30,"textLines":1,"bbox":[610,340,690,40]}
+{"kind":"shape","id":"sh/fyl8vexk","slide":4,"name":"agenda-rule-2","bbox":[78,430,1284,1]}
+{"kind":"textbox","id":"sh/gzupoje5","slide":4,"name":"agenda-no-2","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[78,448,90,44]}
+{"kind":"textbox","id":"sh/103qxofq","slide":4,"name":"agenda-name-2","text":"Evidence","textPreview":"Evidence","textChars":8,"textLines":1,"bbox":[230,448,330,44]}
+{"kind":"textbox","id":"sh/6ts7i9w3","slide":4,"name":"agenda-desc-2","text":"Milestones, capacity and operating proof","textPreview":"Milestones, capacity and operating proof","textChars":40,"textLines":1,"bbox":[610,452,690,40]}
+{"kind":"shape","id":"sh/ru18rex8","slide":4,"name":"agenda-rule-3","bbox":[78,542,1284,1]}
+{"kind":"textbox","id":"sh/svapkjet","slide":4,"name":"agenda-no-3","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[78,560,90,44]}
+{"kind":"textbox","id":"sh/twjqtofe","slide":4,"name":"agenda-name-3","text":"Decision","textPreview":"Decision","textChars":8,"textLines":1,"bbox":[230,560,330,44]}
+{"kind":"textbox","id":"sh/qpcrutw7","slide":4,"name":"agenda-desc-3","text":"The partnership or action required","textPreview":"The partnership or action required","textChars":34,"textLines":1,"bbox":[610,564,690,40]}
+{"kind":"notes","id":"nt/f6he4s","slide":4,"text":"Use for agendas of three to five sections. Keep section labels short and write the third column as an audience outcome.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/vzyacq","slide":5,"title":"SECTION 01 / CONTEXT","textShapes":3}
+{"kind":"textbox","id":"sh/294nyhcj","slide":5,"name":"content-subtitle-0","text":"SECTION 01 / CONTEXT","textPreview":"SECTION 01 / CONTEXT","textChars":20,"textLines":1,"bbox":[78,270,520,24]}
+{"kind":"textbox","id":"sh/18bm5cby","slide":5,"name":"content-title-0","text":"Why now","textPreview":"Why now","textChars":7,"textLines":1,"bbox":[78,316,800,150]}
+{"kind":"textbox","id":"sh/g725w7ud","slide":5,"name":"content-body-0","text":"The market context that makes this chapter necessary.","textPreview":"The market context that makes this chapter necessary.","textChars":53,"textLines":1,"bbox":[78,510,700,72]}
+{"kind":"image","id":"im/tszyxcna","slide":5,"name":"","alt":"SEARULEA monogram","bbox":[78,62,54,54]}
+{"kind":"image","id":"im/6p8fmx4j","slide":5,"name":"","alt":"SEARULEA Sea Foam spiral","bbox":[1020,-70,540,540]}
+{"kind":"notes","id":"nt/vzyacq","slide":5,"text":"Duplicate for major section breaks. Use a short title—ideally one to four words.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided SEARULEA Sea Foam spiral asset"}
+{"kind":"slide","id":"sl/aayngp","slide":6,"title":"VISION / POSITIONING","textShapes":3}
+{"kind":"textbox","id":"sh/nmt8nyh4","slide":6,"name":"content-subtitle-0","text":"VISION / POSITIONING","textPreview":"VISION / POSITIONING","textChars":20,"textLines":1,"bbox":[78,76,600,24]}
+{"kind":"textbox","id":"sh/mlkrutgj","slide":6,"name":"content-title-0","text":"Ras El Ma can become the reference point for Mediterranean aquaculture.","textPreview":"Ras El Ma can become the reference point for Mediterranean aquaculture.","textChars":71,"textLines":1,"bbox":[78,184,1050,300]}
+{"kind":"textbox","id":"sh/xsvqt8z6","slide":6,"name":"content-body-0","text":"An integrated, traceable and biosafe model turns natural advantage into durable production capacity.","textPreview":"An integrated, traceable and biosafe model turns natural advantage into durable production capacity.","textChars":100,"textLines":1,"bbox":[78,592,850,86]}
+{"kind":"image","id":"im/d4zm94vm","slide":6,"name":"","alt":"SEARULEA monogram","bbox":[1317,45,44,44]}
+{"kind":"notes","id":"nt/aayngp","slide":6,"text":"Use for a single high-level claim, mission, vision or recommendation. Keep the supporting sentence to two lines.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/fnw20f","slide":7,"title":"COMPANY / OVERVIEW","textShapes":4}
+{"kind":"textbox","id":"sh/zil0jmhw","slide":7,"name":"content-subtitle-0","text":"COMPANY / OVERVIEW","textPreview":"COMPANY / OVERVIEW","textChars":18,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/0ju1sryh","slide":7,"name":"content-title-0","text":"SEARULEA builds the infrastructure behind Moroccan aquaculture.","textPreview":"SEARULEA builds the infrastructure behind Moroccan aquaculture.","textChars":63,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"textbox","id":"sh/1k3ilwz2","slide":7,"name":"content-body-0","text":"SEARULEA operates an integrated value chain at Ras El Ma, Oriental Region.\nOffshore farming, fresh conditioning at port, refrigerated export and traceability are designed to operate as one system—not as separate businesses.\nThe result is a platform built for international standards from day one, with local capability and documentation at every stage.","textPreview":"SEARULEA operates an integrated value chain at Ras El Ma, Oriental Region. | Offshore farming, fresh conditioning at port, refrigerated e...","textChars":352,"textLines":3,"bbox":[78,210,1030,440]}
+{"kind":"textbox","id":"sh/mlcju1gn","slide":7,"name":"single-proof","text":"375 ha offshore concession · 2,790 t target capacity · 3 species","textPreview":"375 ha offshore concession · 2,790 t target capacity · 3 species","textChars":64,"textLines":1,"bbox":[78,656,940,30]}
+{"kind":"notes","id":"nt/fnw20f","slide":7,"text":"Use for an executive narrative or company overview. Aim for three short paragraphs and one proof line.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/w1lr4o","slide":8,"title":"STRATEGY / OPERATING MODEL","textShapes":4}
+{"kind":"textbox","id":"sh/netcjy5o","slide":8,"name":"content-subtitle-0","text":"STRATEGY / OPERATING MODEL","textPreview":"STRATEGY / OPERATING MODEL","textChars":26,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/of2dc3m9","slide":8,"name":"content-title-0","text":"Integration creates control at every handoff.","textPreview":"Integration creates control at every handoff.","textChars":45,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/9gvul8nu","slide":8,"name":"two-column-divider","bbox":[708,222,2,416]}
+{"kind":"textbox","id":"sh/epkb6to7","slide":8,"name":"content-body-0","text":"One chain\nOffshore production at Ras El Ma\nFresh conditioning at port\nCold chain and lot-level traceability\nExport documentation through one operator","textPreview":"One chain | Offshore production at Ras El Ma | Fresh conditioning at port | Cold chain and lot-level traceability | Export documentation ...","textChars":149,"textLines":5,"bbox":[78,218,590,420]}
+{"kind":"textbox","id":"sh/zqtcfy5s","slide":8,"name":"content-body-1","text":"One standard\nONSSA requirements built into operations\nEuropean market documentation\nBiosafety designed into the CAPEX\nClear ownership from cage to client","textPreview":"One standard | ONSSA requirements built into operations | European market documentation | Biosafety designed into the CAPEX | Clear owner...","textChars":153,"textLines":5,"bbox":[746,218,590,420]}
+{"kind":"notes","id":"nt/w1lr4o","slide":8,"text":"Use for two parallel arguments, current/future states or complementary workstreams. Keep the columns balanced.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/djtko2","slide":9,"title":"OPERATIONS / OFFSHORE","textShapes":3}
+{"kind":"textbox","id":"sh/sralsba1","slide":9,"name":"content-subtitle-0","text":"OPERATIONS / OFFSHORE","textPreview":"OPERATIONS / OFFSHORE","textChars":21,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/rq14z6tg","slide":9,"name":"content-title-0","text":"Evidence starts where the work happens.","textPreview":"Evidence starts where the work happens.","textChars":39,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/5oj2xwba","slide":9,"name":"image-left-accent","bbox":[760,222,118,3]}
+{"kind":"textbox","id":"sh/4naloba5","slide":9,"name":"content-body-0","text":"Production at Ras El Ma\n375-hectare government concession\nSea bream, seabass and meagre\nContinuous monitoring and documented lots\nBuilt to scale in defined phases","textPreview":"Production at Ras El Ma | 375-hectare government concession | Sea bream, seabass and meagre | Continuous monitoring and documented lots |...","textChars":162,"textLines":5,"bbox":[760,246,565,380]}
+{"kind":"image","id":"im/bqxgzy14","slide":9,"name":"","alt":"SEARULEA offshore operations","bbox":[78,216,620,452]}
+{"kind":"notes","id":"nt/djtko2","slide":9,"text":"Use for image-led evidence with four or fewer supporting bullets. Replace the image using Change Picture to preserve the crop.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided 1_offshore_ops.jpg"}
+{"kind":"slide","id":"sl/m6fz9s","slide":10,"title":"QUALITY / COLD CHAIN","textShapes":3}
+{"kind":"textbox","id":"sh/3y54rihk","slide":10,"name":"content-subtitle-0","text":"QUALITY / COLD CHAIN","textPreview":"QUALITY / COLD CHAIN","textChars":20,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/4je5kni5","slide":10,"name":"content-title-0","text":"Control continues after the harvest.","textPreview":"Control continues after the harvest.","textChars":36,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/utw3ed03","slide":10,"name":"image-right-accent","bbox":[78,220,118,3]}
+{"kind":"textbox","id":"sh/vu54nih8","slide":10,"name":"content-body-0","text":"Fresh, documented, ready to move\nFresh conditioning at port\nRefrigerated logistics and export documentation\nOne point of contact for commercial partners\nTraceability carried through the chain","textPreview":"Fresh, documented, ready to move | Fresh conditioning at port | Refrigerated logistics and export documentation | One point of contact fo...","textChars":191,"textLines":5,"bbox":[78,242,540,390]}
+{"kind":"image","id":"im/gby54veh","slide":10,"name":"","alt":"Cold-chain team loading product at port","bbox":[700,216,662,452]}
+{"kind":"notes","id":"nt/m6fz9s","slide":10,"text":"Use when the narrative should lead and the image should validate it. Replace the image using Change Picture.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided 6_team_coldchain.jpg"}
+{"kind":"slide","id":"sl/g76ow3","slide":11,"title":"PROOF / PARTNERSHIP","textShapes":3}
+{"kind":"shape","id":"sh/4zat43et","slide":11,"name":"photo-quote-panel","bbox":[0,0,718,810]}
+{"kind":"textbox","id":"sh/61cb6dwz","slide":11,"name":"content-subtitle-0","text":"PROOF / PARTNERSHIP","textPreview":"PROOF / PARTNERSHIP","textChars":19,"textLines":1,"bbox":[82,220,600,24]}
+{"kind":"textbox","id":"sh/r2lszydk","slide":11,"name":"content-title-0","text":"“One operator. One documented chain. One standard.”","textPreview":"“One operator. One documented chain. One standard.”","textChars":51,"textLines":1,"bbox":[82,274,560,360]}
+{"kind":"textbox","id":"sh/s3ut83e5","slide":11,"name":"content-body-0","text":"Client or partner name · Role · Organisation","textPreview":"Client or partner name · Role · Organisation","textChars":44,"textLines":1,"bbox":[84,692,520,44]}
+{"kind":"image","id":"im/e1onu183","slide":11,"name":"","alt":"Fresh operations at port","bbox":[0,0,1440,810]}
+{"kind":"image","id":"im/0365wrq9","slide":11,"name":"","alt":"SEARULEA horizontal logo","bbox":[82,56,280,56]}
+{"kind":"notes","id":"nt/g76ow3","slide":11,"text":"Use for a verified testimonial, quotation or high-confidence proof point. Never invent quotes; replace the attribution before presenting.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided 2_fresh_at_port.jpg"}
+{"kind":"slide","id":"sl/kda9a2","slide":12,"title":"PROOF / KEY FIGURES","textShapes":15}
+{"kind":"textbox","id":"sh/4bqdofut","slide":12,"name":"content-subtitle-0","text":"PROOF / KEY FIGURES","textPreview":"PROOF / KEY FIGURES","textChars":19,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/3ahcfat8","slide":12,"name":"content-title-0","text":"The scale is visible in four numbers.","textPreview":"The scale is visible in four numbers.","textChars":37,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"textbox","id":"sh/i98vm5cn","slide":12,"name":"metric-value-0","text":"375","textPreview":"375","textChars":3,"textLines":1,"bbox":[78,252,270,92]}
+{"kind":"textbox","id":"sh/d0zelkba","slide":12,"name":"metric-unit-0","text":"HECTARES","textPreview":"HECTARES","textChars":8,"textLines":1,"bbox":[78,364,270,24]}
+{"kind":"textbox","id":"sh/szqdsfup","slide":12,"name":"metric-desc-0","text":"Offshore government concession","textPreview":"Offshore government concession","textChars":30,"textLines":1,"bbox":[78,420,270,90]}
+{"kind":"shape","id":"sh/rehwjat4","slide":12,"name":"metric-divider-1","bbox":[372,258,1,300]}
+{"kind":"textbox","id":"sh/qd8vq5cj","slide":12,"name":"metric-value-1","text":"2,790","textPreview":"2,790","textChars":5,"textLines":1,"bbox":[400,252,270,92]}
+{"kind":"textbox","id":"sh/t4fu90v6","slide":12,"name":"metric-unit-1","text":"TONNES","textPreview":"TONNES","textChars":6,"textLines":1,"bbox":[400,364,270,24]}
+{"kind":"textbox","id":"sh/8j6dgvul","slide":12,"name":"metric-desc-1","text":"Target annual capacity by 2031","textPreview":"Target annual capacity by 2031","textChars":30,"textLines":1,"bbox":[400,420,270,90]}
+{"kind":"shape","id":"sh/6dg7mpw7","slide":12,"name":"metric-divider-2","bbox":[694,258,1,300]}
+{"kind":"textbox","id":"sh/repofudc","slide":12,"name":"metric-value-2","text":"40%","textPreview":"40%","textChars":3,"textLines":1,"bbox":[722,252,270,92]}
+{"kind":"textbox","id":"sh/sfypofex","slide":12,"name":"metric-unit-2","text":"WOMEN","textPreview":"WOMEN","textChars":5,"textLines":1,"bbox":[722,364,270,24]}
+{"kind":"textbox","id":"sh/tg7qhkvi","slide":12,"name":"metric-desc-2","text":"Workforce commitment","textPreview":"Workforce commitment","textChars":20,"textLines":1,"bbox":[722,420,270,90]}
+{"kind":"shape","id":"sh/ehg7qpw3","slide":12,"name":"metric-divider-3","bbox":[1016,258,1,300]}
+{"kind":"textbox","id":"sh/fi98judo","slide":12,"name":"metric-value-3","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[1044,252,270,92]}
+{"kind":"textbox","id":"sh/gjipsze9","slide":12,"name":"metric-unit-3","text":"SPECIES","textPreview":"SPECIES","textChars":7,"textLines":1,"bbox":[1044,364,270,24]}
+{"kind":"textbox","id":"sh/1krql4vu","slide":12,"name":"metric-desc-3","text":"Sea bream, seabass and meagre","textPreview":"Sea bream, seabass and meagre","textChars":29,"textLines":1,"bbox":[1044,420,270,90]}
+{"kind":"shape","id":"sh/2l07u9cz","slide":12,"name":"metrics-bottom-rule","bbox":[78,600,1284,3]}
+{"kind":"textbox","id":"sh/3m98nedk","slide":12,"name":"metrics-bottom","text":"Use verified numbers and write the meaning directly below each one.","textPreview":"Use verified numbers and write the meaning directly below each one.","textChars":67,"textLines":1,"bbox":[78,626,850,30]}
+{"kind":"notes","id":"nt/kda9a2","slide":12,"text":"Use for three or four key figures. Keep units separate from values so the hierarchy stays clear.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/e77s8f","slide":13,"title":"OPERATING MODEL / PROCESS","textShapes":15}
+{"kind":"textbox","id":"sh/2lwnyx8v","slide":13,"name":"content-subtitle-0","text":"OPERATING MODEL / PROCESS","textPreview":"OPERATING MODEL / PROCESS","textChars":25,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/ponm9sr6","slide":13,"name":"content-title-0","text":"One chain, four controlled handoffs.","textPreview":"One chain, four controlled handoffs.","textChars":36,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/one50nql","slide":13,"name":"process-connector","bbox":[170,316,990,3]}
+{"kind":"textbox","id":"sh/bq54b29c","slide":13,"name":"process-node-0","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[127,274,86,86]}
+{"kind":"textbox","id":"sh/qpwn2x8r","slide":13,"name":"process-title-0","text":"Offshore farming","textPreview":"Offshore farming","textChars":16,"textLines":1,"bbox":[45,400,250,70]}
+{"kind":"textbox","id":"sh/dc7mdcri","slide":13,"name":"process-body-0","text":"Monitored production at Ras El Ma","textPreview":"Monitored production at Ras El Ma","textChars":33,"textLines":1,"bbox":[38,500,264,96]}
+{"kind":"textbox","id":"sh/cre547qx","slide":13,"name":"process-node-1","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[457,274,86,86]}
+{"kind":"textbox","id":"sh/rul4zy9s","slide":13,"name":"process-title-1","text":"Fresh at port","textPreview":"Fresh at port","textChars":13,"textLines":1,"bbox":[375,400,250,70]}
+{"kind":"textbox","id":"sh/6tc3qd8n","slide":13,"name":"process-body-1","text":"Conditioning, quality and documentation","textPreview":"Conditioning, quality and documentation","textChars":39,"textLines":1,"bbox":[368,500,264,96]}
+{"kind":"textbox","id":"sh/4ju9cvy1","slide":13,"name":"process-node-2","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[787,274,86,86]}
+{"kind":"textbox","id":"sh/543a50fm","slide":13,"name":"process-title-2","text":"Cold chain","textPreview":"Cold chain","textChars":10,"textLines":1,"bbox":[705,400,250,70]}
+{"kind":"textbox","id":"sh/ihsra5gv","slide":13,"name":"process-body-2","text":"Refrigerated handling with traceability","textPreview":"Refrigerated handling with traceability","textChars":39,"textLines":1,"bbox":[698,500,264,96]}
+{"kind":"textbox","id":"sh/jils3qxg","slide":13,"name":"process-node-3","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1117,274,86,86]}
+{"kind":"textbox","id":"sh/s7u9gfyd","slide":13,"name":"process-title-3","text":"Export","textPreview":"Export","textChars":6,"textLines":1,"bbox":[1035,400,250,70]}
+{"kind":"textbox","id":"sh/t83a9kfi","slide":13,"name":"process-body-3","text":"One commercial handoff to the client","textPreview":"One commercial handoff to the client","textChars":36,"textLines":1,"bbox":[1028,500,264,96]}
+{"kind":"textbox","id":"sh/65cre5g7","slide":13,"name":"process-outcome","text":"Our chain. Our commitments. Your certainty.","textPreview":"Our chain. Our commitments. Your certainty.","textChars":43,"textLines":1,"bbox":[370,654,700,40]}
+{"kind":"notes","id":"nt/e77s8f","slide":13,"text":"Use for three to five sequential stages. Connectors sit behind nodes; keep every step to one short title and one explanation.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/ox8s5i","slide":14,"title":"ROADMAP / MILESTONES","textShapes":14}
+{"kind":"textbox","id":"sh/upwzqd4b","slide":14,"name":"content-subtitle-0","text":"ROADMAP / MILESTONES","textPreview":"ROADMAP / MILESTONES","textChars":20,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/hc7il83m","slide":14,"name":"content-title-0","text":"Capacity grows in documented phases.","textPreview":"Capacity grows in documented phases.","textChars":36,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/wbyhs3mh","slide":14,"name":"timeline-base","bbox":[148,418,1144,4]}
+{"kind":"shape","id":"sh/7m50vylk","slide":14,"name":"timeline-tick-0","bbox":[190,390,4,60]}
+{"kind":"shape","id":"sh/mlwzmt4z","slide":14,"name":"timeline-dot-0","bbox":[180,408,24,24]}
+{"kind":"textbox","id":"sh/9onix83q","slide":14,"name":"timeline-year-0","text":"2026","textPreview":"2026","textChars":4,"textLines":1,"bbox":[104,255,176,50]}
+{"kind":"textbox","id":"sh/8neho3m5","slide":14,"name":"timeline-title-0","text":"Build","textPreview":"Build","textChars":5,"textLines":1,"bbox":[84,492,216,38]}
+{"kind":"textbox","id":"sh/rip0r2l4","slide":14,"name":"timeline-body-0","text":"Infrastructure and certification","textPreview":"Infrastructure and certification","textChars":32,"textLines":1,"bbox":[68,548,248,88]}
+{"kind":"shape","id":"sh/6hgjyx4j","slide":14,"name":"timeline-tick-1","bbox":[500,390,4,60]}
+{"kind":"shape","id":"sh/sretg3u1","slide":14,"name":"timeline-dot-1","bbox":[490,408,24,24]}
+{"kind":"textbox","id":"sh/dsnap8vm","slide":14,"name":"timeline-year-1","text":"2028","textPreview":"2028","textChars":4,"textLines":1,"bbox":[414,255,176,50]}
+{"kind":"textbox","id":"sh/q5cbetcv","slide":14,"name":"timeline-title-1","text":"First sales","textPreview":"First sales","textChars":11,"textLines":1,"bbox":[394,492,216,38]}
+{"kind":"textbox","id":"sh/rq5snydg","slide":14,"name":"timeline-body-1","text":"605 t in the first commercial phase","textPreview":"605 t in the first commercial phase","textChars":35,"textLines":1,"bbox":[378,548,248,88]}
+{"kind":"shape","id":"sh/43utcjup","slide":14,"name":"timeline-tick-2","bbox":[820,390,4,60]}
+{"kind":"shape","id":"sh/543alova","slide":14,"name":"timeline-dot-2","bbox":[810,408,24,24]}
+{"kind":"textbox","id":"sh/i1cbatcj","slide":14,"name":"timeline-year-2","text":"2029–30","textPreview":"2029–30","textChars":7,"textLines":1,"bbox":[734,255,176,50]}
+{"kind":"textbox","id":"sh/32lsjyd4","slide":14,"name":"timeline-title-2","text":"Scale","textPreview":"Scale","textChars":5,"textLines":1,"bbox":[714,492,216,38]}
+{"kind":"textbox","id":"sh/wzut8jut","slide":14,"name":"timeline-body-2","text":"Production ramps to 1,744 t","textPreview":"Production ramps to 1,744 t","textChars":27,"textLines":1,"bbox":[698,548,248,88]}
+{"kind":"shape","id":"sh/h03ahove","slide":14,"name":"timeline-tick-3","bbox":[1190,390,4,60]}
+{"kind":"shape","id":"sh/xkbipgjq","slide":14,"name":"timeline-dot-3","bbox":[1180,408,24,24]}
+{"kind":"textbox","id":"sh/cj2hwbi5","slide":14,"name":"timeline-year-3","text":"2031+","textPreview":"2031+","textChars":5,"textLines":1,"bbox":[1104,255,176,50]}
+{"kind":"textbox","id":"sh/bit0n61k","slide":14,"name":"timeline-title-3","text":"Full capacity","textPreview":"Full capacity","textChars":13,"textLines":1,"bbox":[1084,492,216,38]}
+{"kind":"textbox","id":"sh/ah0zu10f","slide":14,"name":"timeline-body-3","text":"2,790 t and 71 direct jobs","textPreview":"2,790 t and 71 direct jobs","textChars":26,"textLines":1,"bbox":[1068,548,248,88]}
+{"kind":"notes","id":"nt/ox8s5i","slide":14,"text":"Use for three to five milestones. Keep dates above the line and implications below it.\n\n[Sources]\n- User-provided SEARULEA presentation PDF"}
+{"kind":"slide","id":"sl/qf0b26","slide":15,"title":"CAPACITY / SCALE-UP","textShapes":3}
+{"kind":"textbox","id":"sh/9krm1cj6","slide":15,"name":"content-subtitle-0","text":"CAPACITY / SCALE-UP","textPreview":"CAPACITY / SCALE-UP","textChars":19,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/mh03qh0f","slide":15,"name":"content-title-0","text":"The operating plan reaches 2,790 tonnes by 2031.","textPreview":"The operating plan reaches 2,790 tonnes by 2031.","textChars":48,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"textbox","id":"sh/0fylo7ip","slide":15,"name":"bar-chart-note","text":"Editable chart — right-click → Edit Data to replace the example series.","textPreview":"Editable chart — right-click → Edit Data to replace the example series.","textChars":71,"textLines":1,"bbox":[96,686,700,22]}
+{"kind":"chart","id":"ch/3y5sny5s","slide":15,"name":"","chartType":"bar","bbox":[96,212,1240,452]}
+{"kind":"notes","id":"nt/qf0b26","slide":15,"text":"Use for categorical comparisons or phased scale-up. The chart is native and editable in PowerPoint.\n\n[Sources]\n- User-provided SEARULEA presentation PDF"}
+{"kind":"slide","id":"sl/2k6mt7","slide":16,"title":"WORKFORCE / DEVELOPMENT","textShapes":4}
+{"kind":"textbox","id":"sh/7itgzyd0","slide":16,"name":"content-subtitle-0","text":"WORKFORCE / DEVELOPMENT","textPreview":"WORKFORCE / DEVELOPMENT","textChars":23,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/8j2h83el","slide":16,"name":"content-title-0","text":"Employment grows with operating capacity.","textPreview":"Employment grows with operating capacity.","textChars":41,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"textbox","id":"sh/ulkzatwr","slide":16,"name":"content-body-0","text":"What the chart means\n71 direct roles at full capacity\nA minimum 40% commitment for women\nSkills grow with each operating phase","textPreview":"What the chart means | 71 direct roles at full capacity | A minimum 40% commitment for women | Skills grow with each operating phase","textChars":126,"textLines":4,"bbox":[1000,238,330,385]}
+{"kind":"textbox","id":"sh/f6tg3ydc","slide":16,"name":"line-chart-note","text":"Illustrative template data — replace with verified figures before presenting.","textPreview":"Illustrative template data — replace with verified figures before presenting.","textChars":77,"textLines":1,"bbox":[78,686,760,22]}
+{"kind":"chart","id":"ch/x8buxwry","slide":16,"name":"","chartType":"line","bbox":[78,218,840,430]}
+{"kind":"notes","id":"nt/2k6mt7","slide":16,"text":"Use for trends over time with one or two series. The example job progression is illustrative template data; replace before presenting.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/cd8e8d","slide":17,"title":"PORTFOLIO / PRODUCT MIX","textShapes":3}
+{"kind":"textbox","id":"sh/m5grmtcv","slide":17,"name":"content-subtitle-0","text":"PORTFOLIO / PRODUCT MIX","textPreview":"PORTFOLIO / PRODUCT MIX","textChars":23,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/987ahov6","slide":17,"name":"content-title-0","text":"Three species balance demand and operating resilience.","textPreview":"Three species balance demand and operating resilience.","textChars":54,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"textbox","id":"sh/f2psbed4","slide":17,"name":"content-body-0","text":"Use the headline to state the conclusion—not the chart type.\nThis layout works for portfolio mix, allocation, audience composition or any whole-to-part story with three to five categories.\nRight-click → Edit Data to replace the example values.","textPreview":"Use the headline to state the conclusion—not the chart type. | This layout works for portfolio mix, allocation, audience composition or a...","textChars":243,"textLines":3,"bbox":[790,236,520,360]}
+{"kind":"chart","id":"ch/sf6l4jm5","slide":17,"name":"","chartType":"doughnut","bbox":[90,210,620,440]}
+{"kind":"notes","id":"nt/cd8e8d","slide":17,"text":"Use for whole-to-part analysis with three to five segments. The chart is native and editable in PowerPoint.\n\n[Sources]\n- User-provided SEARULEA presentation PDF"}
+{"kind":"slide","id":"sl/78l2su","slide":18,"title":"DECISION / COMPARISON","textShapes":12}
+{"kind":"textbox","id":"sh/pkvutgne","slide":18,"name":"content-subtitle-0","text":"DECISION / COMPARISON","textPreview":"DECISION / COMPARISON","textChars":21,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/2h4bylon","slide":18,"name":"content-title-0","text":"Compare options against the criteria that matter.","textPreview":"Compare options against the criteria that matter.","textChars":49,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/3idcrq58","slide":18,"name":"compare-panel-0","bbox":[78,218,624,422]}
+{"kind":"textbox","id":"sh/gf2twb6x","slide":18,"name":"compare-label-0","text":"OPTION A","textPreview":"OPTION A","textChars":8,"textLines":1,"bbox":[112,250,510,22]}
+{"kind":"textbox","id":"sh/hgbupgn2","slide":18,"name":"compare-title-0","text":"Current approach","textPreview":"Current approach","textChars":16,"textLines":1,"bbox":[112,304,520,58]}
+{"kind":"shape","id":"sh/udkbu1or","slide":18,"name":"compare-dash-0-0","bbox":[112,400,28,3]}
+{"kind":"textbox","id":"sh/fetsn65c","slide":18,"name":"compare-item-0-0","text":"Fragmented responsibility","textPreview":"Fragmented responsibility","textChars":25,"textLines":1,"bbox":[160,386,480,40]}
+{"kind":"shape","id":"sh/sr2tsb6l","slide":18,"name":"compare-dash-0-1","bbox":[112,466,28,3]}
+{"kind":"textbox","id":"sh/tsbalwn6","slide":18,"name":"compare-item-0-1","text":"Multiple handoffs","textPreview":"Multiple handoffs","textChars":17,"textLines":1,"bbox":[160,452,480,40]}
+{"kind":"shape","id":"sh/xc3e10fu","slide":18,"name":"compare-dash-0-2","bbox":[112,532,28,3]}
+{"kind":"textbox","id":"sh/wbudsvep","slide":18,"name":"compare-item-0-2","text":"Variable documentation","textPreview":"Variable documentation","textChars":22,"textLines":1,"bbox":[160,518,480,40]}
+{"kind":"shape","id":"sh/valwzqx4","slide":18,"name":"compare-panel-1","bbox":[738,218,624,422]}
+{"kind":"textbox","id":"sh/a9svqlwj","slide":18,"name":"compare-label-1","text":"OPTION B / RECOMMENDED","textPreview":"OPTION B / RECOMMENDED","textChars":22,"textLines":1,"bbox":[772,250,510,22]}
+{"kind":"textbox","id":"sh/98juxgfy","slide":18,"name":"compare-title-1","text":"Integrated chain","textPreview":"Integrated chain","textChars":16,"textLines":1,"bbox":[772,304,520,58]}
+{"kind":"shape","id":"sh/87adobed","slide":18,"name":"compare-dash-1-0","bbox":[772,400,28,3]}
+{"kind":"textbox","id":"sh/nm1cv6xs","slide":18,"name":"compare-item-1-0","text":"One accountable operator","textPreview":"One accountable operator","textChars":24,"textLines":1,"bbox":[820,386,480,40]}
+{"kind":"shape","id":"sh/mlsvmlw7","slide":18,"name":"compare-dash-1-1","bbox":[772,466,28,3]}
+{"kind":"textbox","id":"sh/lkjutgfm","slide":18,"name":"compare-item-1-1","text":"Controlled cold chain","textPreview":"Controlled cold chain","textChars":21,"textLines":1,"bbox":[820,452,480,40]}
+{"kind":"shape","id":"sh/0jadkbeh","slide":18,"name":"compare-dash-1-2","bbox":[772,532,28,3]}
+{"kind":"textbox","id":"sh/cnudgbmd","slide":18,"name":"compare-item-1-2","text":"One documented standard","textPreview":"One documented standard","textChars":23,"textLines":1,"bbox":[820,518,480,40]}
+{"kind":"notes","id":"nt/78l2su","slide":18,"text":"Use for two alternatives, current/future states or build/buy choices. Keep both sides parallel and make the recommendation explicit only when appropriate.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/wnc63o","slide":19,"title":"PLAN / DELIVERY","textShapes":3}
+{"kind":"textbox","id":"sh/knqts3yl","slide":19,"name":"content-subtitle-0","text":"PLAN / DELIVERY","textPreview":"PLAN / DELIVERY","textChars":15,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/zmhcjyx0","slide":19,"name":"content-title-0","text":"Make ownership and timing unambiguous.","textPreview":"Make ownership and timing unambiguous.","textChars":38,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"textbox","id":"sh/x0fuhofa","slide":19,"name":"table-note","text":"Editable table — keep to five or fewer rows on a standard slide.","textPreview":"Editable table — keep to five or fewer rows on a standard slide.","textChars":64,"textLines":1,"bbox":[78,654,670,24]}
+{"kind":"table","id":"tb/ny9s7i50","slide":19,"name":"","rows":5,"cols":4,"preview":"Workstream | Owner | Timing | Outcome","bbox":[78,222,1284,398]}
+{"kind":"notes","id":"nt/wnc63o","slide":19,"text":"Use for plans, responsibilities, requirements or concise data. The table is native and editable in PowerPoint.\n\n[Sources]\n- User-provided SEARULEA presentation PDF"}
+{"kind":"slide","id":"sl/u0md57","slide":20,"title":"LOCATION / RAS EL MA","textShapes":3}
+{"kind":"textbox","id":"sh/ml07mhkv","slide":20,"name":"content-subtitle-0","text":"LOCATION / RAS EL MA","textPreview":"LOCATION / RAS EL MA","textChars":20,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/9orqhwjm","slide":20,"name":"content-title-0","text":"The site connects natural advantage to export access.","textPreview":"The site connects natural advantage to export access.","textChars":53,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/zip8b21k","slide":20,"name":"location-accent","bbox":[78,222,118,3]}
+{"kind":"textbox","id":"sh/yhg7ixkz","slide":20,"name":"content-body-0","text":"Ras El Ma, Oriental Region\nDirect Mediterranean access\n375-hectare offshore concession\nPort connection for fresh logistics\nProximity to European markets","textPreview":"Ras El Ma, Oriental Region | Direct Mediterranean access | 375-hectare offshore concession | Port connection for fresh logistics | Proxim...","textChars":152,"textLines":5,"bbox":[78,238,500,390]}
+{"kind":"image","id":"im/ponq903e","slide":20,"name":"","alt":"Ras El Ma coastline","bbox":[610,214,752,454]}
+{"kind":"notes","id":"nt/u0md57","slide":20,"text":"Use for a location, facility or market-access story. Replace the image with a verified map or site photograph when available.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided 5_coast_sovereignty.jpg"}
+{"kind":"slide","id":"sl/939rdo","slide":21,"title":"LEADERSHIP / PROFILE","textShapes":5}
+{"kind":"textbox","id":"sh/wrmh4nm9","slide":21,"name":"content-subtitle-0","text":"LEADERSHIP / PROFILE","textPreview":"LEADERSHIP / PROFILE","textChars":20,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/bqdgvilo","slide":21,"name":"content-title-0","text":"Leadership rooted in execution.","textPreview":"Leadership rooted in execution.","textChars":31,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"textbox","id":"sh/lwfi1s3q","slide":21,"name":"profile-name","text":"Name Surname","textPreview":"Name Surname","textChars":12,"textLines":1,"bbox":[750,216,565,60]}
+{"kind":"textbox","id":"sh/kvmh8nm5","slide":21,"name":"profile-role","text":"TITLE / FUNCTION","textPreview":"TITLE / FUNCTION","textChars":16,"textLines":1,"bbox":[750,300,565,24]}
+{"kind":"textbox","id":"sh/jud0z2lk","slide":21,"name":"content-body-0","text":"Use a short biography focused on relevant experience, operating credibility and the person’s role in the decision at hand.\nAdd two or three proof points rather than a full career history.\nRelevant experience\nSpecific responsibility\nDecision or outcome owned","textPreview":"Use a short biography focused on relevant experience, operating credibility and the person’s role in the decision at hand. | Add two or t...","textChars":257,"textLines":5,"bbox":[750,356,565,280]}
+{"kind":"image","id":"im/vuhsj25s","slide":21,"name":"","alt":"SEARULEA team member","bbox":[78,210,590,470]}
+{"kind":"notes","id":"nt/939rdo","slide":21,"text":"Use for a founder, executive, project lead or client contact. Replace the placeholder name and verified photograph before presenting.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided 3_women_searulea.jpg"}
+{"kind":"slide","id":"sl/ba60qe","slide":22,"title":"PROOF / PHOTOGRAPHY","textShapes":8}
+{"kind":"textbox","id":"sh/dsb6tgni","slide":22,"name":"content-subtitle-0","text":"PROOF / PHOTOGRAPHY","textPreview":"PROOF / PHOTOGRAPHY","textChars":19,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/qpkny147","slide":22,"name":"content-title-0","text":"Show the system through evidence, not decoration.","textPreview":"Show the system through evidence, not decoration.","textChars":49,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"textbox","id":"sh/4ni5wrm1","slide":22,"name":"gallery-title-0","text":"Offshore operations","textPreview":"Offshore operations","textChars":19,"textLines":1,"bbox":[78,578,408,42]}
+{"kind":"textbox","id":"sh/pob6pwnm","slide":22,"name":"gallery-caption-0","text":"One sentence that explains what the image proves.","textPreview":"One sentence that explains what the image proves.","textChars":49,"textLines":1,"bbox":[78,634,390,50]}
+{"kind":"textbox","id":"sh/3m9on65g","slide":22,"name":"gallery-title-1","text":"Traceability","textPreview":"Traceability","textChars":12,"textLines":1,"bbox":[516,578,408,42]}
+{"kind":"textbox","id":"sh/8jmp8vm5","slide":22,"name":"gallery-caption-1","text":"One sentence that explains what the image proves.","textPreview":"One sentence that explains what the image proves.","textChars":49,"textLines":1,"bbox":[516,634,390,50]}
+{"kind":"textbox","id":"sh/hsfyl8bu","slide":22,"name":"gallery-title-2","text":"Cold chain","textPreview":"Cold chain","textChars":10,"textLines":1,"bbox":[954,578,408,42]}
+{"kind":"textbox","id":"sh/gr6hsnap","slide":22,"name":"gallery-caption-2","text":"One sentence that explains what the image proves.","textPreview":"One sentence that explains what the image proves.","textChars":49,"textLines":1,"bbox":[954,634,390,50]}
+{"kind":"image","id":"im/61cfm1kj","slide":22,"name":"","alt":"Offshore aquaculture operations","bbox":[78,220,408,330]}
+{"kind":"image","id":"im/f65gz610","slide":22,"name":"","alt":"Lot-level traceability technology","bbox":[516,220,408,330]}
+{"kind":"image","id":"im/wvaxg721","slide":22,"name":"","alt":"Cold-chain operations at port","bbox":[954,220,408,330]}
+{"kind":"notes","id":"nt/ba60qe","slide":22,"text":"Use for a three-image evidence sequence. Keep crops consistent and write captions that explain what each image proves.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided environment photography"}
+{"kind":"slide","id":"sl/46yedo","slide":23,"title":"Let’s build the next chapter from Ras El Ma.","textShapes":3}
+{"kind":"textbox","id":"sh/3md0jilo","slide":23,"name":"content-title-0","text":"Let’s build the next chapter from Ras El Ma.","textPreview":"Let’s build the next chapter from Ras El Ma.","textChars":44,"textLines":1,"bbox":[600,344,720,268]}
+{"kind":"textbox","id":"sh/gjm1onmd","slide":23,"name":"content-body-0","text":"hello@searulea.com\nwww.searulea.com","textPreview":"hello@searulea.com | www.searulea.com","textChars":35,"textLines":2,"bbox":[760,636,560,58]}
+{"kind":"textbox","id":"sh/hkvihs3y","slide":23,"name":"closing-signature","text":"From our sea to your port.","textPreview":"From our sea to your port.","textChars":26,"textLines":1,"bbox":[716,708,604,28]}
+{"kind":"image","id":"im/kzix4n6h","slide":23,"name":"","alt":"SEARULEA Sea Foam spiral","bbox":[-150,80,560,560]}
+{"kind":"image","id":"im/je9wbi5c","slide":23,"name":"","alt":"SEARULEA stacked logo","bbox":[1040,108,280,220]}
+{"kind":"notes","id":"nt/46yedo","slide":23,"text":"Use as the closing synthesis and contact slide. Replace placeholder contact details with verified client information.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided SEARULEA Sea Foam spiral and logo assets"}

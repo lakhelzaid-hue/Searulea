@@ -1,0 +1,337 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/pg653i",
+    "id": "pg653i",
+    "slide": 5,
+    "layoutId": "79c726a0-f310-4da4-841d-44de1f347e0d",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "5a49771e-0b6e-475c-bea1-59ec40ea8a6a",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1440,
+      "height": 810
+    }
+  },
+  "theme": {
+    "colorSchemeName": "SEARULEA 2026",
+    "colors": {
+      "accent1": "#074154",
+      "accent2": "#0A6887",
+      "accent3": "#0C7190",
+      "accent4": "#D0E7ED",
+      "accent5": "#EFE8D8",
+      "accent6": "#D98E2B",
+      "bg1": "#FBF9F4",
+      "bg2": "#D0E7ED",
+      "tx1": "#0B3242",
+      "tx2": "#3E5966",
+      "dk1": "#04293A",
+      "dk2": "#074154",
+      "lt1": "#FFFFFF",
+      "lt2": "#FBF9F4",
+      "hlink": "#0A6887",
+      "folHlink": "#0C7190"
+    },
+    "typefaces": [
+      "DM Sans",
+      "Lora"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "79c726a0-f310-4da4-841d-44de1f347e0d",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "5a49771e-0b6e-475c-bea1-59ec40ea8a6a",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "5a49771e-0b6e-475c-bea1-59ec40ea8a6a",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/raloz25o",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1440,
+        810
+      ],
+      "alt": "SEARULEA coastline",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "732b411a-7dc8-41d0-b336-17f8fe986d7b",
+        "contentType": "image/jpeg",
+        "byteLength": 1296846
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dgfetkbu",
+      "id": "2",
+      "name": "cover-bottom-band",
+      "bbox": [
+        0,
+        540,
+        1440,
+        270
+      ],
+      "geometry": "rect",
+      "fillColor": "#074154",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/dcn61cne",
+      "id": "3",
+      "bbox": [
+        78,
+        584,
+        250,
+        50
+      ],
+      "alt": "SEARULEA logo",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "998fa721-0e8d-4502-adc7-a6c41ae0bd07",
+        "contentType": "image/png",
+        "byteLength": 56404
+      }
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3qdwnads",
+      "id": "4",
+      "name": "cover-full-label",
+      "bbox": [
+        430,
+        584,
+        330,
+        22
+      ],
+      "geometry": "rect",
+      "text": "[PRESENTATION TYPE]",
+      "textPreview": "[PRESENTATION TYPE]",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "DM Sans",
+        "color": "#D0E7ED",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[PRESENTATION TYPE]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[PRESENTATION TYPE]",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[PRESENTATION TYPE]",
+              "fontSize": 14,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ip4ve5c7",
+      "id": "5",
+      "name": "cover-full-title",
+      "bbox": [
+        430,
+        628,
+        850,
+        82
+      ],
+      "geometry": "rect",
+      "text": "[ADD PRESENTATION TITLE]",
+      "textPreview": "[ADD PRESENTATION TITLE]",
+      "resolvedFontSize": 52,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 52,
+        "typeface": "Lora",
+        "color": "#FBF9F4",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[ADD PRESENTATION TITLE]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[ADD PRESENTATION TITLE]",
+          "lineSpacingPercent": 96000,
+          "resolvedTextStyle": {
+            "fontSize": 52,
+            "typeface": "Lora",
+            "color": "#FBF9F4",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.96
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[ADD PRESENTATION TITLE]",
+              "fontSize": 52,
+              "typeface": "Lora",
+              "color": "#FBF9F4",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.96
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5svepkvi",
+      "id": "6",
+      "name": "cover-full-meta",
+      "bbox": [
+        430,
+        738,
+        500,
+        22
+      ],
+      "geometry": "rect",
+      "text": "[Month Year] · [Presenter]",
+      "textPreview": "[Month Year] · [Presenter]",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "DM Sans",
+        "color": "#D0E7ED",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[Month Year] · [Presenter]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[Month Year] · [Presenter]",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[Month Year] · [Presenter]",
+              "fontSize": 15,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

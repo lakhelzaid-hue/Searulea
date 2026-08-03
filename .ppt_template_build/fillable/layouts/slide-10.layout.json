@@ -1,0 +1,405 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/3kyedo",
+    "id": "3kyedo",
+    "slide": 10,
+    "layoutId": "47c3c3a1-645c-49a3-a1fb-e1a002310133",
+    "layoutName": "05 — Section Divider / Deep Sea",
+    "masterLayoutId": "0d7a4fad-6f4b-4e0a-9a84-76997ae49406",
+    "masterLayoutName": "SEARULEA Fillable / Deep Sea",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1440,
+      "height": 810
+    }
+  },
+  "theme": {
+    "colorSchemeName": "SEARULEA 2026",
+    "colors": {
+      "accent1": "#074154",
+      "accent2": "#0A6887",
+      "accent3": "#0C7190",
+      "accent4": "#D0E7ED",
+      "accent5": "#EFE8D8",
+      "accent6": "#D98E2B",
+      "bg1": "#FBF9F4",
+      "bg2": "#D0E7ED",
+      "tx1": "#0B3242",
+      "tx2": "#3E5966",
+      "dk1": "#04293A",
+      "dk2": "#074154",
+      "lt1": "#FFFFFF",
+      "lt2": "#FBF9F4",
+      "hlink": "#0A6887",
+      "folHlink": "#0C7190"
+    },
+    "typefaces": [
+      "DM Sans",
+      "Lora"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "47c3c3a1-645c-49a3-a1fb-e1a002310133",
+      "name": "05 — Section Divider / Deep Sea",
+      "parentLayoutId": "0d7a4fad-6f4b-4e0a-9a84-76997ae49406",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout/47c3c3a1-645c-49a3-a1fb-e1a002310133/1",
+          "id": "1",
+          "name": "placeholder_3",
+          "bbox": [
+            78,
+            510,
+            700,
+            72
+          ],
+          "geometry": "rect",
+          "text": "A short line that sets up the next chapter.",
+          "textPreview": "A short line that sets up the next chapter.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 25,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1.12,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "A short line that sets up the next chapter.",
+              "lineSpacingPercent": 112000,
+              "resolvedTextStyle": {
+                "fontSize": 25,
+                "typeface": "DM Sans",
+                "color": "#D0E7ED",
+                "alignment": "left",
+                "lineSpacing": 1.12
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "A short line that sets up the next chapter.",
+                  "fontSize": 25,
+                  "typeface": "DM Sans",
+                  "color": "#D0E7ED",
+                  "alignment": "left",
+                  "lineSpacing": 1.12
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "0d7a4fad-6f4b-4e0a-9a84-76997ae49406",
+      "name": "SEARULEA Fillable / Deep Sea",
+      "type": "master",
+      "backgroundColor": "#074154",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master/0d7a4fad-6f4b-4e0a-9a84-76997ae49406/1",
+          "id": "1",
+          "bbox": [
+            1317,
+            45,
+            44,
+            44
+          ],
+          "alt": "SEARULEA monogram",
+          "contentType": "image/png",
+          "imageFit": "contain",
+          "asset": {
+            "assetId": "e02cc4f2-6907-4f88-8507-04574d3669a4",
+            "contentType": "image/png",
+            "byteLength": 64082
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l0zm9cfi",
+      "id": "1",
+      "name": "content-subtitle-0",
+      "bbox": [
+        78,
+        270,
+        520,
+        24
+      ],
+      "geometry": "rect",
+      "text": "[SECTION 01]",
+      "textPreview": "[SECTION 01]",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "DM Sans",
+        "color": "#D0E7ED",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[SECTION 01]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[SECTION 01]",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 15,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[SECTION 01]",
+              "anchor": 1,
+              "fontSize": 15,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yx83exwr",
+      "id": "2",
+      "name": "content-title-0",
+      "bbox": [
+        78,
+        316,
+        800,
+        150
+      ],
+      "geometry": "rect",
+      "text": "[ADD SECTION TITLE]",
+      "textPreview": "[ADD SECTION TITLE]",
+      "resolvedFontSize": 82,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 82,
+        "typeface": "Lora",
+        "color": "#FBF9F4",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[ADD SECTION"
+          },
+          {
+            "index": 2,
+            "text": "TITLE]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[ADD SECTION TITLE]",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 82,
+            "typeface": "Lora",
+            "color": "#FBF9F4",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[ADD SECTION TITLE]",
+              "anchor": 1,
+              "fontSize": 82,
+              "typeface": "Lora",
+              "color": "#FBF9F4",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jyh472xc",
+      "id": "3",
+      "name": "content-body-0",
+      "bbox": [
+        78,
+        510,
+        700,
+        72
+      ],
+      "geometry": "rect",
+      "text": "[Add one line that sets up the next chapter.]",
+      "textPreview": "[Add one line that sets up the next chapter.]",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "DM Sans",
+        "color": "#D0E7ED",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[Add one line that sets up the next chapter.]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[Add one line that sets up the next chapter.]",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 25,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[Add one line that sets up the next chapter.]",
+              "anchor": 1,
+              "fontSize": 25,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

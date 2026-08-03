@@ -1,0 +1,37 @@
+Communication job
+By the end, the SEARULEA client team should be able to create polished,
+consistent presentations quickly because the deck supplies native, editable
+layouts for the recurring communication jobs in the source presentation.
+
+Visual system
+- 16:9, 1440 x 810 canvas to match the supplied PDF.
+- Lora for display and DM Sans for body/data.
+- Deep Sea, Pearl, Shore and Sea Foam as dominant grounds.
+- Official PNG lockups, monogram, fish and spiral assets only.
+- Twelve-column screen/deck grid with 78 px side insets.
+- Documentary aquaculture photography, level horizons, restrained crops.
+
+Template library
+1. Photo cover
+2. Deep Sea cover
+3. Template guide
+4. Agenda
+5. Section divider
+6. Statement
+7. Single-column narrative
+8. Two-column narrative
+9. Image left
+10. Image right
+11. Photo quote
+12. Key figures
+13. Four-step process
+14. Timeline
+15. Editable bar chart
+16. Editable line chart with commentary
+17. Editable doughnut chart
+18. Comparison
+19. Editable data table
+20. Location / site
+21. Profile
+22. Image gallery
+23. Closing

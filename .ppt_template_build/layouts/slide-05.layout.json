@@ -1,0 +1,484 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/vzyacq",
+    "id": "vzyacq",
+    "slide": 5,
+    "layoutId": "75704499-576b-449f-b044-2e5e86f420fe",
+    "layoutName": "05 — Section Divider / Deep Sea",
+    "masterLayoutId": "9bbe1c84-3cfe-48e7-90cf-4c086a99b75e",
+    "masterLayoutName": "SEARULEA / Deep Sea",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1440,
+      "height": 810
+    }
+  },
+  "theme": {
+    "colorSchemeName": "SEARULEA 2026",
+    "colors": {
+      "accent1": "#074154",
+      "accent2": "#0A6887",
+      "accent3": "#0C7190",
+      "accent4": "#D0E7ED",
+      "accent5": "#EFE8D8",
+      "accent6": "#D98E2B",
+      "bg1": "#FBF9F4",
+      "bg2": "#D0E7ED",
+      "tx1": "#0B3242",
+      "tx2": "#3E5966",
+      "dk1": "#04293A",
+      "dk2": "#074154",
+      "lt1": "#FFFFFF",
+      "lt2": "#FBF9F4",
+      "hlink": "#0A6887",
+      "folHlink": "#0C7190"
+    },
+    "typefaces": [
+      "DM Sans",
+      "Lora"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "75704499-576b-449f-b044-2e5e86f420fe",
+      "name": "05 — Section Divider / Deep Sea",
+      "parentLayoutId": "9bbe1c84-3cfe-48e7-90cf-4c086a99b75e",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout/75704499-576b-449f-b044-2e5e86f420fe/1",
+          "id": "1",
+          "name": "placeholder_3",
+          "bbox": [
+            78,
+            510,
+            700,
+            72
+          ],
+          "geometry": "rect",
+          "text": "A short line that sets up the next chapter.",
+          "textPreview": "A short line that sets up the next chapter.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 25,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1.12,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "A short line that sets up the next chapter.",
+              "lineSpacingPercent": 112000,
+              "resolvedTextStyle": {
+                "fontSize": 25,
+                "typeface": "DM Sans",
+                "color": "#D0E7ED",
+                "alignment": "left",
+                "lineSpacing": 1.12
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "A short line that sets up the next chapter.",
+                  "fontSize": 25,
+                  "typeface": "DM Sans",
+                  "color": "#D0E7ED",
+                  "alignment": "left",
+                  "lineSpacing": 1.12
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "9bbe1c84-3cfe-48e7-90cf-4c086a99b75e",
+      "name": "SEARULEA / Deep Sea",
+      "type": "master",
+      "backgroundColor": "#074154",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master/9bbe1c84-3cfe-48e7-90cf-4c086a99b75e/1",
+          "id": "1",
+          "name": "SEARULEA / Deep Sea-footer-label",
+          "bbox": [
+            78,
+            765,
+            360,
+            18
+          ],
+          "geometry": "rect",
+          "text": "SEARULEA — Client presentation",
+          "textPreview": "SEARULEA — Client presentation",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 13,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "SEARULEA — Client presentation",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 13,
+                "typeface": "DM Sans",
+                "color": "#D0E7ED",
+                "bold": true,
+                "alignment": "left",
+                "lineSpacing": 1
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "SEARULEA — Client presentation",
+                  "fontSize": 13,
+                  "typeface": "DM Sans",
+                  "color": "#D0E7ED",
+                  "bold": true,
+                  "alignment": "left",
+                  "lineSpacing": 1
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/tszyxcna",
+      "id": "1",
+      "bbox": [
+        78,
+        62,
+        54,
+        54
+      ],
+      "alt": "SEARULEA monogram",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "83fdbfd4-a97b-4f16-b259-3a299bd74f57",
+        "contentType": "image/png",
+        "byteLength": 64082
+      }
+    },
+    {
+      "order": 2,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/6p8fmx4j",
+      "id": "2",
+      "bbox": [
+        1020,
+        -70,
+        540,
+        540
+      ],
+      "alt": "SEARULEA Sea Foam spiral",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "ae30cc70-bf39-4fbe-b6d0-e5338d83ef09",
+        "contentType": "image/png",
+        "byteLength": 24940
+      }
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/294nyhcj",
+      "id": "3",
+      "name": "content-subtitle-0",
+      "bbox": [
+        78,
+        270,
+        520,
+        24
+      ],
+      "geometry": "rect",
+      "text": "SECTION 01 / CONTEXT",
+      "textPreview": "SECTION 01 / CONTEXT",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "DM Sans",
+        "color": "#D0E7ED",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SECTION 01 / CONTEXT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SECTION 01 / CONTEXT",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 15,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SECTION 01 / CONTEXT",
+              "anchor": 1,
+              "fontSize": 15,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/18bm5cby",
+      "id": "4",
+      "name": "content-title-0",
+      "bbox": [
+        78,
+        316,
+        800,
+        150
+      ],
+      "geometry": "rect",
+      "text": "Why now",
+      "textPreview": "Why now",
+      "resolvedFontSize": 82,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 82,
+        "typeface": "Lora",
+        "color": "#FBF9F4",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Why now"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Why now",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 82,
+            "typeface": "Lora",
+            "color": "#FBF9F4",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Why now",
+              "anchor": 1,
+              "fontSize": 82,
+              "typeface": "Lora",
+              "color": "#FBF9F4",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g725w7ud",
+      "id": "5",
+      "name": "content-body-0",
+      "bbox": [
+        78,
+        510,
+        700,
+        72
+      ],
+      "geometry": "rect",
+      "text": "The market context that makes this chapter necessary.",
+      "textPreview": "The market context that makes this chapter necessary.",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "DM Sans",
+        "color": "#D0E7ED",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The market context that makes this chapter necessary."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The market context that makes this chapter necessary.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 25,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The market context that makes this chapter necessary.",
+              "anchor": 1,
+              "fontSize": 25,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

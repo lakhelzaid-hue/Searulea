@@ -1,0 +1,769 @@
+{"kind":"deck","id":"pr/ww69ep","name":"Deck"}
+{"kind":"layout","layoutId":"5a49771e-0b6e-475c-bea1-59ec40ea8a6a","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"79c726a0-f310-4da4-841d-44de1f347e0d","name":"Title Slide","type":"title"}
+{"kind":"layout","layoutId":"e786531f-e45c-4e53-a408-c1593ce2fbc2","name":"SEARULEA Fillable / Cover","type":"master"}
+{"kind":"layout","layoutId":"0d7a4fad-6f4b-4e0a-9a84-76997ae49406","name":"SEARULEA Fillable / Deep Sea","type":"master"}
+{"kind":"layout","layoutId":"5d415201-bb60-4263-9550-0439a218218a","name":"SEARULEA Fillable / Pearl","type":"master"}
+{"kind":"layout","layoutId":"420c4cb9-a357-413f-8783-52f0623f5182","name":"SEARULEA Fillable / Sea Foam","type":"master"}
+{"kind":"layout","layoutId":"21ce26e3-c379-4372-bce8-2fe1bdd13e2d","name":"SEARULEA Fillable / Shore","type":"master"}
+{"kind":"layout","layoutId":"d21b7a9e-a3a5-443c-a46e-9a58c80af865","name":"01 — Cover / Photo","placeholders":[{"name":"body","type":"body","textPreview":"PRESENTATION / CLIENT"},{"name":"title","type":"title","textPreview":"Presentation title"},{"name":"subtitle","type":"subtitle","textPreview":"A concise, outcome-focused subtitle"},{"name":"body","type":"body","textPreview":"Month Year · Presenter · Confidential"}]}
+{"kind":"layout","layoutId":"49512535-abb0-449a-bb44-b020f8c58b20","name":"02 — Cover / Deep Sea","placeholders":[{"name":"body","type":"body","textPreview":"PRESENTATION / CLIENT"},{"name":"title","type":"title","textPreview":"Presentation title"},{"name":"subtitle","type":"subtitle","textPreview":"A concise, outcome-focused subtitle"},{"name":"body","type":"body","textPreview":"Month Year · Presenter · Confidential"}]}
+{"kind":"layout","layoutId":"18e3d54e-57fc-4233-80d8-f05be1dd9ce8","name":"03 — Template Guide","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"}]}
+{"kind":"layout","layoutId":"1304b69f-af39-4eb1-be97-764061a38ab5","name":"04 — Agenda","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"}]}
+{"kind":"layout","layoutId":"47c3c3a1-645c-49a3-a1fb-e1a002310133","name":"05 — Section Divider / Deep Sea","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION 01"},{"name":"title","type":"title","textPreview":"Section title"},{"name":"body","type":"body","textPreview":"A short line that sets up the next chapter."}]}
+{"kind":"layout","layoutId":"27f3a693-15c1-4127-b1b1-fdfb2d30292a","name":"06 — Statement / Deep Sea","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"VISION / POSITIONING"},{"name":"title","type":"title","textPreview":"One defining statement, written to be remembered."},{"name":"body","type":"body","textPreview":"Use one supporting sentence to turn the statement into a clear business implication."}]}
+{"kind":"layout","layoutId":"a6ad8845-df9f-4f74-bbe4-0d65a11751ff","name":"07 — Narrative / Single Column","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"},{"name":"body","type":"body","textPreview":"Narrative body"}]}
+{"kind":"layout","layoutId":"0066892e-5e8e-42a1-86d0-66407cbb4c05","name":"08 — Narrative / Two Column","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"},{"name":"body","type":"body","textPreview":"Left column"},{"name":"body","type":"body","textPreview":"Right column"}]}
+{"kind":"layout","layoutId":"79368df3-ae41-4510-9c15-53b095252dc9","name":"09 — Image Left / Text Right","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"},{"name":"body","type":"body","textPreview":"Supporting copy"}]}
+{"kind":"layout","layoutId":"452e7418-7b29-430a-bbb8-6a92f6ea7e6f","name":"10 — Text Left / Image Right","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"},{"name":"body","type":"body","textPreview":"Supporting copy"}]}
+{"kind":"layout","layoutId":"1de21dd5-183e-406f-b6c7-a03dbac4d914","name":"11 — Photo / Quote","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"PROOF / TESTIMONY"},{"name":"title","type":"title","textPreview":"A quote or proof point that carries the slide."},{"name":"body","type":"body","textPreview":"Name · Role · Organisation"}]}
+{"kind":"layout","layoutId":"f68d92a1-156b-4a75-a2fb-7f062294bb65","name":"12 — Key Figures / Sea Foam","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"}]}
+{"kind":"layout","layoutId":"9980f0cc-55c4-47db-8b17-289b96dced60","name":"13 — Process / Four Steps","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"}]}
+{"kind":"layout","layoutId":"073a1d37-223e-4b4e-a76c-5c95095c7e26","name":"14 — Timeline / Milestones","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"}]}
+{"kind":"layout","layoutId":"d8ac56c1-cdaa-448d-b057-bbe7113aaee5","name":"15 — Chart / Full Width","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"}]}
+{"kind":"layout","layoutId":"7faea597-4e69-4154-9b90-086d2dc3b8bd","name":"16 — Chart / Commentary","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"},{"name":"body","type":"body","textPreview":"Chart commentary"}]}
+{"kind":"layout","layoutId":"aee8f619-9f4d-4928-bca1-9d99414cd11e","name":"17 — Chart / Doughnut","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"},{"name":"body","type":"body","textPreview":"Headline and implication"}]}
+{"kind":"layout","layoutId":"8075cb15-d467-4322-8510-e296eef21dbb","name":"18 — Comparison / Two Options","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"}]}
+{"kind":"layout","layoutId":"b7fae87c-8ce2-4e91-a3d5-cf8da1b41fe4","name":"19 — Data Table","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"}]}
+{"kind":"layout","layoutId":"8ef4a71d-9c4d-4fa1-b40f-efc1ad1d31bf","name":"20 — Location / Site","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"},{"name":"body","type":"body","textPreview":"Location narrative"}]}
+{"kind":"layout","layoutId":"c363895f-6a4d-453b-9628-815ed825e3c3","name":"21 — Profile / Leadership","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"},{"name":"body","type":"body","textPreview":"Profile narrative"}]}
+{"kind":"layout","layoutId":"b4ca1ac8-f6e7-40d0-b525-10ab442e6560","name":"22 — Gallery / Three Images","placeholders":[{"name":"subtitle","type":"subtitle","textPreview":"SECTION / CONTEXT"},{"name":"title","type":"title","textPreview":"Slide title"}]}
+{"kind":"layout","layoutId":"75e17ee2-4dfd-4a15-ac27-d6b06bea6d9b","name":"23 — Closing / Deep Sea","placeholders":[{"name":"title","type":"title","textPreview":"Closing statement"},{"name":"body","type":"body","textPreview":"hello@searulea.com | www.searulea.com"}]}
+{"kind":"layout","layoutId":"73679ebe-0be9-43c0-825d-269fcb736e72","name":"00 — Blank / Cover"}
+{"kind":"layout","layoutId":"927c9a52-1bed-4bb2-b2ed-5cc606b94706","name":"00 — Blank / Deep Sea"}
+{"kind":"layout","layoutId":"d7b1c9d9-86c8-4965-a78e-bac7eac4d76e","name":"00 — Blank / Pearl"}
+{"kind":"layout","layoutId":"b38bd894-f200-462e-a35e-c54be77f89cd","name":"00 — Blank / Sea Foam"}
+{"kind":"layout","layoutId":"6d35104c-9e14-4fbb-80d3-2c43e688fe07","name":"00 — Blank / Shore"}
+{"kind":"slide","id":"sl/7wi7lt","slide":1,"title":"TEMPLATE GUIDE / KEEP FOR AUTHORS","textShapes":12}
+{"kind":"textbox","id":"sh/kvqx0r2x","slide":1,"name":"content-subtitle-0","text":"TEMPLATE GUIDE / KEEP FOR AUTHORS","textPreview":"TEMPLATE GUIDE / KEEP FOR AUTHORS","textChars":33,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/juhwr61c","slide":1,"name":"content-title-0","text":"Fill. Duplicate. Present.","textPreview":"Fill. Duplicate. Present.","textChars":25,"textLines":1,"bbox":[78,94,1020,62]}
+{"kind":"shape","id":"sh/it8vy1kr","slide":1,"name":"guide-rule-0","bbox":[78,244,350,3]}
+{"kind":"textbox","id":"sh/t0zexgje","slide":1,"name":"guide-number-0","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[78,272,90,55]}
+{"kind":"textbox","id":"sh/szqx4b29","slide":1,"name":"guide-title-0","text":"Choose a page","textPreview":"Choose a page","textChars":13,"textLines":1,"bbox":[78,354,350,72]}
+{"kind":"textbox","id":"sh/7yhwv61o","slide":1,"name":"guide-body-0","text":"Use the page index, then duplicate the closest variant for your story.","textPreview":"Use the page index, then duplicate the closest variant for your story.","textChars":70,"textLines":1,"bbox":[78,456,350,128]}
+{"kind":"shape","id":"sh/6x8f21k3","slide":1,"name":"guide-rule-1","bbox":[516,244,350,3]}
+{"kind":"textbox","id":"sh/hoje1gjq","slide":1,"name":"guide-number-1","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[516,272,90,55]}
+{"kind":"textbox","id":"sh/gnax8b25","slide":1,"name":"guide-title-1","text":"Replace the prompts","textPreview":"Replace the prompts","textChars":19,"textLines":1,"bbox":[516,354,350,72]}
+{"kind":"textbox","id":"sh/i5g3a5g3","slide":1,"name":"guide-body-1","text":"Bracketed copy, image labels and example data are fields to replace.","textPreview":"Bracketed copy, image labels and example data are fields to replace.","textChars":68,"textLines":1,"bbox":[516,456,350,128]}
+{"kind":"shape","id":"sh/jqpk3ah8","slide":1,"name":"guide-rule-2","bbox":[954,244,350,3]}
+{"kind":"textbox","id":"sh/4rylcfyt","slide":1,"name":"guide-number-2","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[954,272,90,55]}
+{"kind":"textbox","id":"sh/5s7m5kze","slide":1,"name":"guide-title-2","text":"Keep the hierarchy","textPreview":"Keep the hierarchy","textChars":18,"textLines":1,"bbox":[954,354,350,72]}
+{"kind":"textbox","id":"sh/6tg3epgz","slide":1,"name":"guide-body-2","text":"Keep Lora for the main statement and DM Sans for everything supporting it.","textPreview":"Keep Lora for the main statement and DM Sans for everything supporting it.","textChars":74,"textLines":1,"bbox":[954,456,350,128]}
+{"kind":"textbox","id":"sh/ru947uhk","slide":1,"name":"guide-fonts","text":"Install the bundled Lora and DM Sans fonts before editing.","textPreview":"Install the bundled Lora and DM Sans fonts before editing.","textChars":58,"textLines":1,"bbox":[78,674,720,24]}
+{"kind":"notes","id":"nt/7wi7lt","slide":1,"text":"Keep this slide for internal authors or delete it before presenting.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/0h4res","slide":2,"title":"TEMPLATE INDEX / 57 PAGES","textShapes":41}
+{"kind":"textbox","id":"sh/07i1ovex","slide":2,"name":"content-subtitle-0","text":"TEMPLATE INDEX / 57 PAGES","textPreview":"TEMPLATE INDEX / 57 PAGES","textChars":25,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/z6p0vqxc","slide":2,"name":"content-title-0","text":"Every common presentation page, ready to duplicate.","textPreview":"Every common presentation page, ready to duplicate.","textChars":51,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/elgjm5wr","slide":2,"name":"index-rule-0","bbox":[78,260,540,1]}
+{"kind":"textbox","id":"sh/dk7it0f6","slide":2,"name":"index-pages-0","text":"03–06","textPreview":"03–06","textChars":5,"textLines":1,"bbox":[78,216,90,30]}
+{"kind":"textbox","id":"sh/cjy1kvel","slide":2,"name":"index-name-0","text":"Covers","textPreview":"Covers","textChars":6,"textLines":1,"bbox":[186,211,250,38]}
+{"kind":"textbox","id":"sh/rip0rqx0","slide":2,"name":"index-count-0","text":"4 variants","textPreview":"4 variants","textChars":10,"textLines":1,"bbox":[478,218,140,24]}
+{"kind":"shape","id":"sh/qhgjilwv","slide":2,"name":"index-rule-1","bbox":[78,328,540,1]}
+{"kind":"textbox","id":"sh/pg7ipgfa","slide":2,"name":"index-pages-1","text":"07–09","textPreview":"07–09","textChars":5,"textLines":1,"bbox":[78,284,90,30]}
+{"kind":"textbox","id":"sh/4fy1gbep","slide":2,"name":"index-name-1","text":"Agendas","textPreview":"Agendas","textChars":7,"textLines":1,"bbox":[186,279,250,38]}
+{"kind":"textbox","id":"sh/elo72h0r","slide":2,"name":"index-count-1","text":"3 variants","textPreview":"3 variants","textChars":10,"textLines":1,"bbox":[478,286,140,24]}
+{"kind":"shape","id":"sh/fmx8b2hc","slide":2,"name":"index-rule-2","bbox":[78,396,540,1]}
+{"kind":"textbox","id":"sh/0n6947yx","slide":2,"name":"index-pages-2","text":"10–13","textPreview":"10–13","textChars":5,"textLines":1,"bbox":[78,352,90,30]}
+{"kind":"textbox","id":"sh/1ofqdczi","slide":2,"name":"index-name-2","text":"Dividers","textPreview":"Dividers","textChars":8,"textLines":1,"bbox":[186,347,250,38]}
+{"kind":"textbox","id":"sh/qh47yx0v","slide":2,"name":"index-count-2","text":"4 variants","textPreview":"4 variants","textChars":10,"textLines":1,"bbox":[478,354,140,24]}
+{"kind":"shape","id":"sh/rid872hg","slide":2,"name":"index-rule-3","bbox":[78,464,540,1]}
+{"kind":"textbox","id":"sh/sj6p07il","slide":2,"name":"index-pages-3","text":"14–18","textPreview":"14–18","textChars":5,"textLines":1,"bbox":[78,420,90,30]}
+{"kind":"textbox","id":"sh/dkfq9cz6","slide":2,"name":"index-name-3","text":"Narrative","textPreview":"Narrative","textChars":9,"textLines":1,"bbox":[186,415,250,38]}
+{"kind":"textbox","id":"sh/it47ux0j","slide":2,"name":"index-count-3","text":"5 variants","textPreview":"5 variants","textChars":10,"textLines":1,"bbox":[478,422,140,24]}
+{"kind":"shape","id":"sh/3ed83ih4","slide":2,"name":"index-rule-4","bbox":[78,532,540,1]}
+{"kind":"textbox","id":"sh/7m9wfutk","slide":2,"name":"index-pages-4","text":"19–24","textPreview":"19–24","textChars":5,"textLines":1,"bbox":[78,488,90,30]}
+{"kind":"textbox","id":"sh/mlgvmpcf","slide":2,"name":"index-name-4","text":"Image-led","textPreview":"Image-led","textChars":9,"textLines":1,"bbox":[186,483,250,38]}
+{"kind":"textbox","id":"sh/9oreh4bq","slide":2,"name":"index-count-4","text":"6 variants","textPreview":"6 variants","textChars":10,"textLines":1,"bbox":[478,490,140,24]}
+{"kind":"shape","id":"sh/8nixozu5","slide":2,"name":"index-rule-5","bbox":[78,600,540,1]}
+{"kind":"textbox","id":"sh/va9wjetw","slide":2,"name":"index-pages-5","text":"25–28","textPreview":"25–28","textChars":5,"textLines":1,"bbox":[78,556,90,30]}
+{"kind":"textbox","id":"sh/u90fq9cb","slide":2,"name":"index-name-5","text":"Metrics","textPreview":"Metrics","textChars":7,"textLines":1,"bbox":[186,551,250,38]}
+{"kind":"textbox","id":"sh/hcrel4b2","slide":2,"name":"index-count-5","text":"4 variants","textPreview":"4 variants","textChars":10,"textLines":1,"bbox":[478,558,140,24]}
+{"kind":"shape","id":"sh/wbixszah","slide":2,"name":"index-rule-6","bbox":[78,668,540,1]}
+{"kind":"textbox","id":"sh/be5w7atc","slide":2,"name":"index-pages-6","text":"29–33","textPreview":"29–33","textChars":5,"textLines":1,"bbox":[78,624,90,30]}
+{"kind":"textbox","id":"sh/qdwve5c7","slide":2,"name":"index-name-6","text":"Process","textPreview":"Process","textChars":7,"textLines":1,"bbox":[186,619,250,38]}
+{"kind":"textbox","id":"sh/gjut8bap","slide":2,"name":"index-count-6","text":"5 variants","textPreview":"5 variants","textChars":10,"textLines":1,"bbox":[478,626,140,24]}
+{"kind":"shape","id":"sh/1k3uhgra","slide":2,"name":"index-rule-7","bbox":[742,260,540,1]}
+{"kind":"textbox","id":"sh/excb61sz","slide":2,"name":"index-pages-7","text":"34–39","textPreview":"34–39","textChars":5,"textLines":1,"bbox":[742,216,90,30]}
+{"kind":"textbox","id":"sh/fylsf694","slide":2,"name":"index-name-7","text":"Charts","textPreview":"Charts","textChars":6,"textLines":1,"bbox":[850,211,250,38]}
+{"kind":"textbox","id":"sh/svat4rat","slide":2,"name":"index-count-7","text":"6 variants","textPreview":"6 variants","textChars":10,"textLines":1,"bbox":[1142,218,140,24]}
+{"kind":"shape","id":"sh/tw3adwre","slide":2,"name":"index-rule-8","bbox":[742,328,540,1]}
+{"kind":"textbox","id":"sh/6tsb21sn","slide":2,"name":"index-pages-8","text":"40–43","textPreview":"40–43","textChars":5,"textLines":1,"bbox":[742,284,90,30]}
+{"kind":"textbox","id":"sh/ru1sb698","slide":2,"name":"index-name-8","text":"Comparison","textPreview":"Comparison","textChars":10,"textLines":1,"bbox":[850,279,250,38]}
+{"kind":"textbox","id":"sh/cretgvax","slide":2,"name":"index-count-8","text":"4 variants","textPreview":"4 variants","textChars":10,"textLines":1,"bbox":[1142,286,140,24]}
+{"kind":"shape","id":"sh/dsnup0ri","slide":2,"name":"index-rule-9","bbox":[742,396,540,1]}
+{"kind":"textbox","id":"sh/9wfqhs7u","slide":2,"name":"index-pages-9","text":"44–46","textPreview":"44–46","textChars":5,"textLines":1,"bbox":[742,352,90,30]}
+{"kind":"textbox","id":"sh/8v6p8nq9","slide":2,"name":"index-name-9","text":"Tables","textPreview":"Tables","textChars":6,"textLines":1,"bbox":[850,347,250,38]}
+{"kind":"textbox","id":"sh/7ux8fip4","slide":2,"name":"index-count-9","text":"3 variants","textPreview":"3 variants","textChars":10,"textLines":1,"bbox":[1142,354,140,24]}
+{"kind":"shape","id":"sh/m9o76d8j","slide":2,"name":"index-rule-10","bbox":[742,464,540,1]}
+{"kind":"textbox","id":"sh/h0zqls76","slide":2,"name":"index-pages-10","text":"47–50","textPreview":"47–50","textChars":5,"textLines":1,"bbox":[742,420,90,30]}
+{"kind":"textbox","id":"sh/wzq9c7ql","slide":2,"name":"index-name-10","text":"People","textPreview":"People","textChars":6,"textLines":1,"bbox":[850,415,250,38]}
+{"kind":"textbox","id":"sh/vyh8j2p0","slide":2,"name":"index-count-10","text":"4 variants","textPreview":"4 variants","textChars":10,"textLines":1,"bbox":[1142,422,140,24]}
+{"kind":"shape","id":"sh/ux8rax8f","slide":2,"name":"index-rule-11","bbox":[742,532,540,1]}
+{"kind":"textbox","id":"sh/54jqpc72","slide":2,"name":"index-pages-11","text":"51–54","textPreview":"51–54","textChars":5,"textLines":1,"bbox":[742,488,90,30]}
+{"kind":"textbox","id":"sh/43q9g7qh","slide":2,"name":"index-name-11","text":"Proof & place","textPreview":"Proof & place","textChars":13,"textLines":1,"bbox":[850,483,250,38]}
+{"kind":"textbox","id":"sh/29kna9oz","slide":2,"name":"index-count-11","text":"4 variants","textPreview":"4 variants","textChars":10,"textLines":1,"bbox":[1142,490,140,24]}
+{"kind":"shape","id":"sh/3atoje5k","slide":2,"name":"index-rule-12","bbox":[742,600,540,1]}
+{"kind":"textbox","id":"sh/ob25cj65","slide":2,"name":"index-pages-12","text":"55–57","textPreview":"55–57","textChars":5,"textLines":1,"bbox":[742,556,90,30]}
+{"kind":"textbox","id":"sh/pcb6l4nq","slide":2,"name":"index-name-12","text":"Closing","textPreview":"Closing","textChars":7,"textLines":1,"bbox":[850,551,250,38]}
+{"kind":"textbox","id":"sh/qd4ne9ob","slide":2,"name":"index-count-12","text":"3 variants","textPreview":"3 variants","textChars":10,"textLines":1,"bbox":[1142,558,140,24]}
+{"kind":"notes","id":"nt/0h4res","slide":2,"text":"Use this index while authoring; delete it from the client-facing presentation.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/fefv55","slide":3,"title":"[PRESENTATION TYPE / CLIENT]","textShapes":4}
+{"kind":"shape","id":"sh/gru1onet","slide":3,"name":"cover-panel","bbox":[0,0,760,810]}
+{"kind":"textbox","id":"sh/itcjqdwz","slide":3,"name":"content-body-0","text":"[PRESENTATION TYPE / CLIENT]","textPreview":"[PRESENTATION TYPE / CLIENT]","textChars":28,"textLines":1,"bbox":[82,246,560,24]}
+{"kind":"textbox","id":"sh/3ul0jixk","slide":3,"name":"content-title-0","text":"[ADD PRESENTATION\nTITLE]","textPreview":"[ADD PRESENTATION | TITLE]","textChars":24,"textLines":2,"bbox":[82,292,650,276]}
+{"kind":"textbox","id":"sh/4vu1sne5","slide":3,"name":"content-subtitle-0","text":"[Add one concise sentence describing the purpose or outcome.]","textPreview":"[Add one concise sentence describing the purpose or outcome.]","textChars":61,"textLines":1,"bbox":[84,604,590,72]}
+{"kind":"textbox","id":"sh/5wnilsfq","slide":3,"name":"content-body-1","text":"[Month Year] · [Presenter] · [Confidentiality]","textPreview":"[Month Year] · [Presenter] · [Confidentiality]","textChars":46,"textLines":1,"bbox":[84,718,540,24]}
+{"kind":"image","id":"im/ydsz294z","slide":3,"name":"","alt":"SEARULEA offshore cages","bbox":[0,0,1440,810]}
+{"kind":"image","id":"im/kfah4j2p","slide":3,"name":"","alt":"SEARULEA logo","bbox":[82,56,312,62]}
+{"kind":"notes","id":"nt/fefv55","slide":3,"text":"Photo-led cover. Replace the full-slide image and keep the title to two lines maximum.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided hero-cages.jpg"}
+{"kind":"slide","id":"sl/qorsz5","slide":4,"title":"[PRESENTATION TYPE / CLIENT]","textShapes":4}
+{"kind":"textbox","id":"sh/itsjedg3","slide":4,"name":"content-body-0","text":"[PRESENTATION TYPE / CLIENT]","textPreview":"[PRESENTATION TYPE / CLIENT]","textChars":28,"textLines":1,"bbox":[82,238,560,24]}
+{"kind":"textbox","id":"sh/hsj258fi","slide":4,"name":"content-title-0","text":"[ADD DECK\nTITLE]","textPreview":"[ADD DECK | TITLE]","textChars":16,"textLines":2,"bbox":[82,286,820,190]}
+{"kind":"textbox","id":"sh/wra1c3yx","slide":4,"name":"content-subtitle-0","text":"[Add one concise sentence describing the purpose or outcome.]","textPreview":"[Add one concise sentence describing the purpose or outcome.]","textChars":61,"textLines":1,"bbox":[84,510,700,78]}
+{"kind":"textbox","id":"sh/vqhk3yxs","slide":4,"name":"content-body-1","text":"[Month Year] · [Presenter] · [Confidentiality]","textPreview":"[Month Year] · [Presenter] · [Confidentiality]","textChars":46,"textLines":1,"bbox":[84,718,540,24]}
+{"kind":"image","id":"im/1wzy9w32","slide":4,"name":"","alt":"SEARULEA logo","bbox":[82,56,312,62]}
+{"kind":"image","id":"im/ut8fyhkb","slide":4,"name":"","alt":"SEARULEA gradient spiral","bbox":[1040,0,400,400]}
+{"kind":"notes","id":"nt/qorsz5","slide":4,"text":"Formal Deep Sea cover. Keep the gradient spiral unchanged and use amber only inside this approved motif.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided SEARULEA gradient spiral"}
+{"kind":"slide","id":"sl/pg653i","slide":5,"title":"[PRESENTATION TYPE]","textShapes":3}
+{"kind":"shape","id":"sh/dgfetkbu","slide":5,"name":"cover-bottom-band","bbox":[0,540,1440,270]}
+{"kind":"textbox","id":"sh/3qdwnads","slide":5,"name":"cover-full-label","text":"[PRESENTATION TYPE]","textPreview":"[PRESENTATION TYPE]","textChars":19,"textLines":1,"bbox":[430,584,330,22]}
+{"kind":"textbox","id":"sh/ip4ve5c7","slide":5,"name":"cover-full-title","text":"[ADD PRESENTATION TITLE]","textPreview":"[ADD PRESENTATION TITLE]","textChars":24,"textLines":1,"bbox":[430,628,850,82]}
+{"kind":"textbox","id":"sh/5svepkvi","slide":5,"name":"cover-full-meta","text":"[Month Year] · [Presenter]","textPreview":"[Month Year] · [Presenter]","textChars":26,"textLines":1,"bbox":[430,738,500,22]}
+{"kind":"image","id":"im/raloz25o","slide":5,"name":"","alt":"SEARULEA coastline","bbox":[0,0,1440,810]}
+{"kind":"image","id":"im/dcn61cne","slide":5,"name":"","alt":"SEARULEA logo","bbox":[78,584,250,50]}
+{"kind":"notes","id":"nt/pg653i","slide":5,"text":"Full-bleed photographic cover. Replace the image and keep important subjects above the title band.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided 5_coast_sovereignty.jpg"}
+{"kind":"slide","id":"sl/yb295s","slide":6,"title":"[PRESENTATION TYPE / CLIENT]","textShapes":4}
+{"kind":"textbox","id":"sh/u5gfq14v","slide":6,"name":"cover-min-label","text":"[PRESENTATION TYPE / CLIENT]","textPreview":"[PRESENTATION TYPE / CLIENT]","textChars":28,"textLines":1,"bbox":[78,276,560,24]}
+{"kind":"textbox","id":"sh/pwrypgni","slide":6,"name":"cover-min-title","text":"[ADD PRESENTATION TITLE]","textPreview":"[ADD PRESENTATION TITLE]","textChars":24,"textLines":1,"bbox":[78,326,940,180]}
+{"kind":"textbox","id":"sh/4bihwbmx","slide":6,"name":"cover-min-subtitle","text":"[Add one concise sentence describing the purpose or outcome.]","textPreview":"[Add one concise sentence describing the purpose or outcome.]","textChars":61,"textLines":1,"bbox":[78,554,780,72]}
+{"kind":"shape","id":"sh/3a9gn65s","slide":6,"name":"cover-min-rule","bbox":[78,694,1284,1]}
+{"kind":"textbox","id":"sh/290zul47","slide":6,"name":"cover-min-meta","text":"[Month Year] · [Presenter] · [Confidentiality]","textPreview":"[Month Year] · [Presenter] · [Confidentiality]","textChars":46,"textLines":1,"bbox":[78,718,600,22]}
+{"kind":"image","id":"im/5kn6xkzm","slide":6,"name":"","alt":"SEARULEA logo","bbox":[78,62,300,60]}
+{"kind":"image","id":"im/ihcnmp0v","slide":6,"name":"","alt":"SEARULEA gradient spiral","bbox":[1060,70,270,270]}
+{"kind":"notes","id":"nt/yb295s","slide":6,"text":"Minimal Pearl cover for proposals, reports and formal updates.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided SEARULEA gradient spiral"}
+{"kind":"slide","id":"sl/762hze","slide":7,"title":"PRESENTATION OVERVIEW","textShapes":14}
+{"kind":"textbox","id":"sh/kryx4bud","slide":7,"name":"content-subtitle-0","text":"PRESENTATION OVERVIEW","textPreview":"PRESENTATION OVERVIEW","textChars":21,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/zqpwb6d8","slide":7,"name":"content-title-0","text":"[ADD A SIMPLE AGENDA TITLE]","textPreview":"[ADD A SIMPLE AGENDA TITLE]","textChars":27,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/ypgf21wn","slide":7,"name":"agenda-row-0","bbox":[78,302,1284,1]}
+{"kind":"textbox","id":"sh/xone9wv2","slide":7,"name":"agenda-num-0","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[78,224,90,46]}
+{"kind":"textbox","id":"sh/cned0beh","slide":7,"name":"agenda-topic-0","text":"[SECTION TITLE]","textPreview":"[SECTION TITLE]","textChars":15,"textLines":1,"bbox":[220,228,430,36]}
+{"kind":"textbox","id":"sh/bm5w76dw","slide":7,"name":"agenda-desc-0","text":"[Add a short description of what this section covers.]","textPreview":"[Add a short description of what this section covers.]","textChars":54,"textLines":1,"bbox":[690,230,620,48]}
+{"kind":"shape","id":"sh/alwvy1wb","slide":7,"name":"agenda-row-1","bbox":[78,414,1284,1]}
+{"kind":"textbox","id":"sh/hkrel0v6","slide":7,"name":"agenda-num-1","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[78,336,90,46]}
+{"kind":"textbox","id":"sh/wjixcvul","slide":7,"name":"agenda-topic-1","text":"[SECTION TITLE]","textPreview":"[SECTION TITLE]","textChars":15,"textLines":1,"bbox":[220,340,430,36]}
+{"kind":"textbox","id":"sh/ed8vylkj","slide":7,"name":"agenda-desc-1","text":"[Add a short description of what this section covers.]","textPreview":"[Add a short description of what this section covers.]","textChars":54,"textLines":1,"bbox":[690,342,620,48]}
+{"kind":"shape","id":"sh/zehcrq14","slide":7,"name":"agenda-row-2","bbox":[78,526,1284,1]}
+{"kind":"textbox","id":"sh/0fqd0v2p","slide":7,"name":"agenda-num-2","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[78,448,90,46]}
+{"kind":"textbox","id":"sh/1gjut0ja","slide":7,"name":"agenda-topic-2","text":"[SECTION TITLE]","textPreview":"[SECTION TITLE]","textChars":15,"textLines":1,"bbox":[220,452,430,36]}
+{"kind":"textbox","id":"sh/qp8bulkn","slide":7,"name":"agenda-desc-2","text":"[Add a short description of what this section covers.]","textPreview":"[Add a short description of what this section covers.]","textChars":54,"textLines":1,"bbox":[690,454,620,48]}
+{"kind":"shape","id":"sh/rqhcn61s","slide":7,"name":"agenda-row-3","bbox":[78,638,1284,1]}
+{"kind":"textbox","id":"sh/crqdwb2d","slide":7,"name":"agenda-num-3","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[78,560,90,46]}
+{"kind":"textbox","id":"sh/dczupgjy","slide":7,"name":"agenda-topic-3","text":"[SECTION TITLE]","textPreview":"[SECTION TITLE]","textChars":15,"textLines":1,"bbox":[220,564,430,36]}
+{"kind":"textbox","id":"sh/alsv65kr","slide":7,"name":"agenda-desc-3","text":"[Add a short description of what this section covers.]","textPreview":"[Add a short description of what this section covers.]","textChars":54,"textLines":1,"bbox":[690,566,620,48]}
+{"kind":"notes","id":"nt/762hze","slide":7,"text":"Classic four-part agenda. Add or remove rows while preserving the spacing rhythm.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/np6duq","slide":8,"title":"PRESENTATION OVERVIEW","textShapes":11}
+{"kind":"textbox","id":"sh/wjyx8rqx","slide":8,"name":"content-subtitle-0","text":"PRESENTATION OVERVIEW","textPreview":"PRESENTATION OVERVIEW","textChars":21,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/vypwzm9s","slide":8,"name":"content-title-0","text":"[ADD A THREE-CHAPTER AGENDA TITLE]","textPreview":"[ADD A THREE-CHAPTER AGENDA TITLE]","textChars":34,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/uxgf6h87","slide":8,"name":"agenda3-rule-0","bbox":[78,244,350,4]}
+{"kind":"textbox","id":"sh/5ore5wru","slide":8,"name":"agenda3-num-0","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[78,278,96,56]}
+{"kind":"textbox","id":"sh/4nixcrq9","slide":8,"name":"agenda3-title-0","text":"[CHAPTER TITLE]","textPreview":"[CHAPTER TITLE]","textChars":15,"textLines":1,"bbox":[78,372,350,78]}
+{"kind":"textbox","id":"sh/jmpw3m9o","slide":8,"name":"agenda3-body-0","text":"[Add one or two lines describing this chapter.]","textPreview":"[Add one or two lines describing this chapter.]","textChars":47,"textLines":1,"bbox":[78,480,340,110]}
+{"kind":"shape","id":"sh/ilgfah83","slide":8,"name":"agenda3-rule-1","bbox":[516,244,350,4]}
+{"kind":"textbox","id":"sh/lsnetcra","slide":8,"name":"agenda3-num-1","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[516,278,96,56]}
+{"kind":"textbox","id":"sh/kred07q5","slide":8,"name":"agenda3-title-1","text":"[CHAPTER TITLE]","textPreview":"[CHAPTER TITLE]","textChars":15,"textLines":1,"bbox":[516,372,350,78]}
+{"kind":"textbox","id":"sh/6d8z2t0z","slide":8,"name":"agenda3-body-1","text":"[Add one or two lines describing this chapter.]","textPreview":"[Add one or two lines describing this chapter.]","textChars":47,"textLines":1,"bbox":[516,480,340,110]}
+{"kind":"shape","id":"sh/7ehgvyhk","slide":8,"name":"agenda3-rule-2","bbox":[954,244,350,4]}
+{"kind":"textbox","id":"sh/sfqh43i5","slide":8,"name":"agenda3-num-2","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[954,278,96,56]}
+{"kind":"textbox","id":"sh/tgzyx8zq","slide":8,"name":"agenda3-title-2","text":"[CHAPTER TITLE]","textPreview":"[CHAPTER TITLE]","textChars":15,"textLines":1,"bbox":[954,372,350,78]}
+{"kind":"textbox","id":"sh/uh8z6d0b","slide":8,"name":"agenda3-body-2","text":"[Add one or two lines describing this chapter.]","textPreview":"[Add one or two lines describing this chapter.]","textChars":47,"textLines":1,"bbox":[954,480,340,110]}
+{"kind":"notes","id":"nt/np6duq","slide":8,"text":"Three-chapter agenda for concise presentations.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/vmt58h","slide":9,"title":"PRESENTATION OVERVIEW","textShapes":17}
+{"kind":"textbox","id":"sh/0v2l03al","slide":9,"name":"content-subtitle-0","text":"PRESENTATION OVERVIEW","textPreview":"PRESENTATION OVERVIEW","textChars":21,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/fatkrytg","slide":9,"name":"content-title-0","text":"[ADD A JOURNEY-STYLE AGENDA TITLE]","textPreview":"[ADD A JOURNEY-STYLE AGENDA TITLE]","textChars":34,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/e9k3ydsv","slide":9,"name":"agenda-journey-line","bbox":[170,418,1100,3]}
+{"kind":"shape","id":"sh/d8b2p8ba","slide":9,"name":"agenda-journey-node-0","bbox":[172,400,36,36]}
+{"kind":"textbox","id":"sh/s72lw3ap","slide":9,"name":"agenda-journey-num-0","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[134,276,112,44]}
+{"kind":"textbox","id":"sh/r6tknyt4","slide":9,"name":"agenda-journey-title-0","text":"[STEP]","textPreview":"[STEP]","textChars":6,"textLines":1,"bbox":[100,482,180,34]}
+{"kind":"textbox","id":"sh/q5k3utsj","slide":9,"name":"agenda-journey-body-0","text":"[Short description]","textPreview":"[Short description]","textChars":19,"textLines":1,"bbox":[85,536,210,74]}
+{"kind":"shape","id":"sh/x4fm1sre","slide":9,"name":"agenda-journey-node-1","bbox":[432,400,36,36]}
+{"kind":"textbox","id":"sh/c3ml8nat","slide":9,"name":"agenda-journey-num-1","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[394,276,112,44]}
+{"kind":"textbox","id":"sh/ytkjyxw3","slide":9,"name":"agenda-journey-title-1","text":"[STEP]","textPreview":"[STEP]","textChars":6,"textLines":1,"bbox":[360,482,180,34]}
+{"kind":"textbox","id":"sh/zutk72do","slide":9,"name":"agenda-journey-body-1","text":"[Short description]","textPreview":"[Short description]","textChars":19,"textLines":1,"bbox":[345,536,210,74]}
+{"kind":"shape","id":"sh/kv2107e9","slide":9,"name":"agenda-journey-node-2","bbox":[692,400,36,36]}
+{"kind":"textbox","id":"sh/lwb29svu","slide":9,"name":"agenda-journey-num-2","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[654,276,112,44]}
+{"kind":"textbox","id":"sh/apkjudw7","slide":9,"name":"agenda-journey-title-2","text":"[STEP]","textPreview":"[STEP]","textChars":6,"textLines":1,"bbox":[620,482,180,34]}
+{"kind":"textbox","id":"sh/bqtk3ids","slide":9,"name":"agenda-journey-body-2","text":"[Short description]","textPreview":"[Short description]","textChars":19,"textLines":1,"bbox":[605,536,210,74]}
+{"kind":"shape","id":"sh/cr21wned","slide":9,"name":"agenda-journey-node-3","bbox":[952,400,36,36]}
+{"kind":"textbox","id":"sh/xsb25svy","slide":9,"name":"agenda-journey-num-3","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[914,276,112,44]}
+{"kind":"textbox","id":"sh/ul436hwb","slide":9,"name":"agenda-journey-title-3","text":"[STEP]","textPreview":"[STEP]","textChars":6,"textLines":1,"bbox":[880,482,180,34]}
+{"kind":"textbox","id":"sh/vmdkzmdw","slide":9,"name":"agenda-journey-body-3","text":"[Short description]","textPreview":"[Short description]","textChars":19,"textLines":1,"bbox":[865,536,210,74]}
+{"kind":"shape","id":"sh/r6pgred8","slide":9,"name":"agenda-journey-node-4","bbox":[1212,400,36,36]}
+{"kind":"textbox","id":"sh/65wzy9c3","slide":9,"name":"agenda-journey-num-4","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1174,276,112,44]}
+{"kind":"textbox","id":"sh/d87ytobe","slide":9,"name":"agenda-journey-title-4","text":"[STEP]","textPreview":"[STEP]","textChars":6,"textLines":1,"bbox":[1140,482,180,34]}
+{"kind":"textbox","id":"sh/s7yh0jut","slide":9,"name":"agenda-journey-body-4","text":"[Short description]","textPreview":"[Short description]","textChars":19,"textLines":1,"bbox":[1125,536,210,74]}
+{"kind":"notes","id":"nt/vmt58h","slide":9,"text":"Five-stage journey agenda. Keep the stage labels short.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/3kyedo","slide":10,"title":"[SECTION 01]","textShapes":3}
+{"kind":"textbox","id":"sh/l0zm9cfi","slide":10,"name":"content-subtitle-0","text":"[SECTION 01]","textPreview":"[SECTION 01]","textChars":12,"textLines":1,"bbox":[78,270,520,24]}
+{"kind":"textbox","id":"sh/yx83exwr","slide":10,"name":"content-title-0","text":"[ADD SECTION TITLE]","textPreview":"[ADD SECTION TITLE]","textChars":19,"textLines":1,"bbox":[78,316,800,150]}
+{"kind":"textbox","id":"sh/jyh472xc","slide":10,"name":"content-body-0","text":"[Add one line that sets up the next chapter.]","textPreview":"[Add one line that sets up the next chapter.]","textChars":45,"textLines":1,"bbox":[78,510,700,72]}
+{"kind":"notes","id":"nt/3kyedo","slide":10,"text":"Primary section divider. Keep the title to two lines maximum.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided SEARULEA Sea Foam spiral"}
+{"kind":"slide","id":"sl/gapwbu","slide":11,"title":"[SECTION 02]","textShapes":3}
+{"kind":"shape","id":"sh/1kjm583a","slide":11,"name":"divider-photo-panel","bbox":[0,0,690,810]}
+{"kind":"textbox","id":"sh/reh4zyl8","slide":11,"name":"divider-photo-number","text":"[SECTION 02]","textPreview":"[SECTION 02]","textChars":12,"textLines":1,"bbox":[78,280,400,24]}
+{"kind":"textbox","id":"sh/qd8nqtkn","slide":11,"name":"divider-photo-title","text":"[ADD SECTION TITLE]","textPreview":"[ADD SECTION TITLE]","textChars":19,"textLines":1,"bbox":[78,330,520,170]}
+{"kind":"textbox","id":"sh/dgjm183y","slide":11,"name":"divider-photo-body","text":"[Add one line that sets up the next chapter.]","textPreview":"[Add one line that sets up the next chapter.]","textChars":45,"textLines":1,"bbox":[78,548,500,90]}
+{"kind":"image","id":"im/zqtovapg","slide":11,"name":"","alt":"SEARULEA offshore operations","bbox":[0,0,1440,810]}
+{"kind":"image","id":"im/1cv6xk7m","slide":11,"name":"","alt":"SEARULEA monogram","bbox":[78,68,58,58]}
+{"kind":"notes","id":"nt/gapwbu","slide":11,"text":"Photographic section divider. Replace the image and preserve the Deep Sea panel.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided 1_offshore_ops.jpg"}
+{"kind":"slide","id":"sl/ieglp5","slide":12,"title":"[SECTION 03]","textShapes":3}
+{"kind":"shape","id":"sh/vi94zqpo","slide":12,"name":"divider-minimal-rule","bbox":[78,262,126,4]}
+{"kind":"textbox","id":"sh/ah036lo3","slide":12,"name":"divider-minimal-number","text":"[SECTION 03]","textPreview":"[SECTION 03]","textChars":12,"textLines":1,"bbox":[78,292,420,24]}
+{"kind":"textbox","id":"sh/9g7mxg7i","slide":12,"name":"divider-minimal-title","text":"[ADD SECTION TITLE]","textPreview":"[ADD SECTION TITLE]","textChars":19,"textLines":1,"bbox":[78,344,1020,170]}
+{"kind":"textbox","id":"sh/8fyl4b6d","slide":12,"name":"divider-minimal-body","text":"[Add one line that sets up the next chapter.]","textPreview":"[Add one line that sets up the next chapter.]","textChars":45,"textLines":1,"bbox":[78,568,760,72]}
+{"kind":"shape","id":"sh/nepkv6ps","slide":12,"name":"divider-minimal-footer","bbox":[78,752,1284,1]}
+{"kind":"image","id":"im/dw7y5c32","slide":12,"name":"","alt":"SEARULEA monogram","bbox":[78,70,52,52]}
+{"kind":"notes","id":"nt/ieglp5","slide":12,"text":"Minimal Pearl section divider for quieter transitions.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/mv10zk","slide":13,"title":"[SECTION 04]","textShapes":3}
+{"kind":"shape","id":"sh/h0bqpona","slide":13,"name":"divider-foam-panel","bbox":[0,0,560,810]}
+{"kind":"textbox","id":"sh/vyt8ne54","slide":13,"name":"divider-foam-number","text":"[SECTION 04]","textPreview":"[SECTION 04]","textChars":12,"textLines":1,"bbox":[660,270,420,24]}
+{"kind":"textbox","id":"sh/8b2psjmd","slide":13,"name":"divider-foam-title","text":"[ADD SECTION TITLE]","textPreview":"[ADD SECTION TITLE]","textChars":19,"textLines":1,"bbox":[660,326,650,180]}
+{"kind":"textbox","id":"sh/9cbql4ny","slide":13,"name":"divider-foam-body","text":"[Add one line that sets up the next chapter.]","textPreview":"[Add one line that sets up the next chapter.]","textChars":45,"textLines":1,"bbox":[660,558,610,86]}
+{"kind":"image","id":"im/7mhcfyxg","slide":13,"name":"","alt":"SEARULEA Sea Foam spiral","bbox":[22,178,470,470]}
+{"kind":"notes","id":"nt/mv10zk","slide":13,"text":"Sea Foam split divider for a more expressive brand transition.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided SEARULEA Sea Foam spiral"}
+{"kind":"slide","id":"sl/ysj7li","slide":14,"title":"SECTION / TOPIC","textShapes":3}
+{"kind":"textbox","id":"sh/yd4bepwf","slide":14,"name":"content-subtitle-0","text":"SECTION / TOPIC","textPreview":"SECTION / TOPIC","textChars":15,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/lgfupkv6","slide":14,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"textbox","id":"sh/0f6tgfel","slide":14,"name":"content-body-0","text":"[Add a short opening paragraph that establishes the context.]\n[Use a second paragraph to explain the implication or decision.]\n[Add the first supporting point.]\n[Add the second supporting point.]\n[Add the third supporting point.]","textPreview":"[Add a short opening paragraph that establishes the context.] | [Use a second paragraph to explain the implication or decision.] | [Add t...","textChars":229,"textLines":5,"bbox":[78,210,1030,440]}
+{"kind":"notes","id":"nt/ysj7li","slide":14,"text":"Single-column narrative. Aim for two short paragraphs and no more than three bullets.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/63a2b9","slide":15,"title":"SECTION / TOPIC","textShapes":4}
+{"kind":"textbox","id":"sh/dsfah8fe","slide":15,"name":"content-subtitle-0","text":"SECTION / TOPIC","textPreview":"SECTION / TOPIC","textChars":15,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/q54b6twn","slide":15,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"textbox","id":"sh/r6dsfyx8","slide":15,"name":"content-body-0","text":"[LEFT COLUMN HEADING]\n[Add the left-side argument, context or current-state explanation.]\n[Add the first supporting point.]\n[Add the second supporting point.]\n[Add the third supporting point.]","textPreview":"[LEFT COLUMN HEADING] | [Add the left-side argument, context or current-state explanation.] | [Add the first supporting point.] | [Add th...","textChars":192,"textLines":5,"bbox":[78,218,590,420]}
+{"kind":"textbox","id":"sh/43mt4jeh","slide":15,"name":"content-body-1","text":"[RIGHT COLUMN HEADING]\n[Add the right-side argument, implication or future-state explanation.]\n[Add the first supporting point.]\n[Add the second supporting point.]\n[Add the third supporting point.]","textPreview":"[RIGHT COLUMN HEADING] | [Add the right-side argument, implication or future-state explanation.] | [Add the first supporting point.] | [A...","textChars":197,"textLines":5,"bbox":[746,218,590,420]}
+{"kind":"notes","id":"nt/63a2b9","slide":15,"text":"Two-column narrative. Use parallel structures on both sides.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/mcza2c","slide":16,"title":"[VISION / POSITIONING]","textShapes":3}
+{"kind":"textbox","id":"sh/ob69cnit","slide":16,"name":"content-subtitle-0","text":"[VISION / POSITIONING]","textPreview":"[VISION / POSITIONING]","textChars":22,"textLines":1,"bbox":[78,76,600,24]}
+{"kind":"textbox","id":"sh/3axs3i18","slide":16,"name":"content-title-0","text":"[ADD ONE DEFINING STATEMENT]","textPreview":"[ADD ONE DEFINING STATEMENT]","textChars":28,"textLines":1,"bbox":[78,184,1050,300]}
+{"kind":"textbox","id":"sh/29orad0n","slide":16,"name":"content-body-0","text":"[Add one supporting sentence that turns the statement into a clear implication.]","textPreview":"[Add one supporting sentence that turns the statement into a clear implication.]","textChars":80,"textLines":1,"bbox":[78,592,850,86]}
+{"kind":"notes","id":"nt/mcza2c","slide":16,"text":"Use for a thesis, point of view or memorable chapter statement.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/k9zk1b","slide":17,"title":"SECTION / TOPIC","textShapes":11}
+{"kind":"textbox","id":"sh/et836x8r","slide":17,"name":"content-subtitle-0","text":"SECTION / TOPIC","textPreview":"SECTION / TOPIC","textChars":15,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/1wj21c72","slide":17,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/0vql87qh","slide":17,"name":"threepoint-rule-0","bbox":[78,244,350,3]}
+{"kind":"textbox","id":"sh/ni1k32p8","slide":17,"name":"threepoint-num-0","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[78,276,90,50]}
+{"kind":"textbox","id":"sh/mhs3ax8n","slide":17,"name":"threepoint-title-0","text":"[POINT TITLE]","textPreview":"[POINT TITLE]","textChars":13,"textLines":1,"bbox":[78,362,340,72]}
+{"kind":"textbox","id":"sh/9kj25c7e","slide":17,"name":"threepoint-body-0","text":"[Add two or three concise sentences explaining this point and why it matters.]","textPreview":"[Add two or three concise sentences explaining this point and why it matters.]","textChars":78,"textLines":1,"bbox":[78,468,340,142]}
+{"kind":"shape","id":"sh/ojalc76t","slide":17,"name":"threepoint-rule-1","bbox":[516,244,350,3]}
+{"kind":"textbox","id":"sh/3mxkrip4","slide":17,"name":"threepoint-num-1","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[516,276,90,50]}
+{"kind":"textbox","id":"sh/21ojyd8j","slide":17,"name":"threepoint-title-1","text":"[POINT TITLE]","textPreview":"[POINT TITLE]","textChars":13,"textLines":1,"bbox":[516,362,340,72]}
+{"kind":"textbox","id":"sh/ov6t0rel","slide":17,"name":"threepoint-body-1","text":"[Add two or three concise sentences explaining this point and why it matters.]","textPreview":"[Add two or three concise sentences explaining this point and why it matters.]","textChars":78,"textLines":1,"bbox":[516,468,340,142]}
+{"kind":"shape","id":"sh/pwfatcv6","slide":17,"name":"threepoint-rule-2","bbox":[954,244,350,3]}
+{"kind":"textbox","id":"sh/2tobyhwv","slide":17,"name":"threepoint-num-2","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[954,276,90,50]}
+{"kind":"textbox","id":"sh/3uxsrmd0","slide":17,"name":"threepoint-title-2","text":"[POINT TITLE]","textPreview":"[POINT TITLE]","textChars":13,"textLines":1,"bbox":[954,362,340,72]}
+{"kind":"textbox","id":"sh/cz6t4rex","slide":17,"name":"threepoint-body-2","text":"[Add two or three concise sentences explaining this point and why it matters.]","textPreview":"[Add two or three concise sentences explaining this point and why it matters.]","textChars":78,"textLines":1,"bbox":[954,468,340,142]}
+{"kind":"notes","id":"nt/k9zk1b","slide":17,"text":"Three-point narrative. Keep all three points at similar depth.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/ptp4y8","slide":18,"title":"SECTION / TOPIC","textShapes":5}
+{"kind":"textbox","id":"sh/t8rypcv2","slide":18,"name":"content-subtitle-0","text":"SECTION / TOPIC","textPreview":"SECTION / TOPIC","textChars":15,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/65gfexcb","slide":18,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/r69gn2dw","slide":18,"name":"sidebar-panel","bbox":[78,224,360,420]}
+{"kind":"textbox","id":"sh/43yxc7ul","slide":18,"name":"sidebar-kicker","text":"[SIDEBAR LABEL]","textPreview":"[SIDEBAR LABEL]","textChars":15,"textLines":1,"bbox":[112,264,280,22]}
+{"kind":"textbox","id":"sh/547ylsv6","slide":18,"name":"sidebar-statement","text":"[Add a short key takeaway or definition.]","textPreview":"[Add a short key takeaway or definition.]","textChars":41,"textLines":1,"bbox":[112,322,280,190]}
+{"kind":"textbox","id":"sh/i1gfaxcf","slide":18,"name":"sidebar-body","text":"[Add the main narrative here. Use two or three short paragraphs.]\n[Explain the implication, evidence or next decision.]\n[Add the first supporting point.]\n[Add the second supporting point.]\n[Add the third supporting point.]","textPreview":"[Add the main narrative here. Use two or three short paragraphs.] | [Explain the implication, evidence or next decision.] | [Add the firs...","textChars":222,"textLines":5,"bbox":[510,236,790,400]}
+{"kind":"notes","id":"nt/ptp4y8","slide":18,"text":"Sidebar narrative. Use the colored panel for a definition, takeaway or important context.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/z2fvqg","slide":19,"title":"SECTION / TOPIC","textShapes":4}
+{"kind":"textbox","id":"sh/adwrmt4z","slide":19,"name":"content-subtitle-0","text":"SECTION / TOPIC","textPreview":"SECTION / TOPIC","textChars":15,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/x0nax83q","slide":19,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/nalsry58","slide":19,"name":"REPLACE IMAGE-78-220","bbox":[78,638,164,32]}
+{"kind":"textbox","id":"sh/29crit43","slide":19,"name":"REPLACE IMAGE-text-78-220","text":"REPLACE IMAGE","textPreview":"REPLACE IMAGE","textChars":13,"textLines":1,"bbox":[90,645,142,18]}
+{"kind":"textbox","id":"sh/pcnatone","slide":19,"name":"content-body-0","text":"[ADD A SUPPORTING SUBHEAD]\n[Add two or three concise sentences that explain what the image proves.]\n[Add the first supporting point.]\n[Add the second supporting point.]\n[Add the third supporting point.]","textPreview":"[ADD A SUPPORTING SUBHEAD] | [Add two or three concise sentences that explain what the image proves.] | [Add the first supporting point.]...","textChars":202,"textLines":5,"bbox":[760,246,565,380]}
+{"kind":"image","id":"im/d0jihkre","slide":19,"name":"","alt":"SEARULEA team at work","bbox":[78,220,590,450]}
+{"kind":"notes","id":"nt/z2fvqg","slide":19,"text":"Image-left story. Replace the image and use the text column to explain its relevance.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided 3_women_searulea.jpg"}
+{"kind":"slide","id":"sl/ip9m7e","slide":20,"title":"SECTION / TOPIC","textShapes":4}
+{"kind":"textbox","id":"sh/j2tsf6pg","slide":20,"name":"content-subtitle-0","text":"SECTION / TOPIC","textPreview":"SECTION / TOPIC","textChars":15,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/k32t8r61","slide":20,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"textbox","id":"sh/54bahw7m","slide":20,"name":"content-body-0","text":"[ADD A SUPPORTING SUBHEAD]\n[Add two or three concise sentences that establish the context and implication.]\n[Add the first supporting point.]\n[Add the second supporting point.]\n[Add the third supporting point.]","textPreview":"[ADD A SUPPORTING SUBHEAD] | [Add two or three concise sentences that establish the context and implication.] | [Add the first supporting...","textChars":210,"textLines":5,"bbox":[78,242,540,390]}
+{"kind":"shape","id":"sh/76tsj6ps","slide":20,"name":"REPLACE IMAGE-700-220","bbox":[700,638,164,32]}
+{"kind":"textbox","id":"sh/s72tcb6d","slide":20,"name":"REPLACE IMAGE-text-700-220","text":"REPLACE IMAGE","textPreview":"REPLACE IMAGE","textChars":13,"textLines":1,"bbox":[712,645,142,18]}
+{"kind":"image","id":"im/vuts3qls","slide":20,"name":"","alt":"SEARULEA traceability technology","bbox":[700,220,662,450]}
+{"kind":"notes","id":"nt/ip9m7e","slide":20,"text":"Image-right story. Use when the narrative should lead before the visual evidence.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided 4_traceability_tech.jpg"}
+{"kind":"slide","id":"sl/mludbk","slide":21,"title":"[SECTION / TOPIC]","textShapes":4}
+{"kind":"shape","id":"sh/k3qdszep","slide":21,"name":"fullbleed-text-panel","bbox":[0,0,610,810]}
+{"kind":"textbox","id":"sh/658vu9wf","slide":21,"name":"fullbleed-eyebrow","text":"[SECTION / TOPIC]","textPreview":"[SECTION / TOPIC]","textChars":17,"textLines":1,"bbox":[78,214,430,22]}
+{"kind":"textbox","id":"sh/76hcnex0","slide":21,"name":"fullbleed-title","text":"[ADD A STRONG IMAGE-LED TITLE]","textPreview":"[ADD A STRONG IMAGE-LED TITLE]","textChars":30,"textLines":1,"bbox":[78,266,440,190]}
+{"kind":"textbox","id":"sh/8rqdwjel","slide":21,"name":"fullbleed-body","text":"[Add one short paragraph explaining why this image matters.]","textPreview":"[Add one short paragraph explaining why this image matters.]","textChars":60,"textLines":1,"bbox":[78,506,420,116]}
+{"kind":"shape","id":"sh/tszupof6","slide":21,"name":"REPLACE IMAGE-610-0","bbox":[610,778,164,32]}
+{"kind":"textbox","id":"sh/utsvy9wr","slide":21,"name":"REPLACE IMAGE-text-610-0","text":"REPLACE IMAGE","textPreview":"REPLACE IMAGE","textChars":13,"textLines":1,"bbox":[622,785,142,18]}
+{"kind":"image","id":"im/i54fe1w3","slide":21,"name":"","alt":"SEARULEA fresh product at port","bbox":[0,0,1440,810]}
+{"kind":"image","id":"im/47mxgbe9","slide":21,"name":"","alt":"SEARULEA monogram","bbox":[78,62,52,52]}
+{"kind":"notes","id":"nt/mludbk","slide":21,"text":"Full-bleed image story. Replace the image and keep the dark text panel to roughly two-fifths of the slide.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided 2_fresh_at_port.jpg"}
+{"kind":"slide","id":"sl/cv6u6e","slide":22,"title":"SECTION / TOPIC","textShapes":5}
+{"kind":"textbox","id":"sh/tsbqdgvu","slide":22,"name":"content-subtitle-0","text":"SECTION / TOPIC","textPreview":"SECTION / TOPIC","textChars":15,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/6pk7i1cj","slide":22,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/432pgrud","slide":22,"name":"REPLACE IMAGE-78-212","bbox":[78,506,164,32]}
+{"kind":"textbox","id":"sh/54bq9wvy","slide":22,"name":"REPLACE IMAGE-text-78-212","text":"REPLACE IMAGE","textPreview":"REPLACE IMAGE","textChars":13,"textLines":1,"bbox":[90,513,142,18]}
+{"kind":"textbox","id":"sh/i107e1c7","slide":22,"name":"panorama-caption-title","text":"[ADD A SHORT CAPTION HEADLINE]","textPreview":"[ADD A SHORT CAPTION HEADLINE]","textChars":30,"textLines":1,"bbox":[78,578,560,42]}
+{"kind":"textbox","id":"sh/j2987mds","slide":22,"name":"panorama-caption-body","text":"[Explain what the image shows and the implication the audience should take from it.]","textPreview":"[Explain what the image shows and the implication the audience should take from it.]","textChars":84,"textLines":1,"bbox":[690,574,646,74]}
+{"kind":"image","id":"im/upgn6lwf","slide":22,"name":"","alt":"SEARULEA cold-chain operations","bbox":[78,212,1284,326]}
+{"kind":"notes","id":"nt/cv6u6e","slide":22,"text":"Panoramic evidence page. Use a wide image with one concise caption and implication.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided 6_team_coldchain.jpg"}
+{"kind":"slide","id":"sl/uh9p2z","slide":23,"title":"SECTION / TOPIC","textShapes":8}
+{"kind":"textbox","id":"sh/axg3y543","slide":23,"name":"content-subtitle-0","text":"SECTION / TOPIC","textPreview":"SECTION / TOPIC","textChars":15,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/xk7mt0ne","slide":23,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/jmp4va5k","slide":23,"name":"REPLACE IMAGE-78-220","bbox":[78,518,164,32]}
+{"kind":"textbox","id":"sh/ylg3254z","slide":23,"name":"REPLACE IMAGE-text-78-220","text":"REPLACE IMAGE","textPreview":"REPLACE IMAGE","textChars":13,"textLines":1,"bbox":[90,525,142,18]}
+{"kind":"shape","id":"sh/kny54fm5","slide":23,"name":"REPLACE IMAGE-752-220","bbox":[752,518,164,32]}
+{"kind":"textbox","id":"sh/7q94zulw","slide":23,"name":"REPLACE IMAGE-text-752-220","text":"REPLACE IMAGE","textPreview":"REPLACE IMAGE","textChars":13,"textLines":1,"bbox":[764,525,142,18]}
+{"kind":"textbox","id":"sh/6p0n6p4b","slide":23,"name":"twoimage-title-a","text":"[LEFT IMAGE TITLE]","textPreview":"[LEFT IMAGE TITLE]","textChars":18,"textLines":1,"bbox":[78,584,560,38]}
+{"kind":"textbox","id":"sh/cne5kjyd","slide":23,"name":"twoimage-title-b","text":"[RIGHT IMAGE TITLE]","textPreview":"[RIGHT IMAGE TITLE]","textChars":19,"textLines":1,"bbox":[752,584,560,38]}
+{"kind":"textbox","id":"sh/do7mdozy","slide":23,"name":"twoimage-caption-a","text":"[Add one sentence explaining the first image.]","textPreview":"[Add one sentence explaining the first image.]","textChars":46,"textLines":1,"bbox":[78,636,560,50]}
+{"kind":"textbox","id":"sh/qlwnitg7","slide":23,"name":"twoimage-caption-b","text":"[Add one sentence explaining the second image.]","textPreview":"[Add one sentence explaining the second image.]","textChars":47,"textLines":1,"bbox":[752,636,560,50]}
+{"kind":"image","id":"im/tg3ql4f2","slide":23,"name":"","alt":"SEARULEA packaging mockup","bbox":[78,220,610,330]}
+{"kind":"image","id":"im/4bup8fy5","slide":23,"name":"","alt":"SEARULEA transport mockup","bbox":[752,220,610,330]}
+{"kind":"notes","id":"nt/uh9p2z","slide":23,"text":"Two-image comparison or sequence. Use consistent crops and parallel captions.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided SEARULEA packaging and truck mockups"}
+{"kind":"slide","id":"sl/f8we63","slide":24,"title":"[PROOF / TESTIMONY]","textShapes":4}
+{"kind":"shape","id":"sh/ylsjulc3","slide":24,"name":"quote-panel","bbox":[0,0,720,810]}
+{"kind":"textbox","id":"sh/8bu10vu5","slide":24,"name":"quote-eyebrow","text":"[PROOF / TESTIMONY]","textPreview":"[PROOF / TESTIMONY]","textChars":19,"textLines":1,"bbox":[82,220,520,24]}
+{"kind":"textbox","id":"sh/9c3290vq","slide":24,"name":"quote-text","text":"“[ADD A CONCISE QUOTE OR PROOF POINT.]”","textPreview":"“[ADD A CONCISE QUOTE OR PROOF POINT.]”","textChars":39,"textLines":1,"bbox":[82,284,540,286]}
+{"kind":"textbox","id":"sh/m9cjy5cz","slide":24,"name":"quote-source","text":"[Name] · [Role] · [Organisation]","textPreview":"[Name] · [Role] · [Organisation]","textChars":32,"textLines":1,"bbox":[84,650,520,44]}
+{"kind":"shape","id":"sh/7alk7qdk","slide":24,"name":"REPLACE IMAGE-720-0","bbox":[720,778,164,32]}
+{"kind":"textbox","id":"sh/wfel4fu1","slide":24,"name":"REPLACE IMAGE-text-720-0","text":"REPLACE IMAGE","textPreview":"REPLACE IMAGE","textChars":13,"textLines":1,"bbox":[732,785,142,18]}
+{"kind":"image","id":"im/4ba5svmt","slide":24,"name":"","alt":"SEARULEA office branding","bbox":[0,0,1440,810]}
+{"kind":"image","id":"im/i9snql4n","slide":24,"name":"","alt":"SEARULEA logo","bbox":[82,56,280,56]}
+{"kind":"notes","id":"nt/f8we63","slide":24,"text":"Photo quote. Verify the quote, speaker and image before presenting.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided 11_office_glass.jpg"}
+{"kind":"slide","id":"sl/kz5n2f","slide":25,"title":"KEY FIGURES / SNAPSHOT","textShapes":11}
+{"kind":"textbox","id":"sh/kradof2x","slide":25,"name":"content-subtitle-0","text":"KEY FIGURES / SNAPSHOT","textPreview":"KEY FIGURES / SNAPSHOT","textChars":22,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/jq1wfa1c","slide":25,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/y5svm5kr","slide":25,"name":"metric3-rule-0","bbox":[78,244,350,3]}
+{"kind":"textbox","id":"sh/tw3el4je","slide":25,"name":"metric-value-78-[00]","text":"[00]","textPreview":"[00]","textChars":4,"textLines":1,"bbox":[78,300,350,88]}
+{"kind":"textbox","id":"sh/svudsz2t","slide":25,"name":"metric-label-78-[Add the metric label and unit.]","text":"[Add the metric label and unit.]","textPreview":"[Add the metric label and unit.]","textChars":32,"textLines":1,"bbox":[96,414,314,76]}
+{"kind":"textbox","id":"sh/7u1wju18","slide":25,"name":"metric3-note-0","text":"[Optional one-line context]","textPreview":"[Optional one-line context]","textChars":27,"textLines":1,"bbox":[96,526,314,46]}
+{"kind":"shape","id":"sh/6tsvqpkn","slide":25,"name":"metric3-rule-1","bbox":[516,244,350,3]}
+{"kind":"textbox","id":"sh/90zu90ja","slide":25,"name":"metric-value-516-[00]","text":"[00]","textPreview":"[00]","textChars":4,"textLines":1,"bbox":[516,300,350,88]}
+{"kind":"textbox","id":"sh/ozqdgv2p","slide":25,"name":"metric-label-516-[Add the metric label and unit.]","text":"[Add the metric label and unit.]","textPreview":"[Add the metric label and unit.]","textChars":32,"textLines":1,"bbox":[534,414,314,76]}
+{"kind":"textbox","id":"sh/uto3qp8v","slide":25,"name":"metric3-note-1","text":"[Optional one-line context]","textPreview":"[Optional one-line context]","textChars":27,"textLines":1,"bbox":[534,526,314,46]}
+{"kind":"shape","id":"sh/vuxkju9g","slide":25,"name":"metric3-rule-2","bbox":[954,244,350,3]}
+{"kind":"textbox","id":"sh/gvqlszq1","slide":25,"name":"metric-value-954-[00]","text":"[00]","textPreview":"[00]","textChars":4,"textLines":1,"bbox":[954,300,350,88]}
+{"kind":"textbox","id":"sh/hgz2l4rm","slide":25,"name":"metric-label-954-[Add the metric label and unit.]","text":"[Add the metric label and unit.]","textPreview":"[Add the metric label and unit.]","textChars":32,"textLines":1,"bbox":[972,414,314,76]}
+{"kind":"textbox","id":"sh/ih83u98r","slide":25,"name":"metric3-note-2","text":"[Optional one-line context]","textPreview":"[Optional one-line context]","textChars":27,"textLines":1,"bbox":[972,526,314,46]}
+{"kind":"notes","id":"nt/kz5n2f","slide":25,"text":"Three-metric snapshot. Use values with similar visual weight and explain the unit in each label.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/8cd24n","slide":26,"title":"KEY FIGURES / DASHBOARD","textShapes":14}
+{"kind":"textbox","id":"sh/dgvixwr2","slide":26,"name":"content-subtitle-0","text":"KEY FIGURES / DASHBOARD","textPreview":"KEY FIGURES / DASHBOARD","textChars":23,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/qd4j2hsr","slide":26,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/red0vm9w","slide":26,"name":"metric4-rule-0","bbox":[78,246,264,3]}
+{"kind":"textbox","id":"sh/03m18rat","slide":26,"name":"metric4-value-0","text":"[00]","textPreview":"[00]","textChars":4,"textLines":1,"bbox":[78,306,264,82]}
+{"kind":"textbox","id":"sh/14fi1wre","slide":26,"name":"metric4-label-0","text":"[Metric label]","textPreview":"[Metric label]","textChars":14,"textLines":1,"bbox":[96,420,228,70]}
+{"kind":"textbox","id":"sh/eh4j61sn","slide":26,"name":"metric4-context-0","text":"[Short context]","textPreview":"[Short context]","textChars":15,"textLines":1,"bbox":[98,520,224,48]}
+{"kind":"shape","id":"sh/z2d0zm98","slide":26,"name":"metric4-rule-1","bbox":[402,246,264,3]}
+{"kind":"textbox","id":"sh/g72hw7a9","slide":26,"name":"metric4-value-1","text":"[00]","textPreview":"[00]","textChars":4,"textLines":1,"bbox":[402,306,264,82]}
+{"kind":"textbox","id":"sh/h8bipcbu","slide":26,"name":"metric4-label-1","text":"[Metric label]","textPreview":"[Metric label]","textChars":14,"textLines":1,"bbox":[420,420,228,70]}
+{"kind":"textbox","id":"sh/1wze9gfu","slide":26,"name":"metric4-context-1","text":"[Short context]","textPreview":"[Short context]","textChars":15,"textLines":1,"bbox":[422,520,224,48]}
+{"kind":"shape","id":"sh/0vqd0be9","slide":26,"name":"metric4-rule-2","bbox":[726,246,264,3]}
+{"kind":"textbox","id":"sh/fuhw76xo","slide":26,"name":"metric4-value-2","text":"[00]","textPreview":"[00]","textChars":4,"textLines":1,"bbox":[726,306,264,82]}
+{"kind":"textbox","id":"sh/et8vy1w3","slide":26,"name":"metric4-label-2","text":"[Metric label]","textPreview":"[Metric label]","textChars":14,"textLines":1,"bbox":[744,420,228,70]}
+{"kind":"textbox","id":"sh/p0jed0fq","slide":26,"name":"metric4-context-2","text":"[Short context]","textPreview":"[Short context]","textChars":15,"textLines":1,"bbox":[746,520,224,48]}
+{"kind":"shape","id":"sh/ozqd4ve5","slide":26,"name":"metric4-rule-3","bbox":[1050,246,264,3]}
+{"kind":"textbox","id":"sh/nyhwbqxk","slide":26,"name":"metric4-value-3","text":"[00]","textPreview":"[00]","textChars":4,"textLines":1,"bbox":[1050,306,264,82]}
+{"kind":"textbox","id":"sh/2x8v2lwz","slide":26,"name":"metric4-label-3","text":"[Metric label]","textPreview":"[Metric label]","textChars":14,"textLines":1,"bbox":[1068,420,228,70]}
+{"kind":"textbox","id":"sh/xojeh0f2","slide":26,"name":"metric4-context-3","text":"[Short context]","textPreview":"[Short context]","textChars":15,"textLines":1,"bbox":[1070,520,224,48]}
+{"kind":"notes","id":"nt/8cd24n","slide":26,"text":"Four-metric dashboard. Keep the numbers short and use the final line for context, not another metric.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/s76t4i","slide":27,"title":"[KEY FIGURE / OUTCOME]","textShapes":4}
+{"kind":"textbox","id":"sh/f6ho36p0","slide":27,"name":"content-subtitle-0","text":"[KEY FIGURE / OUTCOME]","textPreview":"[KEY FIGURE / OUTCOME]","textChars":22,"textLines":1,"bbox":[78,76,600,24]}
+{"kind":"textbox","id":"sh/g7qpwb65","slide":27,"name":"content-title-0","text":"[00%]","textPreview":"[00%]","textChars":5,"textLines":1,"bbox":[78,184,1050,300]}
+{"kind":"textbox","id":"sh/h8z65g7q","slide":27,"name":"content-body-0","text":"[Add one sentence explaining what the number means and why it matters.]","textPreview":"[Add one sentence explaining what the number means and why it matters.]","textChars":71,"textLines":1,"bbox":[78,592,850,86]}
+{"kind":"textbox","id":"sh/2987ylob","slide":27,"name":"hero-metric-source","text":"[Optional period, baseline or source note]","textPreview":"[Optional period, baseline or source note]","textChars":42,"textLines":1,"bbox":[78,690,720,22]}
+{"kind":"notes","id":"nt/s76t4i","slide":27,"text":"Hero metric. Use one number only and include enough context to prevent misinterpretation.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/4htluc","slide":28,"title":"KEY FIGURES / EVIDENCE","textShapes":9}
+{"kind":"textbox","id":"sh/atwjuhwr","slide":28,"name":"content-subtitle-0","text":"KEY FIGURES / EVIDENCE","textPreview":"KEY FIGURES / EVIDENCE","textChars":22,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/xwni5cfi","slide":28,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/zy507mx8","slide":28,"name":"REPLACE IMAGE-78-220","bbox":[78,608,164,32]}
+{"kind":"textbox","id":"sh/yxwjyhw3","slide":28,"name":"REPLACE IMAGE-text-78-220","text":"REPLACE IMAGE","textPreview":"REPLACE IMAGE","textChars":13,"textLines":1,"bbox":[90,615,142,18]}
+{"kind":"shape","id":"sh/l07i9wfe","slide":28,"name":"metric-image-rule-0","bbox":[780,356,520,1]}
+{"kind":"textbox","id":"sh/kze10ret","slide":28,"name":"metric-image-value-0","text":"[00]","textPreview":"[00]","textChars":4,"textLines":1,"bbox":[780,248,180,72]}
+{"kind":"textbox","id":"sh/7mpkbmxk","slide":28,"name":"metric-image-label-0","text":"[Metric label and concise context]","textPreview":"[Metric label and concise context]","textChars":34,"textLines":1,"bbox":[990,256,310,64]}
+{"kind":"shape","id":"sh/m1gj21wz","slide":28,"name":"metric-image-rule-1","bbox":[780,522,520,1]}
+{"kind":"textbox","id":"sh/k72d0fep","slide":28,"name":"metric-image-value-1","text":"[00]","textPreview":"[00]","textChars":4,"textLines":1,"bbox":[780,414,180,72]}
+{"kind":"textbox","id":"sh/l8bu9kva","slide":28,"name":"metric-image-label-1","text":"[Metric label and concise context]","textPreview":"[Metric label and concise context]","textChars":34,"textLines":1,"bbox":[990,422,310,64]}
+{"kind":"shape","id":"sh/y5kvy5wj","slide":28,"name":"metric-image-rule-2","bbox":[780,688,520,1]}
+{"kind":"textbox","id":"sh/j6tc7ad4","slide":28,"name":"metric-image-value-2","text":"[00]","textPreview":"[00]","textChars":4,"textLines":1,"bbox":[780,580,180,72]}
+{"kind":"textbox","id":"sh/sbmd4fe1","slide":28,"name":"metric-image-label-2","text":"[Metric label and concise context]","textPreview":"[Metric label and concise context]","textChars":34,"textLines":1,"bbox":[990,588,310,64]}
+{"kind":"image","id":"im/14ba5snq","slide":28,"name":"","alt":"SEARULEA cover mockup","bbox":[78,220,610,420]}
+{"kind":"notes","id":"nt/4htluc","slide":28,"text":"Image-plus-metrics page. Use the image for evidence and the right rail for three related figures.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided SEARULEA cover mockup"}
+{"kind":"slide","id":"sl/pq6x03","slide":29,"title":"PROCESS / THREE STEPS","textShapes":11}
+{"kind":"textbox","id":"sh/qxw3mtwv","slide":29,"name":"content-subtitle-0","text":"PROCESS / THREE STEPS","textPreview":"PROCESS / THREE STEPS","textChars":21,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/d0n2x8vm","slide":29,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/czelo3e1","slide":29,"name":"process3-connector","bbox":[250,410,940,3]}
+{"kind":"shape","id":"sh/3ulkredk","slide":29,"name":"process3-node-0","bbox":[216,376,68,68]}
+{"kind":"textbox","id":"sh/2tc3itwz","slide":29,"name":"process3-num-0","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[192,260,116,46]}
+{"kind":"textbox","id":"sh/pw32tova","slide":29,"name":"process3-title-0","text":"[STEP TITLE]","textPreview":"[STEP TITLE]","textChars":12,"textLines":1,"bbox":[100,486,300,48]}
+{"kind":"textbox","id":"sh/ovulkjep","slide":29,"name":"process3-body-0","text":"[Add one or two lines describing this step.]","textPreview":"[Add one or two lines describing this step.]","textChars":44,"textLines":1,"bbox":[100,558,300,92]}
+{"kind":"shape","id":"sh/f6lkned8","slide":29,"name":"process3-node-1","bbox":[686,376,68,68]}
+{"kind":"textbox","id":"sh/e5c3e9wn","slide":29,"name":"process3-num-1","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[662,260,116,46]}
+{"kind":"textbox","id":"sh/cj69cn6d","slide":29,"name":"process3-title-1","text":"[STEP TITLE]","textPreview":"[STEP TITLE]","textChars":12,"textLines":1,"bbox":[570,486,300,48]}
+{"kind":"textbox","id":"sh/xkfa5sny","slide":29,"name":"process3-body-1","text":"[Add one or two lines describing this step.]","textPreview":"[Add one or two lines describing this step.]","textChars":44,"textLines":1,"bbox":[570,558,300,92]}
+{"kind":"shape","id":"sh/ahoraxon","slide":29,"name":"process3-node-2","bbox":[1156,376,68,68]}
+{"kind":"textbox","id":"sh/bixs3258","slide":29,"name":"process3-num-2","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1132,260,116,46]}
+{"kind":"textbox","id":"sh/ov698n6h","slide":29,"name":"process3-title-2","text":"[STEP TITLE]","textPreview":"[STEP TITLE]","textChars":12,"textLines":1,"bbox":[1040,486,300,48]}
+{"kind":"textbox","id":"sh/pwfa1sn2","slide":29,"name":"process3-body-2","text":"[Add one or two lines describing this step.]","textPreview":"[Add one or two lines describing this step.]","textChars":44,"textLines":1,"bbox":[1040,558,300,92]}
+{"kind":"notes","id":"nt/pq6x03","slide":29,"text":"Three-step process. Connectors sit behind nodes; keep each step equally concise.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/zkmrcv","slide":30,"title":"PROCESS / FOUR STEPS","textShapes":14}
+{"kind":"textbox","id":"sh/ps3ix4zm","slide":30,"name":"content-subtitle-0","text":"PROCESS / FOUR STEPS","textPreview":"PROCESS / FOUR STEPS","textChars":20,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/2psj290v","slide":30,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/3ql0vehg","slide":30,"name":"process4-connector","bbox":[190,408,1060,3]}
+{"kind":"shape","id":"sh/gnah0zip","slide":30,"name":"process4-node-0","bbox":[162,380,56,56]}
+{"kind":"textbox","id":"sh/1ojit4za","slide":30,"name":"process4-num-0","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[134,274,112,42]}
+{"kind":"textbox","id":"sh/elszyp0z","slide":30,"name":"process4-title-0","text":"[STEP]","textPreview":"[STEP]","textChars":6,"textLines":1,"bbox":[66,478,248,42]}
+{"kind":"textbox","id":"sh/fm10ruh4","slide":30,"name":"process4-body-0","text":"[Short description of the step]","textPreview":"[Short description of the step]","textChars":31,"textLines":1,"bbox":[64,542,252,88]}
+{"kind":"shape","id":"sh/0je1c3i9","slide":30,"name":"process4-node-1","bbox":[515,380,56,56]}
+{"kind":"textbox","id":"sh/lkni5oze","slide":30,"name":"process4-num-1","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[487,274,112,42]}
+{"kind":"textbox","id":"sh/5s7e9wze","slide":30,"name":"process4-title-1","text":"[STEP]","textPreview":"[STEP]","textChars":6,"textLines":1,"bbox":[419,478,248,42]}
+{"kind":"textbox","id":"sh/4redgry9","slide":30,"name":"process4-body-1","text":"[Short description of the step]","textPreview":"[Short description of the step]","textChars":31,"textLines":1,"bbox":[417,542,252,88]}
+{"kind":"shape","id":"sh/3q5w7mho","slide":30,"name":"process4-node-2","bbox":[869,380,56,56]}
+{"kind":"textbox","id":"sh/ipwvehg3","slide":30,"name":"process4-num-2","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[841,274,112,42]}
+{"kind":"textbox","id":"sh/hone5wzi","slide":30,"name":"process4-title-2","text":"[STEP]","textPreview":"[STEP]","textChars":6,"textLines":1,"bbox":[773,478,248,42]}
+{"kind":"textbox","id":"sh/gnedcryx","slide":30,"name":"process4-body-2","text":"[Short description of the step]","textPreview":"[Short description of the step]","textChars":31,"textLines":1,"bbox":[771,542,252,88]}
+{"kind":"shape","id":"sh/vm5w3mhc","slide":30,"name":"process4-node-3","bbox":[1222,380,56,56]}
+{"kind":"textbox","id":"sh/ulwvahgr","slide":30,"name":"process4-num-3","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1194,274,112,42]}
+{"kind":"textbox","id":"sh/1krehgzm","slide":30,"name":"process4-title-3","text":"[STEP]","textPreview":"[STEP]","textChars":6,"textLines":1,"bbox":[1126,478,248,42]}
+{"kind":"textbox","id":"sh/0jixoby1","slide":30,"name":"process4-body-3","text":"[Short description of the step]","textPreview":"[Short description of the step]","textChars":31,"textLines":1,"bbox":[1124,542,252,88]}
+{"kind":"notes","id":"nt/zkmrcv","slide":30,"text":"Four-step process. Use the final accent node for the result or handoff.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/ou4fzh","slide":31,"title":"ROADMAP / MILESTONES","textShapes":14}
+{"kind":"textbox","id":"sh/ml4jmp43","slide":31,"name":"content-subtitle-0","text":"ROADMAP / MILESTONES","textPreview":"ROADMAP / MILESTONES","textChars":20,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/9of2h43e","slide":31,"name":"timeline4-heading","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/on61ozm9","slide":31,"name":"timeline4-base","bbox":[170,416,1100,4]}
+{"kind":"shape","id":"sh/zidkbulc","slide":31,"name":"timeline4-tick-0","bbox":[190,388,4,60]}
+{"kind":"shape","id":"sh/eh4jip4r","slide":31,"name":"timeline4-dot-0","bbox":[180,406,24,24]}
+{"kind":"textbox","id":"sh/1kv2dk3i","slide":31,"name":"timeline4-date-0","text":"[DATE]","textPreview":"[DATE]","textChars":6,"textLines":1,"bbox":[100,266,180,50]}
+{"kind":"textbox","id":"sh/0jm1kfmx","slide":31,"name":"timeline4-title-0","text":"[MILESTONE]","textPreview":"[MILESTONE]","textChars":11,"textLines":1,"bbox":[76,492,228,40]}
+{"kind":"textbox","id":"sh/jehknelw","slide":31,"name":"timeline4-body-0","text":"[Short description]","textPreview":"[Short description]","textChars":19,"textLines":1,"bbox":[70,548,240,80]}
+{"kind":"shape","id":"sh/yd83u94b","slide":31,"name":"timeline4-tick-1","bbox":[520,388,4,60]}
+{"kind":"shape","id":"sh/c7alobi9","slide":31,"name":"timeline4-dot-1","bbox":[510,406,24,24]}
+{"kind":"textbox","id":"sh/x8jmhgzu","slide":31,"name":"timeline4-date-1","text":"[DATE]","textPreview":"[DATE]","textChars":6,"textLines":1,"bbox":[430,266,180,50]}
+{"kind":"textbox","id":"sh/a583ml0j","slide":31,"name":"timeline4-title-1","text":"[MILESTONE]","textPreview":"[MILESTONE]","textChars":11,"textLines":1,"bbox":[406,492,228,40]}
+{"kind":"textbox","id":"sh/b61kfqh4","slide":31,"name":"timeline4-body-1","text":"[Short description]","textPreview":"[Short description]","textChars":19,"textLines":1,"bbox":[400,548,240,80]}
+{"kind":"shape","id":"sh/o3qlkbid","slide":31,"name":"timeline4-tick-2","bbox":[850,388,4,60]}
+{"kind":"shape","id":"sh/p4z2dgzy","slide":31,"name":"timeline4-dot-2","bbox":[840,406,24,24]}
+{"kind":"textbox","id":"sh/2183i107","slide":31,"name":"timeline4-date-2","text":"[DATE]","textPreview":"[DATE]","textChars":6,"textLines":1,"bbox":[760,266,180,50]}
+{"kind":"textbox","id":"sh/32hkb6hs","slide":31,"name":"timeline4-title-2","text":"[MILESTONE]","textPreview":"[MILESTONE]","textChars":11,"textLines":1,"bbox":[736,492,228,40]}
+{"kind":"textbox","id":"sh/gfqlgrih","slide":31,"name":"timeline4-body-2","text":"[Short description]","textPreview":"[Short description]","textChars":19,"textLines":1,"bbox":[730,548,240,80]}
+{"kind":"shape","id":"sh/1gz29wzm","slide":31,"name":"timeline4-tick-3","bbox":[1180,388,4,60]}
+{"kind":"shape","id":"sh/hk7ax8ne","slide":31,"name":"timeline4-dot-3","bbox":[1170,406,24,24]}
+{"kind":"textbox","id":"sh/wjy9o36t","slide":31,"name":"timeline4-date-3","text":"[DATE]","textPreview":"[DATE]","textChars":6,"textLines":1,"bbox":[1090,266,180,50]}
+{"kind":"textbox","id":"sh/vypsvyp8","slide":31,"name":"timeline4-title-3","text":"[MILESTONE]","textPreview":"[MILESTONE]","textChars":11,"textLines":1,"bbox":[1066,492,228,40]}
+{"kind":"textbox","id":"sh/uxgrmton","slide":31,"name":"timeline4-body-3","text":"[Short description]","textPreview":"[Short description]","textChars":19,"textLines":1,"bbox":[1060,548,240,80]}
+{"kind":"notes","id":"nt/ou4fzh","slide":31,"text":"Four-milestone timeline. Keep dates above and implications below the line.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/u16kak","slide":32,"title":"ROADMAP / FIVE PHASES","textShapes":17}
+{"kind":"textbox","id":"sh/hg3ap4nq","slide":32,"name":"content-subtitle-0","text":"ROADMAP / FIVE PHASES","textPreview":"ROADMAP / FIVE PHASES","textChars":21,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/udcbe9oz","slide":32,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/velsne5k","slide":32,"name":"timeline5-base","bbox":[150,426,1140,3]}
+{"kind":"shape","id":"sh/43etkj61","slide":32,"name":"timeline5-stem-0","bbox":[170,330,3,98]}
+{"kind":"shape","id":"sh/54natonm","slide":32,"name":"timeline5-dot-0","bbox":[158,414,26,26]}
+{"kind":"textbox","id":"sh/i1cbi9ov","slide":32,"name":"timeline5-date-0","text":"[DATE]","textPreview":"[DATE]","textChars":6,"textLines":1,"bbox":[78,254,184,36]}
+{"kind":"textbox","id":"sh/j25sre5g","slide":32,"name":"timeline5-title-0","text":"[PHASE]","textPreview":"[PHASE]","textChars":7,"textLines":1,"bbox":[64,306,212,34]}
+{"kind":"textbox","id":"sh/k7at8f6x","slide":32,"name":"timeline5-body-0","text":"[Short description]","textPreview":"[Short description]","textChars":19,"textLines":1,"bbox":[58,350,224,58]}
+{"kind":"shape","id":"sh/l8jahkni","slide":32,"name":"timeline5-stem-1","bbox":[445,426,3,98]}
+{"kind":"shape","id":"sh/lwrudsfy","slide":32,"name":"timeline5-dot-1","bbox":[433,414,26,26]}
+{"kind":"textbox","id":"sh/kvit47ed","slide":32,"name":"timeline5-date-1","text":"[DATE]","textPreview":"[DATE]","textChars":6,"textLines":1,"bbox":[353,506,184,36]}
+{"kind":"textbox","id":"sh/zu9cb2xs","slide":32,"name":"timeline5-title-1","text":"[PHASE]","textPreview":"[PHASE]","textChars":7,"textLines":1,"bbox":[339,558,212,34]}
+{"kind":"textbox","id":"sh/yt0b2xw7","slide":32,"name":"timeline5-body-1","text":"[Short description]","textPreview":"[Short description]","textChars":19,"textLines":1,"bbox":[333,602,224,58]}
+{"kind":"shape","id":"sh/90buhcfu","slide":32,"name":"timeline5-stem-2","bbox":[720,330,3,98]}
+{"kind":"shape","id":"sh/8z2t87ep","slide":32,"name":"timeline5-dot-2","bbox":[708,414,26,26]}
+{"kind":"textbox","id":"sh/7y9cf2x4","slide":32,"name":"timeline5-date-2","text":"[DATE]","textPreview":"[DATE]","textChars":6,"textLines":1,"bbox":[628,254,184,36]}
+{"kind":"textbox","id":"sh/mx0b6xwj","slide":32,"name":"timeline5-title-2","text":"[PHASE]","textPreview":"[PHASE]","textChars":7,"textLines":1,"bbox":[614,306,212,34]}
+{"kind":"textbox","id":"sh/hobulwf6","slide":32,"name":"timeline5-body-2","text":"[Short description]","textPreview":"[Short description]","textChars":19,"textLines":1,"bbox":[608,350,224,58]}
+{"kind":"shape","id":"sh/w32tcrel","slide":32,"name":"timeline5-stem-3","bbox":[995,426,3,98]}
+{"kind":"shape","id":"sh/g7ad8vmx","slide":32,"name":"timeline5-dot-3","bbox":[983,414,26,26]}
+{"kind":"textbox","id":"sh/h8jeh032","slide":32,"name":"timeline5-date-3","text":"[DATE]","textPreview":"[DATE]","textChars":6,"textLines":1,"bbox":[903,506,184,36]}
+{"kind":"textbox","id":"sh/u5sv6l4r","slide":32,"name":"timeline5-title-3","text":"[PHASE]","textPreview":"[PHASE]","textChars":7,"textLines":1,"bbox":[889,558,212,34]}
+{"kind":"textbox","id":"sh/f61wfqlc","slide":32,"name":"timeline5-body-3","text":"[Short description]","textPreview":"[Short description]","textChars":19,"textLines":1,"bbox":[883,602,224,58]}
+{"kind":"shape","id":"sh/4vudcvmt","slide":32,"name":"timeline5-stem-4","bbox":[1270,330,3,98]}
+{"kind":"shape","id":"sh/pw3el03e","slide":32,"name":"timeline5-dot-4","bbox":[1258,414,26,26]}
+{"kind":"textbox","id":"sh/29sva54n","slide":32,"name":"timeline5-date-4","text":"[DATE]","textPreview":"[DATE]","textChars":6,"textLines":1,"bbox":[1178,254,184,36]}
+{"kind":"textbox","id":"sh/3alwjal8","slide":32,"name":"timeline5-title-4","text":"[PHASE]","textPreview":"[PHASE]","textChars":7,"textLines":1,"bbox":[1164,306,212,34]}
+{"kind":"textbox","id":"sh/kzqd0bmp","slide":32,"name":"timeline5-body-4","text":"[Short description]","textPreview":"[Short description]","textChars":19,"textLines":1,"bbox":[1158,350,224,58]}
+{"kind":"notes","id":"nt/u16kak","slide":32,"text":"Alternating five-phase timeline. Keep descriptions to one short line where possible.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/qi9lvm","slide":33,"title":"ROADMAP / PHASED DELIVERY","textShapes":14}
+{"kind":"textbox","id":"sh/c321kbi9","slide":33,"name":"content-subtitle-0","text":"ROADMAP / PHASED DELIVERY","textPreview":"ROADMAP / PHASED DELIVERY","textChars":25,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/r2tkb61o","slide":33,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/q1kji103","slide":33,"name":"roadmap-band-0","bbox":[78,238,350,402]}
+{"kind":"textbox","id":"sh/1sb2hgjq","slide":33,"name":"roadmap-label-0","text":"PHASE 01","textPreview":"PHASE 01","textChars":8,"textLines":1,"bbox":[108,274,290,22]}
+{"kind":"textbox","id":"sh/0r2lovi5","slide":33,"name":"roadmap-title-0","text":"[PHASE TITLE]","textPreview":"[PHASE TITLE]","textChars":13,"textLines":1,"bbox":[108,332,290,74]}
+{"kind":"textbox","id":"sh/zqtkfq10","slide":33,"name":"roadmap-date-0","text":"[DATE RANGE]","textPreview":"[DATE RANGE]","textChars":12,"textLines":1,"bbox":[108,430,290,24]}
+{"kind":"textbox","id":"sh/e5kjml0f","slide":33,"name":"roadmap-body-0","text":"[Key activity]\n[Key activity]\n[Expected outcome]","textPreview":"[Key activity] | [Key activity] | [Expected outcome]","textChars":48,"textLines":3,"bbox":[108,488,290,120]}
+{"kind":"shape","id":"sh/hwr25wjm","slide":33,"name":"roadmap-band-1","bbox":[428,238,420,402]}
+{"kind":"textbox","id":"sh/gvi1cri1","slide":33,"name":"roadmap-label-1","text":"PHASE 02","textPreview":"PHASE 02","textChars":8,"textLines":1,"bbox":[458,274,360,22]}
+{"kind":"textbox","id":"sh/u9gfu14b","slide":33,"name":"roadmap-title-1","text":"[PHASE TITLE]","textPreview":"[PHASE TITLE]","textChars":13,"textLines":1,"bbox":[458,332,360,74]}
+{"kind":"textbox","id":"sh/fapg36lw","slide":33,"name":"roadmap-date-1","text":"[DATE RANGE]","textPreview":"[DATE RANGE]","textChars":12,"textLines":1,"bbox":[458,430,360,24]}
+{"kind":"textbox","id":"sh/gbyxwbmh","slide":33,"name":"roadmap-body-1","text":"[Key activity]\n[Key activity]\n[Expected outcome]","textPreview":"[Key activity] | [Key activity] | [Expected outcome]","textChars":48,"textLines":3,"bbox":[458,488,360,120]}
+{"kind":"shape","id":"sh/hc7y5g32","slide":33,"name":"roadmap-band-2","bbox":[848,238,514,402]}
+{"kind":"textbox","id":"sh/2dgfyl4n","slide":33,"name":"roadmap-label-2","text":"PHASE 03","textPreview":"PHASE 03","textChars":8,"textLines":1,"bbox":[878,274,454,22]}
+{"kind":"textbox","id":"sh/3e9g7qls","slide":33,"name":"roadmap-title-2","text":"[PHASE TITLE]","textPreview":"[PHASE TITLE]","textChars":13,"textLines":1,"bbox":[878,332,454,74]}
+{"kind":"textbox","id":"sh/4fih0vmd","slide":33,"name":"roadmap-date-2","text":"[DATE RANGE]","textPreview":"[DATE RANGE]","textChars":12,"textLines":1,"bbox":[878,430,454,24]}
+{"kind":"textbox","id":"sh/pgry9g3y","slide":33,"name":"roadmap-body-2","text":"[Key activity]\n[Key activity]\n[Expected outcome]","textPreview":"[Key activity] | [Key activity] | [Expected outcome]","textChars":48,"textLines":3,"bbox":[878,488,454,120]}
+{"kind":"notes","id":"nt/qi9lvm","slide":33,"text":"Phased roadmap. Use unequal band widths when phase duration or effort differs materially.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/mmodwf","slide":34,"title":"DATA / COMPARISON","textShapes":3}
+{"kind":"textbox","id":"sh/6lg76t0r","slide":34,"name":"content-subtitle-0","text":"DATA / COMPARISON","textPreview":"DATA / COMPARISON","textChars":17,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/to7618zi","slide":34,"name":"content-title-0","text":"[ADD THE INSIGHT, NOT THE CHART TYPE]","textPreview":"[ADD THE INSIGHT, NOT THE CHART TYPE]","textChars":37,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"textbox","id":"sh/vqp83yh8","slide":34,"name":"bar-full-note","text":"EDIT DATA · Replace categories, values, units and title before presenting.","textPreview":"EDIT DATA · Replace categories, values, units and title before presenting.","textChars":74,"textLines":1,"bbox":[96,686,760,22]}
+{"kind":"chart","id":"ch/s7u58nqh","slide":34,"name":"","chartType":"bar","bbox":[96,214,1240,446]}
+{"kind":"notes","id":"nt/mmodwf","slide":34,"text":"Full-width bar chart. Right-click the chart and choose Edit Data.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/p6pyhs","slide":35,"title":"DATA / COMPARISON","textShapes":3}
+{"kind":"textbox","id":"sh/2t8fe943","slide":35,"name":"content-subtitle-0","text":"DATA / COMPARISON","textPreview":"DATA / COMPARISON","textChars":17,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/pwje9o3e","slide":35,"name":"content-title-0","text":"[ADD THE INSIGHT, NOT THE CHART TYPE]","textPreview":"[ADD THE INSIGHT, NOT THE CHART TYPE]","textChars":37,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"textbox","id":"sh/fqhw3elc","slide":35,"name":"content-body-0","text":"[WHAT THE CHART MEANS]\n[Add the conclusion in one or two sentences.]\n[Add the first supporting point.]\n[Add the second supporting point.]\n[Add the third supporting point.]","textPreview":"[WHAT THE CHART MEANS] | [Add the conclusion in one or two sentences.] | [Add the first supporting point.] | [Add the second supporting p...","textChars":171,"textLines":5,"bbox":[1000,238,330,385]}
+{"kind":"chart","id":"ch/kj6tcbyl","slide":35,"name":"","chartType":"bar","bbox":[78,226,820,416]}
+{"kind":"notes","id":"nt/p6pyhs","slide":35,"text":"Horizontal bar chart with commentary. Use the right column for meaning and action, not a restatement of values.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/b6rcqy","slide":36,"title":"DATA / TREND","textShapes":3}
+{"kind":"textbox","id":"sh/d4v6lwze","slide":36,"name":"content-subtitle-0","text":"DATA / TREND","textPreview":"DATA / TREND","textChars":12,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/q147a1gn","slide":36,"name":"content-title-0","text":"[ADD THE TREND OR CHANGE THAT MATTERS]","textPreview":"[ADD THE TREND OR CHANGE THAT MATTERS]","textChars":38,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"textbox","id":"sh/ozmp8ryx","slide":36,"name":"line-full-note","text":"EDIT DATA · Replace periods, values, units and title before presenting.","textPreview":"EDIT DATA · Replace periods, values, units and title before presenting.","textChars":71,"textLines":1,"bbox":[96,686,760,22]}
+{"kind":"chart","id":"ch/n6d83edo","slide":36,"name":"","chartType":"line","bbox":[96,214,1240,446]}
+{"kind":"notes","id":"nt/b6rcqy","slide":36,"text":"Full-width line chart for a single trend over time.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/pag9g2","slide":37,"title":"DATA / TREND","textShapes":3}
+{"kind":"textbox","id":"sh/0vitwfm5","slide":37,"name":"content-subtitle-0","text":"DATA / TREND","textPreview":"DATA / TREND","textChars":12,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/zu9s3ulk","slide":37,"name":"content-title-0","text":"[ADD THE RELATIONSHIP BETWEEN THE TWO SERIES]","textPreview":"[ADD THE RELATIONSHIP BETWEEN THE TWO SERIES]","textChars":45,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"textbox","id":"sh/90ru943m","slide":37,"name":"content-body-0","text":"[WHAT THE CHART MEANS]\n[Add the conclusion in one or two sentences.]\n[Add the first supporting point.]\n[Add the second supporting point.]\n[Add the third supporting point.]","textPreview":"[WHAT THE CHART MEANS] | [Add the conclusion in one or two sentences.] | [Add the first supporting point.] | [Add the second supporting p...","textChars":171,"textLines":5,"bbox":[1000,238,330,385]}
+{"kind":"chart","id":"ch/e5s7a9kn","slide":37,"name":"","chartType":"line","bbox":[78,226,820,410]}
+{"kind":"notes","id":"nt/pag9g2","slide":37,"text":"Two-series trend with commentary. Use amber only for the secondary series.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/kubh92","slide":38,"title":"DATA / COMPOSITION","textShapes":3}
+{"kind":"textbox","id":"sh/1gvq9oji","slide":38,"name":"content-subtitle-0","text":"DATA / COMPOSITION","textPreview":"DATA / COMPOSITION","textChars":18,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/ed4ret0r","slide":38,"name":"content-title-0","text":"[ADD THE WHOLE-TO-PART CONCLUSION]","textPreview":"[ADD THE WHOLE-TO-PART CONCLUSION]","textChars":34,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"textbox","id":"sh/ojm9k3it","slide":38,"name":"content-body-0","text":"[ADD THE MAIN TAKEAWAY]\n[Explain the most important segment and why the composition matters.]\nEDIT DATA to replace the example values.","textPreview":"[ADD THE MAIN TAKEAWAY] | [Explain the most important segment and why the composition matters.] | EDIT DATA to replace the example values.","textChars":134,"textLines":3,"bbox":[790,236,520,360]}
+{"kind":"chart","id":"ch/7e5knu5k","slide":38,"name":"","chartType":"doughnut","bbox":[90,210,620,440]}
+{"kind":"notes","id":"nt/kubh92","slide":38,"text":"Doughnut chart for three to five categories. Use only when parts sum to a meaningful whole.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/nvvx5k","slide":39,"title":"DATA / MIX OVER TIME","textShapes":3}
+{"kind":"textbox","id":"sh/cr6ds3q9","slide":39,"name":"content-subtitle-0","text":"DATA / MIX OVER TIME","textPreview":"DATA / MIX OVER TIME","textChars":20,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/bqxcjy9o","slide":39,"name":"content-title-0","text":"[ADD THE CHANGE IN COMPOSITION THAT MATTERS]","textPreview":"[ADD THE CHANGE IN COMPOSITION THAT MATTERS]","textChars":44,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"textbox","id":"sh/pofuhory","slide":39,"name":"stacked-note","text":"EDIT DATA · Ensure every column represents the same whole before presenting.","textPreview":"EDIT DATA · Ensure every column represents the same whole before presenting.","textChars":76,"textLines":1,"bbox":[96,686,820,22]}
+{"kind":"chart","id":"ch/6p4365sf","slide":39,"name":"","chartType":"bar","bbox":[96,220,1240,432]}
+{"kind":"notes","id":"nt/nvvx5k","slide":39,"text":"Stacked column chart for composition across periods or segments.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/psjjv6","slide":40,"title":"DECISION / TWO OPTIONS","textShapes":12}
+{"kind":"textbox","id":"sh/5w3yxony","slide":40,"name":"content-subtitle-0","text":"DECISION / TWO OPTIONS","textPreview":"DECISION / TWO OPTIONS","textChars":22,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/itcf29on","slide":40,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/julgve58","slide":40,"name":"compare2-panel-0","bbox":[78,218,624,422]}
+{"kind":"textbox","id":"sh/wrax0z6h","slide":40,"name":"compare2-label-0","text":"[OPTION A]","textPreview":"[OPTION A]","textChars":10,"textLines":1,"bbox":[112,250,510,22]}
+{"kind":"textbox","id":"sh/xs3yt472","slide":40,"name":"compare2-title-0","text":"[OPTION TITLE]","textPreview":"[OPTION TITLE]","textChars":14,"textLines":1,"bbox":[112,304,520,58]}
+{"kind":"shape","id":"sh/apsfy9ob","slide":40,"name":"compare2-dash-0-0","bbox":[112,400,28,3]}
+{"kind":"textbox","id":"sh/vq1grepw","slide":40,"name":"compare2-item-0-0","text":"[Criterion or benefit]","textPreview":"[Criterion or benefit]","textChars":22,"textLines":1,"bbox":[160,386,480,40]}
+{"kind":"shape","id":"sh/gnehc36l","slide":40,"name":"compare2-dash-0-1","bbox":[112,466,28,3]}
+{"kind":"textbox","id":"sh/hony58n6","slide":40,"name":"compare2-item-0-1","text":"[Criterion or benefit]","textPreview":"[Criterion or benefit]","textChars":22,"textLines":1,"bbox":[160,452,480,40]}
+{"kind":"shape","id":"sh/14vml0zu","slide":40,"name":"compare2-dash-0-2","bbox":[112,532,28,3]}
+{"kind":"textbox","id":"sh/0jm5svy9","slide":40,"name":"compare2-item-0-2","text":"[Criterion or consideration]","textPreview":"[Criterion or consideration]","textChars":28,"textLines":1,"bbox":[160,518,480,40]}
+{"kind":"shape","id":"sh/fid4jqho","slide":40,"name":"compare2-panel-1","bbox":[738,218,624,422]}
+{"kind":"textbox","id":"sh/ehknqlg3","slide":40,"name":"compare2-label-1","text":"[OPTION B / RECOMMENDED]","textPreview":"[OPTION B / RECOMMENDED]","textChars":24,"textLines":1,"bbox":[772,250,510,22]}
+{"kind":"textbox","id":"sh/dgbmh0zy","slide":40,"name":"compare2-title-1","text":"[OPTION TITLE]","textPreview":"[OPTION TITLE]","textChars":14,"textLines":1,"bbox":[772,304,520,58]}
+{"kind":"shape","id":"sh/sf25ovyd","slide":40,"name":"compare2-dash-1-0","bbox":[772,400,28,3]}
+{"kind":"textbox","id":"sh/ret4fqhs","slide":40,"name":"compare2-item-1-0","text":"[Criterion or benefit]","textPreview":"[Criterion or benefit]","textChars":22,"textLines":1,"bbox":[820,386,480,40]}
+{"kind":"shape","id":"sh/qdknmlg7","slide":40,"name":"compare2-dash-1-1","bbox":[772,466,28,3]}
+{"kind":"textbox","id":"sh/xcf6tkf2","slide":40,"name":"compare2-item-1-1","text":"[Criterion or benefit]","textPreview":"[Criterion or benefit]","textChars":22,"textLines":1,"bbox":[820,452,480,40]}
+{"kind":"shape","id":"sh/cb650fyh","slide":40,"name":"compare2-dash-1-2","bbox":[772,532,28,3]}
+{"kind":"textbox","id":"sh/gryxcnap","slide":40,"name":"compare2-item-1-2","text":"[Criterion or consideration]","textPreview":"[Criterion or consideration]","textChars":28,"textLines":1,"bbox":[820,518,480,40]}
+{"kind":"notes","id":"nt/psjjv6","slide":40,"text":"Two-option comparison. Keep criteria parallel and mark a recommendation only when the evidence supports it.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/2dhxtb","slide":41,"title":"DECISION / THREE OPTIONS","textShapes":14}
+{"kind":"textbox","id":"sh/6pw3q9sn","slide":41,"name":"content-subtitle-0","text":"DECISION / THREE OPTIONS","textPreview":"DECISION / THREE OPTIONS","textChars":24,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/tsnmlory","slide":41,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/srelsjad","slide":41,"name":"compare3-rule-0","bbox":[78,238,350,3]}
+{"kind":"textbox","id":"sh/jm54fe9w","slide":41,"name":"compare3-label-0","text":"[OPTION A]","textPreview":"[OPTION A]","textChars":10,"textLines":1,"bbox":[78,272,350,22]}
+{"kind":"textbox","id":"sh/i1c3m9sb","slide":41,"name":"compare3-title-0","text":"[OPTION TITLE]","textPreview":"[OPTION TITLE]","textChars":14,"textLines":1,"bbox":[78,326,350,68]}
+{"kind":"textbox","id":"sh/5onmh4r2","slide":41,"name":"compare3-body-0","text":"[Key strength]\n[Key trade-off]\n[Best fit or use case]","textPreview":"[Key strength] | [Key trade-off] | [Best fit or use case]","textChars":53,"textLines":3,"bbox":[78,430,340,166]}
+{"kind":"textbox","id":"sh/knelojah","slide":41,"name":"compare3-callout-0","text":"[OPTIONAL NOTE]","textPreview":"[OPTIONAL NOTE]","textChars":15,"textLines":1,"bbox":[78,626,340,24]}
+{"kind":"shape","id":"sh/vyl4bu9k","slide":41,"name":"compare3-rule-1","bbox":[516,238,350,5]}
+{"kind":"textbox","id":"sh/axc3ipsf","slide":41,"name":"compare3-label-1","text":"[OPTION B]","textPreview":"[OPTION B]","textChars":10,"textLines":1,"bbox":[516,272,350,22]}
+{"kind":"textbox","id":"sh/ovqtcned","slide":41,"name":"compare3-title-1","text":"[OPTION TITLE]","textPreview":"[OPTION TITLE]","textChars":14,"textLines":1,"bbox":[516,326,350,68]}
+{"kind":"textbox","id":"sh/pwjulsfi","slide":41,"name":"compare3-body-1","text":"[Key strength]\n[Key trade-off]\n[Best fit or use case]","textPreview":"[Key strength] | [Key trade-off] | [Best fit or use case]","textChars":53,"textLines":3,"bbox":[516,430,340,166]}
+{"kind":"textbox","id":"sh/2t8badw7","slide":41,"name":"compare3-callout-1","text":"[RECOMMENDED, IF APPLICABLE]","textPreview":"[RECOMMENDED, IF APPLICABLE]","textChars":28,"textLines":1,"bbox":[516,626,340,24]}
+{"kind":"shape","id":"sh/3uhcjixs","slide":41,"name":"compare3-rule-2","bbox":[954,238,350,3]}
+{"kind":"textbox","id":"sh/grqt83e1","slide":41,"name":"compare3-label-2","text":"[OPTION C]","textPreview":"[OPTION C]","textChars":10,"textLines":1,"bbox":[954,272,350,22]}
+{"kind":"textbox","id":"sh/1szuh8fm","slide":41,"name":"compare3-title-2","text":"[OPTION TITLE]","textPreview":"[OPTION TITLE]","textChars":14,"textLines":1,"bbox":[954,326,350,68]}
+{"kind":"textbox","id":"sh/e58b6dwv","slide":41,"name":"compare3-body-2","text":"[Key strength]\n[Key trade-off]\n[Best fit or use case]","textPreview":"[Key strength] | [Key trade-off] | [Best fit or use case]","textChars":53,"textLines":3,"bbox":[954,430,340,166]}
+{"kind":"textbox","id":"sh/f6hsfyxg","slide":41,"name":"compare3-callout-2","text":"[OPTIONAL NOTE]","textPreview":"[OPTIONAL NOTE]","textChars":15,"textLines":1,"bbox":[954,626,340,24]}
+{"kind":"notes","id":"nt/2dhxtb","slide":41,"text":"Three-option comparison. Use the center accent only when that option is recommended.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/y9tb7q","slide":42,"title":"CHANGE / BEFORE AND AFTER","textShapes":8}
+{"kind":"textbox","id":"sh/mtwjmtob","slide":42,"name":"content-subtitle-0","text":"CHANGE / BEFORE AND AFTER","textPreview":"CHANGE / BEFORE AND AFTER","textChars":25,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/9w72hon2","slide":42,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/8vy1oj6h","slide":42,"name":"before-panel","bbox":[78,224,570,416]}
+{"kind":"shape","id":"sh/vypkjy58","slide":42,"name":"after-panel","bbox":[714,224,648,416]}
+{"kind":"textbox","id":"sh/uxgjqton","slide":42,"name":"before-label","text":"BEFORE / CURRENT STATE","textPreview":"BEFORE / CURRENT STATE","textChars":22,"textLines":1,"bbox":[116,260,480,22]}
+{"kind":"textbox","id":"sh/h072l8ny","slide":42,"name":"after-label","text":"AFTER / FUTURE STATE","textPreview":"AFTER / FUTURE STATE","textChars":20,"textLines":1,"bbox":[752,260,530,22]}
+{"kind":"textbox","id":"sh/wzyls36d","slide":42,"name":"before-title","text":"[CURRENT-STATE TITLE]","textPreview":"[CURRENT-STATE TITLE]","textChars":21,"textLines":1,"bbox":[116,318,460,72]}
+{"kind":"textbox","id":"sh/b2lk7u5o","slide":42,"name":"after-title","text":"[FUTURE-STATE TITLE]","textPreview":"[FUTURE-STATE TITLE]","textChars":20,"textLines":1,"bbox":[752,318,530,72]}
+{"kind":"textbox","id":"sh/a1cje9o3","slide":42,"name":"before-body","text":"[Current constraint]\n[Current constraint]\n[Current consequence]","textPreview":"[Current constraint] | [Current constraint] | [Current consequence]","textChars":63,"textLines":3,"bbox":[116,430,460,150]}
+{"kind":"textbox","id":"sh/4rqhozmt","slide":42,"name":"after-body","text":"[Future capability]\n[Future capability]\n[Expected outcome]","textPreview":"[Future capability] | [Future capability] | [Expected outcome]","textChars":58,"textLines":3,"bbox":[752,430,530,150]}
+{"kind":"notes","id":"nt/y9tb7q","slide":42,"text":"Before-and-after comparison. Keep both sides parallel and grounded in the same criteria.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/bebdxz","slide":43,"title":"DECISION / TRADE-OFFS","textShapes":6}
+{"kind":"textbox","id":"sh/1gf2hcvq","slide":43,"name":"content-subtitle-0","text":"DECISION / TRADE-OFFS","textPreview":"DECISION / TRADE-OFFS","textChars":21,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/edojmhwz","slide":43,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/fexkfmdk","slide":43,"name":"benefits-rule","bbox":[78,236,540,4]}
+{"kind":"shape","id":"sh/ojqlsru1","slide":43,"name":"considerations-rule","bbox":[760,236,540,4]}
+{"kind":"textbox","id":"sh/pkz2lwvm","slide":43,"name":"benefits-title","text":"[BENEFITS / UPSIDE]","textPreview":"[BENEFITS / UPSIDE]","textChars":19,"textLines":1,"bbox":[78,278,540,48]}
+{"kind":"textbox","id":"sh/2hojqhcb","slide":43,"name":"considerations-title","text":"[CONSIDERATIONS / RISKS]","textPreview":"[CONSIDERATIONS / RISKS]","textChars":24,"textLines":1,"bbox":[760,278,540,48]}
+{"kind":"textbox","id":"sh/nixkjmdw","slide":43,"name":"benefits-body","text":"[Add the first point and its implication.]\n[Add the second point and its implication.]\n[Add the third point and its implication.]\n[Add the fourth point if needed.]","textPreview":"[Add the first point and its implication.] | [Add the second point and its implication.] | [Add the third point and its implication.] | [...","textChars":163,"textLines":4,"bbox":[78,366,540,256]}
+{"kind":"textbox","id":"sh/4nm1gnex","slide":43,"name":"considerations-body","text":"[Add the first point and its implication.]\n[Add the second point and its implication.]\n[Add the third point and its implication.]\n[Add the fourth point if needed.]","textPreview":"[Add the first point and its implication.] | [Add the second point and its implication.] | [Add the third point and its implication.] | [...","textChars":163,"textLines":4,"bbox":[760,366,540,256]}
+{"kind":"notes","id":"nt/bebdxz","slide":43,"text":"Balanced trade-off page. Use matched levels of specificity on both sides.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/madiyz","slide":44,"title":"DATA / SUMMARY TABLE","textShapes":3}
+{"kind":"textbox","id":"sh/0badcjmh","slide":44,"name":"content-subtitle-0","text":"DATA / SUMMARY TABLE","textPreview":"DATA / SUMMARY TABLE","textChars":20,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/zq1c3ylw","slide":44,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"textbox","id":"sh/9g3u983y","slide":44,"name":"table-data-note","text":"EDITABLE TABLE · Keep to five or fewer rows on a standard slide.","textPreview":"EDITABLE TABLE · Keep to five or fewer rows on a standard slide.","textChars":64,"textLines":1,"bbox":[78,654,720,24]}
+{"kind":"table","id":"tb/7elkrmlo","slide":44,"name":"","rows":5,"cols":4,"preview":"[Column 1] | [Column 2] | [Column 3] | [Column 4]","bbox":[78,222,1284,398]}
+{"kind":"notes","id":"nt/madiyz","slide":44,"text":"Concise editable data table. Add a source or methodology note when the values are externally sourced.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/9v24hc","slide":45,"title":"PLAN / WORKSTREAMS","textShapes":3}
+{"kind":"textbox","id":"sh/2pczex4j","slide":45,"name":"content-subtitle-0","text":"PLAN / WORKSTREAMS","textPreview":"PLAN / WORKSTREAMS","textChars":18,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/ps3ips3u","slide":45,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"textbox","id":"sh/bul0r2l0","slide":45,"name":"workplan-note","text":"EDITABLE TABLE · Make ownership and timing explicit.","textPreview":"EDITABLE TABLE · Make ownership and timing explicit.","textChars":52,"textLines":1,"bbox":[78,654,720,24]}
+{"kind":"table","id":"tb/9gjq5kj6","slide":45,"name":"","rows":5,"cols":5,"preview":"[Workstream] | [Owner] | [Timing] | [Status] | [Outcome]","bbox":[78,222,1284,398]}
+{"kind":"notes","id":"nt/9v24hc","slide":45,"text":"Workplan table for ownership, timing, status and outcome.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/5c02vp","slide":46,"title":"RISK / PRIORITISATION MATRIX","textShapes":3}
+{"kind":"textbox","id":"sh/y5orul47","slide":46,"name":"content-subtitle-0","text":"RISK / PRIORITISATION MATRIX","textPreview":"RISK / PRIORITISATION MATRIX","textChars":28,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/l8fqp0ny","slide":46,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"textbox","id":"sh/b2d8j65w","slide":46,"name":"risk-note","text":"EDITABLE TABLE · Define the scoring method before assigning priority.","textPreview":"EDITABLE TABLE · Define the scoring method before assigning priority.","textChars":69,"textLines":1,"bbox":[78,654,760,24]}
+{"kind":"table","id":"tb/lwbilcfe","slide":46,"name":"","rows":5,"cols":5,"preview":"[Risk] | [Likelihood] | [Impact] | [Priority] | [Mitigation / owner]","bbox":[78,222,1284,398]}
+{"kind":"notes","id":"nt/5c02vp","slide":46,"text":"Risk register. Define likelihood and impact scales in notes or an appendix.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/ah8d4w","slide":47,"title":"LEADERSHIP / PROFILE","textShapes":6}
+{"kind":"textbox","id":"sh/6h8zmlsf","slide":47,"name":"content-subtitle-0","text":"LEADERSHIP / PROFILE","textPreview":"LEADERSHIP / PROFILE","textChars":20,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/tkzix0r6","slide":47,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/sjqhoval","slide":47,"name":"profile-single-portrait","bbox":[78,210,590,470]}
+{"kind":"textbox","id":"sh/jex0rq94","slide":47,"name":"profile-single-portrait-label","text":"REPLACE\nPORTRAIT","textPreview":"REPLACE | PORTRAIT","textChars":16,"textLines":2,"bbox":[98,411,550,68]}
+{"kind":"textbox","id":"sh/itozilsj","slide":47,"name":"profile-single-name","text":"[NAME SURNAME]","textPreview":"[NAME SURNAME]","textChars":14,"textLines":1,"bbox":[750,216,565,60]}
+{"kind":"textbox","id":"sh/5gzitgru","slide":47,"name":"profile-single-role","text":"[TITLE / FUNCTION]","textPreview":"[TITLE / FUNCTION]","textChars":18,"textLines":1,"bbox":[750,300,565,24]}
+{"kind":"textbox","id":"sh/kf6hkba9","slide":47,"name":"content-body-0","text":"[Add a short biography focused on relevant experience and current responsibility.]\n[Add two or three proof points rather than a full career history.]\n[Add the first supporting point.]\n[Add the second supporting point.]\n[Add the third supporting point.]","textPreview":"[Add a short biography focused on relevant experience and current responsibility.] | [Add two or three proof points rather than a full ca...","textChars":252,"textLines":5,"bbox":[750,356,565,280]}
+{"kind":"notes","id":"nt/ah8d4w","slide":47,"text":"Single profile. Replace the portrait and verify the person's title and biography.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/3ime46","slide":48,"title":"LEADERSHIP / TWO PROFILES","textShapes":12}
+{"kind":"textbox","id":"sh/e10fap0j","slide":48,"name":"content-subtitle-0","text":"LEADERSHIP / TWO PROFILES","textPreview":"LEADERSHIP / TWO PROFILES","textChars":25,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/14be5kja","slide":48,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/03ixcfip","slide":48,"name":"team2-0-portrait","bbox":[78,220,250,292]}
+{"kind":"textbox","id":"sh/n6tw7uhg","slide":48,"name":"team2-0-portrait-label","text":"REPLACE\nPORTRAIT","textPreview":"REPLACE | PORTRAIT","textChars":16,"textLines":2,"bbox":[98,332,210,68]}
+{"kind":"textbox","id":"sh/m5kfep0v","slide":48,"name":"team2-name-0","text":"[NAME SURNAME]","textPreview":"[NAME SURNAME]","textChars":14,"textLines":1,"bbox":[362,232,300,52]}
+{"kind":"textbox","id":"sh/98be94z6","slide":48,"name":"team2-role-0","text":"[TITLE / FUNCTION]","textPreview":"[TITLE / FUNCTION]","textChars":18,"textLines":1,"bbox":[362,304,300,22]}
+{"kind":"textbox","id":"sh/o72xgzil","slide":48,"name":"team2-bio-0","text":"[Add a concise biography focused on relevant experience, responsibility and proof.]","textPreview":"[Add a concise biography focused on relevant experience, responsibility and proof.]","textChars":83,"textLines":1,"bbox":[362,358,300,130]}
+{"kind":"textbox","id":"sh/3apwbq1w","slide":48,"name":"team2-proof-0","text":"[Key credential or outcome]","textPreview":"[Key credential or outcome]","textChars":27,"textLines":1,"bbox":[78,546,584,38]}
+{"kind":"shape","id":"sh/29gv250b","slide":48,"name":"team2-1-portrait","bbox":[746,220,250,292]}
+{"kind":"textbox","id":"sh/0b65cbih","slide":48,"name":"team2-1-portrait-label","text":"REPLACE\nPORTRAIT","textPreview":"REPLACE | PORTRAIT","textChars":16,"textLines":2,"bbox":[766,332,210,68]}
+{"kind":"textbox","id":"sh/1cfm5gz2","slide":48,"name":"team2-name-1","text":"[NAME SURNAME]","textPreview":"[NAME SURNAME]","textChars":14,"textLines":1,"bbox":[1030,232,300,52]}
+{"kind":"textbox","id":"sh/ep4nal0b","slide":48,"name":"team2-role-1","text":"[TITLE / FUNCTION]","textPreview":"[TITLE / FUNCTION]","textChars":18,"textLines":1,"bbox":[1030,304,300,22]}
+{"kind":"textbox","id":"sh/zqx43qhw","slide":48,"name":"team2-bio-1","text":"[Add a concise biography focused on relevant experience, responsibility and proof.]","textPreview":"[Add a concise biography focused on relevant experience, responsibility and proof.]","textChars":83,"textLines":1,"bbox":[1030,358,300,130]}
+{"kind":"textbox","id":"sh/of65gvid","slide":48,"name":"team2-proof-1","text":"[Key credential or outcome]","textPreview":"[Key credential or outcome]","textChars":27,"textLines":1,"bbox":[746,546,584,38]}
+{"kind":"notes","id":"nt/3ime46","slide":48,"text":"Two-profile leadership page. Keep biographies parallel in length and emphasis.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/jvo6e3","slide":49,"title":"TEAM / THREE PROFILES","textShapes":14}
+{"kind":"textbox","id":"sh/5cn6xwfu","slide":49,"name":"content-subtitle-0","text":"TEAM / THREE PROFILES","textPreview":"TEAM / THREE PROFILES","textChars":21,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/i9cnmhgj","slide":49,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/jalovmxo","slide":49,"name":"team3-0-portrait","bbox":[78,220,350,264]}
+{"kind":"textbox","id":"sh/sze5sbyl","slide":49,"name":"team3-0-portrait-label","text":"REPLACE\nPORTRAIT","textPreview":"REPLACE | PORTRAIT","textChars":16,"textLines":2,"bbox":[98,318,310,68]}
+{"kind":"textbox","id":"sh/t0n61wf6","slide":49,"name":"team3-name-0","text":"[NAME SURNAME]","textPreview":"[NAME SURNAME]","textChars":14,"textLines":1,"bbox":[78,520,350,40]}
+{"kind":"textbox","id":"sh/6xwnq1gf","slide":49,"name":"team3-role-0","text":"[TITLE / FUNCTION]","textPreview":"[TITLE / FUNCTION]","textChars":18,"textLines":1,"bbox":[78,574,350,22]}
+{"kind":"textbox","id":"sh/7y5oz6x0","slide":49,"name":"team3-bio-0","text":"[One-line responsibility or relevant proof.]","textPreview":"[One-line responsibility or relevant proof.]","textChars":44,"textLines":1,"bbox":[78,620,340,54]}
+{"kind":"shape","id":"sh/g3y5wbyh","slide":49,"name":"team3-1-portrait","bbox":[516,220,350,264]}
+{"kind":"textbox","id":"sh/h4765gf2","slide":49,"name":"team3-1-portrait-label","text":"REPLACE\nPORTRAIT","textPreview":"REPLACE | PORTRAIT","textChars":16,"textLines":2,"bbox":[536,318,310,68]}
+{"kind":"textbox","id":"sh/xkne10ji","slide":49,"name":"team3-name-1","text":"[NAME SURNAME]","textPreview":"[NAME SURNAME]","textChars":14,"textLines":1,"bbox":[516,520,350,40]}
+{"kind":"textbox","id":"sh/wjed8v2x","slide":49,"name":"team3-role-1","text":"[TITLE / FUNCTION]","textPreview":"[TITLE / FUNCTION]","textChars":18,"textLines":1,"bbox":[516,574,350,22]}
+{"kind":"textbox","id":"sh/vi5czq1c","slide":49,"name":"team3-bio-1","text":"[One-line responsibility or relevant proof.]","textPreview":"[One-line responsibility or relevant proof.]","textChars":44,"textLines":1,"bbox":[516,620,340,54]}
+{"kind":"shape","id":"sh/ahwv6lk7","slide":49,"name":"team3-2-portrait","bbox":[954,220,350,264]}
+{"kind":"textbox","id":"sh/587e50ju","slide":49,"name":"team3-2-portrait-label","text":"REPLACE\nPORTRAIT","textPreview":"REPLACE | PORTRAIT","textChars":16,"textLines":2,"bbox":[974,318,310,68]}
+{"kind":"textbox","id":"sh/knydcf29","slide":49,"name":"team3-name-2","text":"[NAME SURNAME]","textPreview":"[NAME SURNAME]","textChars":14,"textLines":1,"bbox":[954,520,350,40]}
+{"kind":"textbox","id":"sh/jm5w3a1o","slide":49,"name":"team3-role-2","text":"[TITLE / FUNCTION]","textPreview":"[TITLE / FUNCTION]","textChars":18,"textLines":1,"bbox":[954,574,350,22]}
+{"kind":"textbox","id":"sh/ilwva5k3","slide":49,"name":"team3-bio-2","text":"[One-line responsibility or relevant proof.]","textPreview":"[One-line responsibility or relevant proof.]","textChars":44,"textLines":1,"bbox":[954,620,340,54]}
+{"kind":"notes","id":"nt/jvo6e3","slide":49,"text":"Three-person team page. Use one line of proof per person.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/6jp1ex","slide":50,"title":"TEAM / FOUR PROFILES","textShapes":18}
+{"kind":"textbox","id":"sh/ozqhkbah","slide":50,"name":"content-subtitle-0","text":"TEAM / FOUR PROFILES","textPreview":"TEAM / FOUR PROFILES","textChars":20,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/nyhgr69w","slide":50,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/2x8zi1sr","slide":50,"name":"team4-0-portrait","bbox":[78,220,264,250]}
+{"kind":"textbox","id":"sh/x4jyxgre","slide":50,"name":"team4-0-portrait-label","text":"REPLACE\nPORTRAIT","textPreview":"REPLACE | PORTRAIT","textChars":16,"textLines":2,"bbox":[98,311,224,68]}
+{"kind":"textbox","id":"sh/w3qhobqt","slide":50,"name":"team4-name-0","text":"[NAME SURNAME]","textPreview":"[NAME SURNAME]","textChars":14,"textLines":1,"bbox":[78,504,264,36]}
+{"kind":"textbox","id":"sh/b2hgv698","slide":50,"name":"team4-role-0","text":"[TITLE / FUNCTION]","textPreview":"[TITLE / FUNCTION]","textChars":18,"textLines":1,"bbox":[78,554,264,22]}
+{"kind":"textbox","id":"sh/a18zmlsn","slide":50,"name":"team4-proof-0","text":"[One-line responsibility]","textPreview":"[One-line responsibility]","textChars":25,"textLines":1,"bbox":[78,600,254,52]}
+{"kind":"shape","id":"sh/d8fylwru","slide":50,"name":"team4-1-portrait","bbox":[402,220,264,250]}
+{"kind":"textbox","id":"sh/s76xcra9","slide":50,"name":"team4-1-portrait-label","text":"REPLACE\nPORTRAIT","textPreview":"REPLACE | PORTRAIT","textChars":16,"textLines":2,"bbox":[422,311,224,68]}
+{"kind":"textbox","id":"sh/6xk7at83","slide":50,"name":"team4-name-1","text":"[NAME SURNAME]","textPreview":"[NAME SURNAME]","textChars":14,"textLines":1,"bbox":[402,504,264,36]}
+{"kind":"textbox","id":"sh/7yd8jypo","slide":50,"name":"team4-role-1","text":"[TITLE / FUNCTION]","textPreview":"[TITLE / FUNCTION]","textChars":18,"textLines":1,"bbox":[402,554,264,22]}
+{"kind":"textbox","id":"sh/szmpc3q9","slide":50,"name":"team4-proof-1","text":"[One-line responsibility]","textPreview":"[One-line responsibility]","textChars":25,"textLines":1,"bbox":[402,600,254,52]}
+{"kind":"shape","id":"sh/t0vqlo7u","slide":50,"name":"team4-2-portrait","bbox":[726,220,264,250]}
+{"kind":"textbox","id":"sh/ul4ret8f","slide":50,"name":"team4-2-portrait-label","text":"REPLACE\nPORTRAIT","textPreview":"REPLACE | PORTRAIT","textChars":16,"textLines":2,"bbox":[746,311,224,68]}
+{"kind":"textbox","id":"sh/fmd8nypk","slide":50,"name":"team4-name-2","text":"[NAME SURNAME]","textPreview":"[NAME SURNAME]","textChars":14,"textLines":1,"bbox":[726,504,264,36]}
+{"kind":"textbox","id":"sh/gnm9g3q5","slide":50,"name":"team4-role-2","text":"[TITLE / FUNCTION]","textPreview":"[TITLE / FUNCTION]","textChars":18,"textLines":1,"bbox":[726,554,264,22]}
+{"kind":"textbox","id":"sh/hovqp87q","slide":50,"name":"team4-proof-2","text":"[One-line responsibility]","textPreview":"[One-line responsibility]","textChars":25,"textLines":1,"bbox":[726,600,254,52]}
+{"kind":"shape","id":"sh/2p4rid8b","slide":50,"name":"team4-3-portrait","bbox":[1050,220,264,250]}
+{"kind":"textbox","id":"sh/3qx8ripw","slide":50,"name":"team4-3-portrait-label","text":"REPLACE\nPORTRAIT","textPreview":"REPLACE | PORTRAIT","textChars":16,"textLines":2,"bbox":[1070,311,224,68]}
+{"kind":"textbox","id":"sh/zux8zi54","slide":50,"name":"team4-name-3","text":"[NAME SURNAME]","textPreview":"[NAME SURNAME]","textChars":14,"textLines":1,"bbox":[1050,504,264,36]}
+{"kind":"textbox","id":"sh/eto76d4j","slide":50,"name":"team4-role-3","text":"[TITLE / FUNCTION]","textPreview":"[TITLE / FUNCTION]","textChars":18,"textLines":1,"bbox":[1050,554,264,22]}
+{"kind":"textbox","id":"sh/1wfq1snu","slide":50,"name":"team4-proof-3","text":"[One-line responsibility]","textPreview":"[One-line responsibility]","textChars":25,"textLines":1,"bbox":[1050,600,254,52]}
+{"kind":"notes","id":"nt/6jp1ex","slide":50,"text":"Four-person team page. Keep names and roles concise.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/4m70u6","slide":51,"title":"CASE STUDY / PROOF","textShapes":6}
+{"kind":"textbox","id":"sh/nyxkvatg","slide":51,"name":"content-subtitle-0","text":"CASE STUDY / PROOF","textPreview":"CASE STUDY / PROOF","textChars":18,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/8z6lofa1","slide":51,"name":"content-title-0","text":"[ADD THE CASE STUDY OUTCOME]","textPreview":"[ADD THE CASE STUDY OUTCOME]","textChars":28,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"textbox","id":"sh/90fmxkbm","slide":51,"name":"case-label","text":"[CLIENT / PROJECT / LOCATION]","textPreview":"[CLIENT / PROJECT / LOCATION]","textChars":29,"textLines":1,"bbox":[78,230,500,22]}
+{"kind":"textbox","id":"sh/alo3qps7","slide":51,"name":"case-summary","text":"[Add a two-sentence summary of the challenge, intervention and result.]","textPreview":"[Add a two-sentence summary of the challenge, intervention and result.]","textChars":71,"textLines":1,"bbox":[78,282,520,106]}
+{"kind":"textbox","id":"sh/vmx4zuts","slide":51,"name":"case-details","text":"CHALLENGE  [Add one concise sentence.]\nAPPROACH  [Add one concise sentence.]\nRESULT  [Add one verified outcome.]","textPreview":"CHALLENGE  [Add one concise sentence.] | APPROACH  [Add one concise sentence.] | RESULT  [Add one verified outcome.]","textChars":112,"textLines":3,"bbox":[78,438,520,172]}
+{"kind":"shape","id":"sh/xozm14bi","slide":51,"name":"REPLACE IMAGE-700-220","bbox":[700,638,164,32]}
+{"kind":"textbox","id":"sh/qp43e5sn","slide":51,"name":"REPLACE IMAGE-text-700-220","text":"REPLACE IMAGE","textPreview":"REPLACE IMAGE","textChars":13,"textLines":1,"bbox":[712,645,142,18]}
+{"kind":"image","id":"im/50bexgb2","slide":51,"name":"","alt":"SEARULEA phone mockup","bbox":[700,220,662,450]}
+{"kind":"notes","id":"nt/4m70u6","slide":51,"text":"Case study page. Replace the image and use only verified results.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided SEARULEA phone mockup"}
+{"kind":"slide","id":"sl/w853m2","slide":52,"title":"PROOF / THREE IMAGES","textShapes":11}
+{"kind":"textbox","id":"sh/qxkjy5wf","slide":52,"name":"content-subtitle-0","text":"PROOF / THREE IMAGES","textPreview":"PROOF / THREE IMAGES","textChars":20,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/dkvit0v6","slide":52,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/3ut0nqx4","slide":52,"name":"REPLACE IMAGE-78-220","bbox":[78,518,164,32]}
+{"kind":"textbox","id":"sh/2tkjulwj","slide":52,"name":"REPLACE IMAGE-text-78-220","text":"REPLACE IMAGE","textPreview":"REPLACE IMAGE","textChars":13,"textLines":1,"bbox":[90,525,142,18]}
+{"kind":"textbox","id":"sh/pwbip0fa","slide":52,"name":"gallery3-title-0","text":"[IMAGE TITLE 01]","textPreview":"[IMAGE TITLE 01]","textChars":16,"textLines":1,"bbox":[78,578,408,42]}
+{"kind":"textbox","id":"sh/ov21wvep","slide":52,"name":"gallery3-caption-0","text":"[One sentence explaining what this image proves.]","textPreview":"[One sentence explaining what this image proves.]","textChars":49,"textLines":1,"bbox":[78,632,390,52]}
+{"kind":"shape","id":"sh/mpoj6pwn","slide":52,"name":"REPLACE IMAGE-516-220","bbox":[516,518,164,32]}
+{"kind":"textbox","id":"sh/8fahwrq1","slide":52,"name":"REPLACE IMAGE-text-516-220","text":"REPLACE IMAGE","textPreview":"REPLACE IMAGE","textChars":13,"textLines":1,"bbox":[528,525,142,18]}
+{"kind":"textbox","id":"sh/9gjipw76","slide":52,"name":"gallery3-title-1","text":"[IMAGE TITLE 02]","textPreview":"[IMAGE TITLE 02]","textChars":16,"textLines":1,"bbox":[516,578,408,42]}
+{"kind":"textbox","id":"sh/mdszuh8v","slide":52,"name":"gallery3-caption-1","text":"[One sentence explaining what this image proves.]","textPreview":"[One sentence explaining what this image proves.]","textChars":49,"textLines":1,"bbox":[516,632,390,52]}
+{"kind":"shape","id":"sh/krahsrqp","slide":52,"name":"REPLACE IMAGE-954-220","bbox":[954,518,164,32]}
+{"kind":"textbox","id":"sh/lcjilwra","slide":52,"name":"REPLACE IMAGE-text-954-220","text":"REPLACE IMAGE","textPreview":"REPLACE IMAGE","textChars":13,"textLines":1,"bbox":[966,525,142,18]}
+{"kind":"textbox","id":"sh/yp8zqh8j","slide":52,"name":"gallery3-title-2","text":"[IMAGE TITLE 03]","textPreview":"[IMAGE TITLE 03]","textChars":16,"textLines":1,"bbox":[954,578,408,42]}
+{"kind":"textbox","id":"sh/zq10jm94","slide":52,"name":"gallery3-caption-2","text":"[One sentence explaining what this image proves.]","textPreview":"[One sentence explaining what this image proves.]","textChars":49,"textLines":1,"bbox":[954,632,390,52]}
+{"kind":"image","id":"im/d0jmhkn6","slide":52,"name":"","alt":"SEARULEA signage mockup","bbox":[78,220,408,330]}
+{"kind":"image","id":"im/mps3ep43","slide":52,"name":"","alt":"SEARULEA billboard mockup","bbox":[516,220,408,330]}
+{"kind":"image","id":"im/47mpgn25","slide":52,"name":"","alt":"SEARULEA pole banners mockup","bbox":[954,220,408,330]}
+{"kind":"notes","id":"nt/w853m2","slide":52,"text":"Three-image evidence gallery. Use consistent crops and captions that explain meaning.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided SEARULEA signage, billboard and pole-banner mockups"}
+{"kind":"slide","id":"sl/9ic2ad","slide":53,"title":"PROOF / FOUR IMAGES","textShapes":14}
+{"kind":"textbox","id":"sh/wnidcb2p","slide":53,"name":"content-subtitle-0","text":"PROOF / FOUR IMAGES","textPreview":"PROOF / FOUR IMAGES","textChars":19,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/bm9cj6lk","slide":53,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/9kruhg3e","slide":53,"name":"REPLACE IMAGE-78-220","bbox":[78,488,164,32]}
+{"kind":"textbox","id":"sh/ojid8b2t","slide":53,"name":"REPLACE IMAGE-text-78-220","text":"REPLACE IMAGE","textPreview":"REPLACE IMAGE","textChars":13,"textLines":1,"bbox":[90,495,142,18]}
+{"kind":"textbox","id":"sh/ni9cf6l8","slide":53,"name":"gallery4-title-0","text":"[IMAGE 01]","textPreview":"[IMAGE 01]","textChars":10,"textLines":1,"bbox":[78,552,264,34]}
+{"kind":"textbox","id":"sh/mh0b61kn","slide":53,"name":"gallery4-caption-0","text":"[Short proof-oriented caption.]","textPreview":"[Short proof-oriented caption.]","textChars":31,"textLines":1,"bbox":[78,602,254,56]}
+{"kind":"shape","id":"sh/8f2dkv2x","slide":53,"name":"REPLACE IMAGE-402-220","bbox":[402,488,164,32]}
+{"kind":"textbox","id":"sh/yx8zy5kr","slide":53,"name":"REPLACE IMAGE-text-402-220","text":"REPLACE IMAGE","textPreview":"REPLACE IMAGE","textChars":13,"textLines":1,"bbox":[414,495,142,18]}
+{"kind":"textbox","id":"sh/jyh07alc","slide":53,"name":"gallery4-title-1","text":"[IMAGE 02]","textPreview":"[IMAGE 02]","textChars":10,"textLines":1,"bbox":[402,552,264,34]}
+{"kind":"textbox","id":"sh/kzqh0f2x","slide":53,"name":"gallery4-caption-1","text":"[Short proof-oriented caption.]","textPreview":"[Short proof-oriented caption.]","textChars":31,"textLines":1,"bbox":[402,602,254,56]}
+{"kind":"shape","id":"sh/atozu5kf","slide":53,"name":"REPLACE IMAGE-726-220","bbox":[726,488,164,32]}
+{"kind":"textbox","id":"sh/bux03al0","slide":53,"name":"REPLACE IMAGE-text-726-220","text":"REPLACE IMAGE","textPreview":"REPLACE IMAGE","textChars":13,"textLines":1,"bbox":[738,495,142,18]}
+{"kind":"textbox","id":"sh/wv6hwv2l","slide":53,"name":"gallery4-title-2","text":"[IMAGE 03]","textPreview":"[IMAGE 03]","textChars":10,"textLines":1,"bbox":[726,552,264,34]}
+{"kind":"textbox","id":"sh/xwzi5036","slide":53,"name":"gallery4-caption-2","text":"[Short proof-oriented caption.]","textPreview":"[Short proof-oriented caption.]","textChars":31,"textLines":1,"bbox":[726,602,254,56]}
+{"kind":"shape","id":"sh/vq10zulk","slide":53,"name":"REPLACE IMAGE-1050-220","bbox":[1050,488,164,32]}
+{"kind":"textbox","id":"sh/ry9ob2xk","slide":53,"name":"REPLACE IMAGE-text-1050-220","text":"REPLACE IMAGE","textPreview":"REPLACE IMAGE","textChars":13,"textLines":1,"bbox":[1062,495,142,18]}
+{"kind":"textbox","id":"sh/6x0nixwz","slide":53,"name":"gallery4-title-3","text":"[IMAGE 04]","textPreview":"[IMAGE 04]","textChars":10,"textLines":1,"bbox":[1050,552,264,34]}
+{"kind":"textbox","id":"sh/t0b6dsfq","slide":53,"name":"gallery4-caption-3","text":"[Short proof-oriented caption.]","textPreview":"[Short proof-oriented caption.]","textChars":31,"textLines":1,"bbox":[1050,602,254,56]}
+{"kind":"image","id":"im/bu1gfqx0","slide":53,"name":"","alt":"SEARULEA apparel mockup","bbox":[78,220,264,300]}
+{"kind":"image","id":"im/0nqxgbed","slide":53,"name":"","alt":"SEARULEA stationery mockup","bbox":[402,220,264,300]}
+{"kind":"image","id":"im/690vm5s3","slide":53,"name":"","alt":"SEARULEA tote and cap mockup","bbox":[726,220,264,300]}
+{"kind":"image","id":"im/xkru90rm","slide":53,"name":"","alt":"SEARULEA roll-up mockup","bbox":[1050,220,264,300]}
+{"kind":"notes","id":"nt/9ic2ad","slide":53,"text":"Four-image gallery. Use this only when each visual earns its place.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided SEARULEA apparel, stationery, tote/cap and roll-up mockups"}
+{"kind":"slide","id":"sl/s79nvn","slide":54,"title":"LOCATION / SITE","textShapes":4}
+{"kind":"textbox","id":"sh/9sbm14r6","slide":54,"name":"content-subtitle-0","text":"LOCATION / SITE","textPreview":"LOCATION / SITE","textChars":15,"textLines":1,"bbox":[78,62,700,24]}
+{"kind":"textbox","id":"sh/mpkn698f","slide":54,"name":"content-title-0","text":"[ADD A CLEAR, DECISION-LED TITLE]","textPreview":"[ADD A CLEAR, DECISION-LED TITLE]","textChars":33,"textLines":1,"bbox":[78,94,1110,62]}
+{"kind":"shape","id":"sh/nqt4ze90","slide":54,"name":"location-map-placeholder","bbox":[610,214,752,454]}
+{"kind":"textbox","id":"sh/wv25cjqh","slide":54,"name":"location-map-label","text":"REPLACE WITH VERIFIED\nMAP OR SITE IMAGE","textPreview":"REPLACE WITH VERIFIED | MAP OR SITE IMAGE","textChars":39,"textLines":2,"bbox":[760,380,452,90]}
+{"kind":"shape","id":"sh/xwv65or2","slide":54,"name":"location-accent","bbox":[78,222,118,3]}
+{"kind":"textbox","id":"sh/atkna98r","slide":54,"name":"content-body-0","text":"[LOCATION / SITE NAME]\n[Geographic advantage]\n[Infrastructure or capacity]\n[Access or connectivity]\n[Strategic implication]","textPreview":"[LOCATION / SITE NAME] | [Geographic advantage] | [Infrastructure or capacity] | [Access or connectivity] | [Strategic implication]","textChars":123,"textLines":5,"bbox":[78,238,500,390]}
+{"kind":"notes","id":"nt/s79nvn","slide":54,"text":"Location page. Replace the right frame with a verified map or site photograph.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}
+{"kind":"slide","id":"sl/dnaiyo","slide":55,"title":"[ADD THE FINAL SYNTHESIS OR CALL TO ACTION]","textShapes":3}
+{"kind":"textbox","id":"sh/m10v6xgz","slide":55,"name":"content-title-0","text":"[ADD THE FINAL SYNTHESIS OR CALL TO ACTION]","textPreview":"[ADD THE FINAL SYNTHESIS OR CALL TO ACTION]","textChars":43,"textLines":1,"bbox":[600,344,720,268]}
+{"kind":"textbox","id":"sh/94ruhcfq","slide":55,"name":"content-body-0","text":"[email@searulea.com]\n[www.searulea.com]","textPreview":"[email@searulea.com] | [www.searulea.com]","textChars":39,"textLines":2,"bbox":[760,636,560,58]}
+{"kind":"textbox","id":"sh/83id87y5","slide":55,"name":"closing-cta-note","text":"[Optional next step, decision or meeting date]","textPreview":"[Optional next step, decision or meeting date]","textChars":46,"textLines":1,"bbox":[660,700,660,24]}
+{"kind":"notes","id":"nt/dnaiyo","slide":55,"text":"Primary closing page. Resolve the opening question with a clear next action.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided SEARULEA Sea Foam spiral and logo"}
+{"kind":"slide","id":"sl/e7pxnf","slide":56,"title":"CONTACT / NEXT STEP","textShapes":7}
+{"kind":"textbox","id":"sh/c7i98vml","slide":56,"name":"contact-eyebrow","text":"CONTACT / NEXT STEP","textPreview":"CONTACT / NEXT STEP","textChars":19,"textLines":1,"bbox":[78,274,520,24]}
+{"kind":"textbox","id":"sh/3i9sbq5o","slide":56,"name":"contact-title","text":"[ADD A SHORT CLOSING LINE]","textPreview":"[ADD A SHORT CLOSING LINE]","textChars":26,"textLines":1,"bbox":[78,326,920,130]}
+{"kind":"textbox","id":"sh/2hgr2lo3","slide":56,"name":"contact-row-0","text":"[Name Surname]","textPreview":"[Name Surname]","textChars":14,"textLines":1,"bbox":[78,520,620,26]}
+{"kind":"textbox","id":"sh/p4radgnu","slide":56,"name":"contact-row-1","text":"[Title / Function]","textPreview":"[Title / Function]","textChars":18,"textLines":1,"bbox":[78,558,620,26]}
+{"kind":"textbox","id":"sh/4ji94v69","slide":56,"name":"contact-row-2","text":"[email@searulea.com]","textPreview":"[email@searulea.com]","textChars":20,"textLines":1,"bbox":[78,596,620,26]}
+{"kind":"textbox","id":"sh/netsna58","slide":56,"name":"contact-row-3","text":"[+000 000 000 000]","textPreview":"[+000 000 000 000]","textChars":18,"textLines":1,"bbox":[78,634,620,26]}
+{"kind":"textbox","id":"sh/mdkbe54n","slide":56,"name":"contact-row-4","text":"[www.searulea.com]","textPreview":"[www.searulea.com]","textChars":18,"textLines":1,"bbox":[78,672,620,26]}
+{"kind":"shape","id":"sh/wb6lkr2p","slide":56,"name":"contact-footer-rule","bbox":[78,752,1284,1]}
+{"kind":"image","id":"im/betk7ups","slide":56,"name":"","alt":"SEARULEA logo","bbox":[78,62,300,60]}
+{"kind":"image","id":"im/cf21gzqd","slide":56,"name":"","alt":"SEARULEA gradient spiral","bbox":[1040,40,300,300]}
+{"kind":"notes","id":"nt/e7pxnf","slide":56,"text":"Minimal contact closing. Replace every contact field and verify details.\n\n[Sources]\n- User-provided SEARULEA brand guideline\n- User-provided SEARULEA gradient spiral"}
+{"kind":"slide","id":"sl/ywdhlp","slide":57,"title":"DISCUSSION / Q&A","textShapes":3}
+{"kind":"textbox","id":"sh/2d8vuhwz","slide":57,"name":"content-subtitle-0","text":"DISCUSSION / Q&A","textPreview":"DISCUSSION / Q&A","textChars":16,"textLines":1,"bbox":[78,76,600,24]}
+{"kind":"textbox","id":"sh/p0ze5cva","slide":57,"name":"content-title-0","text":"Questions and next decisions.","textPreview":"Questions and next decisions.","textChars":29,"textLines":1,"bbox":[78,184,1050,300]}
+{"kind":"textbox","id":"sh/4fqdw7e5","slide":57,"name":"content-body-0","text":"[Add the decision, discussion prompt or follow-up action you want to leave visible.]","textPreview":"[Add the decision, discussion prompt or follow-up action you want to leave visible.]","textChars":84,"textLines":1,"bbox":[78,592,850,86]}
+{"kind":"notes","id":"nt/ywdhlp","slide":57,"text":"Q&A page. Keep a useful decision prompt visible instead of a generic thank-you message.\n\n[Sources]\n- User-provided SEARULEA brand guideline"}

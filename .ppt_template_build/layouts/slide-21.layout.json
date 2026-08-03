@@ -1,0 +1,777 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/939rdo",
+    "id": "939rdo",
+    "slide": 21,
+    "layoutId": "246a732e-ba82-404d-9a21-65c123ed25aa",
+    "layoutName": "21 — Profile / Leadership",
+    "masterLayoutId": "2e5371ec-1914-4fff-b47a-41dc00d18ca5",
+    "masterLayoutName": "SEARULEA / Shore",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1440,
+      "height": 810
+    }
+  },
+  "theme": {
+    "colorSchemeName": "SEARULEA 2026",
+    "colors": {
+      "accent1": "#074154",
+      "accent2": "#0A6887",
+      "accent3": "#0C7190",
+      "accent4": "#D0E7ED",
+      "accent5": "#EFE8D8",
+      "accent6": "#D98E2B",
+      "bg1": "#FBF9F4",
+      "bg2": "#D0E7ED",
+      "tx1": "#0B3242",
+      "tx2": "#3E5966",
+      "dk1": "#04293A",
+      "dk2": "#074154",
+      "lt1": "#FFFFFF",
+      "lt2": "#FBF9F4",
+      "hlink": "#0A6887",
+      "folHlink": "#0C7190"
+    },
+    "typefaces": [
+      "DM Sans",
+      "Lora"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "246a732e-ba82-404d-9a21-65c123ed25aa",
+      "name": "21 — Profile / Leadership",
+      "parentLayoutId": "2e5371ec-1914-4fff-b47a-41dc00d18ca5",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout/246a732e-ba82-404d-9a21-65c123ed25aa/1",
+          "id": "1",
+          "name": "placeholder_3",
+          "bbox": [
+            750,
+            356,
+            565,
+            280
+          ],
+          "geometry": "rect",
+          "text": "Profile narrative",
+          "textPreview": "Profile narrative",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 22,
+            "typeface": "DM Sans",
+            "color": "#0B3242",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1.18,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Profile narrative",
+              "lineSpacingPercent": 118000,
+              "resolvedTextStyle": {
+                "fontSize": 22,
+                "typeface": "DM Sans",
+                "color": "#0B3242",
+                "alignment": "left",
+                "lineSpacing": 1.18
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Profile narrative",
+                  "fontSize": 22,
+                  "typeface": "DM Sans",
+                  "color": "#0B3242",
+                  "alignment": "left",
+                  "lineSpacing": 1.18
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "2e5371ec-1914-4fff-b47a-41dc00d18ca5",
+      "name": "SEARULEA / Shore",
+      "type": "master",
+      "backgroundColor": "#EFE8D8",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master/2e5371ec-1914-4fff-b47a-41dc00d18ca5/1",
+          "id": "1",
+          "bbox": [
+            1317,
+            45,
+            44,
+            44
+          ],
+          "alt": "SEARULEA monogram",
+          "contentType": "image/png",
+          "imageFit": "contain",
+          "asset": {
+            "assetId": "c83ce3b7-c1fa-48f2-b897-395ebe26961c",
+            "contentType": "image/png",
+            "byteLength": 79857
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wrmh4nm9",
+      "id": "1",
+      "name": "content-subtitle-0",
+      "bbox": [
+        78,
+        62,
+        700,
+        24
+      ],
+      "geometry": "rect",
+      "text": "LEADERSHIP / PROFILE",
+      "textPreview": "LEADERSHIP / PROFILE",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "DM Sans",
+        "color": "#0A6887",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LEADERSHIP / PROFILE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LEADERSHIP / PROFILE",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 15,
+            "typeface": "DM Sans",
+            "color": "#0A6887",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "LEADERSHIP / PROFILE",
+              "anchor": 1,
+              "fontSize": 15,
+              "typeface": "DM Sans",
+              "color": "#0A6887",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bqdgvilo",
+      "id": "2",
+      "name": "content-title-0",
+      "bbox": [
+        78,
+        94,
+        1110,
+        62
+      ],
+      "geometry": "rect",
+      "text": "Leadership rooted in execution.",
+      "textPreview": "Leadership rooted in execution.",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 48,
+        "typeface": "Lora",
+        "color": "#074154",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Leadership rooted in execution."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Leadership rooted in execution.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 48,
+            "typeface": "Lora",
+            "color": "#074154",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Leadership rooted in execution.",
+              "anchor": 1,
+              "fontSize": 48,
+              "typeface": "Lora",
+              "color": "#074154",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/vuhsj25s",
+      "id": "3",
+      "bbox": [
+        78,
+        210,
+        590,
+        470
+      ],
+      "alt": "SEARULEA team member",
+      "contentType": "image/jpeg",
+      "imageCrop": {
+        "left": 0,
+        "top": 0.05,
+        "right": 0,
+        "bottom": 0.08
+      },
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "d81331b8-f33b-4dc3-898e-edb17d765f0e",
+        "contentType": "image/jpeg",
+        "byteLength": 626856
+      }
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lwfi1s3q",
+      "id": "4",
+      "name": "profile-name",
+      "bbox": [
+        750,
+        216,
+        565,
+        60
+      ],
+      "geometry": "rect",
+      "text": "Name Surname",
+      "textPreview": "Name Surname",
+      "resolvedFontSize": 39,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 39,
+        "typeface": "Lora",
+        "color": "#074154",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Name Surname"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Name Surname",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "fontSize": 39,
+            "typeface": "Lora",
+            "color": "#074154",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Name Surname",
+              "fontSize": 39,
+              "typeface": "Lora",
+              "color": "#074154",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kvmh8nm5",
+      "id": "5",
+      "name": "profile-role",
+      "bbox": [
+        750,
+        300,
+        565,
+        24
+      ],
+      "geometry": "rect",
+      "text": "TITLE / FUNCTION",
+      "textPreview": "TITLE / FUNCTION",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "DM Sans",
+        "color": "#0A6887",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "TITLE / FUNCTION"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "TITLE / FUNCTION",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "DM Sans",
+            "color": "#0A6887",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "TITLE / FUNCTION",
+              "fontSize": 14,
+              "typeface": "DM Sans",
+              "color": "#0A6887",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jud0z2lk",
+      "id": "6",
+      "name": "content-body-0",
+      "bbox": [
+        750,
+        356,
+        565,
+        280
+      ],
+      "geometry": "rect",
+      "text": "Use a short biography focused on relevant experience, operating credibility and the person’s role in the decision at hand.\nAdd two or three proof points rather than a full career history.\nRelevant experience\nSpecific responsibility\nDecision or outcome owned",
+      "textPreview": "Use a short biography focused on relevant experience, operating credibility and the person’s role in the decision at hand. | Add two or t...",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "DM Sans",
+        "color": "#0B3242",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 8,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Use a short biography focused on relevant experience,"
+          },
+          {
+            "index": 2,
+            "text": "operating credibility and the person’s role in the decision"
+          },
+          {
+            "index": 3,
+            "text": "at hand."
+          },
+          {
+            "index": 4,
+            "text": "Add two or three proof points rather than a full career"
+          },
+          {
+            "index": 5,
+            "text": "history."
+          },
+          {
+            "index": 6,
+            "text": "• Relevant experience"
+          },
+          {
+            "index": 7,
+            "text": "• Specific responsibility"
+          },
+          {
+            "index": 8,
+            "text": "• Decision or outcome owned"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Use a short biography focused on relevant experience, operating credibility and the person’s role in the decision at hand.",
+          "lineSpacingPercent": 117000,
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 21,
+            "typeface": "DM Sans",
+            "color": "#0B3242",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1.17,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Use a short biography focused on relevant experience, operating credibility and the person’s role in the decision at hand.",
+              "anchor": 1,
+              "fontSize": 21,
+              "typeface": "DM Sans",
+              "color": "#0B3242",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "lineSpacing": 1.17,
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "Add two or three proof points rather than a full career history.",
+          "lineSpacingPercent": 117000,
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 21,
+            "typeface": "DM Sans",
+            "color": "#0B3242",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1.17,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Add two or three proof points rather than a full career history.",
+              "anchor": 1,
+              "fontSize": 21,
+              "typeface": "DM Sans",
+              "color": "#0B3242",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "lineSpacing": 1.17,
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "Relevant experience",
+          "bulletCharacter": "•",
+          "marginLeft": 22,
+          "indent": -12,
+          "lineSpacingPercent": 117000,
+          "spaceAfter": 10,
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 21,
+            "typeface": "DM Sans",
+            "color": "#0B3242",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1.17,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Relevant experience",
+              "anchor": 1,
+              "fontSize": 21,
+              "typeface": "DM Sans",
+              "color": "#0B3242",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "lineSpacing": 1.17,
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "Specific responsibility",
+          "bulletCharacter": "•",
+          "marginLeft": 22,
+          "indent": -12,
+          "lineSpacingPercent": 117000,
+          "spaceAfter": 10,
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 21,
+            "typeface": "DM Sans",
+            "color": "#0B3242",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1.17,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Specific responsibility",
+              "anchor": 1,
+              "fontSize": 21,
+              "typeface": "DM Sans",
+              "color": "#0B3242",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "lineSpacing": 1.17,
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "Decision or outcome owned",
+          "bulletCharacter": "•",
+          "marginLeft": 22,
+          "indent": -12,
+          "lineSpacingPercent": 117000,
+          "spaceAfter": 10,
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 21,
+            "typeface": "DM Sans",
+            "color": "#0B3242",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1.17,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Decision or outcome owned",
+              "anchor": 1,
+              "fontSize": 21,
+              "typeface": "DM Sans",
+              "color": "#0B3242",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "lineSpacing": 1.17,
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

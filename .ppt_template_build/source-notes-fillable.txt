@@ -1,0 +1,13 @@
+SEARULEA READY-TO-FILL TEMPLATE — SOURCE NOTES
+
+Visual and brand sources
+- User-provided SEARULEA brand guideline HTML.
+- User-provided SEARULEA presentation PDF.
+- User-provided SEARULEA logos, monograms, fish and spiral motifs.
+- User-provided SEARULEA environmental photography and brand mockups.
+
+Content policy
+- The deck contains authoring prompts only, not externally researched claims.
+- Native charts and tables use neutral example values solely to keep the objects editable.
+- Every slide includes reuse guidance and a [Sources] block in speaker notes.
+

@@ -47,12 +47,12 @@
     "sov.title": "Ancrée au Maroc <em>par conviction.</em>",
     "sov.pull":  "SEARULEA ne produit pas seulement du poisson. Elle construit la capacité du Maroc à ne plus dépendre d’ailleurs pour le faire.",
     "sov.p1":    "Le Maroc dispose de deux façades maritimes, de 3 500 kilomètres de côtes et d’un accès direct au marché européen. Pourtant, il importe encore ses alevins et achète son alimentation piscicole à l’étranger — pendant que des opérateurs étrangers structuraient une industrie que le Maroc était naturellement en mesure de développer.",
-    "sov.p2":    "<strong>SEARULEA change cela, structurellement.</strong> Concession offshore signée. Hatchery et unité d’alimentation inscrites dans notre feuille de route. Ce qui se construit à Ras El Ma aujourd’hui, l’Algérie, la Tunisie et la Mauritanie le regarderont demain — la preuve qu’un opérateur africain peut atteindre les standards export internationaux dès le premier jour.",
+    "sov.p2":    "<strong>SEARULEA change cela, structurellement.</strong> Concession offshore signée. Hatchery et unité d’alimentation inscrites dans notre feuille de route. Ce qui se construit à Ras El Ma aujourd’hui, l’Afrique le regardera demain — la preuve qu’un opérateur africain peut atteindre les standards export internationaux dès le premier jour.",
     "sov.p3":    "<strong>Depuis nos côtes, pour le monde entier.</strong>",
 
     /* Engineered to Last */
     "proof.index":    "03 — Conçu pour durer",
-    "proof.title":    "Les standards <em>dans le CAPEX,</em><br>pas dans la brochure.",
+    "proof.title":    "Les standards <em>intégrés au CAPEX.</em><br>Pas la brochure.",
     "proof.c1_label": "Hectares · concession offshore",
     "proof.c1_body":  "Concession signée par l’État à Ras El Ma. Contrôle opérationnel long terme sur une zone d’élevage méditerranéenne dimensionnée pour la production industrielle.",
     "proof.c2_label": "Volume annuel en 2031",

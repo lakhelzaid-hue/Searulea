@@ -1,0 +1,512 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/f2qvsq",
+    "id": "f2qvsq",
+    "slide": 2,
+    "layoutId": "24bc9513-6de3-4a13-829d-238788bb1d9e",
+    "layoutName": "02 — Cover / Deep Sea",
+    "masterLayoutId": "bc53b778-d7de-4b97-93f1-24079e40a890",
+    "masterLayoutName": "SEARULEA / Cover",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1440,
+      "height": 810
+    }
+  },
+  "theme": {
+    "colorSchemeName": "SEARULEA 2026",
+    "colors": {
+      "accent1": "#074154",
+      "accent2": "#0A6887",
+      "accent3": "#0C7190",
+      "accent4": "#D0E7ED",
+      "accent5": "#EFE8D8",
+      "accent6": "#D98E2B",
+      "bg1": "#FBF9F4",
+      "bg2": "#D0E7ED",
+      "tx1": "#0B3242",
+      "tx2": "#3E5966",
+      "dk1": "#04293A",
+      "dk2": "#074154",
+      "lt1": "#FFFFFF",
+      "lt2": "#FBF9F4",
+      "hlink": "#0A6887",
+      "folHlink": "#0C7190"
+    },
+    "typefaces": [
+      "DM Sans",
+      "Lora"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "24bc9513-6de3-4a13-829d-238788bb1d9e",
+      "name": "02 — Cover / Deep Sea",
+      "parentLayoutId": "bc53b778-d7de-4b97-93f1-24079e40a890",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout/24bc9513-6de3-4a13-829d-238788bb1d9e/1",
+          "id": "1",
+          "name": "placeholder_4",
+          "bbox": [
+            84,
+            718,
+            540,
+            24
+          ],
+          "geometry": "rect",
+          "text": "Month Year · Presenter · Confidential",
+          "textPreview": "Month Year · Presenter · Confidential",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 14,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Month Year · Presenter · Confidential",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 14,
+                "typeface": "DM Sans",
+                "color": "#D0E7ED",
+                "alignment": "left",
+                "lineSpacing": 1
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Month Year · Presenter · Confidential",
+                  "fontSize": 14,
+                  "typeface": "DM Sans",
+                  "color": "#D0E7ED",
+                  "alignment": "left",
+                  "lineSpacing": 1
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "bc53b778-d7de-4b97-93f1-24079e40a890",
+      "name": "SEARULEA / Cover",
+      "type": "master",
+      "backgroundColor": "#074154",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/qxofit4j",
+      "id": "1",
+      "bbox": [
+        82,
+        56,
+        312,
+        62
+      ],
+      "alt": "SEARULEA horizontal logo",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "f0bc741f-d9ea-4c8a-a2eb-83f44227db97",
+        "contentType": "image/png",
+        "byteLength": 56404
+      }
+    },
+    {
+      "order": 2,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/d0zyt8na",
+      "id": "2",
+      "bbox": [
+        1040,
+        0,
+        400,
+        400
+      ],
+      "alt": "SEARULEA gradient spiral",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "4bc804fc-adaf-428e-850d-e8c24fa5c6dc",
+        "contentType": "image/png",
+        "byteLength": 989693
+      }
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5on2dcr6",
+      "id": "3",
+      "name": "content-body-0",
+      "bbox": [
+        82,
+        238,
+        560,
+        24
+      ],
+      "geometry": "rect",
+      "text": "INVESTOR / TRADE / INSTITUTIONAL",
+      "textPreview": "INVESTOR / TRADE / INSTITUTIONAL",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "DM Sans",
+        "color": "#D0E7ED",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "INVESTOR / TRADE / INSTITUTIONAL"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "INVESTOR / TRADE / INSTITUTIONAL",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 15,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "INVESTOR / TRADE / INSTITUTIONAL",
+              "anchor": 1,
+              "fontSize": 15,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6pw36hsr",
+      "id": "4",
+      "name": "content-title-0",
+      "bbox": [
+        82,
+        286,
+        820,
+        190
+      ],
+      "geometry": "rect",
+      "text": "From our sea to your port.",
+      "textPreview": "From our sea to your port.",
+      "resolvedFontSize": 84,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 84,
+        "typeface": "Lora",
+        "color": "#FBF9F4",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "From our sea to"
+          },
+          {
+            "index": 2,
+            "text": "your port."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "From our sea to your port.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 84,
+            "typeface": "Lora",
+            "color": "#FBF9F4",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "From our sea to your port.",
+              "anchor": 1,
+              "fontSize": 84,
+              "typeface": "Lora",
+              "color": "#FBF9F4",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rqpkfm9c",
+      "id": "5",
+      "name": "content-subtitle-0",
+      "bbox": [
+        84,
+        510,
+        700,
+        78
+      ],
+      "geometry": "rect",
+      "text": "Use the dark cover when the presentation needs a more formal, institutional opening.",
+      "textPreview": "Use the dark cover when the presentation needs a more formal, institutional opening.",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "DM Sans",
+        "color": "#D0E7ED",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Use the dark cover when the presentation needs a more"
+          },
+          {
+            "index": 2,
+            "text": "formal, institutional opening."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Use the dark cover when the presentation needs a more formal, institutional opening.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 25,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Use the dark cover when the presentation needs a more formal, institutional opening.",
+              "anchor": 1,
+              "fontSize": 25,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sryl87qh",
+      "id": "6",
+      "name": "content-body-1",
+      "bbox": [
+        84,
+        718,
+        540,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Month Year · Presenter · Confidential",
+      "textPreview": "Month Year · Presenter · Confidential",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "DM Sans",
+        "color": "#D0E7ED",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Month Year · Presenter · Confidential"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Month Year · Presenter · Confidential",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 14,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Month Year · Presenter · Confidential",
+              "anchor": 1,
+              "fontSize": 14,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

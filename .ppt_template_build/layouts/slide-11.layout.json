@@ -1,0 +1,452 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/g76ow3",
+    "id": "g76ow3",
+    "slide": 11,
+    "layoutId": "d796a91c-7886-4b19-8867-637e22de3d71",
+    "layoutName": "11 — Photo / Quote",
+    "masterLayoutId": "bc53b778-d7de-4b97-93f1-24079e40a890",
+    "masterLayoutName": "SEARULEA / Cover",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1440,
+      "height": 810
+    }
+  },
+  "theme": {
+    "colorSchemeName": "SEARULEA 2026",
+    "colors": {
+      "accent1": "#074154",
+      "accent2": "#0A6887",
+      "accent3": "#0C7190",
+      "accent4": "#D0E7ED",
+      "accent5": "#EFE8D8",
+      "accent6": "#D98E2B",
+      "bg1": "#FBF9F4",
+      "bg2": "#D0E7ED",
+      "tx1": "#0B3242",
+      "tx2": "#3E5966",
+      "dk1": "#04293A",
+      "dk2": "#074154",
+      "lt1": "#FFFFFF",
+      "lt2": "#FBF9F4",
+      "hlink": "#0A6887",
+      "folHlink": "#0C7190"
+    },
+    "typefaces": [
+      "DM Sans",
+      "Lora"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "d796a91c-7886-4b19-8867-637e22de3d71",
+      "name": "11 — Photo / Quote",
+      "parentLayoutId": "bc53b778-d7de-4b97-93f1-24079e40a890",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout/d796a91c-7886-4b19-8867-637e22de3d71/1",
+          "id": "1",
+          "name": "placeholder_3",
+          "bbox": [
+            84,
+            692,
+            520,
+            44
+          ],
+          "geometry": "rect",
+          "text": "Name · Role · Organisation",
+          "textPreview": "Name · Role · Organisation",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 18,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1.08,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Name · Role · Organisation",
+              "lineSpacingPercent": 108000,
+              "resolvedTextStyle": {
+                "fontSize": 18,
+                "typeface": "DM Sans",
+                "color": "#D0E7ED",
+                "bold": true,
+                "alignment": "left",
+                "lineSpacing": 1.08
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Name · Role · Organisation",
+                  "fontSize": 18,
+                  "typeface": "DM Sans",
+                  "color": "#D0E7ED",
+                  "bold": true,
+                  "alignment": "left",
+                  "lineSpacing": 1.08
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "bc53b778-d7de-4b97-93f1-24079e40a890",
+      "name": "SEARULEA / Cover",
+      "type": "master",
+      "backgroundColor": "#074154",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/e1onu183",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1440,
+        810
+      ],
+      "alt": "Fresh operations at port",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "832299d0-1357-42af-8c5a-ef9d7e62ab0f",
+        "contentType": "image/jpeg",
+        "byteLength": 811573
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4zat43et",
+      "id": "2",
+      "name": "photo-quote-panel",
+      "bbox": [
+        0,
+        0,
+        718,
+        810
+      ],
+      "geometry": "rect",
+      "fillColor": "#074154",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/0365wrq9",
+      "id": "3",
+      "bbox": [
+        82,
+        56,
+        280,
+        56
+      ],
+      "alt": "SEARULEA horizontal logo",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "522dd087-3f72-4183-8b40-c235a509155e",
+        "contentType": "image/png",
+        "byteLength": 56404
+      }
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/61cb6dwz",
+      "id": "4",
+      "name": "content-subtitle-0",
+      "bbox": [
+        82,
+        220,
+        600,
+        24
+      ],
+      "geometry": "rect",
+      "text": "PROOF / PARTNERSHIP",
+      "textPreview": "PROOF / PARTNERSHIP",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "DM Sans",
+        "color": "#D0E7ED",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PROOF / PARTNERSHIP"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PROOF / PARTNERSHIP",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 15,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PROOF / PARTNERSHIP",
+              "anchor": 1,
+              "fontSize": 15,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r2lszydk",
+      "id": "5",
+      "name": "content-title-0",
+      "bbox": [
+        82,
+        274,
+        560,
+        360
+      ],
+      "geometry": "rect",
+      "text": "“One operator. One documented chain. One standard.”",
+      "textPreview": "“One operator. One documented chain. One standard.”",
+      "resolvedFontSize": 58,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 58,
+        "typeface": "Lora",
+        "color": "#FBF9F4",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "“One operator. One"
+          },
+          {
+            "index": 2,
+            "text": "documented chain."
+          },
+          {
+            "index": 3,
+            "text": "One standard.”"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "“One operator. One documented chain. One standard.”",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 58,
+            "typeface": "Lora",
+            "color": "#FBF9F4",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "“One operator. One documented chain. One standard.”",
+              "anchor": 1,
+              "fontSize": 58,
+              "typeface": "Lora",
+              "color": "#FBF9F4",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s3ut83e5",
+      "id": "6",
+      "name": "content-body-0",
+      "bbox": [
+        84,
+        692,
+        520,
+        44
+      ],
+      "geometry": "rect",
+      "text": "Client or partner name · Role · Organisation",
+      "textPreview": "Client or partner name · Role · Organisation",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "DM Sans",
+        "color": "#D0E7ED",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Client or partner name · Role · Organisation"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Client or partner name · Role · Organisation",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 18,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Client or partner name · Role · Organisation",
+              "anchor": 1,
+              "fontSize": 18,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

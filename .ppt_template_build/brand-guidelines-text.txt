@@ -1,0 +1,647 @@
+SEARULEA — Brand Guidelines
+Brand Guidelines — 2026
+Top
+Foreword
+Strategic Foundation
+Tone of Voice
+Visual Identity
+Applications
+Downloads
+SEARULEA
+Brand Guidelines
+From our sea to your port.
+Descend
+Foreword
+A working tool, not a rulebook.
+SEARULEA is building the infrastructure of Moroccan aquaculture — an integrated value chain at Ras El Ma, Oriental Region, designed to operate as a single system. This document defines how the brand looks, speaks and behaves. It is a working tool for everyone who designs, writes or communicates on behalf of SEARULEA — to ensure consistency, precision and impact in every communication.
+Strategic Foundation
+Sections 1.1 — 1.8
+Built to structure an industry.
+1.1
+Our Mission
+SEARULEA builds Morocco's capacity to produce, transform and scale aquaculture on its own terms —
+an integrated value chain designed to meet international standards from day one.
+1.2
+Our Vision
+To make Ras El Ma the reference point of Mediterranean aquaculture — a model that the wider North African industry will look to replicate: integrated, traceable, biosafe and sovereign.
+1.3
+Core Values
+Four commitments, engineered into the CAPEX — never added later.
+I
+Rigour
+Precision without excess. Discipline, operational control and technical standards under every decision.
+II
+Integration
+Offshore farming, fresh processing, refrigerated export and traceability — one stage supports the next.
+III
+Sovereignty
+The capacity to produce, transform and create value locally, on Morocco's own terms.
+IV
+Sustainability
+Biosafety, solar energy and social commitments built into the structure — never an afterthought.
+1.4
+Our Story
+Morocco has 3,500 kilometres of coastline and direct access to European markets. Yet juveniles are imported, feed is sourced abroad, and foreign operators structure an industry Morocco is naturally positioned to lead. SEARULEA was founded by Abdellah Mansouri to change that. Structurally. In Ras El Ma, on a 375-hectare offshore government concession, an integrated aquaculture value chain now operates as a single system.
+1.5
+Purpose
+SEARULEA exists to build the infrastructure of Moroccan aquaculture — not only to produce fish. Over time, hatchery and feed operations are designed to support the wider development of aquaculture across North Africa. What is built in the Oriental Region today will be observed across the region tomorrow.
+1.6
+Brand Overview
+375
+hectares of offshore government concession
+2,790
+tonnes of annual capacity by 2031, in documented phases
+40%
+women across the workforce, built into the project
+3
+species — sea bream, seabass and meagre
+1.7
+Target Audience
+Clients & Distributors
+Importers, wholesalers and food-service distributors seeking certified sea bream, seabass and meagre — complete documentation, one point of contact.
+Press & Institutions
+Business and trade media, public agencies and institutions following Morocco's blue economy and food sovereignty.
+Investors & Partners
+Funds and strategic partners backing aquaculture infrastructure: secured concession, documented phases, established partnerships.
+1.8
+Customer Persona
+Two archetypes anchor every message.
+Pieter Van Doorn, 56 — Head of Procurement, Rotterdam. Selects suppliers on reliability and documentation, never price alone.
+Salma Benjelloun, 44 — Investment Director, Casablanca/London. Invests where fundamentals, documentation and governance align.
+Tone of Voice
+Part 02 — the voice at a glance
+A voice that demonstrates, not declares.
+Where SEARULEA sits on each register scale. The complete writing reference — style rules, do & don't, key messages, vocabulary and the manifesto — lives on its own page below.
+Youthful
+Mature
+Playful
+Serious
+Emotive
+Technical
+Modest
+Confident
+Local
+International
+Loose
+Precise
+Open the companion document
+Brand Storytelling — the full reference
+Register, five style rules, do & don't, key messages for clients, press and investors, the vocabulary, signature expressions and the manifesto.
+→
+Visual Identity
+Part 1 — Logo · Sections 1.1 — 1.8
+A mark drawn in droplets.
+1.1
+Our Logo
+The primary lockup: the droplet-triangle symbol beside the wide-tracked serif wordmark.
+Primary lockup — teal on Pearl
+1.2
+Logo Composition
+Two fixed parts: symbol and wordmark. The spacing between them equals the symbol's width; they are never recombined, re-spaced or swapped.
+The symbol
+The wordmark
+1.3
+Logo Explanation
+Droplets rising in ordered formation — water organised with intention. The triangle reads as the final A of the name, as growth, and as the concession seen from above. Nothing in the mark is decorative.
+1.4
+Logo Versions
+Four colourways. Teal on light grounds; White or Sky on Deep Sea and photography; Black only for one-colour print.
+PNG ↓
+Teal
+PNG ↓
+White
+PNG ↓
+Sky
+PNG ↓
+Black — 1-colour print
+1.5
+Logo Anatomy
+The symbol height defines the unit
+X
+. Wordmark cap-height = 0.62 X · gap symbol→wordmark = 1 X · letter tracking = +280.
+X
+0.62 X
+1 X
+1.6
+Logo Clearspace & Minimum Size
+Clearspace on all sides equals X — the height of the droplet symbol. Minimum width: 32 px on screen, 24 mm in print; below that, use the symbol alone.
+X
+X
+X
+X
+1.7
+Logo Usage — the lockup system
+Four sanctioned forms, one decision rule: the space chooses the lockup, never taste. Note the detail that makes the system: the wordmark's final A is the bare triangle apex — the monogram already lives inside the logotype. Never draw a second crossbar A, and never place the monogram beside the wordmark in any arrangement other than the two lockups below.
+Default — use first
+Horizontal lockup
+Monogram + logotype side by side. Headers, letterheads, signage, footers — any space wider than 3:1 and at least 32 px / 24 mm wide.
+Centred compositions
+Stacked lockup
+Monogram above logotype — the business-card composition. Covers, packaging fronts, roll-ups, square and portrait spaces.
+When the mark is already present
+Logotype alone
+The wordmark with its apex-A. Card backs, page footers, spines — wherever the monogram already appears nearby, or strips too shallow for the lockup.
+Below 32 px / 24 mm
+Monogram alone
+Avatars, favicons, stamps, embroidery, app icons. The smallest ambassador of the brand — clearspace of one droplet row.
+1.7.1
+Sizes at true scale
+220 px — hero
+120 px — header
+64 px — compact
+16 px — monogram floor
+1.7.2
+Contrast — approved grounds
+Teal on light grounds holds 8.9:1 against Pearl and 7.4:1 against Sea Foam; White on Deep Sea holds 9.8:1. Photography always takes a Deep Sea scrim of at least 40% before the logo lands on it.
+Foam · 7.4:1
+Shore · 8.1:1
+Deep Sea · 9.8:1
+Ink · packaging only
+1.8
+Logo Misuse
+If it needs one of these to work, the layout is wrong — change the layout, never the logo.
+Don't stretch or condense
+Don't rotate
+Don't recolour off-palette
+Don't add effects
+Don't use low contrast
+SEARULEA
+Don't rebuild the lockup
+Part 2 — Monogram · Sections 2.1 — 2.5
+The droplet triangle, alone.
+2.1
+Monogram
+Where space is tight — avatars, favicons, stamps, embroidery — the monogram stands in for the full lockup.
+PNG ↓
+On Deep Sea
+PNG ↓
+On Pearl
+On Sea Foam
+2.2
+Monogram Anatomy
+Droplets in stepped rows closing to a single apex. Dot sizes step down by a fixed ratio; spacing is optical, never redrawn.
+The fixed cluster — never redrawn
+Construction
+Rows step 4 · 3 · 2 to the apex.
+Dot ratio ≈ 0.78 per step.
+Optical centre sits one dot above geometric centre — align to the optical centre.
+2.3
+Monogram Clearspace
+Clearspace equals the height of one droplet row on all sides. Minimum size: 16 px / 8 mm.
+1 row
+1 row
+1 row
+1 row
+2.4
+Monogram Usage
+Profile pictures, favicons, wax seals, embroidery, app icons, watermark corners. Always alone — never beside the full lockup on the same surface.
+2.5
+Monogram Misuse
+Don't flip or rotate
+Don't recolour
+Don't pattern or overlap
+Part 3 — Typography · Sections 3.1 — 3.5
+A serif that carries conviction.
+3.1
+Primary Typefaces
+Aa
+Lora
+Display · Headlines · Numbers
+Medium 500 for headlines, Regular 400 for quotes. Tracked +280 for the wordmark treatment only.
+ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789
+Aa
+DM Sans
+Body · Labels · Data
+Regular 400 for running text, Medium 500 for emphasis, caps +220 tracking for eyebrows.
+ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789
+3.2
+Replacement Typefaces
+When Lora and DM Sans are unavailable — shared documents, email clients, office templates — substitute
+Georgia
+for display and
+Arial / Helvetica
+for body. Never substitute decorative or condensed faces.
+Display fallback
+Georgia — From our sea to your port.
+Body fallback
+Arial — All products are certified by ONSSA and produced in accordance with European standards.
+3.3
+Typography Hierarchy
+Display / Lora 500
+From our sea to your port.
+Headline / Lora 500
+Certified offshore production in the Mediterranean
+Body / DM Sans 400
+Sea bream, seabass and meagre raised at Ras El Ma and exported through Ras Kebdana with batch-level documentation.
+Label / DM Sans 600
+Integration · Sovereignty · Sustainability
+3.4
+Application
+Type in the wild: one Lora statement per surface, DM Sans doing the work below it.
+Letterhead — the system applied
+JPG ↓
+3.5
+Typography Misuse
+NEVER SET LONG LORA TEXT IN TRACKED CAPS
+No tracked-caps paragraphs
+Other typefaces
+No third typefaces
+Body text with crushed tracking becomes unreadable fast.
+No negative tracking on body
+Part 4 — Colors · Sections 4.1 — 4.6
+Drawn from depth.
+4.1
+Proportion
+Deep Sea 38
+Pearl 24
+Foam 16
+Shore 12
+Tide 6
+4
+4.2
+Primary Colors
+Click a swatch to copy its hex.
+PANTONE 3035 C
+Deep Sea
+HEX
+#074154
+RGB
+7 · 65 · 84
+CMYK
+92 · 23 · 0 · 67
+PANTONE 7706 C
+Tide
+HEX
+#0A6887
+RGB
+10 · 104 · 135
+CMYK
+93 · 23 · 0 · 47
+PANTONE 7708 C
+Lagoon
+HEX
+#0C7190
+RGB
+12 · 113 · 144
+CMYK
+92 · 22 · 0 · 44
+4.3
+Secondary Colors and Tints
+Light grounds plus working tints of the primaries. Tints are for charts, fills and hover states — never for the logo.
+PANTONE 656 C
+Sea Foam
+HEX
+#D0E7ED
+RGB
+208 · 231 · 237
+CMYK
+12 · 3 · 0 · 7
+PANTONE 7527 C
+Shore
+HEX
+#EFE8D8
+RGB
+239 · 232 · 216
+CMYK
+0 · 3 · 10 · 6
+PANTONE 9184 C
+Pearl
+HEX
+#FBF9F4
+RGB
+251 · 249 · 244
+CMYK
+0 · 1 · 3 · 2
+Deep Sea
+100
+80
+60
+40
+20
+Tide
+100
+80
+60
+40
+20
+4.4
+Color Usage
+Deep Sea leads every composition. Pearl and Shore carry documents. Sea Foam lifts. The spiral's amber is the identity's only warm note — it arrives with the spiral and never appears as a flat brand colour.
+Statements
+Pearl on Deep Sea
+Documents
+Deep Sea on Pearl
+Editorial
+Deep Sea on Shore
+Highlights
+Deep Sea on Foam
+4.5
+Color Misuse
+No amber as a ground
+No teal-on-teal pairs
+No off-palette gradients
+4.6
+Color Values Explanation
+HEX / RGB
+Screen values — web, decks, social, product UI. Always use the exact values; never eyedrop from photos.
+CMYK
+Four-colour offset and digital print. Values are calibrated for coated stock; request a proof for uncoated.
+PANTONE
+Spot-colour print, packaging, signage and fabric dyeing — the reference when colour must not drift.
+Part 5 — Photography · Sections 5.1 — 5.3
+Documentary, not decorative.
+5.1
+Photography Overview
+Offshore operations
+People & craft
+Fresh at port
+Traceability
+Cold chain
+The coast — Ras El Ma
+5.2
+Principles
+Sea-toned
+Teal water, warm stone, neutral workwear. No saturated filters.
+Precise frames
+Horizons level, geometry respected — photographed like engineering.
+Working people
+Real roles mid-task. Never posed, never stock.
+Evidence first
+Every image proves something: scale, freshness, control.
+5.3
+Image Usage
+Full-bleed with a Deep Sea scrim (40–90%) when type sits on top; uncropped and clean when standing alone. Never mirror, never heavy-filter, never place the logo on busy areas.
+Built to last.
+Scrim 40% — hero use
+One chain, one operator.
+Scrim 90% — text panels
+Part 6 — Brand Elements · Sections 6.1 — 6.3
+Water, organised.
+6.1
+Iconography
+Icons are built from the droplet vocabulary — dotted forms, single palette colour, one per composition.
+The fish — packaging, wayfinding and moments of warmth.
+PNG ↓
+The droplet triangle — stamps, bullets, section markers.
+PNG ↓
+6.2
+Style Element — The Spiral
+A phyllotaxis vortex — the identity's only warm note in its gradient form, plus solid Deep Sea and Sea Foam colourways. Crop it generously at panel edges; never place it inside the logo lockup.
+Gradient — hero moments
+PNG ↓
+Deep Sea — on light grounds
+PNG ↓
+Sea Foam — on Deep Sea
+PNG ↓
+6.3
+Patterns and Textures
+Two textures only: the spiral cropped as a corner pattern, and the card stock's depth gradient. Applied at 10–25% opacity behind content, or full-strength on dedicated panels.
+The depth gradient — print texture
+Part 7 — Grid Systems and Layouts · Sections 7.1 — 7.4
+The grid behind everything.
+7.1
+Margins & Columns
+Print: 20 mm margins, 6 columns. Screen: a 12-column safe area with 96 px insets on social.
+7.1 Letterhead — 6-col · 20 mm
+JPG ↓
+7.3 Deck title — 12-col
+JPG ↓
+7.3 Deck content — 6 + 6
+JPG ↓
+7.3 Social post — 96 px safe
+JPG ↓
+7.2
+Types of Grid Systems
+Two grids only: the 6-column manuscript grid for print, the 12-column modular grid for screens and decks. Nothing bespoke.
+7.4
+Layout Print
+Print flats follow the manuscript grid with the footer rule anchored to the bottom margin.
+A4 letterhead
+JPG ↓
+DL envelope
+JPG ↓
+Compliment slip
+JPG ↓
+Applications
+Part 1 — Print Materials · 1.1 — 1.7
+One system, every surface.
+1.1
+Stationery
+Business cards — 85 × 55 mm, uncoated 350 gsm
+JPG ↓
+The suite — letterhead · envelope · card
+JPG ↓
+Card front — artwork
+JPG ↓
+Card back — artwork
+JPG ↓
+1.2
+Posters
+One statement, one logo, one tagline. The series varies by ground, never by message.
+Type-led
+JPG ↓
+Photographic
+JPG ↓
+Motif
+JPG ↓
+1.3
+Banners
+Horizontal
+JPG ↓
+Vertical
+JPG ↓
+1.4
+Brochure
+Cover
+Who we are
+The numbers
+Contact
+1.5
+Proposal
+Client proposals use the report-cover system — Deep Sea ground, Lora title, wordmark footer — with the manuscript grid inside.
+Proposal cover
+JPG ↓
+1.6
+Workwear
+Crew tee — Deep Sea
+JPG ↓
+Site polos
+JPG ↓
+1.7
+Promotional Materials
+Tote — natural canvas
+JPG ↓
+Bottle — Deep Sea steel
+JPG ↓
+Part 2 — Digital Media · 2.1 — 2.6
+One voice, every screen.
+2.1
+Website Design
+searulea.com — hero
+JPG ↓
+2.2
+Mobile Design
+Mobile hero
+Mail view
+Newsletter mobile
+2.3
+Email Signatures
+Teal rule, monogram left, three lines of DM Sans, tagline in tracked caps. No banners, no quotes, no second logo. Download the ready-to-use signature image below.
+Signature — ready to paste
+JPG ↓
+2.4
+Newsletter
+The Searulea Brief — desktop
+JPG ↓
+2.5
+Social Media
+Primary
+↓
+Campaigns
+↓
+Documents
+↓
+LinkedIn cover · dark
+JPG ↓
+LinkedIn cover · light — Deep Sea spiral
+JPG ↓
+Facebook — 820 × 312
+JPG ↓
+X · dark — gradient spiral
+JPG ↓
+X · light — Foam + gradient spiral
+JPG ↓
+The nine-tile rhythm — type / photo / proof
+JPG ↓
+In the feed
+2.6
+Digital Banners
+The horizontal and vertical banners in 1.3 serve display formats; keep the CTA pill Sea Foam on Deep Sea, one per banner.
+Part 3 — Packaging · 3.1 — 3.3
+Nothing between the fish and the documentation.
+3.1
+Export Crates
+Export crate — batch label + lockup
+JPG ↓
+3.2
+Branded Wrapping
+Food-safe wrap — logo repeat
+JPG ↓
+3.3
+Stickers
+Seals & batch labels
+JPG ↓
+Part 4 — Signage & Interior · 4.1 — 4.3
+Wayfinding to the water line.
+4.1
+Projecting Signs
+Port totem
+JPG ↓
+4.2
+A-Board
+Harbour A-board
+JPG ↓
+4.3
+Wayfinding
+The system from the brand book: Deep Sea panels, DM Sans labels at +220 tracking, Lora numerals for levels, chevron markers. Three formats cover every need — directional tiles, zone panels and the building directory.
+Directional tiles — corridors & doors
+JPG ↓
+In situ — harbour A-board
+Zone panel — one level, one colour
+JPG ↓
+Directory — lobby totem
+JPG ↓
+Part 5 — Environmental Design · 5.1 — 5.5
+The brand at building scale.
+5.1
+Agency Front
+Reception glass
+JPG ↓
+5.3
+Flag
+Site flag
+JPG ↓
+5.2
+Environmental Graphics
+Interior walls carry the spiral at architectural scale — frosted vinyl on glass, painted supergraphics in circulation spaces. Always cropped, never centred like a logo.
+5.4
+Site Signage
+Concession boundary
+JPG ↓
+5.5
+Hoardings
+Coastal hoarding
+JPG ↓
+Part 6 — Presentation and Reports · 6.1 — 6.3
+Documents that hold the line.
+6.1
+Presentation Decks
+Title and content layouts from Part 7 grids; one Lora statement per slide.
+Title slide
+Content slide
+6.2
+Annual Reports
+Covers rotate the palette; the grid and wordmark never move.
+Deep Sea
+Shore
+Sea Foam
+6.3
+Pitch Decks
+Investor decks open on the Deep Sea title layout and close on the tagline slide. Facts carry the argument; one number per slide, set in Lora.
+Opening — title layout · 16:9
+JPG ↓
+Closing — the tagline · 16:9
+JPG ↓
+Parts 7 — 9 · Events · App · Vehicles
+On the road, on the stand, in the pocket.
+7.1 Stand design
+8.1 Application design
+9.1 Vehicle & container graphics
+9.1 Export fleet
+7.2
+Conference Presentation
+Speaker decks use the title layout on the venue screen; the roll-up stands stage-left, the tagline closes the last slide.
+Venue screen — title layout
+Asset Library
+Downloads
+Take the assets with you.
+Every logo lockup in every colourway, high-definition PNG on transparent background — plus the complete pack with vector SVGs and the spiral motif.
+Every button on this page opens the shared SEARULEA asset drive in a new tab — download any file at full resolution from there.
+Open the asset drive
+Google Drive — logos · motifs · social kit · mockups · photography (216 MB)
+Horizontal lockup
+Teal
+White
+Sky
+Black
+Stacked lockup
+Teal
+White
+Sky
+Black
+Wordmark
+Teal
+White
+Sky
+Black
+Logomark
+Teal
+White
+Sky
+Black
+From our sea
+to your port.
+Asset package
+Logos — SVG / PNG, 4 colourways
+Spiral & fish motifs
+Lora + DM Sans (variable)
+Photography library
+Templates — Part 7
+Usage
+All assets follow this guideline. For approvals, co-branding or anything not covered here, contact the brand team before production.
+Contact
+SEARULEA — Ras El Ma, Oriental Region
+Morocco · Mediterranean Sea
+www.searulea.com
+From our sea to your port · 2026
+Copied

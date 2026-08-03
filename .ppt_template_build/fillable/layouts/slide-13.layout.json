@@ -1,0 +1,338 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/mv10zk",
+    "id": "mv10zk",
+    "slide": 13,
+    "layoutId": "b38bd894-f200-462e-a35e-c54be77f89cd",
+    "layoutName": "00 — Blank / Sea Foam",
+    "masterLayoutId": "420c4cb9-a357-413f-8783-52f0623f5182",
+    "masterLayoutName": "SEARULEA Fillable / Sea Foam",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1440,
+      "height": 810
+    }
+  },
+  "theme": {
+    "colorSchemeName": "SEARULEA 2026",
+    "colors": {
+      "accent1": "#074154",
+      "accent2": "#0A6887",
+      "accent3": "#0C7190",
+      "accent4": "#D0E7ED",
+      "accent5": "#EFE8D8",
+      "accent6": "#D98E2B",
+      "bg1": "#FBF9F4",
+      "bg2": "#D0E7ED",
+      "tx1": "#0B3242",
+      "tx2": "#3E5966",
+      "dk1": "#04293A",
+      "dk2": "#074154",
+      "lt1": "#FFFFFF",
+      "lt2": "#FBF9F4",
+      "hlink": "#0A6887",
+      "folHlink": "#0C7190"
+    },
+    "typefaces": [
+      "DM Sans",
+      "Lora"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "b38bd894-f200-462e-a35e-c54be77f89cd",
+      "name": "00 — Blank / Sea Foam",
+      "parentLayoutId": "420c4cb9-a357-413f-8783-52f0623f5182",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "420c4cb9-a357-413f-8783-52f0623f5182",
+      "name": "SEARULEA Fillable / Sea Foam",
+      "type": "master",
+      "backgroundColor": "#D0E7ED",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master/420c4cb9-a357-413f-8783-52f0623f5182/1",
+          "id": "1",
+          "bbox": [
+            1317,
+            45,
+            44,
+            44
+          ],
+          "alt": "SEARULEA monogram",
+          "contentType": "image/png",
+          "imageFit": "contain",
+          "asset": {
+            "assetId": "153651ea-b7e2-437d-aba7-6c157a2062e1",
+            "contentType": "image/png",
+            "byteLength": 79857
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h0bqpona",
+      "id": "1",
+      "name": "divider-foam-panel",
+      "bbox": [
+        0,
+        0,
+        560,
+        810
+      ],
+      "geometry": "rect",
+      "fillColor": "#074154",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/7mhcfyxg",
+      "id": "2",
+      "bbox": [
+        22,
+        178,
+        470,
+        470
+      ],
+      "alt": "SEARULEA Sea Foam spiral",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "9c8d182d-41c8-4359-b793-fa1bf8528f74",
+        "contentType": "image/png",
+        "byteLength": 24940
+      }
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vyt8ne54",
+      "id": "3",
+      "name": "divider-foam-number",
+      "bbox": [
+        660,
+        270,
+        420,
+        24
+      ],
+      "geometry": "rect",
+      "text": "[SECTION 04]",
+      "textPreview": "[SECTION 04]",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "DM Sans",
+        "color": "#0A6887",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[SECTION 04]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[SECTION 04]",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "DM Sans",
+            "color": "#0A6887",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[SECTION 04]",
+              "fontSize": 15,
+              "typeface": "DM Sans",
+              "color": "#0A6887",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8b2psjmd",
+      "id": "4",
+      "name": "divider-foam-title",
+      "bbox": [
+        660,
+        326,
+        650,
+        180
+      ],
+      "geometry": "rect",
+      "text": "[ADD SECTION TITLE]",
+      "textPreview": "[ADD SECTION TITLE]",
+      "resolvedFontSize": 67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 67,
+        "typeface": "Lora",
+        "color": "#074154",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[ADD SECTION"
+          },
+          {
+            "index": 2,
+            "text": "TITLE]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[ADD SECTION TITLE]",
+          "lineSpacingPercent": 94000,
+          "resolvedTextStyle": {
+            "fontSize": 67,
+            "typeface": "Lora",
+            "color": "#074154",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.94
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[ADD SECTION TITLE]",
+              "fontSize": 67,
+              "typeface": "Lora",
+              "color": "#074154",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.94
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9cbql4ny",
+      "id": "5",
+      "name": "divider-foam-body",
+      "bbox": [
+        660,
+        558,
+        610,
+        86
+      ],
+      "geometry": "rect",
+      "text": "[Add one line that sets up the next chapter.]",
+      "textPreview": "[Add one line that sets up the next chapter.]",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "DM Sans",
+        "color": "#3E5966",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[Add one line that sets up the next chapter.]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[Add one line that sets up the next chapter.]",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "DM Sans",
+            "color": "#3E5966",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[Add one line that sets up the next chapter.]",
+              "fontSize": 23,
+              "typeface": "DM Sans",
+              "color": "#3E5966",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,572 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/fnw20f",
+    "id": "fnw20f",
+    "slide": 7,
+    "layoutId": "2c117dd9-5f75-417a-b61a-f6e6c47d5fdf",
+    "layoutName": "07 — Narrative / Single Column",
+    "masterLayoutId": "7fb98ac8-3694-49d8-a369-7e9a757831de",
+    "masterLayoutName": "SEARULEA / Pearl",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1440,
+      "height": 810
+    }
+  },
+  "theme": {
+    "colorSchemeName": "SEARULEA 2026",
+    "colors": {
+      "accent1": "#074154",
+      "accent2": "#0A6887",
+      "accent3": "#0C7190",
+      "accent4": "#D0E7ED",
+      "accent5": "#EFE8D8",
+      "accent6": "#D98E2B",
+      "bg1": "#FBF9F4",
+      "bg2": "#D0E7ED",
+      "tx1": "#0B3242",
+      "tx2": "#3E5966",
+      "dk1": "#04293A",
+      "dk2": "#074154",
+      "lt1": "#FFFFFF",
+      "lt2": "#FBF9F4",
+      "hlink": "#0A6887",
+      "folHlink": "#0C7190"
+    },
+    "typefaces": [
+      "DM Sans",
+      "Lora"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "2c117dd9-5f75-417a-b61a-f6e6c47d5fdf",
+      "name": "07 — Narrative / Single Column",
+      "parentLayoutId": "7fb98ac8-3694-49d8-a369-7e9a757831de",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout/2c117dd9-5f75-417a-b61a-f6e6c47d5fdf/1",
+          "id": "1",
+          "name": "placeholder_3",
+          "bbox": [
+            78,
+            210,
+            1030,
+            440
+          ],
+          "geometry": "rect",
+          "text": "Narrative body",
+          "textPreview": "Narrative body",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 27,
+            "typeface": "DM Sans",
+            "color": "#0B3242",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1.22,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Narrative body",
+              "lineSpacingPercent": 122000,
+              "resolvedTextStyle": {
+                "fontSize": 27,
+                "typeface": "DM Sans",
+                "color": "#0B3242",
+                "alignment": "left",
+                "lineSpacing": 1.22
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Narrative body",
+                  "fontSize": 27,
+                  "typeface": "DM Sans",
+                  "color": "#0B3242",
+                  "alignment": "left",
+                  "lineSpacing": 1.22
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "7fb98ac8-3694-49d8-a369-7e9a757831de",
+      "name": "SEARULEA / Pearl",
+      "type": "master",
+      "backgroundColor": "#FBF9F4",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master/7fb98ac8-3694-49d8-a369-7e9a757831de/1",
+          "id": "1",
+          "bbox": [
+            1317,
+            45,
+            44,
+            44
+          ],
+          "alt": "SEARULEA monogram",
+          "contentType": "image/png",
+          "imageFit": "contain",
+          "asset": {
+            "assetId": "15bc6cba-f5cd-4574-be70-61d5764f70f0",
+            "contentType": "image/png",
+            "byteLength": 79857
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zil0jmhw",
+      "id": "1",
+      "name": "content-subtitle-0",
+      "bbox": [
+        78,
+        62,
+        700,
+        24
+      ],
+      "geometry": "rect",
+      "text": "COMPANY / OVERVIEW",
+      "textPreview": "COMPANY / OVERVIEW",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "DM Sans",
+        "color": "#0A6887",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "COMPANY / OVERVIEW"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "COMPANY / OVERVIEW",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 15,
+            "typeface": "DM Sans",
+            "color": "#0A6887",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "COMPANY / OVERVIEW",
+              "anchor": 1,
+              "fontSize": 15,
+              "typeface": "DM Sans",
+              "color": "#0A6887",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0ju1sryh",
+      "id": "2",
+      "name": "content-title-0",
+      "bbox": [
+        78,
+        94,
+        1110,
+        62
+      ],
+      "geometry": "rect",
+      "text": "SEARULEA builds the infrastructure behind Moroccan aquaculture.",
+      "textPreview": "SEARULEA builds the infrastructure behind Moroccan aquaculture.",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 48,
+        "typeface": "Lora",
+        "color": "#074154",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SEARULEA builds the infrastructure behind"
+          },
+          {
+            "index": 2,
+            "text": "Moroccan aquaculture."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SEARULEA builds the infrastructure behind Moroccan aquaculture.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 48,
+            "typeface": "Lora",
+            "color": "#074154",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SEARULEA builds the infrastructure behind Moroccan aquaculture.",
+              "anchor": 1,
+              "fontSize": 48,
+              "typeface": "Lora",
+              "color": "#074154",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1k3ilwz2",
+      "id": "3",
+      "name": "content-body-0",
+      "bbox": [
+        78,
+        210,
+        1030,
+        440
+      ],
+      "geometry": "rect",
+      "text": "SEARULEA operates an integrated value chain at Ras El Ma, Oriental Region.\nOffshore farming, fresh conditioning at port, refrigerated export and traceability are designed to operate as one system—not as separate businesses.\nThe result is a platform built for international standards from day one, with local capability and documentation at every stage.",
+      "textPreview": "SEARULEA operates an integrated value chain at Ras El Ma, Oriental Region. | Offshore farming, fresh conditioning at port, refrigerated e...",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "DM Sans",
+        "color": "#0B3242",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SEARULEA operates an integrated value chain at Ras El Ma, Oriental Region."
+          },
+          {
+            "index": 2,
+            "text": "Offshore farming, fresh conditioning at port, refrigerated export and"
+          },
+          {
+            "index": 3,
+            "text": "traceability are designed to operate as one system—not as separate"
+          },
+          {
+            "index": 4,
+            "text": "businesses."
+          },
+          {
+            "index": 5,
+            "text": "The result is a platform built for international standards from day one, with"
+          },
+          {
+            "index": 6,
+            "text": "local capability and documentation at every stage."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SEARULEA operates an integrated value chain at Ras El Ma, Oriental Region.",
+          "lineSpacingPercent": 122000,
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 28,
+            "typeface": "DM Sans",
+            "color": "#0B3242",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1.22,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SEARULEA operates an integrated value chain at Ras El Ma, Oriental Region.",
+              "fontSize": 28,
+              "typeface": "DM Sans",
+              "color": "#0B3242",
+              "bold": true,
+              "lineSpacing": 1.22
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "Offshore farming, fresh conditioning at port, refrigerated export and traceability are designed to operate as one system—not as separate businesses.",
+          "lineSpacingPercent": 122000,
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 28,
+            "typeface": "DM Sans",
+            "color": "#0B3242",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1.22,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Offshore farming, fresh conditioning at port, refrigerated export and traceability are designed to operate as one system—not as separate businesses.",
+              "anchor": 1,
+              "fontSize": 28,
+              "typeface": "DM Sans",
+              "color": "#0B3242",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "lineSpacing": 1.22,
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "The result is a platform built for international standards from day one, with local capability and documentation at every stage.",
+          "lineSpacingPercent": 122000,
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 28,
+            "typeface": "DM Sans",
+            "color": "#0B3242",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "lineSpacing": 1.22,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The result is a platform built for international standards from day one, with local capability and documentation at every stage.",
+              "anchor": 1,
+              "fontSize": 28,
+              "typeface": "DM Sans",
+              "color": "#0B3242",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "lineSpacing": 1.22,
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mlcju1gn",
+      "id": "4",
+      "name": "single-proof",
+      "bbox": [
+        78,
+        656,
+        940,
+        30
+      ],
+      "geometry": "rect",
+      "text": "375 ha offshore concession · 2,790 t target capacity · 3 species",
+      "textPreview": "375 ha offshore concession · 2,790 t target capacity · 3 species",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "DM Sans",
+        "color": "#0A6887",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "375 ha offshore concession · 2,790 t target capacity · 3 species"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "375 ha offshore concession · 2,790 t target capacity · 3 species",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "DM Sans",
+            "color": "#0A6887",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "375 ha offshore concession · 2,790 t target capacity · 3 species",
+              "fontSize": 18,
+              "typeface": "DM Sans",
+              "color": "#0A6887",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

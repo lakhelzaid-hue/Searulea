@@ -1,0 +1,1232 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/5c02vp",
+    "id": "5c02vp",
+    "slide": 46,
+    "layoutId": "d7b1c9d9-86c8-4965-a78e-bac7eac4d76e",
+    "layoutName": "00 — Blank / Pearl",
+    "masterLayoutId": "5d415201-bb60-4263-9550-0439a218218a",
+    "masterLayoutName": "SEARULEA Fillable / Pearl",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1440,
+      "height": 810
+    }
+  },
+  "theme": {
+    "colorSchemeName": "SEARULEA 2026",
+    "colors": {
+      "accent1": "#074154",
+      "accent2": "#0A6887",
+      "accent3": "#0C7190",
+      "accent4": "#D0E7ED",
+      "accent5": "#EFE8D8",
+      "accent6": "#D98E2B",
+      "bg1": "#FBF9F4",
+      "bg2": "#D0E7ED",
+      "tx1": "#0B3242",
+      "tx2": "#3E5966",
+      "dk1": "#04293A",
+      "dk2": "#074154",
+      "lt1": "#FFFFFF",
+      "lt2": "#FBF9F4",
+      "hlink": "#0A6887",
+      "folHlink": "#0C7190"
+    },
+    "typefaces": [
+      "DM Sans",
+      "Lora"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "d7b1c9d9-86c8-4965-a78e-bac7eac4d76e",
+      "name": "00 — Blank / Pearl",
+      "parentLayoutId": "5d415201-bb60-4263-9550-0439a218218a",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "5d415201-bb60-4263-9550-0439a218218a",
+      "name": "SEARULEA Fillable / Pearl",
+      "type": "master",
+      "backgroundColor": "#FBF9F4",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master/5d415201-bb60-4263-9550-0439a218218a/1",
+          "id": "1",
+          "bbox": [
+            1317,
+            45,
+            44,
+            44
+          ],
+          "alt": "SEARULEA monogram",
+          "contentType": "image/png",
+          "imageFit": "contain",
+          "asset": {
+            "assetId": "c8509a9e-fb17-4441-b5e2-1f5789e50d80",
+            "contentType": "image/png",
+            "byteLength": 79857
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y5orul47",
+      "id": "1",
+      "name": "content-subtitle-0",
+      "bbox": [
+        78,
+        62,
+        700,
+        24
+      ],
+      "geometry": "rect",
+      "text": "RISK / PRIORITISATION MATRIX",
+      "textPreview": "RISK / PRIORITISATION MATRIX",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "DM Sans",
+        "color": "#0A6887",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "RISK / PRIORITISATION MATRIX"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "RISK / PRIORITISATION MATRIX",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 15,
+            "typeface": "DM Sans",
+            "color": "#0A6887",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "RISK / PRIORITISATION MATRIX",
+              "anchor": 1,
+              "fontSize": 15,
+              "typeface": "DM Sans",
+              "color": "#0A6887",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l8fqp0ny",
+      "id": "2",
+      "name": "content-title-0",
+      "bbox": [
+        78,
+        94,
+        1110,
+        62
+      ],
+      "geometry": "rect",
+      "text": "[ADD A CLEAR, DECISION-LED TITLE]",
+      "textPreview": "[ADD A CLEAR, DECISION-LED TITLE]",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 48,
+        "typeface": "Lora",
+        "color": "#074154",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[ADD A CLEAR, DECISION-LED TITLE]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[ADD A CLEAR, DECISION-LED TITLE]",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 48,
+            "typeface": "Lora",
+            "color": "#074154",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[ADD A CLEAR, DECISION-LED TITLE]",
+              "anchor": 1,
+              "fontSize": 48,
+              "typeface": "Lora",
+              "color": "#074154",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/lwbilcfe",
+      "id": "3",
+      "bbox": [
+        78,
+        222,
+        1284,
+        398
+      ],
+      "text": "[Risk] | [Likelihood] | [Impact] | [Priority] | [Mitigation / owner]\n[Risk description] | [Low / Med / High] | [Low / Med / High] | [Priority] | [Action and owner]\n[Risk description] | [Low / Med / High] | [Low / Med / High] | [Priority] | [Action and owner]\n[Risk description] | [Low / Med / High] | [Low / Med / High] | [Priority] | [Action and owner]\n[Risk description] | [Low / Med / High] | [Low / Med / High] | [Priority] | [Action and owner]",
+      "textPreview": "[Risk] | [Likelihood] | [Impact] | [Priority] | [Mitigation / owner] | [Risk description] | [Low / Med / High] | [Low / Med / High] | [Pr...",
+      "rows": 5,
+      "cols": 5,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            78,
+            222,
+            256.8,
+            79.6
+          ],
+          "text": "[Risk]",
+          "textPreview": "[Risk]",
+          "fillColor": "#074154",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Risk]",
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "DM Sans",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Risk]",
+                  "fontSize": 15,
+                  "typeface": "DM Sans",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            334.8,
+            222,
+            256.8,
+            79.6
+          ],
+          "text": "[Likelihood]",
+          "textPreview": "[Likelihood]",
+          "fillColor": "#074154",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Likelihood]",
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "DM Sans",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Likelihood]",
+                  "fontSize": 15,
+                  "typeface": "DM Sans",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            591.6,
+            222,
+            256.8,
+            79.6
+          ],
+          "text": "[Impact]",
+          "textPreview": "[Impact]",
+          "fillColor": "#074154",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Impact]",
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "DM Sans",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Impact]",
+                  "fontSize": 15,
+                  "typeface": "DM Sans",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "column": 4,
+          "bbox": [
+            848.4,
+            222,
+            256.8,
+            79.6
+          ],
+          "text": "[Priority]",
+          "textPreview": "[Priority]",
+          "fillColor": "#074154",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Priority]",
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "DM Sans",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Priority]",
+                  "fontSize": 15,
+                  "typeface": "DM Sans",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 1,
+          "column": 5,
+          "bbox": [
+            1105.2,
+            222,
+            256.8,
+            79.6
+          ],
+          "text": "[Mitigation / owner]",
+          "textPreview": "[Mitigation / owner]",
+          "fillColor": "#074154",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Mitigation / owner]",
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "DM Sans",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Mitigation / owner]",
+                  "fontSize": 15,
+                  "typeface": "DM Sans",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            78,
+            301.6,
+            256.8,
+            79.6
+          ],
+          "text": "[Risk description]",
+          "textPreview": "[Risk description]",
+          "fillColor": "#FBF9F4",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Risk description]",
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "DM Sans",
+                "color": "#074154",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Risk description]",
+                  "fontSize": 15,
+                  "typeface": "DM Sans",
+                  "color": "#074154",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            334.8,
+            301.6,
+            256.8,
+            79.6
+          ],
+          "text": "[Low / Med / High]",
+          "textPreview": "[Low / Med / High]",
+          "fillColor": "#FBF9F4",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Low / Med / High]",
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "DM Sans",
+                "color": "#0B3242"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Low / Med / High]",
+                  "fontSize": 15,
+                  "typeface": "DM Sans",
+                  "color": "#0B3242"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            591.6,
+            301.6,
+            256.8,
+            79.6
+          ],
+          "text": "[Low / Med / High]",
+          "textPreview": "[Low / Med / High]",
+          "fillColor": "#FBF9F4",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Low / Med / High]",
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "DM Sans",
+                "color": "#0B3242"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Low / Med / High]",
+                  "fontSize": 15,
+                  "typeface": "DM Sans",
+                  "color": "#0B3242"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 2,
+          "column": 4,
+          "bbox": [
+            848.4,
+            301.6,
+            256.8,
+            79.6
+          ],
+          "text": "[Priority]",
+          "textPreview": "[Priority]",
+          "fillColor": "#D0E7ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Priority]",
+              "resolvedTextStyle": {
+                "fontSize": 14,
+                "typeface": "DM Sans",
+                "color": "#074154",
+                "bold": true,
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Priority]",
+                  "fontSize": 14,
+                  "typeface": "DM Sans",
+                  "color": "#074154",
+                  "bold": true,
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "row": 2,
+          "column": 5,
+          "bbox": [
+            1105.2,
+            301.6,
+            256.8,
+            79.6
+          ],
+          "text": "[Action and owner]",
+          "textPreview": "[Action and owner]",
+          "fillColor": "#FBF9F4",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Action and owner]",
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "DM Sans",
+                "color": "#0B3242"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Action and owner]",
+                  "fontSize": 15,
+                  "typeface": "DM Sans",
+                  "color": "#0B3242"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            78,
+            381.2,
+            256.8,
+            79.6
+          ],
+          "text": "[Risk description]",
+          "textPreview": "[Risk description]",
+          "fillColor": "#F0F5F5",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Risk description]",
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "DM Sans",
+                "color": "#074154",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Risk description]",
+                  "fontSize": 15,
+                  "typeface": "DM Sans",
+                  "color": "#074154",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            334.8,
+            381.2,
+            256.8,
+            79.6
+          ],
+          "text": "[Low / Med / High]",
+          "textPreview": "[Low / Med / High]",
+          "fillColor": "#F0F5F5",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Low / Med / High]",
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "DM Sans",
+                "color": "#0B3242"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Low / Med / High]",
+                  "fontSize": 15,
+                  "typeface": "DM Sans",
+                  "color": "#0B3242"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            591.6,
+            381.2,
+            256.8,
+            79.6
+          ],
+          "text": "[Low / Med / High]",
+          "textPreview": "[Low / Med / High]",
+          "fillColor": "#F0F5F5",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Low / Med / High]",
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "DM Sans",
+                "color": "#0B3242"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Low / Med / High]",
+                  "fontSize": 15,
+                  "typeface": "DM Sans",
+                  "color": "#0B3242"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "row": 3,
+          "column": 4,
+          "bbox": [
+            848.4,
+            381.2,
+            256.8,
+            79.6
+          ],
+          "text": "[Priority]",
+          "textPreview": "[Priority]",
+          "fillColor": "#EFE8D8",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Priority]",
+              "resolvedTextStyle": {
+                "fontSize": 14,
+                "typeface": "DM Sans",
+                "color": "#074154",
+                "bold": true,
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Priority]",
+                  "fontSize": 14,
+                  "typeface": "DM Sans",
+                  "color": "#074154",
+                  "bold": true,
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "row": 3,
+          "column": 5,
+          "bbox": [
+            1105.2,
+            381.2,
+            256.8,
+            79.6
+          ],
+          "text": "[Action and owner]",
+          "textPreview": "[Action and owner]",
+          "fillColor": "#F0F5F5",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Action and owner]",
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "DM Sans",
+                "color": "#0B3242"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Action and owner]",
+                  "fontSize": 15,
+                  "typeface": "DM Sans",
+                  "color": "#0B3242"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            78,
+            460.8,
+            256.8,
+            79.6
+          ],
+          "text": "[Risk description]",
+          "textPreview": "[Risk description]",
+          "fillColor": "#FBF9F4",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Risk description]",
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "DM Sans",
+                "color": "#074154",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Risk description]",
+                  "fontSize": 15,
+                  "typeface": "DM Sans",
+                  "color": "#074154",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            334.8,
+            460.8,
+            256.8,
+            79.6
+          ],
+          "text": "[Low / Med / High]",
+          "textPreview": "[Low / Med / High]",
+          "fillColor": "#FBF9F4",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Low / Med / High]",
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "DM Sans",
+                "color": "#0B3242"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Low / Med / High]",
+                  "fontSize": 15,
+                  "typeface": "DM Sans",
+                  "color": "#0B3242"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            591.6,
+            460.8,
+            256.8,
+            79.6
+          ],
+          "text": "[Low / Med / High]",
+          "textPreview": "[Low / Med / High]",
+          "fillColor": "#FBF9F4",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Low / Med / High]",
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "DM Sans",
+                "color": "#0B3242"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Low / Med / High]",
+                  "fontSize": 15,
+                  "typeface": "DM Sans",
+                  "color": "#0B3242"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "row": 4,
+          "column": 4,
+          "bbox": [
+            848.4,
+            460.8,
+            256.8,
+            79.6
+          ],
+          "text": "[Priority]",
+          "textPreview": "[Priority]",
+          "fillColor": "#F3D6AF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Priority]",
+              "resolvedTextStyle": {
+                "fontSize": 14,
+                "typeface": "DM Sans",
+                "color": "#074154",
+                "bold": true,
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Priority]",
+                  "fontSize": 14,
+                  "typeface": "DM Sans",
+                  "color": "#074154",
+                  "bold": true,
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "row": 4,
+          "column": 5,
+          "bbox": [
+            1105.2,
+            460.8,
+            256.8,
+            79.6
+          ],
+          "text": "[Action and owner]",
+          "textPreview": "[Action and owner]",
+          "fillColor": "#FBF9F4",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Action and owner]",
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "DM Sans",
+                "color": "#0B3242"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Action and owner]",
+                  "fontSize": 15,
+                  "typeface": "DM Sans",
+                  "color": "#0B3242"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "row": 5,
+          "column": 1,
+          "bbox": [
+            78,
+            540.4,
+            256.8,
+            79.6
+          ],
+          "text": "[Risk description]",
+          "textPreview": "[Risk description]",
+          "fillColor": "#F0F5F5",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Risk description]",
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "DM Sans",
+                "color": "#074154",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Risk description]",
+                  "fontSize": 15,
+                  "typeface": "DM Sans",
+                  "color": "#074154",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "row": 5,
+          "column": 2,
+          "bbox": [
+            334.8,
+            540.4,
+            256.8,
+            79.6
+          ],
+          "text": "[Low / Med / High]",
+          "textPreview": "[Low / Med / High]",
+          "fillColor": "#F0F5F5",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Low / Med / High]",
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "DM Sans",
+                "color": "#0B3242"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Low / Med / High]",
+                  "fontSize": 15,
+                  "typeface": "DM Sans",
+                  "color": "#0B3242"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "row": 5,
+          "column": 3,
+          "bbox": [
+            591.6,
+            540.4,
+            256.8,
+            79.6
+          ],
+          "text": "[Low / Med / High]",
+          "textPreview": "[Low / Med / High]",
+          "fillColor": "#F0F5F5",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Low / Med / High]",
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "DM Sans",
+                "color": "#0B3242"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Low / Med / High]",
+                  "fontSize": 15,
+                  "typeface": "DM Sans",
+                  "color": "#0B3242"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "row": 5,
+          "column": 4,
+          "bbox": [
+            848.4,
+            540.4,
+            256.8,
+            79.6
+          ],
+          "text": "[Priority]",
+          "textPreview": "[Priority]",
+          "fillColor": "#E8B59B",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Priority]",
+              "resolvedTextStyle": {
+                "fontSize": 14,
+                "typeface": "DM Sans",
+                "color": "#074154",
+                "bold": true,
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Priority]",
+                  "fontSize": 14,
+                  "typeface": "DM Sans",
+                  "color": "#074154",
+                  "bold": true,
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "row": 5,
+          "column": 5,
+          "bbox": [
+            1105.2,
+            540.4,
+            256.8,
+            79.6
+          ],
+          "text": "[Action and owner]",
+          "textPreview": "[Action and owner]",
+          "fillColor": "#F0F5F5",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "[Action and owner]",
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "DM Sans",
+                "color": "#0B3242"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "[Action and owner]",
+                  "fontSize": 15,
+                  "typeface": "DM Sans",
+                  "color": "#0B3242"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b2d8j65w",
+      "id": "4",
+      "name": "risk-note",
+      "bbox": [
+        78,
+        654,
+        760,
+        24
+      ],
+      "geometry": "rect",
+      "text": "EDITABLE TABLE · Define the scoring method before assigning priority.",
+      "textPreview": "EDITABLE TABLE · Define the scoring method before assigning priority.",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "DM Sans",
+        "color": "#0A6887",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "EDITABLE TABLE · Define the scoring method before assigning priority."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "EDITABLE TABLE · Define the scoring method before assigning priority.",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "DM Sans",
+            "color": "#0A6887",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "EDITABLE TABLE · Define the scoring method before assigning priority.",
+              "fontSize": 14,
+              "typeface": "DM Sans",
+              "color": "#0A6887",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

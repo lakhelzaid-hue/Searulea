@@ -1,0 +1,459 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/dnaiyo",
+    "id": "dnaiyo",
+    "slide": 55,
+    "layoutId": "75e17ee2-4dfd-4a15-ac27-d6b06bea6d9b",
+    "layoutName": "23 — Closing / Deep Sea",
+    "masterLayoutId": "0d7a4fad-6f4b-4e0a-9a84-76997ae49406",
+    "masterLayoutName": "SEARULEA Fillable / Deep Sea",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1440,
+      "height": 810
+    }
+  },
+  "theme": {
+    "colorSchemeName": "SEARULEA 2026",
+    "colors": {
+      "accent1": "#074154",
+      "accent2": "#0A6887",
+      "accent3": "#0C7190",
+      "accent4": "#D0E7ED",
+      "accent5": "#EFE8D8",
+      "accent6": "#D98E2B",
+      "bg1": "#FBF9F4",
+      "bg2": "#D0E7ED",
+      "tx1": "#0B3242",
+      "tx2": "#3E5966",
+      "dk1": "#04293A",
+      "dk2": "#074154",
+      "lt1": "#FFFFFF",
+      "lt2": "#FBF9F4",
+      "hlink": "#0A6887",
+      "folHlink": "#0C7190"
+    },
+    "typefaces": [
+      "DM Sans",
+      "Lora"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "75e17ee2-4dfd-4a15-ac27-d6b06bea6d9b",
+      "name": "23 — Closing / Deep Sea",
+      "parentLayoutId": "0d7a4fad-6f4b-4e0a-9a84-76997ae49406",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout/75e17ee2-4dfd-4a15-ac27-d6b06bea6d9b/1",
+          "id": "1",
+          "name": "placeholder_2",
+          "bbox": [
+            760,
+            636,
+            560,
+            58
+          ],
+          "geometry": "rect",
+          "text": "hello@searulea.com\nwww.searulea.com",
+          "textPreview": "hello@searulea.com | www.searulea.com",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 18,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "alignment": "right",
+            "verticalAlignment": "top",
+            "lineSpacing": 1.16,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "hello@searulea.com",
+              "lineSpacingPercent": 116000,
+              "resolvedTextStyle": {
+                "fontSize": 18,
+                "typeface": "DM Sans",
+                "color": "#D0E7ED",
+                "alignment": "right",
+                "lineSpacing": 1.16
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "hello@searulea.com",
+                  "fontSize": 18,
+                  "typeface": "DM Sans",
+                  "color": "#D0E7ED",
+                  "alignment": "right",
+                  "lineSpacing": 1.16
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "www.searulea.com",
+              "lineSpacingPercent": 116000,
+              "resolvedTextStyle": {
+                "fontSize": 18,
+                "typeface": "DM Sans",
+                "color": "#D0E7ED",
+                "alignment": "right",
+                "lineSpacing": 1.16
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "www.searulea.com",
+                  "fontSize": 18,
+                  "typeface": "DM Sans",
+                  "color": "#D0E7ED",
+                  "alignment": "right",
+                  "lineSpacing": 1.16
+                }
+              ]
+            }
+          ],
+          "lineWidth": 0
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "0d7a4fad-6f4b-4e0a-9a84-76997ae49406",
+      "name": "SEARULEA Fillable / Deep Sea",
+      "type": "master",
+      "backgroundColor": "#074154",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master/0d7a4fad-6f4b-4e0a-9a84-76997ae49406/1",
+          "id": "1",
+          "bbox": [
+            1317,
+            45,
+            44,
+            44
+          ],
+          "alt": "SEARULEA monogram",
+          "contentType": "image/png",
+          "imageFit": "contain",
+          "asset": {
+            "assetId": "e02cc4f2-6907-4f88-8507-04574d3669a4",
+            "contentType": "image/png",
+            "byteLength": 64082
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m10v6xgz",
+      "id": "1",
+      "name": "content-title-0",
+      "bbox": [
+        600,
+        344,
+        720,
+        268
+      ],
+      "geometry": "rect",
+      "text": "[ADD THE FINAL SYNTHESIS OR CALL TO ACTION]",
+      "textPreview": "[ADD THE FINAL SYNTHESIS OR CALL TO ACTION]",
+      "resolvedFontSize": 66,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 66,
+        "typeface": "Lora",
+        "color": "#FBF9F4",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[ADD THE FINAL"
+          },
+          {
+            "index": 2,
+            "text": "SYNTHESIS OR CALL"
+          },
+          {
+            "index": 3,
+            "text": "TO ACTION]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[ADD THE FINAL SYNTHESIS OR CALL TO ACTION]",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 66,
+            "typeface": "Lora",
+            "color": "#FBF9F4",
+            "bold": true,
+            "alignment": "right",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[ADD THE FINAL SYNTHESIS OR CALL TO ACTION]",
+              "anchor": 1,
+              "fontSize": 66,
+              "typeface": "Lora",
+              "color": "#FBF9F4",
+              "bold": true,
+              "alignment": "right",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/94ruhcfq",
+      "id": "2",
+      "name": "content-body-0",
+      "bbox": [
+        760,
+        636,
+        560,
+        58
+      ],
+      "geometry": "rect",
+      "text": "[email@searulea.com]\n[www.searulea.com]",
+      "textPreview": "[email@searulea.com] | [www.searulea.com]",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "DM Sans",
+        "color": "#D0E7ED",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[email@searulea.com]"
+          },
+          {
+            "index": 2,
+            "text": "[www.searulea.com]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[email@searulea.com]",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 18,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "alignment": "right",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[email@searulea.com]",
+              "anchor": 1,
+              "fontSize": 18,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "alignment": "right",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "[www.searulea.com]",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 18,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "alignment": "right",
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[www.searulea.com]",
+              "anchor": 1,
+              "fontSize": 18,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "alignment": "right",
+              "verticalAlignment": "top",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/83id87y5",
+      "id": "3",
+      "name": "closing-cta-note",
+      "bbox": [
+        660,
+        700,
+        660,
+        24
+      ],
+      "geometry": "rect",
+      "text": "[Optional next step, decision or meeting date]",
+      "textPreview": "[Optional next step, decision or meeting date]",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "DM Sans",
+        "color": "#D0E7ED",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "[Optional next step, decision or meeting date]"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "[Optional next step, decision or meeting date]",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "DM Sans",
+            "color": "#D0E7ED",
+            "bold": true,
+            "alignment": "right",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "[Optional next step, decision or meeting date]",
+              "fontSize": 15,
+              "typeface": "DM Sans",
+              "color": "#D0E7ED",
+              "bold": true,
+              "alignment": "right",
+              "lineSpacing": 1.15
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

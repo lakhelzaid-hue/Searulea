@@ -1,0 +1,17 @@
+SEARULEA PPT template source notes
+
+Primary visual reference
+- /Users/zaidlakhel/Downloads/SEARULEA PRESENTATION  (2) (1).pdf
+
+Brand system and usage rules
+- /Users/zaidlakhel/Documents/Claude/Projects/SEARULEA/searulea-brand-guidelines-online.html
+- /Users/zaidlakhel/Documents/Claude/Projects/SEARULEA/HANDOFF.md
+
+User-provided assets
+- /Users/zaidlakhel/Documents/Claude/Projects/SEARULEA/assets/exports_HD/Logos_PNG_4K/
+- /Users/zaidlakhel/Documents/Claude/Projects/SEARULEA/assets/exports_HD/Motifs_4K/
+- /Users/zaidlakhel/Documents/Claude/Projects/SEARULEA/assets/img/environment/
+- /Users/zaidlakhel/Documents/Claude/Projects/SEARULEA/assets/img/hero-cages.jpg
+
+No web research or third-party assets were used. Example figures and statements
+come from the supplied SEARULEA presentation and brand guidelines.
