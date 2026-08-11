@@ -1,7 +1,7 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/storytelling", "destination": "/searulea-brand-storytelling-online.html" },
-    { "source": "/brand-guidelines", "destination": "/searulea-brand-guidelines-online.html" }
+    { "source": "/storytelling", "destination": "/searulea-brand-storytelling-online" },
+    { "source": "/brand-guidelines", "destination": "/searulea-brand-guidelines-online" }
   ]
 }
